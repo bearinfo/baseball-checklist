@@ -148,10 +148,35 @@ def check_set(set_dir, schemas, vocab, failures):
                                   f"{packaging['card_count']} cards but its "
                                   f"checklists hold {total}")
 
+    numbers = {}
     for checklist in document["checklists"]:
         path = set_dir / checklist["file"]
         if path.exists():
             check_rows(path, checklist, vocab, failures)
+            with open(path, newline="", encoding="utf-8") as handle:
+                numbers[checklist["file"]] = [r.get("card_number", "")
+                                              for r in csv.DictReader(handle)]
+
+    # A variation is a second version of a card that already exists, so it
+    # introduces no card numbers of its own. Enforcing that is what stops a
+    # variation being counted as an extra card.
+    for checklist in document["checklists"]:
+        source = checklist.get("varies")
+        if not source:
+            continue
+        if source not in counts:
+            failures.add(rel, f"{checklist['file']} varies {source!r}, which "
+                              f"this set does not declare")
+            continue
+        if source == checklist["file"]:
+            failures.add(rel, f"{checklist['file']} varies itself")
+            continue
+        known = set(numbers.get(source, []))
+        for line, number in enumerate(numbers.get(checklist["file"], []), start=2):
+            if number and number not in known:
+                failures.add(f"{(set_dir / checklist['file']).relative_to(REPO)}:{line}",
+                             f"card_number {number!r} is not in {source} — a "
+                             f"variation cannot introduce a new card")
 
 
 def main(argv):

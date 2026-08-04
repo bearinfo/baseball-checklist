@@ -27,88 +27,102 @@
       "file": "variations/golden-mirror-base-image-variation.csv",
       "name": "Golden Mirror Base Image Variation",
       "kind": "variation",
-      "card_count": 700
+      "varies": "base.csv",
+      "card_count":700
     },
     {
       "file": "variations/clear-variation.csv",
       "name": "Clear Variation",
       "kind": "variation",
-      "card_count": 200,
+      "varies": "base.csv",
+      "card_count":200,
       "distribution": "Hobby Exclusive"
     },
     {
       "file": "variations/holiday-variation.csv",
       "name": "Holiday Variation",
       "kind": "variation",
-      "card_count": 200,
+      "varies": "base.csv",
+      "card_count":200,
       "distribution": "Retail Holiday Tin Exclusive"
     },
     {
       "file": "variations/team-color-border-variation.csv",
       "name": "Team Color Border Variation",
       "kind": "variation",
-      "card_count": 200
+      "varies": "base.csv",
+      "card_count":200
     },
     {
       "file": "variations/true-photo-variation.csv",
       "name": "True Photo Variation",
       "kind": "variation",
-      "card_count": 200
+      "varies": "base.csv",
+      "card_count":200
     },
     {
       "file": "variations/player-number-variation.csv",
       "name": "Player Number Variation",
       "kind": "variation",
-      "card_count": 125
+      "varies": "base.csv",
+      "card_count":125
     },
     {
       "file": "variations/golden-mirror-legend-variation.csv",
       "name": "Golden Mirror Legend Variation",
       "kind": "variation",
-      "card_count": 101
+      "varies": "base.csv",
+      "card_count":101
     },
     {
       "file": "variations/vintage-stock-variation.csv",
       "name": "Vintage Stock Variation",
       "kind": "variation",
-      "card_count": 100
+      "varies": "base.csv",
+      "card_count":100
     },
     {
       "file": "variations/vintage-stock-retro-variation.csv",
       "name": "Vintage Stock Retro Variation",
       "kind": "variation",
-      "card_count": 100
+      "varies": "base.csv",
+      "card_count":100
     },
     {
       "file": "variations/big-apple-foil-variation.csv",
       "name": "Big Apple Foil Variation",
       "kind": "variation",
-      "card_count": 100,
+      "varies": "base.csv",
+      "card_count":100,
       "distribution": "Fanatics Fest Exclusive"
     },
     {
       "file": "variations/1952-autograph-variation.csv",
       "name": "1952 Autograph Variation",
       "kind": "variation",
-      "card_count": 40
+      "varies": "base.csv",
+      "card_count":40
     },
     {
       "file": "variations/rookie-1952-variation.csv",
       "name": "Rookie 1952 Variation",
       "kind": "variation",
-      "card_count": 25
+      "varies": "base.csv",
+      "card_count":25
     },
     {
       "file": "variations/1952-variation.csv",
       "name": "1952 Variation",
       "kind": "variation",
-      "card_count": 20
+      "varies": "base.csv",
+      "card_count":20
     },
     {
       "file": "variations/short-print-rookies.csv",
       "name": "Short Print Rookies",
       "kind": "variation",
-      "card_count": 4
+      "varies": "base.csv",
+      "card_count":4
     }
   ],
   "packagings": [
@@ -126,7 +140,7 @@
         }
       ],
       "card_count": 704,
-      "notes": "Sold by Topps as the Complete Set: a sealed box holding the whole 700-card base set from both series, plus a four-card short-print rookie pack exclusive to this packaging. The base cards in it are the same cards found in Series 1 and Series 2 packs; only the four short prints are exclusive to the box. Documented by its own Topps checklist, the third source in provenance."
+      "notes": "Sold by Topps as the Complete Set: a sealed box holding the whole 700-card base set from both series, together with the short-print variations of #697-700, which are sold no other way. Its base cards are identical to the ones found in Series 1 and Series 2 packs. Documented by its own Topps checklist, the third source in provenance."
     }
   ],
   "provenance": [

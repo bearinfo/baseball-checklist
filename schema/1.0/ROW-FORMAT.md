@@ -39,20 +39,31 @@ under the same card number, the converter merges them into one row.
 
 ## Numbering scope
 
-`card_number` is unique **within one CSV file**, never across a set. Manufacturers
-deliberately reuse base numbers: 2026 Topps prints four short-print rookies at
-#697–700 alongside four different base cards at the same numbers. They are
-distinct physical cards, so they are distinct rows — in a separate file:
+**`base.csv` is the source of every card number in a set.** Variations share that
+numbering and never add to it; a variation file whose number is absent from the
+file it `varies` fails validation. That single rule is what stops a variation
+being counted as an extra card.
+
+`card_number` is therefore unique **within one CSV file**, not across a set. A
+variation is a second version of a card that already exists — same number,
+whatever is printed on it. The subject may differ entirely: 2026 Topps prints
+Kevin McGonigle on the short-print #697 where the base card is Bryan Reynolds.
+Both are real cards, so both are rows, in separate files:
 
 ```
-base.csv                                    697 Bryan Reynolds ...
-variations/base-card-short-print-rookies.csv  697 Kevin McGonigle ... true
+base.csv                            697  Bryan Reynolds
+variations/short-print-rookies.csv  697  Kevin McGonigle   is_short_print=true
 ```
 
-A file is the unit of unique numbering. `variations/` holds real cards that share
-the base numbering (short-print rookies, photo variations) — unlike parallels,
-which are re-printings of a card that already exists and are declared in
-`set.json`, never as rows.
+Each variation checklist declares what it varies:
+
+```json
+{ "file": "variations/short-print-rookies.csv", "kind": "variation",
+  "varies": "base.csv", "card_count": 4 }
+```
+
+Parallels are different again: a parallel is a re-printing of a card in another
+finish or colour, declared in `set.json` and never written as rows.
 
 ## Rules
 

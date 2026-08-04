@@ -53,6 +53,22 @@
         "type": "object",
         "required": ["file", "name", "kind", "card_count"],
         "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "variation"
+                }
+              },
+              "required": ["kind"]
+            },
+            "then": {
+              "required": ["varies"],
+              "description": "A variation is always a variation of something."
+            }
+          }
+        ],
         "properties": {
           "file": {
             "type": "string",
@@ -66,6 +82,10 @@
           },
           "kind": {
             "enum": ["base", "insert", "variation", "autograph", "relic"]
+          },
+          "varies": {
+            "type": "string",
+            "description": "Required on a variation: the checklist whose card numbers it shares, normally \"base.csv\". A variation is a second version of a card that already exists, so it introduces no new card numbers — validation fails if any of its numbers is absent from this file. That rule is what keeps a variation from being counted as an extra card. The subject may still differ: 2026 Topps prints Kevin McGonigle on the short-print #697 where the base card is Bryan Reynolds."
           },
           "card_count": {
             "type": "integer",
@@ -186,7 +206,7 @@
           "card_count": {
             "type": "integer",
             "minimum": 1,
-            "description": "Total cards in the packaging. Must equal the sum of the contained checklists' card_count."
+            "description": "Physical cards in the packaging — the sum of the contained checklists' card_count, which validation enforces. A variation counts alongside the base card it varies, so this figure can exceed the set's distinct card numbers: the 2026 Topps factory set holds 704 cards drawn from 700 numbers."
           },
           "distribution": {
             "type": "string",

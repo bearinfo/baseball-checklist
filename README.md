@@ -87,13 +87,26 @@ short-print rookies are unique to the box. And `contains` holds **objects rather
 than filenames**, so a team set — a packaging holding part of a checklist — can
 gain a card-number selector later without breaking anything already published.
 
-Card numbers are unique **within a file**, not across a set: manufacturers
-deliberately reuse them, so 2026 Topps prints four short-print rookies at
-#697-700 alongside four different base cards at those numbers. Different cards,
-different files.
+**`base.csv` is the source of every card number in a set.** A variation is a
+second version of a card that already exists — the same number, whatever is
+printed on it. The subject may differ entirely: 2026 Topps prints Kevin
+McGonigle on the short-print #697 where the base card is Bryan Reynolds. Both
+are real cards, so both are rows, in separate files.
 
-Parallels are *printings* of cards that already exist. They are declared in
-`set.json` and never emitted as rows.
+Every variation declares what it varies, and validation rejects any variation
+number absent from that file:
+
+```json
+{ "file": "variations/short-print-rookies.csv", "kind": "variation",
+  "varies": "base.csv", "card_count": 4 }
+```
+
+That is what keeps a variation from being counted as an extra card — the 2026
+Topps set has 700 card numbers and 2,115 variation rows, and not one of those
+rows adds a number.
+
+Parallels are different again: a parallel is a re-printing in another finish or
+colour, declared in `set.json` and never written as rows.
 
 ## Validating
 
