@@ -113,13 +113,13 @@
   ],
   "packagings": [
     {
-      "name": "Complete Set (Factory Set)",
+      "name": "Factory Set",
       "contains": [
         "base.csv",
         "variations/short-print-rookies.csv"
       ],
       "card_count": 704,
-      "notes": "Sold as a sealed box: the whole 700-card base set from both series, plus a four-card short-print rookie pack exclusive to this packaging. Documented by its own Topps checklist, which is the third source in provenance."
+      "notes": "Sold by Topps as the Complete Set: a sealed box holding the whole 700-card base set from both series, plus a four-card short-print rookie pack exclusive to this packaging. The base cards in it are the same cards found in Series 1 and Series 2 packs; only the four short prints are exclusive to the box. Documented by its own Topps checklist, the third source in provenance."
     }
   ],
   "provenance": [

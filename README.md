@@ -59,7 +59,14 @@ point of the repo.
 
 A set is **one brand-year**, not one product. *2026 Topps* is a single 700-card
 set issued in two waves — Series 1 (#1-350) and Series 2 (#351-700) — recorded in
-`series`. A factory set is a `packaging` of that set, not a separate set.
+`series`.
+
+A **packaging** is a way the set was sold as a whole. The 2026 Topps Factory Set
+is a sealed box holding the 700-card base set plus four short-print rookies not
+available in packs — so it is a `packaging` listing checklists that already
+exist, never a separate set and never duplicated rows. The distinction matters:
+the base cards in that box are the same cards pulled from Series 1 and 2 packs,
+and only the four short prints are exclusive to it.
 
 Card numbers are unique **within a file**, not across a set: manufacturers
 deliberately reuse them, so 2026 Topps prints four short-print rookies at
