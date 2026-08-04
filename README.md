@@ -61,12 +61,31 @@ A set is **one brand-year**, not one product. *2026 Topps* is a single 700-card
 set issued in two waves — Series 1 (#1-350) and Series 2 (#351-700) — recorded in
 `series`.
 
-A **packaging** is a way the set was sold as a whole. The 2026 Topps Factory Set
-is a sealed box holding the 700-card base set plus four short-print rookies not
-available in packs — so it is a `packaging` listing checklists that already
-exist, never a separate set and never duplicated rows. The distinction matters:
-the base cards in that box are the same cards pulled from Series 1 and 2 packs,
-and only the four short prints are exclusive to it.
+A **packaging** is a way the set was sold as a whole — a factory set, a team set,
+a box set. It lists checklists that already exist, so it is never a separate set
+and never duplicates rows:
+
+```json
+"packagings": [{
+  "id": "92793a4e-b1b5-46d9-9383-22afc2880a03",
+  "name": "Factory Set",
+  "type": "factory-set",
+  "contains": [
+    { "file": "base.csv" },
+    { "file": "variations/short-print-rookies.csv", "exclusive": true }
+  ],
+  "card_count": 704
+}]
+```
+
+Three things earn their place there. A packaging carries its own **permanent
+UUID**, because a sealed factory set is a thing a collector owns and catalogues,
+not just a label. **`exclusive`** answers the question that actually decides a
+purchase — *which of these cards can I get no other way?* Here the 700 base
+cards are the same ones pulled from Series 1 and 2 packs, and only the four
+short-print rookies are unique to the box. And `contains` holds **objects rather
+than filenames**, so a team set — a packaging holding part of a checklist — can
+gain a card-number selector later without breaking anything already published.
 
 Card numbers are unique **within a file**, not across a set: manufacturers
 deliberately reuse them, so 2026 Topps prints four short-print rookies at

@@ -132,12 +132,17 @@ def check_set(set_dir, schemas, vocab, failures):
 
     counts = {c["file"]: c["card_count"] for c in document["checklists"]}
     for packaging in document.get("packagings", []):
-        unknown = [f for f in packaging["contains"] if f not in counts]
+        files = [entry["file"] for entry in packaging["contains"]]
+        unknown = [f for f in files if f not in counts]
+        repeated = sorted({f for f in files if files.count(f) > 1})
         if unknown:
             failures.add(rel, f"packaging {packaging['name']!r} contains "
                               f"{unknown}, not declared in checklists")
-        elif "card_count" in packaging:
-            total = sum(counts[f] for f in packaging["contains"])
+        if repeated:
+            failures.add(rel, f"packaging {packaging['name']!r} lists "
+                              f"{repeated} more than once")
+        if not unknown and not repeated and "card_count" in packaging:
+            total = sum(counts[f] for f in files)
             if total != packaging["card_count"]:
                 failures.add(rel, f"packaging {packaging['name']!r} declares "
                                   f"{packaging['card_count']} cards but its "
@@ -172,13 +177,26 @@ def main(argv):
         print("no sets found under data/")
         return 1
 
-    failures, rows = Failures(), 0
+    failures, rows, ids = Failures(), 0, {}
     for set_dir in set_dirs:
         before = len(failures)
         check_set(set_dir, schemas, vocab, failures)
         document = load_json(set_dir / "set.json") if (set_dir / "set.json").exists() else {}
         count = sum(c["card_count"] for c in document.get("checklists", []))
         rows += count
+
+        # Every id is a permanent handle consumers key on, so no two records
+        # anywhere in the repo may share one.
+        rel = (set_dir / "set.json").relative_to(REPO)
+        for kind, value in ([("set", document.get("id"))] +
+                            [("packaging", p.get("id"))
+                             for p in document.get("packagings", [])]):
+            if not value:
+                continue
+            if value in ids:
+                failures.add(rel, f"{kind} id {value} is already used by {ids[value]}")
+            else:
+                ids[value] = rel
         mark = "FAIL" if len(failures) > before else "ok  "
         print(f"{mark} {set_dir.relative_to(REPO)}  "
               f"({len(document.get('checklists', []))} checklists, {count} cards"

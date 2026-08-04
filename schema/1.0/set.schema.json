@@ -146,26 +146,51 @@
       "description": "Ways the set was sold as a whole — a factory/complete set in a box, a team set. A packaging contains checklists that already exist above; it is never a separate set and never duplicates rows. This is what tells a collector exactly which cards a sealed factory set holds.",
       "items": {
         "type": "object",
-        "required": ["name", "contains"],
+        "required": ["id", "name", "type", "contains"],
         "additionalProperties": false,
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+            "description": "Permanent UUIDv4 for the packaging itself. A sealed factory set is a thing a collector owns and catalogues, so it gets the same stable handle a set does, unique across this repo."
+          },
           "name": {
             "type": "string",
             "minLength": 1,
-            "description": "As sold, e.g. \"Complete Set (Factory Set)\"."
+            "description": "As sold, e.g. \"Factory Set\"."
+          },
+          "type": {
+            "enum": ["factory-set", "team-set", "box-set"],
+            "description": "What kind of packaging. A closed vocabulary, extended by amending this schema."
           },
           "contains": {
             "type": "array",
             "minItems": 1,
+            "description": "The checklists in the box. Objects rather than plain filenames so a packaging holding only part of a checklist — a team set — can gain a card-number selector in a later revision without breaking this one.",
             "items": {
-              "type": "string"
-            },
-            "description": "Files from `checklists[].file`. Validation fails on a file this set does not declare."
+              "type": "object",
+              "required": ["file"],
+              "additionalProperties": false,
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "description": "A file from `checklists[].file`. Validation fails on a file this set does not declare."
+                },
+                "exclusive": {
+                  "type": "boolean",
+                  "description": "True when these cards are available only in this packaging. The 2026 Topps factory set holds the whole base set — the same cards found in packs — plus four short-print rookies sold no other way. Absent means false."
+                }
+              }
+            }
           },
           "card_count": {
             "type": "integer",
             "minimum": 1,
             "description": "Total cards in the packaging. Must equal the sum of the contained checklists' card_count."
+          },
+          "distribution": {
+            "type": "string",
+            "description": "Where it was sold, when a set has more than one factory set, e.g. \"Hobby\", \"Retail\"."
           },
           "notes": {
             "type": "string"
