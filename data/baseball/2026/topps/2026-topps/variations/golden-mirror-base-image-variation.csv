@@ -1,0 +1,701 @@
+card_number,name,team,designations
+1,Aaron Judge,New York Yankees,
+2,Daulton Varsho,Toronto Blue Jays,
+3,Luke Keaschall,Minnesota Twins,
+4,Jonah Tong,New York Mets,RC
+5,Nico Hoerner,Chicago Cubs,
+6,Blaze Alexander,Arizona Diamondbacks,
+7,Patrick Bailey,San Francisco Giants,
+8,Heliot Ramos,San Francisco Giants,
+9,Nick Pivetta,San Diego Padres,
+10,Jacob Misiorowski,Milwaukee Brewers,RC
+11,Pete Alonso / Kyle Schwarber / Juan Soto,New York Mets / Philadelphia Phillies / New York Mets,LL
+12,Jordan Beck,Colorado Rockies,
+13,Dylan Smith,Detroit Tigers,RC
+14,MacKenzie Gore,Washington Nationals,
+15,Payton Tolle,Boston Red Sox,RC
+16,Casey Mize,Detroit Tigers,
+17,Nick Castellanos,Philadelphia Phillies,
+18,Ryan Ritter,Colorado Rockies,RC
+19,Dean Kremer,Baltimore Orioles,
+20,Vladimir Guerrero Jr.,Toronto Blue Jays,
+21,Kyle Backhus,Arizona Diamondbacks,RC
+22,Clayton Kershaw,Los Angeles Dodgers,
+23,Zach McKinstry,Detroit Tigers,
+24,Nathan Church,St. Louis Cardinals,RC
+25,Carson Williams,Tampa Bay Rays,RC
+26,Brendan Donovan,St. Louis Cardinals,
+27,Matt Shaw,Chicago Cubs,
+28,Elias Díaz,San Diego Padres,
+29,Landen Roupp,San Francisco Giants,
+30,Sean Murphy,Atlanta Braves,
+31,Bailey Ober,Minnesota Twins,
+32,Shinnosuke Ogasawara,Washington Nationals,RC
+33,Xander Bogaerts,San Diego Padres,
+34,Kansas City Royals,Kansas City Royals,TC
+35,C.J. Kayfus,Cleveland Guardians,RC
+36,Andry Lara,Washington Nationals,RC
+37,Jakob Marsee,Miami Marlins,RC
+38,Aaron Judge / Junior Caminero / Cal Raleigh,New York Yankees / Tampa Bay Rays / Seattle Mariners,LL
+39,Matt Olson,Atlanta Braves,
+40,Sonny Gray,St. Louis Cardinals,
+41,Mookie Betts,Los Angeles Dodgers,
+42,Bradgley Rodriguez,San Diego Padres,RC
+43,Nolan Schanuel,Angels,
+44,Shane Smith,Chicago White Sox,
+45,Brandon Pfaadt,Arizona Diamondbacks,
+46,Gunnar Henderson,Baltimore Orioles,
+47,Arizona Diamondbacks,Arizona Diamondbacks,TC
+48,Stephen Kolek,Kansas City Royals,
+49,Grant Taylor,Chicago White Sox,RC
+50,Ronald Acuña Jr.,Atlanta Braves,
+51,Matthew Boyd,Chicago Cubs,
+52,Francisco Lindor,New York Mets,CC CL
+53,Garrett Crochet,Boston Red Sox,
+54,Joe Ryan,Minnesota Twins,
+55,Warming Bernabel,Colorado Rockies,RC
+56,Lenyn Sosa,Chicago White Sox,
+57,Casey Schmitt,San Francisco Giants,
+58,Kris Bubic,Kansas City Royals,
+59,Daniel Schneemann,Cleveland Guardians,
+60,Rhett Lowder,Cincinnati Reds,FS
+61,Kerry Carpenter,Detroit Tigers,
+62,Bryan Woo,Seattle Mariners,
+63,Jesús Luzardo,Philadelphia Phillies,
+64,Drew Rasmussen,Tampa Bay Rays,
+65,Masataka Yoshida,Boston Red Sox,
+66,Roki Sasaki,Los Angeles Dodgers,FS
+67,Parker Messick,Cleveland Guardians,RC
+68,Trevor Larnach,Minnesota Twins,
+69,Logan Webb,San Francisco Giants,
+70,Bob Seymour,Tampa Bay Rays,RC
+71,Gabriel Moreno,Arizona Diamondbacks,
+72,Coby Mayo,Baltimore Orioles,FS
+73,Jimmy Crooks,St. Louis Cardinals,RC
+74,Alex Freeland,Los Angeles Dodgers,RC
+75,Camilo Doval,New York Yankees,
+76,Jacob Lopez,Athletics,
+77,Spencer Horwitz,Pittsburgh Pirates,
+78,Jonah Heim,Texas Rangers,
+79,Spencer Strider,Atlanta Braves,
+80,Trevor Rogers,Baltimore Orioles,
+81,Matt McLain,Cincinnati Reds,
+82,Carlos Rodón,New York Yankees,
+83,Jhoan Duran,Philadelphia Phillies,
+84,Shohei Ohtani / Kyle Schwarber / Juan Soto,Los Angeles Dodgers / Philadelphia Phillies / New York Mets,LL
+85,Kody Clemens,Minnesota Twins,
+86,Dylan Crews,Washington Nationals,FS
+87,Jeffrey Springs,Athletics,
+88,José Caballero,New York Yankees,
+89,Houston Astros,Houston Astros,TC
+90,Yoshinobu Yamamoto,Los Angeles Dodgers,
+91,Jurickson Profar,Atlanta Braves,
+92,Jackson Holliday,Baltimore Orioles,
+93,Pavin Smith,Arizona Diamondbacks,
+94,Yu Darvish,San Diego Padres,
+95,César Prieto,St. Louis Cardinals,RC
+96,Corey Seager,Texas Rangers,
+97,Nick Kurtz,Athletics,
+98,Josh Jung,Texas Rangers,
+99,Jacob deGrom,Texas Rangers,
+100,Paul Skenes,Pittsburgh Pirates,
+101,Ceddanne Rafaela,Boston Red Sox,
+102,Juan Burgos,Arizona Diamondbacks,RC
+103,Dalton Rushing,Los Angeles Dodgers,FS
+104,Samuel Basallo,Baltimore Orioles,RC
+105,Brice Turang,Milwaukee Brewers,
+106,Kyle Freeland,Colorado Rockies,
+107,Milwaukee Brewers,Milwaukee Brewers,TC
+108,Sawyer Gipson-Long,Detroit Tigers,
+109,Ben Lively,Cleveland Guardians,
+110,Evan Carter,Texas Rangers,
+111,Cam Schlittler,New York Yankees,RC
+112,Carson Seymour,San Francisco Giants,RC
+113,Toronto Blue Jays,Toronto Blue Jays,TC
+114,Ryne Nelson,Arizona Diamondbacks,
+115,Royce Lewis,Minnesota Twins,
+116,Yanquiel Fernández,Colorado Rockies,RC
+117,Jesús Luzardo / Freddy Peralta / Logan Webb,Philadelphia Phillies / Milwaukee Brewers / San Francisco Giants,LL
+118,Ronald Acuña Jr.,Atlanta Braves,CC CL
+119,Nick Gonzales,Pittsburgh Pirates,
+120,Luinder Avila,Kansas City Royals,RC
+121,Will Vest,Detroit Tigers,
+122,Nick Kurtz,Athletics,CC CL
+123,Francisco Lindor,New York Mets,
+124,Taylor Trammell,Houston Astros,
+125,Kristian Campbell,Boston Red Sox,FS
+126,Pete Crow-Armstrong,Chicago Cubs,CC CL
+127,Ke'Bryan Hayes,Cincinnati Reds,
+128,Félix Bautista,Baltimore Orioles,
+129,Cole Young,Seattle Mariners,RC
+130,Max Fried / Garrett Crochet / Carlos Rodón,New York Yankees / Boston Red Sox / New York Yankees,LL
+131,Andrew McCutchen,Pittsburgh Pirates,
+132,Brice Matthews,Houston Astros,RC
+133,Ben Rice,New York Yankees,
+134,Joe Rock,Tampa Bay Rays,RC
+135,Alex Bregman,Boston Red Sox,
+136,Ezequiel Tovar,Colorado Rockies,
+137,Sean Burke,Chicago White Sox,
+138,Jac Caglianone,Kansas City Royals,RC
+139,Jo Adell,Angels,
+140,Cal Raleigh,Seattle Mariners,
+141,Trevor Megill,Milwaukee Brewers,
+142,Luke Raley,Seattle Mariners,
+143,Zach Maxwell,Cincinnati Reds,RC
+144,Javier Báez,Detroit Tigers,
+145,Kenedy Corona,Houston Astros,RC
+146,Julio Rodríguez,Seattle Mariners,
+147,Christian Moore,Angels,RC
+148,Jacob Melton,Houston Astros,RC
+149,Travis Adams,Minnesota Twins,RC
+150,Elly De La Cruz,Cincinnati Reds,
+151,Nico Hoerner / Freddie Freeman / Trea Turner,Chicago Cubs / Los Angeles Dodgers / Philadelphia Phillies,LL
+152,CJ Abrams,Washington Nationals,
+153,J.T. Ginn,Athletics,
+154,Christian Yelich,Milwaukee Brewers,
+155,Drew Gilbert,San Francisco Giants,RC
+156,Dominic Canzone,Seattle Mariners,
+157,Colson Montgomery,Chicago White Sox,RC
+158,Daniel Palencia,Chicago Cubs,
+159,Ronny Mauricio,New York Mets,
+160,Victor Robles,Seattle Mariners,
+161,Michael McGreevy,St. Louis Cardinals,
+162,Jorge Soler,Angels,
+163,Brandyn Garcia,Arizona Diamondbacks,RC
+164,Brenton Doyle,Colorado Rockies,
+165,Ian Seymour,Tampa Bay Rays,RC
+166,Colton Cowser,Baltimore Orioles,
+167,Wikelman González,Chicago White Sox,RC
+168,Julio Rodríguez,Seattle Mariners,CC CL
+169,Josh Smith,Texas Rangers,
+170,Brady House,Washington Nationals,RC
+171,Will Benson,Cincinnati Reds,
+172,Maximo Acosta,Miami Marlins,RC
+173,Yusei Kikuchi,Angels,
+174,Tyler Stephenson,Cincinnati Reds,
+175,Eric Lauer,Toronto Blue Jays,
+176,Will Warren,New York Yankees,
+177,Brayan Bello,Boston Red Sox,
+178,Shota Imanaga,Chicago Cubs,
+179,Mason Miller,San Diego Padres,
+180,Willson Contreras,St. Louis Cardinals,
+181,Adam Frazier,Kansas City Royals,
+182,Grant Holmes,Atlanta Braves,
+183,Josh Lowe,Tampa Bay Rays,
+184,Carson Whisenhunt,San Francisco Giants,RC
+185,Tomoyuki Sugano,Baltimore Orioles,
+186,Quinn Priester,Milwaukee Brewers,
+187,Otto Kemp,Philadelphia Phillies,RC
+188,Bo Naylor,Cleveland Guardians,
+189,Roman Anthony,Boston Red Sox,RC
+190,Michael Wacha,Kansas City Royals,
+191,Mauricio Dubón,Houston Astros,
+192,William Contreras,Milwaukee Brewers,
+193,Nolan Arenado,St. Louis Cardinals,
+194,Otto Lopez,Miami Marlins,
+195,Mickey Moniak,Colorado Rockies,
+196,Pete Crow-Armstrong,Chicago Cubs,
+197,Bryce Harper,Philadelphia Phillies,CC CL
+198,Boston Red Sox,Boston Red Sox,TC
+199,Tyler Freeman,Colorado Rockies,
+200,Shohei Ohtani,Los Angeles Dodgers,
+201,Kyle Teel,Chicago White Sox,RC
+202,Isaac Collins,Milwaukee Brewers,
+203,Yoshinobu Yamamoto / Paul Skenes / Cristopher Sánchez,Los Angeles Dodgers / Pittsburgh Pirates / Philadelphia Phillies,LL
+204,Jacob Wilson / Aaron Judge / Bo Bichette,Athletics / New York Yankees / Toronto Blue Jays,LL
+205,Bobby Witt Jr.,Kansas City Royals,
+206,Jack Perkins,Athletics,RC
+207,Joey Bart,Pittsburgh Pirates,
+208,Jack Leiter,Texas Rangers,
+209,Riley Greene,Detroit Tigers,
+210,Jacob Young,Washington Nationals,
+211,Vinnie Pasquantino / Cal Raleigh / Aaron Judge,Kansas City Royals / Seattle Mariners / New York Yankees,LL
+212,Troy Melton,Detroit Tigers,RC
+213,Colby Thomas,Athletics,RC
+214,Nolan McLean,New York Mets,RC
+215,David Peterson,New York Mets,
+216,Gavin Sheets,San Diego Padres,
+217,Chad Patrick,Milwaukee Brewers,
+218,Andrew Abbott,Cincinnati Reds,
+219,Rafael Devers,San Francisco Giants,
+220,Austin Wells,New York Yankees,
+221,Victor Scott II,St. Louis Cardinals,
+222,Tommy Edman,Los Angeles Dodgers,
+223,Vinnie Pasquantino,Kansas City Royals,
+224,Cody Freeman,Texas Rangers,RC
+225,Max Schuemann,Athletics,
+226,Ben Williamson,Seattle Mariners,
+227,Brandon Walter,Houston Astros,
+228,David Bednar,New York Yankees,
+229,Jackson Merrill,San Diego Padres,
+230,Zach Neto,Angels,
+231,Bryan Abreu,Houston Astros,
+232,Chad Stevens,Angels,RC
+233,Owen Caissie,Chicago Cubs,RC
+234,Carlos Estévez,Kansas City Royals,
+235,Logan Gilbert,Seattle Mariners,
+236,Jac Caglianone,Kansas City Royals,CC CL
+237,Jonathan India,Kansas City Royals,
+238,Austin Riley,Atlanta Braves,
+239,Devin Williams,New York Yankees,
+240,Jacob Wilson,Athletics,
+241,Addison Barger,Toronto Blue Jays,
+242,Mike Yastrzemski,Kansas City Royals,
+243,Didier Fuentes,Atlanta Braves,RC
+244,Angel Martínez,Cleveland Guardians,
+245,Keibert Ruiz,Washington Nationals,
+246,Oneil Cruz,Pittsburgh Pirates,
+247,Will Banfield,Cincinnati Reds,RC
+248,Ryan McMahon,New York Yankees,
+249,Carlos Cortes,Athletics,RC
+250,Bryce Harper,Philadelphia Phillies,
+251,Teoscar Hernández,Los Angeles Dodgers,
+252,Max Muncy,Los Angeles Dodgers,
+253,Lucas Giolito,Boston Red Sox,
+254,Gavin Williams,Cleveland Guardians,
+255,Byron Buxton,Minnesota Twins,
+256,Los Angeles Dodgers,Los Angeles Dodgers,TC
+257,Geraldo Perdomo,Arizona Diamondbacks,
+258,Texas Rangers,Texas Rangers,TC
+259,Luis Morales,Athletics,RC
+260,Roman Anthony,Boston Red Sox,CC CL
+261,Zack Wheeler,Philadelphia Phillies,
+262,Detroit Tigers,Detroit Tigers,TC
+263,Joey Loperfido,Toronto Blue Jays,
+264,Hunter Brown,Houston Astros,
+265,Shohei Ohtani,Los Angeles Dodgers,CC CL
+266,Washington Nationals,Washington Nationals,TC
+267,Willy Adames,San Francisco Giants,
+268,Cam Devanney,Pittsburgh Pirates,RC
+269,Marcelo Mayer,Boston Red Sox,FS
+270,Max Fried,New York Yankees,
+271,Reid Detmers,Angels,
+272,José Berríos,Toronto Blue Jays,
+273,Mason Barnett,Athletics,RC
+274,Hunter Goodman,Colorado Rockies,
+275,Luisangel Acuña,New York Mets,FS
+276,Clay Holmes,New York Mets,
+277,Jeremiah Jackson,Baltimore Orioles,RC
+278,Jose Altuve,Houston Astros,
+279,Dane Myers,Miami Marlins,
+280,Pedro Pagés,St. Louis Cardinals,
+281,Davis Martin,Chicago White Sox,
+282,Brady Singer,Cincinnati Reds,
+283,Bubba Chandler,Pittsburgh Pirates,RC
+284,José Ramírez,Cleveland Guardians,
+285,Eury Pérez,Miami Marlins,
+286,Anthony Seigler,Milwaukee Brewers,RC
+287,Agustín Ramírez,Miami Marlins,
+288,Edward Cabrera,Miami Marlins,
+289,Edmundo Sosa,Philadelphia Phillies,
+290,Ronny Henriquez,Miami Marlins,
+291,New York Mets,New York Mets,TC
+292,San Diego Padres,San Diego Padres,TC
+293,Kyle Stowers,Miami Marlins,
+294,Romy Gonzalez,Boston Red Sox,
+295,Philadelphia Phillies,Philadelphia Phillies,TC
+296,Hayden Birdsong,San Francisco Giants,FS
+297,Caleb Durbin,Milwaukee Brewers,
+298,Matt Strahm,Philadelphia Phillies,
+299,Lazaro Estrada,Toronto Blue Jays,RC
+300,Tarik Skubal,Detroit Tigers,
+301,Alejandro Kirk,Toronto Blue Jays,
+302,Aaron Judge,New York Yankees,CC CL
+303,Andrew Vaughn,Milwaukee Brewers,
+304,Athletics,Athletics,TC
+305,Shea Langeliers,Athletics,
+306,Spencer Schwellenbach,Atlanta Braves,FS
+307,Jeremy Peña,Houston Astros,
+308,Anthony Volpe,New York Yankees,
+309,Kyle Manzardo,Cleveland Guardians,
+310,Michael Harris II,Atlanta Braves,
+311,Kevin Gausman,Toronto Blue Jays,
+312,Chase Burns,Cincinnati Reds,RC
+313,Ryan Pepiot,Tampa Bay Rays,
+314,Corbin Carroll,Arizona Diamondbacks,
+315,Ryan Jeffers,Minnesota Twins,
+316,Jhostynxon Garcia,Boston Red Sox,RC
+317,Troy Johnston,Miami Marlins,RC
+318,Adolis García,Texas Rangers,
+319,José Soriano,Angels,
+320,Chicago Cubs,Chicago Cubs,TC
+321,Pierson Ohl,Minnesota Twins,RC
+322,Trea Turner,Philadelphia Phillies,
+323,Jake Fraley,Atlanta Braves,
+324,Lawrence Butler,Athletics,
+325,Cristopher Sánchez,Philadelphia Phillies,
+326,Jonathan Aranda,Tampa Bay Rays,
+327,Tarik Skubal / Garrett Crochet / Hunter Brown,Detroit Tigers / Boston Red Sox / Houston Astros,LL
+328,Junior Caminero,Tampa Bay Rays,
+329,Miguel Vargas,Chicago White Sox,
+330,Tristan Peters,Tampa Bay Rays,RC
+331,Bryce Miller,Seattle Mariners,
+332,Sean Manaea,New York Mets,
+333,Fernando Tatis Jr.,San Diego Padres,
+334,Kyle Karros,Colorado Rockies,RC
+335,Brandon Marsh,Philadelphia Phillies,
+336,Kumar Rocker,Texas Rangers,FS
+337,Francisco Alvarez,New York Mets,
+338,TJ Friedl,Cincinnati Reds,
+339,Dylan Beavers,Baltimore Orioles,RC
+340,Blake Snell,Los Angeles Dodgers,
+341,Giancarlo Stanton,New York Yankees,
+342,Chandler Simpson,Tampa Bay Rays,FS
+343,Ramón Urías,Houston Astros,
+344,Carlos Narváez,Boston Red Sox,
+345,Andrew Benintendi,Chicago White Sox,
+346,Tristin English,Arizona Diamondbacks,RC
+347,Brett Baty,New York Mets,
+348,Michael Busch,Chicago Cubs,
+349,James Wood,Washington Nationals,
+350,Mike Trout,Angels,
+351,Dillon Dingler,Detroit Tigers,
+352,Spencer Torkelson,Detroit Tigers,
+353,St. Louis Cardinals,St. Louis Cardinals,TC
+354,Gabriel Arias,Cleveland Guardians,
+355,Nathan Eovaldi,Texas Rangers,
+356,Vladimir Guerrero Jr.,Toronto Blue Jays,CC
+357,Gavin Lux,Tampa Bay Rays,
+358,Adley Rutschman,Baltimore Orioles,
+359,Adael Amador,Colorado Rockies,FS
+360,Ben Joyce,Angels,
+361,Davis Schneider,Toronto Blue Jays,
+362,Luis Severino,Athletics,
+363,J.T. Realmuto,Philadelphia Phillies,
+364,Luis García Jr.,Washington Nationals,
+365,Spencer Steer,Cincinnati Reds,
+366,Isaac Paredes,Houston Astros,
+367,Robbie Ray,San Francisco Giants,
+368,Kyle Tucker,Los Angeles Dodgers,
+369,Julio Rodríguez,Seattle Mariners,CC
+370,Brayan Rocchio,Cleveland Guardians,
+371,Brent Rooker,Athletics,
+372,Sal Stewart,Cincinnati Reds,RC
+373,Cam Smith,Houston Astros,FS
+374,Kevin Alcántara,Chicago Cubs,FS
+375,Denzel Clarke,Athletics,
+376,Christian Encarnacion-Strand,Cincinnati Reds,
+377,Alec Bohm,Philadelphia Phillies,
+378,Kyren Paris,Angels,
+379,Blake Perkins,Milwaukee Brewers,
+380,Framber Valdez,Detroit Tigers,
+381,Brian Van Belle,Tampa Bay Rays,RC
+382,Hunter Greene,Cincinnati Reds,
+383,Wyatt Langford,Texas Rangers,
+384,Taijuan Walker,Philadelphia Phillies,
+385,Nick Raquet,St. Louis Cardinals,RC
+386,Luis Curvelo,Texas Rangers,RC
+387,Drew Sommers,Detroit Tigers,RC
+388,Yandy Díaz,Tampa Bay Rays,
+389,Nick Allen,Houston Astros,
+390,Jack Dreyer,Los Angeles Dodgers,
+391,Justin Wrobleski,Los Angeles Dodgers,
+392,Xavier Edwards,Miami Marlins,
+393,Jazz Chisholm Jr.,New York Yankees,
+394,Eric Wagaman,Minnesota Twins,
+395,Josh Naylor,Seattle Mariners,
+396,Raisel Iglesias,Atlanta Braves,
+397,Jordan Lawlar,Arizona Diamondbacks,
+398,Hunter Barco,Pittsburgh Pirates,RC
+399,Javier Sanoja,Miami Marlins,
+400,Pete Alonso,Baltimore Orioles,
+401,Eduarniel Núñez,Athletics,RC
+402,Anthony Santander,Toronto Blue Jays,
+403,Bryce Johnson,San Diego Padres,
+404,Parker Meadows,Detroit Tigers,
+405,PJ Poulin,Washington Nationals,RC
+406,Bryce Eldridge,San Francisco Giants,RC
+407,Hurston Waldrep,Atlanta Braves,FS
+408,Tampa Bay Rays,Tampa Bay Rays,TC
+409,Logan Henderson,Milwaukee Brewers,FS
+410,Hayden Harris,Atlanta Braves,RC
+411,Mike Tauchman,New York Mets,
+412,Robert Stephenson,Angels,
+413,Mike Burrows,Houston Astros,
+414,Andy Pages,Los Angeles Dodgers,
+415,Justin Verlander,Detroit Tigers,
+416,Austin Martin,Minnesota Twins,
+417,Eduardo Rodriguez,Arizona Diamondbacks,
+418,Cade Cavalli,Washington Nationals,
+419,Jared Jones,Pittsburgh Pirates,
+420,Luis Arraez,San Francisco Giants,
+421,Taylor Walls,Tampa Bay Rays,
+422,Shane Bieber,Toronto Blue Jays,
+423,Luis Robert Jr.,New York Mets,
+424,Zack Gelof,Athletics,
+425,Trent Grisham,New York Yankees,
+426,Matt Wallner,Minnesota Twins,
+427,Chris Sale,Atlanta Braves,
+428,Kris Bryant,Colorado Rockies,
+429,Logan Allen,Cleveland Guardians,
+430,Tyler Locklear,Arizona Diamondbacks,
+431,Randy Arozarena,Seattle Mariners,
+432,Ryan Feltner,Colorado Rockies,
+433,Tyler O'Neill,Baltimore Orioles,
+434,Graham Pauley,Miami Marlins,
+435,Denzer Guzman,Angels,RC
+436,Mitch Keller,Pittsburgh Pirates,
+437,Nick Castellanos,San Diego Padres,
+438,Jake Cronenworth,San Diego Padres,
+439,Gleyber Torres,Detroit Tigers,
+440,Ranger Suárez,Boston Red Sox,
+441,Lars Nootbaar,St. Louis Cardinals,
+442,Ryan O'Hearn,Pittsburgh Pirates,
+443,Kazuma Okamoto,Toronto Blue Jays,RC
+444,Tanner Gordon,Colorado Rockies,
+445,Michael Massey,Kansas City Royals,
+446,Eugenio Suárez,Cincinnati Reds,
+447,Joe Boyle,Tampa Bay Rays,
+448,Jackson Chourio,Milwaukee Brewers,
+449,Sandy Alcantara,Miami Marlins,
+450,Gerrit Cole,New York Yankees,
+451,Jake Burger,Texas Rangers,
+452,Nick Loftin,Kansas City Royals,
+453,Chase Dollander,Colorado Rockies,FS
+454,Josh Hader,Houston Astros,
+455,George Springer,Toronto Blue Jays,
+456,Justin Dean,Chicago Cubs,RC
+457,Nick Yorke,Pittsburgh Pirates,
+458,Chase DeLauter,Cleveland Guardians,RC
+459,Ketel Marte,Arizona Diamondbacks,
+460,Adrian Del Castillo,Arizona Diamondbacks,
+461,Noah Cameron,Kansas City Royals,
+462,Andrés Chaparro,Washington Nationals,
+463,Aaron Nola,Philadelphia Phillies,
+464,Triston Casas,Boston Red Sox,
+465,Lourdes Gurriel Jr.,Arizona Diamondbacks,
+466,Trevor McDonald,San Francisco Giants,
+467,Pittsburgh Pirates,Pittsburgh Pirates,TC
+468,Yordan Alvarez,Houston Astros,
+469,Jonathan Pintaro,New York Mets,RC
+470,Brandon Nimmo,Texas Rangers,
+471,J.P. Crawford,Seattle Mariners,
+472,Christian Koss,San Francisco Giants,
+473,Bo Bichette,New York Mets,
+474,Joel Peguero,San Francisco Giants,RC
+475,Shane Baz,Baltimore Orioles,
+476,Angels,Angels,TC
+477,Jesús Sánchez,Toronto Blue Jays,
+478,Tyler Wells,Baltimore Orioles,
+479,Aaron Judge,New York Yankees,CC
+480,Luis Torrens,New York Mets,
+481,Tyrone Taylor,New York Mets,
+482,Alek Thomas,Arizona Diamondbacks,
+483,Logan O'Hoppe,Angels,
+484,Cole Ragans,Kansas City Royals,
+485,Jake Mangum,Pittsburgh Pirates,
+486,Justin Steele,Chicago Cubs,
+487,Jake Irvin,Washington Nationals,
+488,Cincinnati Reds,Cincinnati Reds,TC
+489,James Outman,Minnesota Twins,
+490,Oswaldo Cabrera,New York Yankees,
+491,Minnesota Twins,Minnesota Twins,TC
+492,Cleveland Guardians,Cleveland Guardians,TC
+493,George Kirby,Seattle Mariners,
+494,Jake Palisch,Chicago White Sox,RC
+495,Christian Walker,Houston Astros,
+496,San Francisco Giants,San Francisco Giants,TC
+497,Kyle Leahy,St. Louis Cardinals,
+498,Ryan Helsley,Baltimore Orioles,
+499,James Wood,Washington Nationals,CC
+500,Shohei Ohtani,Los Angeles Dodgers,
+501,Connelly Early,Boston Red Sox,RC
+502,Miguel Rojas,Los Angeles Dodgers,
+503,Munetaka Murakami,Chicago White Sox,RC
+504,Tanner Houck,Boston Red Sox,
+505,Ernie Clement,Toronto Blue Jays,
+506,Edwin Díaz,Los Angeles Dodgers,
+507,Luis Castillo,Seattle Mariners,
+508,Colorado Rockies,Colorado Rockies,TC
+509,Pablo López,Minnesota Twins,
+510,Philip Abner,Arizona Diamondbacks,RC
+511,Jayvien Sandridge,Angels,RC
+512,Simeon Woods Richardson,Minnesota Twins,
+513,Tatsuya Imai,Houston Astros,RC
+514,Zac Veen,Colorado Rockies,
+515,Blaze Alexander,Baltimore Orioles,
+516,Korey Lee,Chicago White Sox,
+517,Mike Trout,Angels,CC
+518,Brandon Woodruff,Milwaukee Brewers,
+519,Ramón Laureano,San Diego Padres,
+520,Andrew Alvarez,Washington Nationals,RC
+521,Henry Davis,Pittsburgh Pirates,
+522,Miami Marlins,Miami Marlins,TC
+523,Heston Kjerstad,Baltimore Orioles,
+524,Emmet Sheehan,Los Angeles Dodgers,
+525,Seattle Mariners,Seattle Mariners,TC
+526,Masyn Winn,St. Louis Cardinals,
+527,Maikel Garcia,Kansas City Royals,
+528,Jared Triolo,Pittsburgh Pirates,
+529,Griffin Conine,Miami Marlins,
+530,Carter Jensen,Kansas City Royals,RC
+531,Alejandro Carrillo,New York Mets,RC
+532,Jackson Jobe,Detroit Tigers,FS
+533,Jasson Domínguez,New York Yankees,
+534,Brandon Sproat,Milwaukee Brewers,RC
+535,Javier Assad,Chicago Cubs,
+536,Trevor Story,Boston Red Sox,
+537,Jameson Taillon,Chicago Cubs,
+538,Tommy Nance,Toronto Blue Jays,
+539,Lucas Erceg,Kansas City Royals,
+540,Ryan Walker,San Francisco Giants,
+541,Jung Hoo Lee,San Francisco Giants,
+542,Joey Ortiz,Milwaukee Brewers,
+543,Jonny DeLuca,Tampa Bay Rays,
+544,Kutter Crawford,Boston Red Sox,
+545,Austin Hedges,Cleveland Guardians,
+546,Nick Fortes,Tampa Bay Rays,
+547,Dylan Cease,Toronto Blue Jays,
+548,Steven Kwan,Cleveland Guardians,CC
+549,Daylen Lile,Washington Nationals,FS
+550,Dansby Swanson,Chicago Cubs,
+551,Taylor Ward,Baltimore Orioles,
+552,Merrill Kelly,Arizona Diamondbacks,
+553,Elly De La Cruz,Cincinnati Reds,CC
+554,Ezequiel Duran,Texas Rangers,
+555,Cade Povich,Baltimore Orioles,
+556,Lance McCullers Jr.,Houston Astros,
+557,Kyle Higashioka,Texas Rangers,
+558,Michael King,San Diego Padres,
+559,JP Sears,San Diego Padres,
+560,Jarren Duran,Boston Red Sox,
+561,Matt Chapman,San Francisco Giants,
+562,Bryson Stott,Philadelphia Phillies,
+563,Ji Hwan Bae,New York Mets,
+564,Tyler Soderstrom,Athletics,
+565,Jordan Walker,St. Louis Cardinals,
+566,Jack Little,Detroit Tigers,RC
+567,Thomas Saggese,St. Louis Cardinals,FS
+568,Ozzie Albies,Atlanta Braves,
+569,Max Scherzer,Toronto Blue Jays,
+570,Rolddy Muñoz,Atlanta Braves,RC
+571,Kiké Hernández,Los Angeles Dodgers,
+572,Alan Rangel,Philadelphia Phillies,RC
+573,Alec Burleson,St. Louis Cardinals,
+574,Andrés Muñoz,Seattle Mariners,
+575,Jake Meyers,Houston Astros,
+576,Jarren Duran,Boston Red Sox,CC
+577,Grayson Rodriguez,Angels,
+578,Heriberto Hernández,Miami Marlins,RC
+579,Brandon Lowe,Pittsburgh Pirates,
+580,Marcell Ozuna,Pittsburgh Pirates,
+581,Chase Meidroth,Chicago White Sox,
+582,Robert Hassell III,Washington Nationals,
+583,Josh Simpson,Miami Marlins,RC
+584,Moisés Ballesteros,Chicago Cubs,FS
+585,Ian Happ,Chicago Cubs,
+586,Marcus Semien,New York Mets,
+587,Nolan Gorman,St. Louis Cardinals,
+588,Andrés Giménez,Toronto Blue Jays,
+589,Braxton Ashcraft,Pittsburgh Pirates,
+590,Austin Wynns,Athletics,
+591,Jahmai Jones,Detroit Tigers,
+592,Joc Pederson,Texas Rangers,
+593,Sal Frelick,Milwaukee Brewers,
+594,Luis Gil,New York Yankees,
+595,McCade Brown,Colorado Rockies,RC
+596,Liam Hicks,Miami Marlins,
+597,Paul Goldschmidt,New York Yankees,
+598,Jack Winkler,Houston Astros,RC
+599,Cristian Javier,Houston Astros,
+600,Juan Soto,New York Mets,
+601,Zach Cole,Houston Astros,RC
+602,Shane McClanahan,Tampa Bay Rays,
+603,George Valera,Cleveland Guardians,RC
+604,Jake Bauers,Milwaukee Brewers,
+605,Xander Bogaerts,San Diego Padres,CC
+606,Zebby Matthews,Minnesota Twins,
+607,Cody Bellinger,New York Yankees,
+608,Cody Laweryson,Minnesota Twins,RC
+609,Mitch Farris,Angels,RC
+610,Brooks Lee,Minnesota Twins,FS
+611,Paul Gervase,Los Angeles Dodgers,RC
+612,José Fermín,St. Louis Cardinals,
+613,Jordan Westburg,Baltimore Orioles,
+614,Manny Machado,San Diego Padres,
+615,Taylor Rashi,Arizona Diamondbacks,RC
+616,Hoby Milner,Chicago Cubs,
+617,Caden Dana,Angels,FS
+618,Tanner Bibee,Cleveland Guardians,
+619,Brooks Baldwin,Chicago White Sox,
+620,Trey Yesavage,Toronto Blue Jays,RC
+621,Matthew Liberatore,St. Louis Cardinals,
+622,Cade Smith,Cleveland Guardians,
+623,Rafael Flores,Pittsburgh Pirates,RC
+624,Harrison Bader,San Francisco Giants,
+625,Yoán Moncada,Angels,
+626,Max Muncy,Athletics,FS
+627,Gustavo Campero,Angels,
+628,New York Yankees,New York Yankees,TC
+629,Tyler Glasnow,Los Angeles Dodgers,
+630,Corbin Burnes,Arizona Diamondbacks,
+631,Will Smith,Los Angeles Dodgers,
+632,Cade Horton,Chicago Cubs,
+633,Salvador Perez,Kansas City Royals,
+634,Ryan Weathers,New York Yankees,
+635,Edgar Quero,Chicago White Sox,FS
+636,Joe Musgrove,San Diego Padres,
+637,Johan Rojas,Philadelphia Phillies,
+638,Seth Lugo,Kansas City Royals,
+639,Reese Olson,Detroit Tigers,
+640,Atlanta Braves,Atlanta Braves,TC
+641,Slade Cecconi,Cleveland Guardians,
+642,Yoshinobu Yamamoto,Los Angeles Dodgers,CC
+643,Nick Lodolo,Cincinnati Reds,
+644,Christian Montes De Oca,Arizona Diamondbacks,RC
+645,Nasim Nuñez,Washington Nationals,
+646,Mark Vientos,New York Mets,
+647,Kyle Bradish,Baltimore Orioles,
+648,Jonathan Cannon,Chicago White Sox,
+649,Leo Rivas,Seattle Mariners,
+650,Kyle Schwarber,Philadelphia Phillies,
+651,Abner Uribe,Milwaukee Brewers,
+652,Ryan Mountcastle,Baltimore Orioles,
+653,Andruw Monasterio,Boston Red Sox,
+654,Baltimore Orioles,Baltimore Orioles,TC
+655,Jack Suwinski,Pittsburgh Pirates,
+656,Aroldis Chapman,Boston Red Sox,
+657,Freddy Peralta,New York Mets,
+658,Jack Flaherty,Detroit Tigers,
+659,Harry Ford,Washington Nationals,RC
+660,Edouard Julien,Colorado Rockies,
+661,Chicago White Sox,Chicago White Sox,TC
+662,Jeff McNeil,Athletics,
+663,Hyeseong Kim,Los Angeles Dodgers,
+664,Jayden Murray,Houston Astros,RC
+665,Jose Corniell,Texas Rangers,RC
+666,Nolan Hoffman,Philadelphia Phillies,RC
+667,Kodai Senga,New York Mets,
+668,Petey Halpin,Cleveland Guardians,RC
+669,Randy Vásquez,San Diego Padres,
+670,Kyle Harrison,Milwaukee Brewers,
+671,JJ Bleday,Cincinnati Reds,
+672,Yainer Diaz,Houston Astros,
+673,Reynaldo López,Atlanta Braves,
+674,Andre Granillo,Washington Nationals,RC
+675,Steven Kwan,Cleveland Guardians,
+676,Jorge Polanco,New York Mets,
+677,Wilyer Abreu,Boston Red Sox,
+678,Darell Hernaiz,Athletics,
+679,Cam Sanders,Pittsburgh Pirates,RC
+680,Carlos Correa,Houston Astros,
+681,Nathan Lukes,Toronto Blue Jays,
+682,Wenceel Pérez,Detroit Tigers,
+683,Dugan Darnell,Detroit Tigers,RC
+684,Quinn Priester,Milwaukee Brewers,
+685,Seiya Suzuki,Chicago Cubs,
+686,Carson Kelly,Chicago Cubs,
+687,Noelvi Marte,Cincinnati Reds,
+688,Blas Castaño,Seattle Mariners,RC
+689,Kyle Isbel,Kansas City Royals,
+690,Cedric Mullins,Tampa Bay Rays,
+691,Joey Cantillo,Cleveland Guardians,
+692,Drake Baldwin,Atlanta Braves,
+693,Luis Matos,San Francisco Giants,
+694,Tyler Anderson,Angels,
+695,Connor Norby,Miami Marlins,
+696,Andrew Hoffmann,Arizona Diamondbacks,RC
+697,Bryan Reynolds,Pittsburgh Pirates,
+698,Andre Pallante,St. Louis Cardinals,
+699,Jared Young,New York Mets,
+700,Freddie Freeman,Los Angeles Dodgers,

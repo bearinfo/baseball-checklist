@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/bearinfo/baseball-checklist/main/schema/1.0/set.schema.json",
+  "title": "Card set metadata (set.json)",
+  "description": "Identity, contents, and provenance of one card set. Rows live in the CSV files this document declares; see schema/1.0/ROW-FORMAT.md.",
+  "type": "object",
+  "required": ["schema_version", "id", "name", "slug", "sport", "year", "manufacturer", "checklists", "provenance", "verified"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "description": "Version of this standard the document conforms to."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "Permanent UUIDv4, assigned once, never changed. Survives renames and moves; consumers key on this, never on name or path."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name as the product is known, e.g. \"2025 Topps Series 1\"."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Kebab-case directory name of this set. Must match the containing directory."
+    },
+    "sport": {
+      "enum": ["baseball"],
+      "description": "Vocabulary grows by amending this schema, never by free text."
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "manufacturer": {
+      "type": "string",
+      "minLength": 1,
+      "description": "As branded on the product, e.g. \"Topps\"."
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Optional street date, ISO 8601."
+    },
+    "checklists": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Every CSV file in this set's directory must be declared here, and vice versa. Card numbers are unique within a file, not across files: short-print variations legitimately reuse base card numbers.",
+      "items": {
+        "type": "object",
+        "required": ["file", "name", "kind", "card_count"],
+        "additionalProperties": false,
+        "properties": {
+          "file": {
+            "type": "string",
+            "pattern": "^(base\\.csv|(inserts|variations|autographs|relics)/[a-z0-9]+(-[a-z0-9]+)*\\.csv)$",
+            "description": "Path relative to this set's directory. `variations/` holds cards that share the base numbering (short-print rookies, photo variations); they are real cards, unlike parallels."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Subset name as printed, title-cased, e.g. \"Base\", \"Generation Now\"."
+          },
+          "kind": {
+            "enum": ["base", "insert", "variation", "autograph", "relic"]
+          },
+          "card_count": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Declared number of cards. Validation fails if the CSV row count differs."
+          },
+          "distribution": {
+            "type": "string",
+            "description": "Optional, as printed by the manufacturer: \"Hobby Only\", \"Retail Exclusive\"..."
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Every source the rows were derived from. An array, not one entry, because a set is usually published across several checklists — one per series, plus a factory-set checklist — and agreement between independent sources is the strongest verification this repo can offer.",
+      "items": {
+        "type": "object",
+        "required": ["source_type", "source", "retrieved"],
+        "additionalProperties": false,
+        "properties": {
+          "source_type": {
+            "enum": ["manufacturer-pdf", "manufacturer-web", "community", "manual-transcription"]
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What the data was derived from — a PDF's published title/filename, a page title. The source itself is NOT stored in this repo."
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "retrieved": {
+            "type": "string",
+            "format": "date",
+            "description": "When the data was derived from the source."
+          },
+          "covers": {
+            "type": "string",
+            "description": "Which part of the set this source documents, e.g. \"Series 1 (#1-350)\"."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Anything a reviewer needs: repairs applied, known gaps, disagreements with other sources."
+          }
+        }
+      }
+    },
+    "series": {
+      "type": "array",
+      "description": "The waves a set was issued in. Topps flagship is one 700-card set published as Series 1 and Series 2; they are not separate sets, and a factory set is a packaging of the whole.",
+      "items": {
+        "type": "object",
+        "required": ["name", "card_numbers"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "As branded, e.g. \"Series 1\"."
+          },
+          "card_numbers": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9-]+-[A-Za-z0-9-]+$",
+            "description": "The base range this wave carried, e.g. \"1-350\"."
+          },
+          "release_date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "packagings": {
+      "type": "array",
+      "description": "Ways the set was sold as a whole — a factory/complete set in a box, a team set. A packaging contains checklists that already exist above; it is never a separate set and never duplicates rows. This is what tells a collector exactly which cards a sealed factory set holds.",
+      "items": {
+        "type": "object",
+        "required": ["name", "contains"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "As sold, e.g. \"Complete Set (Factory Set)\"."
+          },
+          "contains": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            },
+            "description": "Files from `checklists[].file`. Validation fails on a file this set does not declare."
+          },
+          "card_count": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Total cards in the packaging. Must equal the sum of the contained checklists' card_count."
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "parallels": {
+      "type": "array",
+      "description": "Parallels are printings of existing cards, never checklist rows. Optional: a set may ship rows first and gain parallel data later.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "As printed, e.g. \"Gold\", \"Rainbow Foil\", \"Golden Mirror Image Variation\"."
+          },
+          "color": {
+            "type": "string"
+          },
+          "print_run": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Serial-numbered run size, e.g. 2025 for /2025. Omit if unnumbered."
+          },
+          "serial_numbered": {
+            "type": "boolean"
+          },
+          "one_of_one": {
+            "type": "boolean"
+          },
+          "finish": {
+            "type": "string",
+            "description": "e.g. \"foil\", \"chrome\", \"refractor\", \"matte\"."
+          },
+          "applies_to": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            },
+            "description": "Checklist names (from `checklists[].name`) this parallel prints. Omit = applies to the whole set."
+          },
+          "distribution": {
+            "type": "string",
+            "description": "As printed: \"Hobby Only\", \"Retail Exclusive\"..."
+          }
+        }
+      }
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "True only after a human has reviewed the rows against the source. Provenance is required regardless."
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

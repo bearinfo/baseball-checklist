@@ -1,0 +1,5 @@
+# Validation — what CI needs.
+jsonschema>=4.0
+
+# Converters in tools/ only; not needed to consume or validate the data.
+pdfplumber>=0.11

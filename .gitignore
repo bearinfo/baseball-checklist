@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Source PDFs are never redistributed here — only the derived rows.
+*.pdf

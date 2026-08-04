@@ -1,0 +1,39 @@
+{
+  "description": "Controlled vocabulary for the `designations` row column. A row may carry several codes, space-separated, e.g. \"CC CL\". Validation rejects any code not listed here. New codes are added by PR to this file with evidence of the printed form.",
+  "codes": {
+    "RC": {
+      "name": "Rookie Card",
+      "printed_as": ["Rookie", "RC", "(R)"],
+      "note": "Official MLB/MLBPA rookie card logo."
+    },
+    "FS": {
+      "name": "Future Stars",
+      "printed_as": ["Future Stars", "FS"]
+    },
+    "RCUP": {
+      "name": "All-Star Rookie Cup",
+      "printed_as": ["All-Star Rookie", "RCup"],
+      "note": "Topps All-Star Rookie trophy. Not always noted on manufacturer checklists even when printed on the card."
+    },
+    "LL": {
+      "name": "League Leaders",
+      "printed_as": ["League Leaders", "LL"],
+      "note": "Usually a multi-subject card; see the multi-subject rule in ROW-FORMAT.md."
+    },
+    "TC": {
+      "name": "Team Card",
+      "printed_as": ["Team Card", "TC"],
+      "note": "`name` holds the team name; `team` repeats it."
+    },
+    "CC": {
+      "name": "Combo Card",
+      "printed_as": ["Combo Card"],
+      "note": "Multiple players in one photo. Independent of CL: 2026 Topps prints \"Combo Card\" alone (CC), 2025 Topps prints \"Combo Card/Checklist\" (CC CL)."
+    },
+    "CL": {
+      "name": "Checklist",
+      "printed_as": ["Checklist", "CL"],
+      "note": "The card's back is a checklist."
+    }
+  }
+}

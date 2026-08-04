@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "id": "bc00100c-0056-45a7-8ea7-6efd12d154aa",
+  "name": "2026 Topps",
+  "slug": "2026-topps",
+  "sport": "baseball",
+  "year": 2026,
+  "manufacturer": "Topps",
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-350"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "351-700"
+    }
+  ],
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 700
+    },
+    {
+      "file": "variations/golden-mirror-base-image-variation.csv",
+      "name": "Golden Mirror Base Image Variation",
+      "kind": "variation",
+      "card_count": 700
+    },
+    {
+      "file": "variations/clear-variation.csv",
+      "name": "Clear Variation",
+      "kind": "variation",
+      "card_count": 200,
+      "distribution": "Hobby Exclusive"
+    },
+    {
+      "file": "variations/holiday-variation.csv",
+      "name": "Holiday Variation",
+      "kind": "variation",
+      "card_count": 200,
+      "distribution": "Retail Holiday Tin Exclusive"
+    },
+    {
+      "file": "variations/team-color-border-variation.csv",
+      "name": "Team Color Border Variation",
+      "kind": "variation",
+      "card_count": 200
+    },
+    {
+      "file": "variations/true-photo-variation.csv",
+      "name": "True Photo Variation",
+      "kind": "variation",
+      "card_count": 200
+    },
+    {
+      "file": "variations/player-number-variation.csv",
+      "name": "Player Number Variation",
+      "kind": "variation",
+      "card_count": 125
+    },
+    {
+      "file": "variations/golden-mirror-legend-variation.csv",
+      "name": "Golden Mirror Legend Variation",
+      "kind": "variation",
+      "card_count": 101
+    },
+    {
+      "file": "variations/vintage-stock-variation.csv",
+      "name": "Vintage Stock Variation",
+      "kind": "variation",
+      "card_count": 100
+    },
+    {
+      "file": "variations/vintage-stock-retro-variation.csv",
+      "name": "Vintage Stock Retro Variation",
+      "kind": "variation",
+      "card_count": 100
+    },
+    {
+      "file": "variations/big-apple-foil-variation.csv",
+      "name": "Big Apple Foil Variation",
+      "kind": "variation",
+      "card_count": 100,
+      "distribution": "Fanatics Fest Exclusive"
+    },
+    {
+      "file": "variations/1952-autograph-variation.csv",
+      "name": "1952 Autograph Variation",
+      "kind": "variation",
+      "card_count": 40
+    },
+    {
+      "file": "variations/rookie-1952-variation.csv",
+      "name": "Rookie 1952 Variation",
+      "kind": "variation",
+      "card_count": 25
+    },
+    {
+      "file": "variations/1952-variation.csv",
+      "name": "1952 Variation",
+      "kind": "variation",
+      "card_count": 20
+    },
+    {
+      "file": "variations/short-print-rookies.csv",
+      "name": "Short Print Rookies",
+      "kind": "variation",
+      "card_count": 4
+    }
+  ],
+  "packagings": [
+    {
+      "name": "Complete Set (Factory Set)",
+      "contains": [
+        "base.csv",
+        "variations/short-print-rookies.csv"
+      ],
+      "card_count": 704,
+      "notes": "Sold as a sealed box: the whole 700-card base set from both series, plus a four-card short-print rookie pack exclusive to this packaging. Documented by its own Topps checklist, which is the third source in provenance."
+    }
+  ],
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2026 Topps Series 1 Baseball Checklist (2-23)",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_1_Baseball_Checklist_2-23.pdf",
+      "retrieved": "2026-08-04",
+      "covers": "Series 1 (#1-350) and its variations"
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2026 Topps Series 2 Baseball Checklist (5-11)",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_2_Baseball_Checklist_5-11.pdf",
+      "retrieved": "2026-08-04",
+      "covers": "Series 2 (#351-700) and its variations"
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2026 Topps Baseball Complete Set Checklist",
+      "source_url": "https://www.steelcitycollectibles.com/storage/pdf/product_checklists/2026-Topps-Baseball-Complete-Set-Checklist.pdf",
+      "retrieved": "2026-08-04",
+      "covers": "the factory set: base #1-700 and the four short-print rookies",
+      "notes": "Independent confirmation of the whole base set: all 700 card numbers, names and teams agree with the two series checklists, as do the four short-print rookies. The sources disagree only on ten designations — this one prints \"Combo Card\" (CC) where the series checklists print \"Combo Card/Checklist\" (CC CL) for #52, 118, 122, 126, 168, 197, 236, 260, 265, 302. The series checklists are followed here as the more specific of the two."
+    }
+  ],
+  "verified": false,
+  "notes": "One set issued in two waves; the factory set is a packaging of the whole 700-card base, not a separate set. Two variation programs are kept apart because Topps prints genuinely different names for them across series and merging would be a guess: Vintage Stock (Series 1) vs Vintage Stock Retro (Series 2), and Rookie 1952 (Series 1, 25 cards) vs 1952 (Series 2, 20 cards). Short Print Rookies reuse base numbers #697-700 — see schema/1.0/ROW-FORMAT.md, Numbering scope."
+}
