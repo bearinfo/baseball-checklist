@@ -492,7 +492,7 @@
       "file": "variations/1952-variation.csv",
       "name": "1952 Variation",
       "kind": "variation",
-      "card_count": 20,
+      "card_count": 45,
       "varies": "base.csv"
     },
     {
@@ -540,13 +540,6 @@
       "card_count": 125,
       "varies": "base.csv",
       "distribution": "Hobby Exclusive"
-    },
-    {
-      "file": "variations/rookie-1952-variation.csv",
-      "name": "Rookie 1952 Variation",
-      "kind": "variation",
-      "card_count": 25,
-      "varies": "base.csv"
     },
     {
       "file": "variations/short-print-rookies.csv",
@@ -4089,5 +4082,5 @@
     }
   ],
   "verified": false,
-  "notes": "One set issued in two waves; the factory set is a packaging of the whole 700-card base, not a separate set. Two variation programs are kept apart because Topps prints genuinely different names for them across series and merging would be a guess: Vintage Stock (Series 1) vs Vintage Stock Retro (Series 2), and Rookie 1952 (Series 1, 25 cards) vs 1952 (Series 2, 20 cards). Short Print Rookies reuse base numbers #697-700 — see schema/1.0/ROW-FORMAT.md, Numbering scope."
+  "notes": "One set issued in two waves; the factory set is a packaging of the whole 700-card base, not a separate set. Two variation programs are kept apart because Topps prints genuinely different names for them across series and merging would be a guess: Vintage Stock (Series 1) vs Vintage Stock Retro (Series 2),. Short Print Rookies reuse base numbers #697-700 — see schema/1.0/ROW-FORMAT.md, Numbering scope. Rookie 1952 (Series 1, #4-339) and 1952 (Series 2, #372-668) are one 45-card variation programme continuing across the two waves, not two: their numbers never collide, and TCDB counts the pair as a single 45-card sub-collection. Kept under the general printed name."
 }

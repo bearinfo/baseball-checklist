@@ -86,9 +86,7 @@ ALIAS = {
     # Variations. TCDB prints "Variations" on some and omits it on others, so
     # the word cannot be used to detect them — Clear, Holiday, Team Color
     # Border, Vintage Stock and Big Apple Foil are variations named without it.
-    # TCDB counts 45 cards here, which is Topps' Rookie 1952 (Series 1, 25) and
-    # 1952 (Series 2, 20) together — one TCDB entry over two checklists.
-    "1952 Base Card Variations": ["1952 Variation", "Rookie 1952 Variation"],
+    "1952 Base Card Variations": "1952 Variation",
     "1952 Base Card Variations Autographs": "1952 Autograph Variation",
     "Golden Mirror Variations": "Golden Mirror Base Image Variation",
     "Golden Mirror Legend Variations": "Golden Mirror Legend Variation",
