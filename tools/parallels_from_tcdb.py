@@ -53,6 +53,9 @@ ALIAS = {
     "1991 Topps Baseball 35th Anniversary All-Stars Relics":
         "1991 Topps Baseball All Star Relics",
     "Oversized 1991 Topps Baseball": "Oversized 1991 Topps Baseball",
+    # TCDB's name for the 32-card oversized checklist: the same 32 base numbers
+    # and names, in the same order, not a parallel of all 700.
+    "Oversized 5x7": "Oversized 2026 Topps Baseball",
 
     # Two TCDB spellings of one Topps checklist; both fold onto it.
     "75 Years of Topps Autographs Die Cut": "75 Years Of Topps Die Cut Autographs",
@@ -132,7 +135,7 @@ BASE_PARALLELS = {
     "Green Diamante Foil", "Green Holo Foil", "Green Rainbow Foil",
     "Holo Foil", "Independence Day", "Memorial Day Camo", "Opening Day Foil",
     "Orange Diamante Foil", "Orange Holo Foil", "Orange Rainbow Foil",
-    "Orange Sandglitter", "Oversized 5x7",
+    "Orange Sandglitter",
     "Pink Diamante Foil", "Pink Holo Foil",
     "Printing Plates Black", "Printing Plates Cyan", "Printing Plates Magenta",
     "Printing Plates Yellow",
