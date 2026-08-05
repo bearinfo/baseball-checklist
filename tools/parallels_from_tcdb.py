@@ -101,6 +101,10 @@ ALIAS = {
     # Same 25-card insert under a misremembered preposition.
     "Swinging for the Stars": "Swinging With The Stars",
 
+    # "Home Field Advantage" (Series 1, 20) and "Home Field" (Series 2, 20) are
+    # one 40-card insert; this repo already holds it as a single checklist.
+    "Home Field Advantage": "Home Field",
+
     # Topps prints In The Name per series with the same codes on different
     # players, so this repo keeps two checklists where TCDB keeps one. A
     # parallel of it parallels both.
@@ -139,6 +143,9 @@ BASE_PARALLELS = {
     "Spring Training Green", "Spring Training Orange", "Spring Training Red",
     "Spring Training Rose Gold",
     "Tinsel Foil", "Topps Foil Pattern", "Wood",
+    # Baseball Card Pedia lists this as a base parallel numbered to /75 in both
+    # series, not a checklist this set is missing.
+    "75 Years of Topps",
 }
 
 # TCDB entries that set.json already declares under a different name — Topps
@@ -156,10 +163,34 @@ DECLARED = {
         "The Flagship Collection Chrome Base Cards Autograph Parallel",
 }
 
-# Coverage a person has confirmed, keyed by (parallel name, target). Everything
-# else stays "unknown" until someone counts it.
-CONFIRMED = {
-    ("Gold", "Base"): "full",
+# Base parallels Baseball Card Pedia's insertion-ratio tables list in BOTH
+# series at 350 cards each: 350 + 350 is the whole 700-card base set, so these
+# are coverage: full, with the print run that source states. A parallel it
+# lists in only ONE series covers just that wave's 350 and is deliberately
+# absent here — half the base set is not full coverage, and this schema has no
+# way yet to say "every card of Series 2", so those stay unknown rather than
+# being rounded up. Canada Day is the sharpest case: 13 cards, not 350.
+BASE_FACTS = {
+    "Rainbow Foil": None, "Holo Foil": None, "Diamante Foil": None,
+    "Sandglitter": None, "Aqua Rainbow Foil": None, "Aqua Holo Foil": None,
+    "Pink Diamante Foil": None, "Topps Foil Pattern": None,
+    "Silver Crackle Foil": None,
+    "Gold": 2026, "Pink Holo Foil": 800,
+    "Purple Rainbow Foil": 250, "Purple Holo Foil": 250,
+    "Blue Rainbow Foil": 150, "Blue Holo Foil": 150,
+    "Green Rainbow Foil": 99, "Green Holo Foil": 99, "Green Diamante Foil": 99,
+    "Cherry Blossoms": 99, "Independence Day": 76, "Black Border": 75,
+    "Gold Rainbow Foil": 50, "Gold Sandglitter": 50, "Gold Holo Foil": 50,
+    "Gold Diamante Foil": 50, "Canvas": 50,
+    "Orange Rainbow Foil": 25, "Orange Sandglitter": 25, "Orange Holo Foil": 25,
+    "Orange Diamante Foil": 25, "Wood": 25, "Memorial Day Camo": 25,
+    "Black Rainbow Foil": 10, "Black Sandglitter": 10, "Black Holo Foil": 10,
+    "Black Diamante Foil": 10,
+    "Red Rainbow Foil": 5, "Red Sandglitter": 5, "Red Holo Foil": 5,
+    "Red Diamante Foil": 5,
+    "FoilFractors": 1, "Rose Gold Holo Foil": 1,
+    "Printing Plates Black": 1, "Printing Plates Cyan": 1,
+    "Printing Plates Magenta": 1, "Printing Plates Yellow": 1,
 }
 
 # TCDB entries this set cannot place. Skipped deliberately and reported, never
@@ -172,14 +203,12 @@ SKIP = {
     "Super Box Funko Bitty Pops!": "Super Box product; no checklist in this set",
     "Fanatics Authentic Memorabilia Redemptions": "redemption, not a card",
     "75 Years of Topps Gift Redemptions": "redemption, not a card",
-    "75 Years of Topps": "no plain '75 Years of Topps' checklist in this set",
     "Oversized Costco Flagship Collection": "Costco exclusive; no checklist here",
     "Flagship Collection Big Time Players": "no checklist in this set",
     "Flagship Collection Bulk Order": "distinct from the Bulk Order insert; unresolved",
     "Flagship Collection Chrome Highlight Reels": "no checklist in this set",
     "Funko": "ambiguous between Funko Base Cards and Funko Pop",
     "Funko Autographs": "ambiguous between Funko Pop Autograph Parallel and Funko",
-    "Home Field Advantage": "cannot tell a parallel of Home Field from a separate insert",
     "": "TCDB publishes this sub-collection with an empty name (sid 595144)",
 }
 
@@ -261,6 +290,24 @@ def build(entries, document):
     return derived, skipped, is_checklist, declared, unresolved
 
 
+def apply_base_facts(record):
+    """Coverage and print run for a base parallel, where a source states them."""
+    if record.get("applies_to") != ["Base"] or record["name"] not in BASE_FACTS:
+        return False
+    run = BASE_FACTS[record["name"]]
+    before = (record.get("coverage"), record.get("print_run"),
+              record.get("one_of_one"))
+    record["coverage"] = "full"
+    if run == 1:
+        record["one_of_one"] = True
+        record.pop("print_run", None)
+    elif run:
+        record["print_run"] = run
+        record["serial_numbered"] = True
+    return before != (record.get("coverage"), record.get("print_run"),
+                      record.get("one_of_one"))
+
+
 def declarations(derived, document):
     """Merge onto what set.json already declares, keeping every existing id."""
     existing = {}
@@ -269,7 +316,7 @@ def declarations(derived, document):
             existing[(parallel["name"].lower(), target)] = parallel
 
     out = list(document.get("parallels", []))
-    added, retargeted = 0, []
+    added, retargeted, upgraded = 0, [], []
     for key in sorted(derived, key=lambda k: (k[1], k[0])):
         item = derived[key]
         matches = [existing[(key[0], t)] for t in item["targets"]
@@ -279,20 +326,23 @@ def declarations(derived, document):
             # Carry it onto the record already declared rather than leaving a
             # stale applies_to behind, and never mint a second id for it.
             parallel = matches[0]
+            if apply_base_facts(parallel):
+                upgraded.append(parallel["name"])
             if parallel.get("applies_to") != item["targets"]:
                 retargeted.append((parallel["name"],
                                    parallel.get("applies_to"), item["targets"]))
                 parallel["applies_to"] = item["targets"]
             continue
-        confirmed = {CONFIRMED.get((item["name"], t)) for t in item["targets"]}
-        out.append({
+        record = {
             "id": str(uuid.uuid4()),
             "name": item["name"],
-            "coverage": confirmed.pop() if confirmed == {"full"} else "unknown",
+            "coverage": "unknown",
             "applies_to": item["targets"],
-        })
+        }
+        apply_base_facts(record)
+        out.append(record)
         added += 1
-    return out, added, retargeted
+    return out, added, retargeted, upgraded
 
 
 def main(argv):
@@ -324,9 +374,11 @@ def main(argv):
             print(f"  {raw}  https://www.tcdb.com/ViewCollection.cfm/sid/{sid}")
         return 1
 
-    parallels, added, retargeted = declarations(derived, document)
+    parallels, added, retargeted, upgraded = declarations(derived, document)
     print(f"\n{added} new declaration(s); "
           f"{len(parallels) - added} already declared")
+    if upgraded:
+        print(f"  {len(upgraded)} base parallel(s) upgraded to coverage: full")
     for name, was, now in retargeted:
         print(f"  retargeted {name!r}: {was} -> {now}")
     if not args.write:
