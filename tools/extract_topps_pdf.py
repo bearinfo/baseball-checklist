@@ -230,7 +230,7 @@ KIND_KEYWORDS = [("AUTOGRAPH RELIC", "relic"), ("AUTOGRAPH", "autograph"),
 # Sections a checklist PDF prints that are not cards of this set: sweepstakes
 # prizes, gift cards, and vintage cards re-inserted from other sets. Skipped
 # wholesale and reported — never parsed into rows.
-NON_CARD_SECTION = re.compile(r"\b(GIFTS?|REDEMPTION|BUYBACK|TICKETS?|PRIZE|"
+NON_CARD_SECTION = re.compile(r"\b(GIFTS?|REDEMPTION|BUYBACK|PRIZE|"
                               r"SWEEPSTAKES|EXPERIENCE)\b")
 
 
@@ -375,49 +375,59 @@ def merge(per_pdf):
 
     A set issued in waves — Series 1 and Series 2 of the same year — is one
     set: base #1-350 and #351-700 are one 700-card checklist. Sections combine
-    by canonical name; a card number appearing in two of them is a conflict,
-    not a merge, and stops the run.
+    by canonical name. A card number in more than one source is either the
+    same card listed twice (kept once — never a duplicate row) or two
+    different cards sharing a code; those sections cannot be one file, so they
+    stay per series, the way TCDB also keeps them ("... (Series One)").
     """
-    combined = {}
+    def series_tag(label, index):
+        found = re.search(r"[Ss]eries[_ ]?(\d)", label) or \
+                re.search(r"[-_][sS](\d)\b", label)
+        return f"Series {found.group(1) if found else index}"
+
+    groups = {}
     for label, sections in per_pdf:
         for section in sections:
             key = (section.kind, canonical(section.name))
-            target = combined.get(key)
-            if target is None:
-                section.name = canonical(section.name)
-                section.sources = [label]
-                combined[key] = section
-                continue
-            # A number in both files is either the same card listed twice —
-            # Series 2 repeats three Cover Athletes autographs from Series 1 —
-            # or two different cards sharing a code, which no merge can
-            # reconcile. Identical rows collapse; differing ones stop the run.
-            existing = {c["card_number"]: c for c in target.cards}
-            fresh, duplicates = [], 0
+            groups.setdefault(key, []).append((label, section))
+
+    result = []
+    for (kind, name), group in groups.items():
+        first = group[0][1]
+        first.name = name
+        first.sources = [group[0][0]]
+        if len(group) == 1:
+            result.append(first)
+            continue
+        cards = {c["card_number"]: c for c in first.cards}
+        clean, duplicates = True, 0
+        for label, section in group[1:]:
             for card in section.cards:
-                previous = existing.get(card["card_number"])
+                previous = cards.get(card["card_number"])
                 if previous is None:
-                    fresh.append(card)
+                    cards[card["card_number"]] = card
                 elif (previous["names"] == card["names"]
                         and previous["teams"] == card["teams"]
                         and previous["codes"] == card["codes"]):
                     duplicates += 1
                 else:
-                    sys.exit(
-                        f'"{target.name}" ({target.kind}): card '
-                        f'{card["card_number"]} is '
-                        f'{" / ".join(previous["names"])} in '
-                        f'{" and ".join(target.sources)} but '
-                        f'{" / ".join(card["names"])} in {label}. '
-                        f"Two different cards share the code; keep the "
-                        f"sections in separate files.")
+                    clean = False
+            first.short_print = first.short_print or section.short_print
+        if clean:
+            first.cards = list(cards.values())
+            first.sources = [label for label, _ in group]
             if duplicates:
-                print(f'  "{target.name}": {duplicates} row(s) listed '
-                      f'identically in {label}, kept once', file=sys.stderr)
-            target.cards += fresh
-            target.short_print = target.short_print or section.short_print
-            target.sources.append(label)
-    return list(combined.values())
+                print(f'  "{name}": {duplicates} row(s) listed identically in '
+                      f'more than one source, kept once', file=sys.stderr)
+            result.append(first)
+        else:
+            print(f'  "{name}" ({kind}): same code, different cards across '
+                  f'sources — kept per series', file=sys.stderr)
+            for index, (label, section) in enumerate(group, start=1):
+                section.name = f"{name} {series_tag(label, index)}"
+                section.sources = [label]
+                result.append(section)
+    return result
 
 
 def main(argv):

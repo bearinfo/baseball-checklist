@@ -1,0 +1,276 @@
+card_number,name,team,designations
+91A-ABB,Jim Abbott,California Angels,
+91A-AV,Anthony Volpe,New York Yankees,
+91A-AVS,Andy Van Slyke,Pittsburgh Pirates,
+91A-AW,Austin Wells,New York Yankees,
+91A-BER,Bernie Williams,New York Yankees,
+91A-BLY,Bert Blyleven,California Angels,
+91A-BR,Billy Ripken,Baltimore Orioles,
+91A-BRE,Bryan Reynolds,Pittsburgh Pirates,
+91A-BRO,Brent Rooker,Athletics,
+91A-BS,Bryson Stott,Philadelphia Phillies,
+91A-BSN,Blake Snell,Los Angeles Dodgers,
+91A-BUE,Mark Buehrle,Chicago White Sox,
+91A-BWI,Brian Wilson,San Francisco Giants,
+91A-CAM,Cam Smith,Houston Astros,
+91A-CEC,Cecil Fielder,Detroit Tigers,
+91A-COW,Colton Cowser,Baltimore Orioles,
+91A-DAV,Eric Davis,Cincinnati Reds,
+91A-DRU,Andruw Jones,Atlanta Braves,
+91A-DST,Darryl Strawberry,New York Mets,
+91A-EG,Eric Gagne,Los Angeles Dodgers,
+91A-FJ,Fergie Jenkins,Chicago Cubs,
+91A-FM,Fred McGriff,Atlanta Braves,
+91A-GK,George Kirby,Seattle Mariners,
+91A-GS,Gary Sheffield,New York Yankees,
+91A-JAZ,Jazz Chisholm Jr.,New York Yankees,
+91A-JD,Jasson Domínguez,New York Yankees,
+91A-JE,Jim Edmonds,St. Louis Cardinals,
+91A-JH,Jackson Holliday,Baltimore Orioles,
+91A-JJO,Jared Jones,Pittsburgh Pirates,
+91A-JK,John Kruk,Philadelphia Phillies,
+91A-JP,Jorge Posada,New York Yankees,
+91A-JPA,Jim Palmer,Baltimore Orioles,
+91A-JRI,Jim Rice,Boston Red Sox,
+91A-JSA,Johan Santana,New York Mets,
+91A-KL,Kenny Lofton,Cleveland,
+91A-KT,Kyle Tucker,Chicago Cubs,
+91A-KW,Kerry Wood,Chicago Cubs,
+91A-KWA,Steven Kwan,Cleveland Guardians,
+91A-LB,Lawrence Butler,Athletics,
+91A-LC,Luis Castillo,Seattle Mariners,
+91A-LOW,Rhett Lowder,Cincinnati Reds,
+91A-MAS,Mason Miller,Athletics,
+91A-MF,Max Fried,New York Yankees,
+91A-MH,Michael Harris II,Atlanta Braves,
+91A-NH,Nico Hoerner,Chicago Cubs,
+91A-PET,Andy Pettitte,New York Yankees,
+91A-PK,Paul Konerko,Chicago White Sox,
+91A-PO,Paul O'neill,New York Yankees,
+91A-RH,Ryan Howard,Philadelphia Phillies,
+91A-RV,Robin Ventura,Chicago White Sox,
+91A-SC,Steve Carlton,Philadelphia Phillies,
+91A-SCH,Spencer Schwellenbach,Atlanta Braves,
+91A-SHA,Matt Shaw,Chicago Cubs,
+91A-SMO,John Smoltz,Atlanta Braves,
+91A-TS,Tim Salmon,California Angels,
+91A-TT,Trea Turner,Philadelphia Phillies,
+91A-VC,Vince Coleman,St. Louis Cardinals,
+91A-WEB,Logan Webb,San Francisco Giants,
+91A-ZN,Zach Neto,Angels,
+91A-AF,Alex Freeland,Los Angeles Dodgers,RC
+91A-ANT,Anthony Seigler,Milwaukee Brewers,RC
+91A-BAR,Barry Bonds,Pittsburgh Pirates,
+91A-BC,Bubba Chandler,Pittsburgh Pirates,RC
+91A-BM,Brice Matthews,Houston Astros,RC
+91A-BWS,Billy Williams,Chicago Cubs,
+91A-BZ,Barry Zito,Oakland Athletics,
+91A-CA,CJ Abrams,Washington Nationals,
+91A-CAG,Jac Caglianone,Kansas City Royals,RC
+91A-CAN,Jose Canseco,Oakland Athletics,
+91A-CAS,Cam Schlittler,New York Yankees,RC
+91A-CBU,Chase Burns,Cincinnati Reds,RC
+91A-CH,Cade Horton,Chicago Cubs,
+91A-CM,Christian Moore,Angels,RC
+91A-COL,Colby Thomas,Athletics,RC
+91A-COM,Colson Montgomery,Chicago White Sox,RC
+91A-CSI,Chandler Simpson,Tampa Bay Rays,
+91A-CST,Chad Stevens,Angels,RC
+91A-CW,Carson Williams,Tampa Bay Rays,RC
+91A-DC,Dylan Cease,San Diego Padres,
+91A-DE,Dennis Eckersley,Oakland Athletics,
+91A-DID,Didier Fuentes,Atlanta Braves,RC
+91A-DON,Dontrelle Willis,Florida Marlins,
+91A-GSP,George Springer,Toronto Blue Jays,
+91A-HM,Hideki Matsui,New York Yankees,
+91A-HOU,Brady House,Washington Nationals,RC
+91A-IH,Ian Happ,Chicago Cubs,
+91A-JCA,Junior Caminero,Tampa Bay Rays,
+91A-JG,Juan Gonzalez,Texas Rangers,
+91A-JJU,Josh Jung,Texas Rangers,
+91A-JOE,Joe Rock,Tampa Bay Rays,RC
+91A-JPE,Jack Perkins,Athletics,RC
+91A-JTR,J.T. Realmuto,Philadelphia Phillies,
+91A-JUA,Juan Burgos,Seattle Mariners,RC
+91A-KTE,Kyle Teel,Chicago White Sox,RC
+91A-LAZ,Lazaro Estrada,Toronto Blue Jays,RC
+91A-LN,Lars Nootbaar,St. Louis Cardinals,
+91A-MEL,Jacob Melton,Houston Astros,RC
+91A-MIS,Jacob Misiorowski,Milwaukee Brewers,RC
+91A-OCA,Owen Caissie,Chicago Cubs,RC
+91A-OTT,Otto Kemp,Philadelphia Phillies,RC
+91A-PF,Prince Fielder,Milwaukee Brewers,
+91A-RAN,Roman Anthony,Boston Red Sox,RC
+91A-RIT,Ryan Ritter,Colorado Rockies,RC
+91A-ROB,Will Robertson,Chicago White Sox,RC
+91A-RZ,Ryan Zimmerman,Washington Nationals,
+91A-SB,Samuel Basallo,Baltimore Orioles,RC
+91A-SEY,Ian Seymour,Tampa Bay Rays,RC
+91A-SHIN,Shinnosuke Ogasawara,Washington Nationals,RC
+91A-SMI,Dylan Smith,Detroit Tigers,RC
+91A-SR,Scott Rolen,St. Louis Cardinals,
+91A-STE,Dave Stewart,Oakland Athletics,
+91A-TAY,Grant Taylor,Chicago White Sox,RC
+91A-TRA,Travis Adams,Minnesota Twins,RC
+91A-WL,Wyatt Langford,Texas Rangers,
+91A-YAN,Yanquiel Fernández,Colorado Rockies,RC
+91A-AD,Andre Dawson,Chicago Cubs,
+91A-AJ,Aaron Judge,New York Yankees,
+91A-AP,Albert Pujols,St. Louis Cardinals,
+91A-AR,Adley Rutschman,Baltimore Orioles,
+91A-AT,Alan Trammell,Detroit Tigers,
+91A-BBU,Byron Buxton,Minnesota Twins,
+91A-BJ,Bo Jackson,Kansas City Royals,
+91A-BL,Barry Larkin,Cincinnati Reds,
+91A-BP,Buster Posey,San Francisco Giants,
+91A-BW,Bobby Witt Jr.,Kansas City Royals,
+91A-CBI,Craig Biggio,Houston Astros,
+91A-CC,Corbin Carroll,Arizona Diamondbacks,
+91A-CF,Carlton Fisk,Boston Red Sox,
+91A-CJ,Chipper Jones,Atlanta Braves,
+91A-CU,Chase Utley,Philadelphia Phillies,
+91A-CY,Christian Yelich,Milwaukee Brewers,
+91A-DJ,Derek Jeter,New York Yankees,
+91A-DM,Don Mattingly,New York Yankees,
+91A-DMU,Dale Murphy,Atlanta Braves,
+91A-DO,David Ortiz,Boston Red Sox,
+91A-DW,David Wright,New York Mets,
+91A-EM,Edgar Martinez,Seattle Mariners,
+91A-EMU,Eddie Murray,Baltimore Orioles,
+91A-FF,Freddie Freeman,Los Angeles Dodgers,
+91A-FT,Frank Thomas,Chicago White Sox,
+91A-FTJ,Fernando Tatis Jr.,San Diego Padres,
+91A-GB,George Brett,Kansas City Royals,
+91A-GM,Greg Maddux,Chicago Cubs,
+91A-GMA,Greg Maddux,Atlanta Braves,
+91A-I,Ichiro,Seattle Mariners,
+91A-JB,Jeff Bagwell,Houston Astros,
+91A-JBE,Johnny Bench,Cincinnati Reds,
+91A-JC,Jackson Chourio,Milwaukee Brewers,
+91A-JR,José Ramírez,Cleveland Guardians,
+91A-JV,Jason Varitek,Boston Red Sox,
+91A-JVO,Joey Votto,Cincinnati Reds,
+91A-KG,Ken Griffey Jr.,Seattle Mariners,
+91A-LWA,Larry Walker,Colorado Rockies,
+91A-MC,Miguel Cabrera,Detroit Tigers,
+91A-MG,Mark Grace,Chicago Cubs,
+91A-MM,Manny Machado,San Diego Padres,
+91A-MMG,Mark McGwire,Oakland Athletics,
+91A-MP,Mike Piazza,New York Mets,
+91A-MS,Mike Schmidt,Philadelphia Phillies,
+91A-MT,Mike Trout,Angels,
+91A-NA,Nolan Arenado,St. Louis Cardinals,
+91A-NG,Nomar Garciaparra,Boston Red Sox,
+91A-NR,Nolan Ryan,Texas Rangers,
+91A-OH,Orel Hershiser,Los Angeles Dodgers,
+91A-PA,Pete Alonso,New York Mets,
+91A-PM,Paul Molitor,Milwaukee Brewers,
+91A-RC,Rod Carew,Minnesota Twins,
+91A-RCL,Roger Clemens,Boston Red Sox,
+91A-RJ,Randy Johnson,Seattle Mariners,
+91A-RJA,Reggie Jackson,New York Yankees,
+91A-RJK,Reggie Jackson,Oakland Athletics,
+91A-RJO,Randy Johnson,Arizona Diamondbacks,
+91A-RL,Royce Lewis,Minnesota Twins,
+91A-RY,Robin Yount,Milwaukee Brewers,
+91A-SK,Sandy Koufax,Los Angeles Dodgers,
+91A-SO,Shohei Ohtani,Los Angeles Dodgers,
+91A-SS,Sammy Sosa,Chicago Cubs,
+91A-TG,Tom Glavine,Atlanta Braves,
+91A-VG,Vladimir Guerrero,Montréal Expos,
+91A-VGU,Vladimir Guerrero,Angels,
+91A-WB,Wade Boggs,Boston Red Sox,
+91A-WC,Will Clark,San Francisco Giants,
+91A-YY,Yoshinobu Yamamoto,Los Angeles Dodgers,
+91AU-GC,Garrett Crochet,Boston Red Sox,
+91AU-NOMO,Hideo Nomo,Los Angeles Dodgers,
+91B2-AG,Andre Granillo,St. Louis Cardinals,RC
+91B2-AGA,Andres Galarraga,Montréal Expos,
+91B2-BC,Bubba Chandler,Pittsburgh Pirates,RC
+91B2-BG,Brandyn Garcia,Arizona Diamondbacks,RC
+91B2-BH,Brady House,Washington Nationals,RC
+91B2-BSA,Bret Saberhagen,Kansas City Royals,
+91B2-CB,Chase Burns,Cincinnati Reds,RC
+91B2-CBL,Charlie Blackmon,Colorado Rockies,
+91B2-CC,Carlos Cortes,Athletics,RC
+91B2-CD,Chase DeLauter,Cleveland Guardians,RC
+91B2-CK,C.J. Kayfus,Cleveland Guardians,RC
+91B2-CLE,Cliff Lee,Philadelphia Phillies,
+91B2-CMO,Christian Moore,Angels,RC
+91B2-CO,Jose Corniell,Texas Rangers,RC
+91B2-CS,Cam Schlittler,New York Yankees,RC
+91B2-CT,Colby Thomas,Athletics,RC
+91B2-GUZ,Denzer Guzman,Angels,RC
+91B2-IP,Isaac Paredes,Houston Astros,
+91B2-JC,Justin Crawford,Philadelphia Phillies,RC
+91B2-JCA,Jac Caglianone,Kansas City Royals,RC
+91B2-JJ,Jeremiah Jackson,Baltimore Orioles,RC
+91B2-JM,Jacob Misiorowski,Milwaukee Brewers,RC
+91B2-JMA,Jakob Marsee,Miami Marlins,RC
+91B2-JR,Jim Rice,Boston Red Sox,
+91B2-JT,Jonah Tong,New York Mets,RC
+91B2-KAZ,Kazuma Okamoto,Toronto Blue Jays,RC
+91B2-KG,Kirk Gibson,Detroit Tigers,
+91B2-KGI,Kirk Gibson,Los Angeles Dodgers,
+91B2-KMC,Kevin McGonigle,Detroit Tigers,RC
+91B2-MUR,Munetaka Murakami,Chicago White Sox,RC
+91B2-NC,Nathan Church,St. Louis Cardinals,RC
+91B2-NM,Nolan McLean,New York Mets,RC
+91B2-RA,Roman Anthony,Boston Red Sox,RC
+91B2-SB,Samuel Basallo,Baltimore Orioles,RC
+91B2-SS,Sal Stewart,Cincinnati Reds,RC
+91B2-TO,Tony Oliva,Minnesota Twins,
+91B2-TP,Tony Pérez,Cincinnati Reds,
+91B2-ZC,Zach Cole,Houston Astros,RC
+91A-ABR,Alex Bregman,Boston Red Sox,
+91A-AG,Alex Gordon,Kansas City Royals,
+91A-ALE,Alec Bohm,Philadelphia Phillies,
+91A-AM,Andrew McCutchen,Pittsburgh Pirates,
+91A-AN,Aaron Nola,Philadelphia Phillies,
+91A-AND,Andry Lara,Washington Nationals,RC
+91A-APA,Andrew Painter,Philadelphia Phillies,RC
+91A-ARO,Alex Rodriguez,New York Yankees,
+91A-AROZ,Randy Arozarena,Seattle Mariners,
+91A-BEL,Carlos Beltrán,New York Yankees,
+91A-BON,Barry Bonds,San Francisco Giants,
+91A-BROD,Bradgley Rodriguez,San Diego Padres,RC
+91A-CAR,Carson Seymour,San Francisco Giants,RC
+91A-CHA,Matt Chapman,San Francisco Giants,
+91A-CIV,Aaron Civale,Chicago White Sox,
+91A-CR,Cal Ripken Jr.,Baltimore Orioles,
+91A-DAS,Dave Stieb,Toronto Blue Jays,
+91A-DR,Dalton Rushing,Los Angeles Dodgers,
+91A-DS,Dansby Swanson,Chicago Cubs,
+91A-ED,Elly De La Cruz,Cincinnati Reds,
+91A-EL,Evan Longoria,Tampa Bay Rays,
+91A-JA,Jose Altuve,Houston Astros,
+91A-JEF,Ryan Jeffers,Minnesota Twins,
+91A-JHL,Jung Hoo Lee,San Francisco Giants,
+91A-JJW,JJ Wetherholt,St. Louis Cardinals,RC
+91A-JM,Joe Mauer,Minnesota Twins,
+91A-JME,Jackson Merrill,San Diego Padres,
+91A-JMO,Justin Morneau,Minnesota Twins,
+91A-JROL,Jimmy Rollins,Philadelphia Phillies,
+91A-JUS,David Justice,Atlanta Braves,
+91A-MBA,Moisés Ballesteros,Chicago Cubs,
+91A-MO,Matt Olson,Atlanta Braves,
+91A-MSE,Marcus Semien,Texas Rangers,
+91A-MW,Matt Williams,San Francisco Giants,
+91A-MWI,Masyn Winn,St. Louis Cardinals,
+91A-MY,Masataka Yoshida,Boston Red Sox,
+91A-MYO,Michael Young,Texas Rangers,
+91A-NK,Nick Kurtz,Athletics,
+91A-NS,Noah Schultz,Chicago White Sox,RC
+91A-PS,Paul Skenes,Pittsburgh Pirates,
+91A-RA,Ronald Acuña Jr.,Atlanta Braves,
+91A-RAF,Ceddanne Rafaela,Boston Red Sox,
+91A-RD,Rafael Devers,Boston Red Sox,
+91A-RIL,Austin Riley,Atlanta Braves,
+91A-ROKI,Roki Sasaki,Los Angeles Dodgers,
+91A-SG,Steve Garvey,Los Angeles Dodgers,
+91A-SI,Shota Imanaga,Chicago Cubs,
+91A-SST,Spencer Steer,Cincinnati Reds,
+91A-TC,Triston Casas,Boston Red Sox,
+91A-TOR,Torii Hunter,Minnesota Twins,
+91A-WIK,Wikelman González,Chicago White Sox,RC
+91A-ZW,Zack Wheeler,Philadelphia Phillies,

@@ -1,0 +1,186 @@
+card_number,name,team,designations
+MLM-AF,Alex Freeland,Los Angeles Dodgers,RC
+MLM-AJ,Aaron Judge,New York Yankees,
+MLM-AN,Aaron Nola,Philadelphia Phillies,
+MLM-ARI,Austin Riley,Atlanta Braves,
+MLM-AV,Anthony Volpe,New York Yankees,
+MLM-BAS,Samuel Basallo,Baltimore Orioles,RC
+MLM-BB,Byron Buxton,Minnesota Twins,
+MLM-BC,Bubba Chandler,Pittsburgh Pirates,RC
+MLM-BH,Bryce Harper,Philadelphia Phillies,
+MLM-BHO,Brady House,Washington Nationals,RC
+MLM-BM,Brice Matthews,Houston Astros,RC
+MLM-BN,Brandon Nimmo,New York Mets,
+MLM-BW,Bobby Witt Jr.,Kansas City Royals,
+MLM-CA,CJ Abrams,Washington Nationals,
+MLM-CAR,Carson Williams,Tampa Bay Rays,RC
+MLM-CB,Chase Burns,Cincinnati Reds,RC
+MLM-CC,Corbin Carroll,Arizona Diamondbacks,
+MLM-CCO,Carlos Correa,Houston Astros,
+MLM-CM,Christian Moore,Angels,RC
+MLM-CMO,Colson Montgomery,Chicago White Sox,RC
+MLM-CR,Cal Raleigh,Seattle Mariners,
+MLM-CRO,Carlos Rodón,New York Yankees,
+MLM-CSM,Cam Smith,Houston Astros,
+MLM-CT,Colby Thomas,Athletics,RC
+MLM-CYE,Christian Yelich,Milwaukee Brewers,
+MLM-DC,Dylan Crews,Washington Nationals,
+MLM-DR,Dalton Rushing,Los Angeles Dodgers,
+MLM-DS,Dansby Swanson,Chicago Cubs,
+MLM-FF,Freddie Freeman,Los Angeles Dodgers,
+MLM-FL,Francisco Lindor,New York Mets,
+MLM-FT,Fernando Tatis Jr.,San Diego Padres,
+MLM-GC,Gerrit Cole,New York Yankees,
+MLM-GS,George Springer,Toronto Blue Jays,
+MLM-HG,Hunter Greene,Cincinnati Reds,
+MLM-HK,Hyeseong Kim,Los Angeles Dodgers,
+MLM-JA,Jose Altuve,Houston Astros,
+MLM-JCA,Jac Caglianone,Kansas City Royals,RC
+MLM-JD,Jasson Domínguez,New York Yankees,
+MLM-JDU,Jarren Duran,Boston Red Sox,
+MLM-JL,Jung Hoo Lee,San Francisco Giants,
+MLM-JM,Jackson Merrill,San Diego Padres,
+MLM-JMI,Jacob Misiorowski,Milwaukee Brewers,RC
+MLM-JP,Jeremy Peña,Houston Astros,
+MLM-JR,Julio Rodríguez,Seattle Mariners,
+MLM-JRA,José Ramírez,Cleveland Guardians,
+MLM-JTR,J.T. Realmuto,Philadelphia Phillies,
+MLM-JW,James Wood,Washington Nationals,
+MLM-JWI,Jacob Wilson,Athletics,
+MLM-KC,Kristian Campbell,Boston Red Sox,
+MLM-KM,Ketel Marte,Arizona Diamondbacks,
+MLM-KT,Kyle Teel,Chicago White Sox,RC
+MLM-MB,Mookie Betts,Los Angeles Dodgers,
+MLM-MM,Manny Machado,San Diego Padres,
+MLM-MMA,Marcelo Mayer,Boston Red Sox,
+MLM-MO,Matt Olson,Atlanta Braves,
+MLM-MS,Matt Shaw,Chicago Cubs,
+MLM-MT,Mike Trout,Angels,
+MLM-MW,Masyn Winn,St. Louis Cardinals,
+MLM-NA,Nolan Arenado,St. Louis Cardinals,
+MLM-NH,Nico Hoerner,Chicago Cubs,
+MLM-NK,Nick Kurtz,Athletics,
+MLM-OA,Ozzie Albies,Atlanta Braves,
+MLM-OC,Oneil Cruz,Pittsburgh Pirates,
+MLM-OCA,Owen Caissie,Chicago Cubs,RC
+MLM-PA,Pete Alonso,New York Mets,
+MLM-PC,Pete Crow-Armstrong,Chicago Cubs,
+MLM-PS,Paul Skenes,Pittsburgh Pirates,
+MLM-RA,Randy Arozarena,Seattle Mariners,
+MLM-RAJ,Ronald Acuña Jr.,Atlanta Braves,
+MLM-RAN,Roman Anthony,Boston Red Sox,RC
+MLM-RG,Riley Greene,Detroit Tigers,
+MLM-RR,Ryan Ritter,Colorado Rockies,RC
+MLM-RS,Roki Sasaki,Los Angeles Dodgers,
+MLM-SI,Shota Imanaga,Chicago Cubs,
+MLM-SO,Shohei Ohtani,Los Angeles Dodgers,
+MLM-SS,Seiya Suzuki,Chicago Cubs,
+MLM-SSC,Spencer Schwellenbach,Atlanta Braves,
+MLM-SST,Spencer Strider,Atlanta Braves,
+MLM-ST,Spencer Torkelson,Detroit Tigers,
+MLM-TH,Teoscar Hernández,Los Angeles Dodgers,
+MLM-TS,Tarik Skubal,Detroit Tigers,
+MLM-TSO,Tyler Soderstrom,Athletics,
+MLM-TT,Trea Turner,Philadelphia Phillies,
+MLM-VG,Vladimir Guerrero Jr.,Toronto Blue Jays,
+MLM-WL,Wyatt Langford,Texas Rangers,
+MLM-WS,Will Smith,Los Angeles Dodgers,
+MLM-YA,Yordan Alvarez,Houston Astros,
+MLM2-AF,Alex Freeland,Los Angeles Dodgers,RC
+MLM2-AG,Adolis García,Philadelphia Phillies,
+MLM2-AJ,Aaron Judge,New York Yankees,
+MLM2-AM,Andrew McCutchen,Pittsburgh Pirates,
+MLM2-AR,Austin Riley,Atlanta Braves,
+MLM2-BB,Byron Buxton,Minnesota Twins,
+MLM2-BC,Bubba Chandler,Pittsburgh Pirates,RC
+MLM2-BH,Bryce Harper,Philadelphia Phillies,
+MLM2-BHO,Brady House,Washington Nationals,RC
+MLM2-BL,Barry Larkin,Cincinnati Reds,
+MLM2-BM,Brice Matthews,Houston Astros,RC
+MLM2-BW,Bryan Woo,Seattle Mariners,
+MLM2-BWJ,Bobby Witt Jr.,Kansas City Royals,
+MLM2-CA,CJ Abrams,Washington Nationals,
+MLM2-CB,Chase Burns,Cincinnati Reds,RC
+MLM2-CC,Carlos Correa,Houston Astros,
+MLM2-CCA,Corbin Carroll,Arizona Diamondbacks,
+MLM2-CCS,CC Sabathia,New York Yankees,
+MLM2-CD,Chase DeLauter,Cleveland Guardians,RC
+MLM2-CH,Cade Horton,Chicago Cubs,
+MLM2-CJ,Carter Jensen,Kansas City Royals,RC
+MLM2-CK,C.J. Kayfus,Cleveland Guardians,RC
+MLM2-CM,Colson Montgomery,Chicago White Sox,RC
+MLM2-CMO,Christian Moore,Angels,RC
+MLM2-CR,Ceddanne Rafaela,Boston Red Sox,
+MLM2-CRJ,Cal Ripken Jr.,Baltimore Orioles,
+MLM2-CS,Chris Sale,Atlanta Braves,
+MLM2-CSC,Cam Schlittler,New York Yankees,RC
+MLM2-CSM,Cam Smith,Houston Astros,
+MLM2-CT,Colby Thomas,Athletics,RC
+MLM2-CW,Carson Williams,Tampa Bay Rays,RC
+MLM2-CY,Christian Yelich,Milwaukee Brewers,
+MLM2-DB,Drake Baldwin,Atlanta Braves,
+MLM2-DC,Dylan Crews,Washington Nationals,
+MLM2-DO,David Ortiz,Boston Red Sox,
+MLM2-DS,Dansby Swanson,Chicago Cubs,
+MLM2-FF,Freddie Freeman,Los Angeles Dodgers,
+MLM2-FL,Francisco Lindor,New York Mets,
+MLM2-FT,Frank Thomas,Chicago White Sox,
+MLM2-FTJ,Fernando Tatis Jr.,San Diego Padres,
+MLM2-GS,Giancarlo Stanton,New York Yankees,
+MLM2-JA,Jose Altuve,Houston Astros,
+MLM2-JC,Junior Caminero,Tampa Bay Rays,
+MLM2-JCA,Jac Caglianone,Kansas City Royals,RC
+MLM2-JCH,Jackson Chourio,Milwaukee Brewers,
+MLM2-JCJ,Jazz Chisholm Jr.,New York Yankees,
+MLM2-JG,Jhostynxon Garcia,Pittsburgh Pirates,RC
+MLM2-JM,Jakob Marsee,Miami Marlins,RC
+MLM2-JME,Jackson Merrill,San Diego Padres,
+MLM2-JMI,Jacob Misiorowski,Milwaukee Brewers,RC
+MLM2-JR,Julio Rodríguez,Seattle Mariners,
+MLM2-JRA,José Ramírez,Cleveland Guardians,
+MLM2-JT,Jonah Tong,New York Mets,RC
+MLM2-JTR,J.T. Realmuto,Philadelphia Phillies,
+MLM2-JW,Jordan Westburg,Baltimore Orioles,
+MLM2-JWI,Jacob Wilson,Athletics,
+MLM2-JWO,James Wood,Washington Nationals,
+MLM2-KT,Kyle Teel,Chicago White Sox,RC
+MLM2-KTU,Kyle Tucker,Los Angeles Dodgers,
+MLM2-LK,Luke Keaschall,Minnesota Twins,
+MLM2-LN,Lars Nootbaar,St. Louis Cardinals,
+MLM2-MC,Matt Chapman,San Francisco Giants,
+MLM2-MM,Manny Machado,San Diego Padres,
+MLM2-MT,Mike Trout,Angels,
+MLM2-MW,Masyn Winn,St. Louis Cardinals,
+MLM2-NA,Nolan Arenado,Arizona Diamondbacks,
+MLM2-NH,Nico Hoerner,Chicago Cubs,
+MLM2-NK,Nick Kurtz,Athletics,
+MLM2-NM,Nolan McLean,New York Mets,RC
+MLM2-OA,Ozzie Albies,Atlanta Braves,
+MLM2-OC,Oneil Cruz,Pittsburgh Pirates,
+MLM2-OCA,Owen Caissie,Miami Marlins,RC
+MLM2-PA,Pete Alonso,Baltimore Orioles,
+MLM2-PC,Pete Crow-Armstrong,Chicago Cubs,
+MLM2-PS,Paul Skenes,Pittsburgh Pirates,
+MLM2-PT,Payton Tolle,Boston Red Sox,RC
+MLM2-RA,Roman Anthony,Boston Red Sox,RC
+MLM2-RAJ,Ronald Acuña Jr.,Atlanta Braves,
+MLM2-RD,Rafael Devers,San Francisco Giants,
+MLM2-RG,Riley Greene,Detroit Tigers,
+MLM2-RR,Ryan Ritter,Colorado Rockies,RC
+MLM2-RS,Roki Sasaki,Los Angeles Dodgers,
+MLM2-SB,Samuel Basallo,Baltimore Orioles,RC
+MLM2-SS,Sal Stewart,Cincinnati Reds,RC
+MLM2-SSC,Spencer Schwellenbach,Atlanta Braves,
+MLM2-SST,Spencer Strider,Atlanta Braves,
+MLM2-SSU,Seiya Suzuki,Chicago Cubs,
+MLM2-TS,Tarik Skubal,Detroit Tigers,
+MLM2-TSO,Tyler Soderstrom,Athletics,
+MLM2-TT,Trea Turner,Philadelphia Phillies,
+MLM2-TY,Trey Yesavage,Toronto Blue Jays,RC
+MLM2-VG,Vladimir Guerrero,Montréal Expos,
+MLM2-VGJ,Vladimir Guerrero Jr.,Toronto Blue Jays,
+MLM2-VP,Vinnie Pasquantino,Kansas City Royals,
+MLM2-WL,Wyatt Langford,Texas Rangers,
+MLM2-WS,Will Smith,Los Angeles Dodgers,
+MLM2-YA,Yordan Alvarez,Houston Astros,
+MLM2-YY,Yoshinobu Yamamoto,Los Angeles Dodgers,

@@ -1,0 +1,151 @@
+card_number,name,team,designations
+T91-1,Mike Trout,Angels,
+T91-2,Riley Greene,Detroit Tigers,
+T91-3,Bobby Witt Jr.,Kansas City Royals,
+T91-4,Colson Montgomery,Chicago White Sox,RC
+T91-5,Kyle Schwarber,Philadelphia Phillies,
+T91-6,Colby Thomas,Athletics,RC
+T91-7,Jose Altuve,Houston Astros,
+T91-8,Fernando Tatis Jr.,San Diego Padres,
+T91-9,Vladimir Guerrero Jr.,Toronto Blue Jays,
+T91-10,Owen Caissie,Chicago Cubs,RC
+T91-11,Will Clark,San Francisco Giants,
+T91-12,Pete Alonso,New York Mets,
+T91-13,Chipper Jones,Atlanta Braves,
+T91-14,Oneil Cruz,Pittsburgh Pirates,
+T91-15,David Ortiz,Boston Red Sox,
+T91-16,James Wood,Washington Nationals,
+T91-17,Jeff Bagwell,Houston Astros,
+T91-18,Jackson Chourio,Milwaukee Brewers,
+T91-19,Francisco Lindor,New York Mets,
+T91-20,Samuel Basallo,Baltimore Orioles,RC
+T91-21,Mookie Betts,Los Angeles Dodgers,
+T91-22,Elly De La Cruz,Cincinnati Reds,
+T91-23,Manny Machado,San Diego Padres,
+T91-24,Dylan Beavers,Baltimore Orioles,RC
+T91-25,Ryne Sandberg,Chicago Cubs,
+T91-26,Ryan Ritter,Colorado Rockies,RC
+T91-27,Shoeless Joe Jackson,Chicago White Sox,
+T91-28,Brice Matthews,Houston Astros,RC
+T91-29,Bo Jackson,Kansas City Royals,
+T91-30,Derek Jeter,New York Yankees,
+T91-31,Frank Thomas,Chicago White Sox,
+T91-32,Robin Yount,Milwaukee Brewers,
+T91-33,Ichiro,Seattle Mariners,
+T91-34,Aaron Judge,New York Yankees,
+T91-35,Alex Freeland,Los Angeles Dodgers,RC
+T91-36,Yordan Alvarez,Houston Astros,
+T91-37,Seiya Suzuki,Chicago Cubs,
+T91-38,Carson Williams,Tampa Bay Rays,RC
+T91-39,Julio Rodríguez,Seattle Mariners,
+T91-40,Andrew McCutchen,Pittsburgh Pirates,
+T91-41,Brady House,Washington Nationals,RC
+T91-42,Jac Caglianone,Kansas City Royals,RC
+T91-43,Albert Pujols,St. Louis Cardinals,
+T91-44,Mark McGwire,Oakland Athletics,
+T91-45,Ken Griffey Jr.,Seattle Mariners,
+T91-46,Christian Moore,Angels,RC
+T91-47,Miguel Cabrera,Detroit Tigers,
+T91-48,Mickey Mantle,New York Yankees,
+T91-49,Gunnar Henderson,Baltimore Orioles,
+T91-50,Paul Skenes,Pittsburgh Pirates,
+T91-51,Bubba Chandler,Pittsburgh Pirates,RC
+T91-52,Rickey Henderson,Oakland Athletics,
+T91-53,Matt Olson,Atlanta Braves,
+T91-54,Rafael Devers,San Francisco Giants,
+T91-55,Yoshinobu Yamamoto,Los Angeles Dodgers,
+T91-56,Jacob Melton,Houston Astros,RC
+T91-57,Otto Kemp,Philadelphia Phillies,RC
+T91-58,Corbin Carroll,Arizona Diamondbacks,
+T91-59,Adrian Beltré,Texas Rangers,
+T91-60,Bryce Harper,Philadelphia Phillies,
+T91-61,Yanquiel Fernández,Colorado Rockies,RC
+T91-62,Junior Caminero,Tampa Bay Rays,
+T91-63,Nolan McLean,New York Mets,RC
+T91-64,Pete Crow-Armstrong,Chicago Cubs,
+T91-65,Corey Seager,Texas Rangers,
+T91-66,David Wright,New York Mets,
+T91-67,Randy Johnson,Arizona Diamondbacks,
+T91-68,Don Mattingly,New York Yankees,
+T91-69,José Ramírez,Cleveland Guardians,
+T91-70,Alex Bregman,Boston Red Sox,
+T91-71,Roman Anthony,Boston Red Sox,RC
+T91-72,Mike Schmidt,Philadelphia Phillies,
+T91-73,Chase Burns,Cincinnati Reds,RC
+T91-74,Jacob Misiorowski,Milwaukee Brewers,RC
+T91-75,Pedro Martinez,Boston Red Sox,
+T91-76,Didier Fuentes,Atlanta Braves,RC
+T91-77,Jacob Wilson,Athletics,
+T91-78,Jackson Merrill,San Diego Padres,
+T91-79,Tarik Skubal,Detroit Tigers,
+T91-80,Matt Chapman,San Francisco Giants,
+T91-81,Barry Larkin,Cincinnati Reds,
+T91-82,Juan Soto,New York Mets,
+T91-83,Christian Yelich,Milwaukee Brewers,
+T91-84,Ronald Acuña Jr.,Atlanta Braves,
+T91-85,Lawrence Butler,Athletics,
+T91-86,Cam Schlittler,New York Yankees,RC
+T91-87,Cal Ripken Jr.,Baltimore Orioles,
+T91-88,Cal Raleigh,Seattle Mariners,
+T91-89,Shota Imanaga,Chicago Cubs,
+T91-90,C.J. Kayfus,Cleveland Guardians,RC
+T91-91,Kyle Teel,Chicago White Sox,RC
+T91-92,Byron Buxton,Minnesota Twins,
+T91-93,Vladimir Guerrero,Montréal Expos,
+T91-94,Kirby Puckett,Minnesota Twins,
+T91-95,Nolan Arenado,St. Louis Cardinals,
+T91-96,Kyle Tucker,Chicago Cubs,
+T91-97,Nolan Ryan,Texas Rangers,
+T91-98,Cole Young,Seattle Mariners,RC
+T91-99,Roberto Clemente,Pittsburgh Pirates,
+T91-100,Shohei Ohtani,Los Angeles Dodgers,
+91B2-1,Shohei Ohtani,Los Angeles Dodgers,
+91B2-2,Harry Ford,Washington Nationals,RC
+91B2-3,Trea Turner,Philadelphia Phillies,
+91B2-4,Carter Jensen,Kansas City Royals,RC
+91B2-5,Blake Snell,Los Angeles Dodgers,
+91B2-6,Satchel Paige,St. Louis Browns,
+91B2-7,Bo Bichette,New York Mets,
+91B2-8,Brandon Sproat,Milwaukee Brewers,RC
+91B2-9,Salvador Perez,Kansas City Royals,
+91B2-10,Ty Cobb,Detroit Tigers,
+91B2-11,Roman Anthony,Boston Red Sox,RC
+91B2-12,Munetaka Murakami,Chicago White Sox,RC
+91B2-13,Sal Stewart,Cincinnati Reds,RC
+91B2-14,Jonah Tong,New York Mets,RC
+91B2-15,Hunter Barco,Pittsburgh Pirates,RC
+91B2-16,Brent Rooker,Athletics,
+91B2-17,Willie Mays,San Francisco Giants,
+91B2-18,Chase DeLauter,Cleveland Guardians,RC
+91B2-19,Jackie Robinson,Brooklyn Dodgers,
+91B2-20,Mariano Rivera,New York Yankees,
+91B2-21,Bryce Eldridge,San Francisco Giants,RC
+91B2-22,Greg Maddux,Chicago Cubs,
+91B2-23,Jhostynxon Garcia,Pittsburgh Pirates,RC
+91B2-24,Nick Kurtz,Athletics,
+91B2-25,Ketel Marte,Arizona Diamondbacks,
+91B2-26,Craig Biggio,Houston Astros,
+91B2-27,Connelly Early,Boston Red Sox,RC
+91B2-28,Ernie Banks,Chicago Cubs,
+91B2-29,Samuel Basallo,Baltimore Orioles,RC
+91B2-30,Lou Gehrig,New York Yankees,
+91B2-31,Christy Mathewson,New York Giants,
+91B2-32,Pete Alonso,Baltimore Orioles,
+91B2-33,Trey Yesavage,Toronto Blue Jays,RC
+91B2-34,Stan Musial,St. Louis Cardinals,
+91B2-35,Jarren Duran,Boston Red Sox,
+91B2-36,Nolan Ryan,California Angels,
+91B2-37,Honus Wagner,Pittsburgh Pirates,
+91B2-38,Dale Murphy,Atlanta Braves,
+91B2-39,Zach Neto,Angels,
+91B2-40,Drew Gilbert,San Francisco Giants,RC
+91B2-41,Carlos Correa,Houston Astros,
+91B2-42,Adley Rutschman,Baltimore Orioles,
+91B2-43,Jac Caglianone,Kansas City Royals,RC
+91B2-44,Austin Riley,Atlanta Braves,
+91B2-45,Jakob Marsee,Miami Marlins,RC
+91B2-46,Ted Williams,Boston Red Sox,
+91B2-47,Hunter Greene,Cincinnati Reds,
+91B2-48,Wyatt Langford,Texas Rangers,
+91B2-49,Joe DiMaggio,New York Yankees,
+91B2-50,Babe Ruth,New York Yankees,

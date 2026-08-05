@@ -78,12 +78,21 @@ def check_rows(path, checklist, vocab, failures):
             failures.add(where, f"team is empty, which a {checklist['kind']} "
                                 f"row may not be")
 
-        names, teams = name.split(MULTI), team.split(MULTI)
+        # Split from the raw cell, not the stripped one: a teamless subject in
+        # a multi-subject row is an empty component ("Moby Musician / Bryce
+        # Harper" pairs with " / Philadelphia Phillies"), and stripping first
+        # would collapse it and break the pairing.
+        names = name.split(MULTI)
+        teams = [t.strip() for t in (row.get("team") or "").split(MULTI)]
         if team and len(names) != len(teams):
             failures.add(where, f"{len(names)} name(s) but {len(teams)} team(s) "
                                 f"— multi-subject rows pair them in order")
         for value in (teams if team else []):
-            if value not in vocab["teams"]:
+            if not value:
+                if not teamless_ok:
+                    failures.add(where, f"empty team component, which a "
+                                        f"{checklist['kind']} row may not have")
+            elif value not in vocab["teams"]:
                 failures.add(where, f"team {value!r} is not in data/baseball/teams.json")
         for code in (row.get("designations") or "").split():
             if code not in vocab["codes"]:
