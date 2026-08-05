@@ -132,12 +132,15 @@ def check_set(set_dir, schemas, vocab, failures):
     if document["verified"] and not document["provenance"]:
         failures.add(rel, "verified: true requires at least one source")
 
-    declared = {c["file"] for c in document["checklists"]}
+    parallels = document.get("parallels", [])
+    declared = ({c["file"] for c in document["checklists"]} |
+                {p["file"] for p in parallels if "file" in p})
     present = {str(p.relative_to(set_dir)) for p in set_dir.rglob("*.csv")}
     for missing in sorted(declared - present):
         failures.add(rel, f"declares {missing}, which does not exist")
     for stray in sorted(present - declared):
-        failures.add(rel, f"{stray} exists but is not declared in checklists")
+        failures.add(rel, f"{stray} exists but is not declared in checklists "
+                          f"or parallels")
 
     counts = {c["file"]: c["card_count"] for c in document["checklists"]}
     for packaging in document.get("packagings", []):
@@ -165,6 +168,38 @@ def check_set(set_dir, schemas, vocab, failures):
             with open(path, newline="", encoding="utf-8") as handle:
                 numbers[checklist["file"]] = [r.get("card_number", "")
                                               for r in csv.DictReader(handle)]
+
+    names = {c["name"] for c in document["checklists"]}
+    for parallel in parallels:
+        for target in parallel.get("applies_to", []):
+            if target not in names:
+                failures.add(rel, f"parallel {parallel['name']!r} applies to "
+                                  f"{target!r}, not a checklist of this set")
+        path = set_dir / parallel["file"] if "file" in parallel else None
+        if path is None or not path.exists():
+            continue
+        check_rows(path, {"kind": "parallel",
+                          "card_count": parallel["card_count"]},
+                   vocab, failures)
+        source = parallel["varies"]
+        if source not in counts:
+            failures.add(rel, f"parallel {parallel['name']!r} varies "
+                              f"{source!r}, which this set does not declare")
+            continue
+        with open(path, newline="", encoding="utf-8") as handle:
+            rows = [r.get("card_number", "") for r in csv.DictReader(handle)]
+        known = set(numbers.get(source, []))
+        for line, number in enumerate(rows, start=2):
+            if number and number not in known:
+                failures.add(f"{path.relative_to(REPO)}:{line}",
+                             f"card_number {number!r} is not in {source} — a "
+                             f"parallel cannot introduce a new card")
+        # Rows exist to record WHICH cards got the treatment. When that is all
+        # of them, the rows say nothing the source file does not already say.
+        if known and set(rows) == known:
+            failures.add(rel, f"parallel {parallel['name']!r} covers every "
+                              f"card of {source} — declare it coverage: full "
+                              f"and delete {parallel['file']}")
 
     # A variation is a second version of a card that already exists, so it
     # introduces no card numbers of its own. Enforcing that is what stops a

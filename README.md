@@ -12,10 +12,11 @@ schema/1.0/ROW-FORMAT.md       the row standard (frozen for 1.0)
 schema/1.0/designations.json   controlled vocabulary: RC, FS, LL, TC, CC, CL, RCUP
 data/baseball/teams.json       closed list of valid team names
 data/baseball/<year>/<manufacturer>/<set-slug>/
-    set.json                   identity, provenance, series, packagings
+    set.json                   identity, provenance, series, packagings, parallels
     base.csv                   the base checklist
     variations/*.csv           cards sharing base numbering (short prints, photo variations)
     inserts/*.csv  autographs/*.csv  relics/*.csv
+    parallels/*.csv            rows of partial parallels only, declared by parallels[]
 scripts/validate.py            enforcement; CI runs it on every PR
 tools/                         converters from published sources to this format
 ```
@@ -108,13 +109,33 @@ rows adds a number.
 A **parallel** uses the exact same photograph and design structure as a base
 card, altering the colour scheme, borders, finish or foil. A **variation** —
 image variation, short print, super short print — features a completely
-different photo or design element while keeping the base card number. Both point
-at what they re-version with `varies`; inserts, autographs and relics do too when
-they are versions of a base card, and otherwise carry their own numbering.
+different photo or design element while keeping the base card number.
 
-`varies` is always asserted by a person, never inferred from numbers: 2026 Topps
-has a 90-card insert numbered 1-90 whose numbers all exist in the base set and
-whose players are entirely different.
+The difference in how they are stored follows from one rule: **rows exist only
+for what cannot be derived.** A variation prints a different subject on an
+existing number, so it needs rows, and it declares what it `varies`. A parallel
+re-prints cards that already exist, so it is never a checklist — every parallel
+is declared in `parallels[]` with a permanent id and a `coverage`:
+
+```json
+"parallels": [
+  { "id": "…", "name": "Gold", "coverage": "full", "applies_to": ["Base"] },
+  { "id": "…", "name": "Mascots Autograph Parallel", "coverage": "partial",
+    "file": "parallels/mascots-autograph-parallel.csv",
+    "varies": "inserts/mascots.csv", "card_count": 15 }
+]
+```
+
+A Gold covering all 700 base cards is fully derivable from `base.csv`, so it
+carries no rows — 700 of them would say nothing new, and ownership is recorded
+as (set, card_number, parallel id) against the base row. But only 15 of the 30
+Mascots got the autograph treatment, and *which* 15 exists nowhere else, so
+those rows are real information. A parallel whose extent nobody has verified is
+declared `unknown` rather than guessed at.
+
+Both `varies` and `coverage` are asserted by a person, never inferred from
+numbers: 2026 Topps has a 90-card insert numbered 1-90 whose numbers all exist
+in the base set and whose players are entirely different.
 
 ## Validating
 

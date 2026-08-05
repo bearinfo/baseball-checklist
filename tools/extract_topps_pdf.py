@@ -466,6 +466,8 @@ def main(argv):
           f"{'' if args.out else ' Nothing written (no -o).'}")
     if args.out:
         print("Declare each written file in set.json; card_count must match.")
+        print("parallels/*.csv go in parallels[] as coverage: partial, not in "
+              "checklists[] — and only if the list really is partial.")
 
 
 if __name__ == "__main__":

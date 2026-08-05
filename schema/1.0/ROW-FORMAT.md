@@ -67,9 +67,19 @@ Each variation checklist declares what it varies:
 | kind | definition |
 |---|---|
 | `base` | The cards that define the set's numbering. For a set issued in waves, all of them: 2026 Topps base is Series 1 and Series 2 together, #1-700. |
-| `parallel` | Uses the exact same photograph and design structure as a base card, but alters the color scheme, borders, card finish, or foil pattern. A parallel covering a whole checklist is **declared** in `set.json`'s `parallels[]` with a stable id and gets no rows; only a parallel the manufacturer prints as a partial list becomes a `kind: parallel` checklist with rows. A collection records parallel ownership as (set, card_number, parallel id) — pointing at the base row, never duplicating it. |
 | `variation` | Often called an image variation, short print (SP) or super short print (SSP). Features a completely different photo or design element from the standard base card, while retaining the same base set card number. |
 | `insert` `autograph` `relic` | Cards issued alongside the set, with their own numbering — unless they declare `varies`, because an autograph or relic of a base card shares that card's number. |
+
+A **parallel** is deliberately not a kind. It uses the exact same photograph and
+design structure as an existing card, altering only the color scheme, borders,
+finish or foil — it never introduces a card, so it is never a checklist. Every
+parallel is declared in `set.json`'s `parallels[]` with a stable id and a
+`coverage` a person asserts: `full` (every card of its targets — no rows, they
+would all be derivable), `partial` (the manufacturer printed an explicit list —
+its rows live in `parallels/*.csv`, referenced by the declaration's `file`, in
+this same row format), or `unknown` (it exists, extent unverified). A collection
+records parallel ownership as (set, card_number, parallel id) — pointing at the
+existing row, never duplicating it.
 
 A checklist row carries only a number, a name and a team. It can never prove
 whether the photograph changed, so `kind` follows what the manufacturer prints
@@ -92,8 +102,10 @@ card number in the file must exist in the file it varies.
    consumers.
 2. **Never guess.** A source line that cannot be parsed deterministically blocks
    the conversion with its line number. It is never skipped, never invented.
-3. **Parallels are not rows.** A parallel is a printing of existing cards
-   (declared at set level in a future schema revision), never duplicated rows.
+3. **Rows exist only for what cannot be derived.** A parallel covering every
+   card of its target is declared at set level and gets no rows, because they
+   would repeat a file that already exists. Rows appear only when they carry
+   the one fact nothing else does — *which* cards the manufacturer printed.
 4. **Team values are closed.** Every `/`-separated team component must appear in
    `data/baseball/teams.json`.
 5. **Designations are closed.** Every code must appear in

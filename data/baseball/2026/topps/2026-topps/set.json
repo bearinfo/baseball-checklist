@@ -372,59 +372,6 @@
       "distribution": "Celebration Mega Box Exclusives"
     },
     {
-      "file": "parallels/1991-topps-baseball-all-star-chrome-base-cards-autograph-parallel.csv",
-      "name": "1991 Topps Baseball All Star Chrome Base Cards Autograph Parallel",
-      "kind": "parallel",
-      "card_count": 43,
-      "varies": "inserts/1991-topps-baseball-all-star-chrome-base-cards.csv",
-      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
-    },
-    {
-      "file": "parallels/1991-topps-baseball-chrome-base-cards-autograph-parallel.csv",
-      "name": "1991 Topps Baseball Chrome Base Cards Autograph Parallel",
-      "kind": "parallel",
-      "card_count": 44,
-      "varies": "inserts/1991-topps-baseball-chrome-base-cards.csv",
-      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
-    },
-    {
-      "file": "parallels/first-pitch-autograph-parallel.csv",
-      "name": "First Pitch Autograph Parallel",
-      "kind": "parallel",
-      "card_count": 15,
-      "varies": "inserts/first-pitch.csv"
-    },
-    {
-      "file": "parallels/highlight-reels-autograph-parallel.csv",
-      "name": "Highlight Reels Autograph Parallel",
-      "kind": "parallel",
-      "card_count": 5,
-      "varies": "inserts/highlight-reels.csv"
-    },
-    {
-      "file": "parallels/mascots-autograph-parallel.csv",
-      "name": "Mascots Autograph Parallel",
-      "kind": "parallel",
-      "card_count": 15,
-      "varies": "inserts/mascots.csv",
-      "distribution": "Celebration Mega Box Exclusives"
-    },
-    {
-      "file": "parallels/rounding-the-bases-relic-autograph-parallel.csv",
-      "name": "Rounding The Bases Relic Autograph Parallel",
-      "kind": "parallel",
-      "card_count": 61,
-      "varies": "relics/rounding-the-bases-relic.csv"
-    },
-    {
-      "file": "parallels/the-flagship-collection-chrome-base-cards-autograph-parallel.csv",
-      "name": "The Flagship Collection Chrome Base Cards Autograph Parallel",
-      "kind": "parallel",
-      "card_count": 63,
-      "varies": "inserts/the-flagship-collection-chrome-base-cards.csv",
-      "distribution": "Super Box Exclusive"
-    },
-    {
       "file": "relics/1991-topps-baseball-all-star-relics.csv",
       "name": "1991 Topps Baseball All Star Relics",
       "kind": "relic",
@@ -677,6 +624,68 @@
       "retrieved": "2026-08-04",
       "covers": "the factory set: base #1-700 and the four short-print rookies",
       "notes": "Independent confirmation of the whole base set: all 700 card numbers, names and teams agree with the two series checklists, as do the four short-print rookies. The sources disagree only on ten designations — this one prints \"Combo Card\" (CC) where the series checklists print \"Combo Card/Checklist\" (CC CL) for #52, 118, 122, 126, 168, 197, 236, 260, 265, 302. The series checklists are followed here as the more specific of the two."
+    }
+  ],
+  "parallels": [
+    {
+      "id": "93455892-cf87-4f8e-bba5-a18e6d90fad8",
+      "name": "1991 Topps Baseball All Star Chrome Base Cards Autograph Parallel",
+      "coverage": "partial",
+      "file": "parallels/1991-topps-baseball-all-star-chrome-base-cards-autograph-parallel.csv",
+      "varies": "inserts/1991-topps-baseball-all-star-chrome-base-cards.csv",
+      "card_count": 43,
+      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
+    },
+    {
+      "id": "a07710fe-2976-406d-8567-83c29c85a246",
+      "name": "1991 Topps Baseball Chrome Base Cards Autograph Parallel",
+      "coverage": "partial",
+      "file": "parallels/1991-topps-baseball-chrome-base-cards-autograph-parallel.csv",
+      "varies": "inserts/1991-topps-baseball-chrome-base-cards.csv",
+      "card_count": 44,
+      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
+    },
+    {
+      "id": "7e142e11-e4b7-49fd-834b-01fed4933685",
+      "name": "First Pitch Autograph Parallel",
+      "coverage": "full",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "2572fafd-5e01-49f3-b104-74e153ae7435",
+      "name": "Highlight Reels Autograph Parallel",
+      "coverage": "partial",
+      "file": "parallels/highlight-reels-autograph-parallel.csv",
+      "varies": "inserts/highlight-reels.csv",
+      "card_count": 5
+    },
+    {
+      "id": "1091583c-0ef0-41e4-9ae6-5fa2f0ca5fea",
+      "name": "Mascots Autograph Parallel",
+      "coverage": "partial",
+      "file": "parallels/mascots-autograph-parallel.csv",
+      "varies": "inserts/mascots.csv",
+      "card_count": 15,
+      "distribution": "Celebration Mega Box Exclusives"
+    },
+    {
+      "id": "2ec5eb47-c208-4d13-9c36-f03300d1a373",
+      "name": "Rounding The Bases Relic Autograph Parallel",
+      "coverage": "partial",
+      "file": "parallels/rounding-the-bases-relic-autograph-parallel.csv",
+      "varies": "relics/rounding-the-bases-relic.csv",
+      "card_count": 61
+    },
+    {
+      "id": "058ac05f-a43e-4330-a8d7-04ebb4fd649d",
+      "name": "The Flagship Collection Chrome Base Cards Autograph Parallel",
+      "coverage": "partial",
+      "file": "parallels/the-flagship-collection-chrome-base-cards-autograph-parallel.csv",
+      "varies": "inserts/the-flagship-collection-chrome-base-cards.csv",
+      "card_count": 63,
+      "distribution": "Super Box Exclusive"
     }
   ],
   "verified": false,

@@ -25,6 +25,32 @@ It must pass. CI runs the same command.
 5. Fill in `provenance` — at least one source, with `retrieved`. Leave
    `verified: false` until a human has compared the rows against the source.
 
+## Adding a parallel
+
+Parallels go in `set.json`'s `parallels[]`, never in `checklists[]`. Give each a
+new UUID and state its `coverage` — the one judgement that decides everything
+else:
+
+```json
+{ "id": "…", "name": "Gold", "coverage": "full", "applies_to": ["Base"] }
+{ "id": "…", "name": "Mascots Autograph Parallel", "coverage": "partial",
+  "file": "parallels/mascots-autograph-parallel.csv",
+  "varies": "inserts/mascots.csv", "card_count": 15 }
+```
+
+- **`full`** — every card of the target exists in this parallel, so its
+  checklist is derivable and rows would be duplication. No `file`.
+- **`partial`** — the manufacturer printed an explicit list. The rows *are* the
+  information, so `file`, `varies` and `card_count` are required. Validation
+  rejects a partial whose rows happen to cover the whole target: that is a
+  `full` parallel with redundant rows.
+- **`unknown`** — the parallel exists but nobody has verified its extent. Use
+  this rather than guessing; a source that names a parallel without counting it
+  supports nothing stronger, and consumers are told not to assume any given card
+  exists in it.
+
+Coverage is asserted by a person, like `varies`. Say in the PR what shows it.
+
 ## Correcting a name
 
 Edit the one line. That is the whole procedure, and it is why rows are CSV. Say
@@ -44,8 +70,9 @@ manufacturer's inconsistent forms, since rows record names **as printed**.
 - Person IDs from any external database. Names are recorded as printed; identity
   resolution is the consumer's job.
 - Manufacturer PDFs or scans. Store only the derived factual rows.
-- Parallels as rows. A parallel is a printing of an existing card, declared in
-  `set.json`.
+- Parallels as checklists. A parallel is a printing of cards that already exist,
+  so it is declared in `set.json`'s `parallels[]`, never given a `kind`. It
+  carries rows only when the manufacturer printed a partial list — see below.
 
 ## Converters
 

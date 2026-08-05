@@ -67,27 +67,13 @@
               "required": ["varies"],
               "description": "A variation is always a variation of something."
             }
-          },
-          {
-            "if": {
-              "properties": {
-                "kind": {
-                  "const": "parallel"
-                }
-              },
-              "required": ["kind"]
-            },
-            "then": {
-              "required": ["varies"],
-              "description": "A parallel is always a parallel of something."
-            }
           }
         ],
         "properties": {
           "file": {
             "type": "string",
-            "pattern": "^(base\\.csv|(inserts|variations|parallels|autographs|relics)/[a-z0-9]+(-[a-z0-9]+)*\\.csv)$",
-            "description": "Path relative to this set's directory. The folder matches `kind`."
+            "pattern": "^(base\\.csv|(inserts|variations|autographs|relics)/[a-z0-9]+(-[a-z0-9]+)*\\.csv)$",
+            "description": "Path relative to this set's directory. The folder matches `kind`. Parallel row files live under parallels/ and are declared by `parallels[].file`, never here — a parallel is not a checklist of its own."
           },
           "name": {
             "type": "string",
@@ -95,12 +81,12 @@
             "description": "Subset name as printed, title-cased, e.g. \"Base\", \"Generation Now\"."
           },
           "kind": {
-            "enum": ["base", "variation", "parallel", "insert", "autograph", "relic"],
-            "description": "base — the cards that define the set's numbering. parallel — uses the exact same photograph and design structure as a base card, but alters the colour scheme, borders, card finish, or foil pattern. variation — often called an image variation, short print (SP) or super short print (SSP); features a completely different photo or design element from the standard base card, while retaining the same base set card number. insert, autograph, relic — cards issued alongside the set; they have their own numbering unless they declare `varies`. A checklist carries only card number, name and team, so it can never prove whether the photograph changed: kind follows what the manufacturer prints, and is corrected by a person with evidence of the card itself."
+            "enum": ["base", "variation", "insert", "autograph", "relic"],
+            "description": "base — the cards that define the set's numbering. variation — often called an image variation, short print (SP) or super short print (SSP); features a completely different photo or design element from the standard base card, while retaining the same base set card number. insert, autograph, relic — cards issued alongside the set; they have their own numbering unless they declare `varies`. Parallels are never a kind: every parallel lives in `parallels[]`. A checklist carries only card number, name and team, so it can never prove whether the photograph changed: kind follows what the manufacturer prints, and is corrected by a person with evidence of the card itself."
           },
           "varies": {
             "type": "string",
-            "description": "The checklist this one takes its card numbers from — normally \"base.csv\", but a parallel of an insert points at that insert. Required on a variation and a parallel, which by definition re-version cards that already exist; optional elsewhere, because an autograph or relic of a base card shares its numbering too (2026 Topps Real One Relics are relics of base cards). Validation fails if any card number here is absent from that file, which is what stops a re-version being counted as an extra card. It is always asserted by a person and never inferred from numbers: 2026 Topps has a 90-card insert numbered 1-90 whose numbers all exist in the base set and whose players are entirely different."
+            "description": "The checklist this one takes its card numbers from — normally \"base.csv\". Required on a variation, which by definition re-versions cards that already exist; optional elsewhere, because an autograph or relic of a base card shares its numbering too (2026 Topps Real One Relics are relics of base cards). Validation fails if any card number here is absent from that file, which is what stops a re-version being counted as an extra card. It is always asserted by a person and never inferred from numbers: 2026 Topps has a 90-card insert numbered 1-90 whose numbers all exist in the base set and whose players are entirely different."
           },
           "card_count": {
             "type": "integer",
@@ -235,11 +221,48 @@
     },
     "parallels": {
       "type": "array",
-      "description": "A parallel uses the exact same photograph and design structure as a base card, but alters the color scheme, borders, card finish, or foil pattern. Declared here, once, with a stable id — never duplicated as rows — so a collection can record \"I own card #100 of this set as the Gold parallel\" by pointing at a base row plus a parallel id. A parallel that covers only SOME cards of a checklist (the manufacturer prints an explicit list) is the one exception: it becomes a `kind: parallel` checklist with rows and `varies`. Full-coverage parallels are declared, partial ones are listed.",
+      "description": "Every parallel of this set lives here, and only here — one home, whether or not it has rows. A parallel uses the exact same photograph and design structure as a base card, but alters the color scheme, borders, card finish, or foil pattern; it never introduces a card, so it is never a checklist. A collection records \"I own card #100 of this set as the Gold parallel\" by pointing at a base row plus a parallel id. Whether a parallel carries rows is decided by one rule: rows exist only when they hold information that cannot be derived — the manufacturer printed an explicit partial list (`coverage: partial`, rows in `file`). A parallel covering every card of its target checklists is fully derivable and gets no rows (`coverage: full`); one whose extent nobody has verified is declared honestly as `coverage: unknown` rather than guessed.",
       "items": {
         "type": "object",
-        "required": ["id", "name"],
+        "required": ["id", "name", "coverage"],
         "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "coverage": {
+                  "const": "partial"
+                }
+              },
+              "required": ["coverage"]
+            },
+            "then": {
+              "required": ["file", "varies", "card_count"],
+              "properties": {
+                "applies_to": false
+              },
+              "description": "A partial parallel's extent IS its rows: file, varies and card_count are required, and applies_to would duplicate what the rows already say."
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "coverage": {
+                  "enum": ["full", "unknown"]
+                }
+              },
+              "required": ["coverage"]
+            },
+            "then": {
+              "properties": {
+                "file": false,
+                "varies": false,
+                "card_count": false
+              },
+              "description": "A full-coverage parallel is derivable from its target checklists, so rows would be pure duplication; an unknown one has no rows to give. Neither may carry file, varies or card_count."
+            }
+          }
+        ],
         "properties": {
           "id": {
             "type": "string",
@@ -250,6 +273,24 @@
             "type": "string",
             "minLength": 1,
             "description": "As printed, e.g. \"Gold\", \"Rainbow Foil\"."
+          },
+          "coverage": {
+            "enum": ["full", "partial", "unknown"],
+            "description": "What this parallel covers, asserted by a person, never inferred. full — every card of the target checklists (`applies_to`, or the whole set) exists in this parallel; validation may then treat the parent rows as this parallel's checklist. partial — only the cards listed in `file`, because the manufacturer printed an explicit list. unknown — the parallel exists but nobody has verified its extent; consumers must not assume any particular card exists in it. A checklist source that names a parallel without counting it supports exactly `unknown`, nothing stronger."
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^parallels/[a-z0-9]+(-[a-z0-9]+)*\\.csv$",
+            "description": "Rows of a partial parallel, in the 1.0 row format. Only coverage: partial has this — rows exist to carry the one fact that cannot be derived: WHICH cards got the treatment."
+          },
+          "varies": {
+            "type": "string",
+            "description": "The checklist a partial parallel's rows take their card numbers from — a file from `checklists[].file`. Validation fails on any card number absent from it, and fails a `file` whose numbers cover ALL of it: that parallel is coverage: full and needs no rows."
+          },
+          "card_count": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Declared number of rows in `file`. Validation fails if the CSV differs."
           },
           "color": {
             "type": "string"
@@ -275,7 +316,7 @@
             "items": {
               "type": "string"
             },
-            "description": "Checklist names (from `checklists[].name`) this parallel prints. Omit = applies to the whole set."
+            "description": "Checklist names (from `checklists[].name`) this parallel prints; validation fails on a name this set does not declare. Omit = applies to the whole set. Only coverage: full and unknown use this — a partial parallel's extent is its rows."
           },
           "distribution": {
             "type": "string",
