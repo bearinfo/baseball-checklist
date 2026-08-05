@@ -105,8 +105,16 @@ That is what keeps a variation from being counted as an extra card — the 2026
 Topps set has 700 card numbers and 2,115 variation rows, and not one of those
 rows adds a number.
 
-Parallels are different again: a parallel is a re-printing in another finish or
-colour, declared in `set.json` and never written as rows.
+A **parallel** uses the exact same photograph and design structure as a base
+card, altering the colour scheme, borders, finish or foil. A **variation** —
+image variation, short print, super short print — features a completely
+different photo or design element while keeping the base card number. Both point
+at what they re-version with `varies`; inserts, autographs and relics do too when
+they are versions of a base card, and otherwise carry their own numbering.
+
+`varies` is always asserted by a person, never inferred from numbers: 2026 Topps
+has a 90-card insert numbered 1-90 whose numbers all exist in the base set and
+whose players are entirely different.
 
 ## Validating
 

@@ -180,7 +180,8 @@ class Section:
         self.cards = []
 
     FOLDERS = {"insert": "inserts", "variation": "variations",
-               "autograph": "autographs", "relic": "relics"}
+               "parallel": "parallels", "autograph": "autographs",
+               "relic": "relics"}
 
     @property
     def file(self):
@@ -220,6 +221,8 @@ def classify(header, kind_context):
         return titlecase(header), "variation", True
     if "VARIATION" in upper:
         return titlecase(header), "variation", False
+    if "PARALLEL" in upper:
+        return titlecase(header), "parallel", False
     return titlecase(header), kind_context, False
 
 

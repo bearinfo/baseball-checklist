@@ -62,8 +62,28 @@ Each variation checklist declares what it varies:
   "varies": "base.csv", "card_count": 4 }
 ```
 
-Parallels are different again: a parallel is a re-printing of a card in another
-finish or colour, declared in `set.json` and never written as rows.
+## What each kind means
+
+| kind | definition |
+|---|---|
+| `base` | The cards that define the set's numbering. For a set issued in waves, all of them: 2026 Topps base is Series 1 and Series 2 together, #1-700. |
+| `parallel` | Uses the exact same photograph and design structure as a base card, but alters the colour scheme, borders, card finish, or foil pattern. |
+| `variation` | Often called an image variation, short print (SP) or super short print (SSP). Features a completely different photo or design element from the standard base card, while retaining the same base set card number. |
+| `insert` `autograph` `relic` | Cards issued alongside the set, with their own numbering — unless they declare `varies`, because an autograph or relic of a base card shares that card's number. |
+
+A checklist row carries only a number, a name and a team. It can never prove
+whether the photograph changed, so `kind` follows what the manufacturer prints
+and is corrected by a person holding evidence of the card itself.
+
+### `varies` is asserted, never inferred
+
+Numbers alone prove nothing. 2026 Topps has a 90-card insert numbered 1-90 whose
+numbers all exist in the base set and whose players are entirely different — the
+numbering merely collides. By contrast its Real One Relics match base cards on
+both number *and* player, and are genuinely relics of those cards.
+
+So `varies` is always a human assertion. Once made, validation enforces it: every
+card number in the file must exist in the file it varies.
 
 ## Rules
 
