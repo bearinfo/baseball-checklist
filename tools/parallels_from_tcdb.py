@@ -201,6 +201,28 @@ BASE_FACTS = {
     "Printing Plates Magenta", "Printing Plates Yellow",
 }
 
+# Base parallels printed in one wave only. Each covers every base card of that
+# series and none of the other, which is neither full coverage of the set nor an
+# arbitrary partial list: coverage: full narrowed by `series`, with the numbers
+# derivable from series[].card_numbers. Baseball Card Pedia files the first two
+# groups under "Blaster Parallels" (Series One: Spring Training, Series Two:
+# Holiday) and gives each 350 cards in its wave's insertion table.
+#
+# Absent on purpose: Canadian Independence Day is 13 cards of Series 2, a real
+# arbitrary subset that needs rows, and Oversized 5x7 has no stated extent.
+SERIES_SCOPED = {
+    "Spring Training": "Series 1", "Spring Training Black": "Series 1",
+    "Spring Training Gold": "Series 1", "Spring Training Green": "Series 1",
+    "Spring Training Orange": "Series 1", "Spring Training Red": "Series 1",
+    "Spring Training Rose Gold": "Series 1",
+    "Confetti": "Series 1", "Confetti Lime": "Series 1",
+    "Confetti Pink": "Series 1", "Opening Day Foil": "Series 1",
+    "All-Star Game": "Series 2", "All-Star Game Black": "Series 2",
+    "All-Star Game Gold": "Series 2", "All-Star Game Green": "Series 2",
+    "All-Star Game Orange": "Series 2", "All-Star Game Platinum": "Series 2",
+    "All-Star Game Red": "Series 2", "Tinsel Foil": "Series 2",
+}
+
 # Base parallels that source lists but TCDB's sub-collections do not, so
 # nothing derives them from the listing. Declared from this source alone.
 EXTRA_BASE = ["Yellow Rainbow Foil", "Yellow Holo Foil"]
@@ -307,10 +329,14 @@ def build(entries, document):
 
 def apply_base_facts(record):
     """Coverage and print run for a base parallel, where a source states them."""
-    if record.get("applies_to") != ["Base"] or record["name"] not in BASE_FACTS:
+    if record.get("applies_to") != ["Base"]:
         return False
     before = dict(record)
-    record["coverage"] = "full"
+    if record["name"] in BASE_FACTS:
+        record["coverage"] = "full"
+    elif record["name"] in SERIES_SCOPED:
+        record["coverage"] = "full"
+        record["series"] = SERIES_SCOPED[record["name"]]
     return before != record
 
 

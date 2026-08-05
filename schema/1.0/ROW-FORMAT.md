@@ -77,7 +77,9 @@ parallel is declared in `set.json`'s `parallels[]` with a stable id and a
 `coverage` a person asserts: `full` (every card of its targets — no rows, they
 would all be derivable), `partial` (the manufacturer printed an explicit list —
 its rows live in `parallels/*.csv`, referenced by the declaration's `file`, in
-this same row format), or `unknown` (it exists, extent unverified). A collection
+this same row format), or `unknown` (it exists, extent unverified). One printed
+in a single wave adds `series`, narrowing the target to that wave's card numbers
+before `coverage` is read, so covering all of Series 1 needs no rows either. A collection
 records parallel ownership as (set, card_number, parallel id) — pointing at the
 existing row, never duplicating it.
 

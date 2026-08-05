@@ -239,9 +239,10 @@
             "then": {
               "required": ["file", "varies", "card_count"],
               "properties": {
-                "applies_to": false
+                "applies_to": false,
+                "series": false
               },
-              "description": "A partial parallel's extent IS its rows: file, varies and card_count are required, and applies_to would duplicate what the rows already say."
+              "description": "A partial parallel's extent IS its rows: file, varies and card_count are required, and applies_to or series would duplicate what the rows already say."
             }
           },
           {
@@ -317,6 +318,10 @@
               "type": "string"
             },
             "description": "Checklist names (from `checklists[].name`) this parallel prints; validation fails on a name this set does not declare. Omit = applies to the whole set. Only coverage: full and unknown use this — a partial parallel's extent is its rows."
+          },
+          "series": {
+            "type": "string",
+            "description": "The wave this parallel was printed in, naming an entry in `series[]`; validation fails on a name this set does not declare. It NARROWS the target before `coverage` is read: `coverage: full` with `series: \"Series 1\"` means every card of `applies_to` whose number falls in that series' range, not every card of the set. This is how a parallel covering one whole wave is recorded without rows — 2026 Topps' Spring Training prints all 350 Series 1 base cards and none of Series 2, which is neither full coverage of the 700 nor an arbitrary partial list, and the numbers stay derivable from `series[].card_numbers`. Omit when a parallel spans every wave."
           },
           "distribution": {
             "type": "string",

@@ -49,6 +49,18 @@ else:
   supports nothing stronger, and consumers are told not to assume any given card
   exists in it.
 
+A parallel printed in only one wave of a multi-series set adds `series`, naming
+an entry in `series[]`. It narrows the target before `coverage` is read:
+
+```json
+{ "id": "…", "name": "Spring Training", "coverage": "full",
+  "series": "Series 1", "applies_to": ["Base"] }
+```
+
+That is every Series 1 base card and none of Series 2 — 350 of 700. Without it
+the choice would be `full`, claiming twice the cards, or 350 rows copied out of
+`base.csv`. The numbers stay derivable from `series[].card_numbers`.
+
 Coverage is asserted by a person, like `varies`. Say in the PR what shows it.
 
 ## Correcting a name

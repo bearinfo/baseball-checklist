@@ -133,6 +133,18 @@ Mascots got the autograph treatment, and *which* 15 exists nowhere else, so
 those rows are real information. A parallel whose extent nobody has verified is
 declared `unknown` rather than guessed at.
 
+A parallel printed in one wave only adds `series`, which narrows the target
+before `coverage` is read:
+
+```json
+{ "name": "Spring Training", "coverage": "full",
+  "series": "Series 1", "applies_to": ["Base"] }
+```
+
+Every Series 1 base card, none of Series 2 — 350 of the 700. The alternatives
+were both wrong: `full` alone claims twice the cards, and rows would copy half
+of `base.csv` to say what `series[].card_numbers` already says.
+
 Both `varies` and `coverage` are asserted by a person, never inferred from
 numbers: 2026 Topps has a 90-card insert numbered 1-90 whose numbers all exist
 in the base set and whose players are entirely different.

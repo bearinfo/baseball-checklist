@@ -1771,58 +1771,65 @@
     {
       "id": "89b329b0-4f9c-469b-96da-e967950dd9b3",
       "name": "All-Star Game",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "0d6c5311-1690-4751-9170-b95d069d841d",
       "name": "All-Star Game Black",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "af5bcae8-308c-4b7a-b606-ef9d813ec745",
       "name": "All-Star Game Gold",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "04a36229-bdae-4c91-9179-c858d65fe32f",
       "name": "All-Star Game Green",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "f26815e0-bd46-4e9d-859e-b5de10fd3cb5",
       "name": "All-Star Game Orange",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "24db3ac0-72fe-4dcb-8e1e-de18eea3dad5",
       "name": "All-Star Game Platinum",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "4b81ce45-688f-431c-8745-0f4d034a11ce",
       "name": "All-Star Game Red",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "370fd2df-803b-479f-9946-165b08faa863",
@@ -1923,26 +1930,29 @@
     {
       "id": "67c8626e-19ea-45d0-a390-15d33492a97f",
       "name": "Confetti",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "91a51b8a-be0b-459e-901c-97f59998eb29",
       "name": "Confetti Lime",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "c4275cc4-d9a5-4275-a3f5-b28a51d59eeb",
       "name": "Confetti Pink",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "3d36857d-5b77-4d4a-ae71-8bc42a11c1dc",
@@ -2059,10 +2069,11 @@
     {
       "id": "f5470e2b-208f-4710-beb7-e7d5e7467c9e",
       "name": "Opening Day Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "9ceab963-6b66-488b-be31-59b3ca6f40ad",
@@ -2235,66 +2246,74 @@
     {
       "id": "1cb554eb-9a6a-4245-9f5a-8db588f9b62d",
       "name": "Spring Training",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "b0644422-ae99-480b-85be-8e795c1ef3a2",
       "name": "Spring Training Black",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "130c78f2-78db-4ca8-8f13-048fba03b7e4",
       "name": "Spring Training Gold",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "666f8ea8-8565-421b-b862-237b44a3cc06",
       "name": "Spring Training Green",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "83024c7e-6c07-4031-9f15-852ad0cda8b7",
       "name": "Spring Training Orange",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "98159b74-42c5-4ad4-952c-80fbd5c12be0",
       "name": "Spring Training Red",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "43a6827e-27ed-436f-9017-5026e84ed1df",
       "name": "Spring Training Rose Gold",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 1"
     },
     {
       "id": "2a2acff3-5eee-497d-8469-742114b4055f",
       "name": "Tinsel Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "series": "Series 2"
     },
     {
       "id": "57a5cb07-d0b2-4d63-b2d0-1079c89fc976",

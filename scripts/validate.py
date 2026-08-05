@@ -170,11 +170,16 @@ def check_set(set_dir, schemas, vocab, failures):
                                               for r in csv.DictReader(handle)]
 
     names = {c["name"] for c in document["checklists"]}
+    waves = {s["name"] for s in document.get("series", [])}
     for parallel in parallels:
         for target in parallel.get("applies_to", []):
             if target not in names:
                 failures.add(rel, f"parallel {parallel['name']!r} applies to "
                                   f"{target!r}, not a checklist of this set")
+        wave = parallel.get("series")
+        if wave and wave not in waves:
+            failures.add(rel, f"parallel {parallel['name']!r} is printed in "
+                              f"{wave!r}, not a series this set declares")
         path = set_dir / parallel["file"] if "file" in parallel else None
         if path is None or not path.exists():
             continue
