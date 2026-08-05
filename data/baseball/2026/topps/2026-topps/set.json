@@ -301,6 +301,7 @@
       "file": "inserts/oversized-2026-topps-baseball.csv",
       "name": "Oversized 2026 Topps Baseball",
       "kind": "insert",
+      "varies": "base.csv",
       "card_count": 32,
       "distribution": "Super Box Exclusive"
     },
