@@ -1906,10 +1906,10 @@
     {
       "id": "389329c5-a8e6-47da-bed6-5edec485cd30",
       "name": "Canadian Independence Day",
-      "coverage": "unknown",
-      "applies_to": [
-        "Base"
-      ]
+      "coverage": "partial",
+      "file": "parallels/canada-day.csv",
+      "varies": "base.csv",
+      "card_count": 24
     },
     {
       "id": "ebc59329-61ae-4cfe-96c1-15717f20fb9c",

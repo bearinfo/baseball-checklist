@@ -124,7 +124,7 @@ BASE_PARALLELS = {
     "Black Border", "Black Diamante Foil", "Black Holo Foil",
     "Black Rainbow Foil", "Black Sandglitter",
     "Blue Holo Foil", "Blue Rainbow Foil",
-    "Canadian Independence Day", "Canvas", "Cherry Blossoms",
+    "Canvas", "Cherry Blossoms",
     "Confetti", "Confetti Lime", "Confetti Pink",
     "Diamante Foil", "First Card", "FoilFractors",
     "Gold", "Gold Diamante Foil", "Gold Holo Foil", "Gold Rainbow Foil",
@@ -155,6 +155,9 @@ BASE_PARALLELS = {
 # card two permanent ids. Their colour runs are ordinary derived parallels of
 # the parent checklist and are not listed here.
 DECLARED = {
+    # 24 Blue Jays across both waves, 10 in Series 1 and 14 in Series 2 — an
+    # arbitrary subset, so it carries rows and is not a base parallel to derive.
+    "Canadian Independence Day": "Canadian Independence Day",
     "First Pitch Autographs": "First Pitch Autograph Parallel",
     "Mascots Autographs": "Mascots Autograph Parallel",
     "Rounding the Bases Relic Autographs":
