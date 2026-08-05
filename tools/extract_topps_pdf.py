@@ -25,6 +25,7 @@ Usage:
     tools/extract_topps_pdf.py <checklist.pdf> <set-directory>
 """
 import argparse
+import os
 import csv
 import json
 import re
@@ -61,13 +62,38 @@ GLUED_NUMBER = re.compile(r"^(\d+)([^\W\d_].*)$")
 SPACED_NUMBER = re.compile(r"^#?\s*([A-Za-z0-9][A-Za-z0-9.\-_]*)\s+(.+)$")
 
 
-def split_number(line):
+def number_style(lines):
+    """Whether this document glues the card number to the name.
+
+    Decided per document rather than per line, because the two shapes are not
+    distinguishable on their own: "698JJ Wetherholt" is card 698, while
+    "91A-ABB Jim Abbott" is card 91A-ABB. Numbers carrying a hyphen are
+    unambiguous and sit out the vote.
+    """
+    glued = spaced = 0
+    for line in lines:
+        token = line.split(" ", 1)[0]
+        if "-" in token or "_" in token:
+            continue
+        if re.match(r"^\d+\s", line):
+            spaced += 1
+        elif re.match(r"^\d+[A-Za-z]", line):
+            glued += 1
+    return ("glued" if glued > spaced else "spaced"), glued, spaced
+
+
+def split_number(line, style):
     """(card_number, remainder) or None."""
-    match = GLUED_NUMBER.match(line)
-    if match:
-        return match.group(1), match.group(2)
     match = SPACED_NUMBER.match(line)
-    if match and re.search(r"[\d-]", match.group(1)):
+    # A hyphen or underscore marks the whole token as the card number —
+    # "MLMA-AB", "91A-ABB", "C-9" — whatever the document's style.
+    if match and re.search(r"[-_]", match.group(1)):
+        return match.group(1), match.group(2)
+    if style == "glued":
+        glued = GLUED_NUMBER.match(line)
+        if glued:
+            return glued.group(1), glued.group(2)
+    if match and re.search(r"\d", match.group(1)):
         return match.group(1), match.group(2)
     return None
 
@@ -253,6 +279,10 @@ def read_sections(pdf_path, teams):
                 if text:
                     lines.append((page_no, text))
 
+    style, glued, spaced = number_style([text for _, text in lines])
+    print(f"{os.path.basename(str(pdf_path))}: card numbers are {style} "
+          f"({glued} glued / {spaced} spaced lines)", file=sys.stderr)
+
     sections, current = [], None
     kind_context, distribution, skipping = "insert", "", None
     skipped, teamless = [], 0
@@ -286,7 +316,7 @@ def read_sections(pdf_path, teams):
             distribution = line
             continue
 
-        split = split_number(line)
+        split = split_number(line, style)
         if not split:
             continue                           # not a card and not a header
         number, rest = split
@@ -358,15 +388,33 @@ def merge(per_pdf):
                 section.sources = [label]
                 combined[key] = section
                 continue
-            clash = {c["card_number"] for c in target.cards} & \
-                    {c["card_number"] for c in section.cards}
-            if clash:
-                sys.exit(f'"{target.name}" ({target.kind}): card number(s) '
-                         f'{sorted(clash)[:5]} appear in both '
-                         f'{" and ".join(target.sources)} and {label}. '
-                         f"Merging would lose a card; keep them as separate "
-                         f"sections or reconcile the source.")
-            target.cards += section.cards
+            # A number in both files is either the same card listed twice —
+            # Series 2 repeats three Cover Athletes autographs from Series 1 —
+            # or two different cards sharing a code, which no merge can
+            # reconcile. Identical rows collapse; differing ones stop the run.
+            existing = {c["card_number"]: c for c in target.cards}
+            fresh, duplicates = [], 0
+            for card in section.cards:
+                previous = existing.get(card["card_number"])
+                if previous is None:
+                    fresh.append(card)
+                elif (previous["names"] == card["names"]
+                        and previous["teams"] == card["teams"]
+                        and previous["codes"] == card["codes"]):
+                    duplicates += 1
+                else:
+                    sys.exit(
+                        f'"{target.name}" ({target.kind}): card '
+                        f'{card["card_number"]} is '
+                        f'{" / ".join(previous["names"])} in '
+                        f'{" and ".join(target.sources)} but '
+                        f'{" / ".join(card["names"])} in {label}. '
+                        f"Two different cards share the code; keep the "
+                        f"sections in separate files.")
+            if duplicates:
+                print(f'  "{target.name}": {duplicates} row(s) listed '
+                      f'identically in {label}, kept once', file=sys.stderr)
+            target.cards += fresh
             target.short_print = target.short_print or section.short_print
             target.sources.append(label)
     return list(combined.values())

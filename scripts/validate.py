@@ -215,7 +215,9 @@ def main(argv):
         rel = (set_dir / "set.json").relative_to(REPO)
         for kind, value in ([("set", document.get("id"))] +
                             [("packaging", p.get("id"))
-                             for p in document.get("packagings", [])]):
+                             for p in document.get("packagings", [])] +
+                            [("parallel", p.get("id"))
+                             for p in document.get("parallels", [])]):
             if not value:
                 continue
             if value in ids:

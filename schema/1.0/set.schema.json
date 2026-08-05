@@ -235,16 +235,21 @@
     },
     "parallels": {
       "type": "array",
-      "description": "Parallels are printings of existing cards, never checklist rows. Optional: a set may ship rows first and gain parallel data later.",
+      "description": "A parallel uses the exact same photograph and design structure as a base card, but alters the color scheme, borders, card finish, or foil pattern. Declared here, once, with a stable id — never duplicated as rows — so a collection can record \"I own card #100 of this set as the Gold parallel\" by pointing at a base row plus a parallel id. A parallel that covers only SOME cards of a checklist (the manufacturer prints an explicit list) is the one exception: it becomes a `kind: parallel` checklist with rows and `varies`. Full-coverage parallels are declared, partial ones are listed.",
       "items": {
         "type": "object",
-        "required": ["name"],
+        "required": ["id", "name"],
         "additionalProperties": false,
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+            "description": "Permanent UUIDv4, unique across the repo. A parallel card is a thing a collector owns; ownership is recorded as (set, card_number, parallel id), so the id must survive renames."
+          },
           "name": {
             "type": "string",
             "minLength": 1,
-            "description": "As printed, e.g. \"Gold\", \"Rainbow Foil\", \"Golden Mirror Image Variation\"."
+            "description": "As printed, e.g. \"Gold\", \"Rainbow Foil\"."
           },
           "color": {
             "type": "string"
