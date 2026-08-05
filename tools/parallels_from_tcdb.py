@@ -163,35 +163,47 @@ DECLARED = {
         "The Flagship Collection Chrome Base Cards Autograph Parallel",
 }
 
-# Base parallels Baseball Card Pedia's insertion-ratio tables list in BOTH
-# series at 350 cards each: 350 + 350 is the whole 700-card base set, so these
-# are coverage: full, with the print run that source states. A parallel it
-# lists in only ONE series covers just that wave's 350 and is deliberately
-# absent here — half the base set is not full coverage, and this schema has no
-# way yet to say "every card of Series 2", so those stay unknown rather than
-# being rounded up. Canada Day is the sharpest case: 13 cards, not 350.
+# The 48 parallels Baseball Card Pedia lists under "All 700 base cards are
+# available in the following parallels" — the sentence that settles coverage,
+# which no other reachable source states. Names are this repo's, from TCDB; that
+# source writes several differently (Topps Pattern Foil, Silver Crackle
+# Foilboard, 75th Anniversary, Black, Memorial Day Camouflage, Cherry Blossom).
+# It also states a print run and a distribution for each; neither is recorded,
+# because a checklist answers which cards exist, not how many were made.
+#
+# A base parallel absent from this dict is NOT full coverage. Twenty-one are
+# absent and stay unknown: the Spring Training run is a Series 1 blaster
+# parallel, All-Star Game and Tinsel are Series 2, and Canada Day is 13 cards
+# out of 350. Half a base set is not full coverage, and this schema cannot yet
+# say "every card of Series 2", so none of them is rounded up.
+#
+# Golden Mirror Image appears on that list but is not here: it changes the
+# photograph, so this repo holds it as a 700-row variation checklist. A
+# parallel list naming it does not make it one.
 BASE_FACTS = {
-    "Rainbow Foil": None, "Holo Foil": None, "Diamante Foil": None,
-    "Sandglitter": None, "Aqua Rainbow Foil": None, "Aqua Holo Foil": None,
-    "Pink Diamante Foil": None, "Topps Foil Pattern": None,
-    "Silver Crackle Foil": None,
-    "Gold": 2026, "Pink Holo Foil": 800,
-    "Purple Rainbow Foil": 250, "Purple Holo Foil": 250,
-    "Blue Rainbow Foil": 150, "Blue Holo Foil": 150,
-    "Green Rainbow Foil": 99, "Green Holo Foil": 99, "Green Diamante Foil": 99,
-    "Cherry Blossoms": 99, "Independence Day": 76, "Black Border": 75,
-    "Gold Rainbow Foil": 50, "Gold Sandglitter": 50, "Gold Holo Foil": 50,
-    "Gold Diamante Foil": 50, "Canvas": 50,
-    "Orange Rainbow Foil": 25, "Orange Sandglitter": 25, "Orange Holo Foil": 25,
-    "Orange Diamante Foil": 25, "Wood": 25, "Memorial Day Camo": 25,
-    "Black Rainbow Foil": 10, "Black Sandglitter": 10, "Black Holo Foil": 10,
-    "Black Diamante Foil": 10,
-    "Red Rainbow Foil": 5, "Red Sandglitter": 5, "Red Holo Foil": 5,
-    "Red Diamante Foil": 5,
-    "FoilFractors": 1, "Rose Gold Holo Foil": 1,
-    "Printing Plates Black": 1, "Printing Plates Cyan": 1,
-    "Printing Plates Magenta": 1, "Printing Plates Yellow": 1,
+    "Rainbow Foil", "Holo Foil", "Diamante Foil", "Silver Crackle Foil",
+    "Topps Foil Pattern", "Sandglitter", "Pink Diamante Foil",
+    "Aqua Rainbow Foil", "Aqua Holo Foil", "Gold", "Pink Holo Foil",
+    "Yellow Rainbow Foil", "Yellow Holo Foil",
+    "Purple Rainbow Foil", "Purple Holo Foil",
+    "Blue Rainbow Foil", "Blue Holo Foil",
+    "Green Rainbow Foil", "Green Holo Foil", "Green Diamante Foil",
+    "Cherry Blossoms", "Independence Day", "75 Years of Topps", "Black Border",
+    "Gold Rainbow Foil", "Gold Sandglitter", "Gold Holo Foil",
+    "Gold Diamante Foil", "Canvas",
+    "Orange Rainbow Foil", "Orange Sandglitter", "Orange Holo Foil",
+    "Orange Diamante Foil", "Wood", "Memorial Day Camo",
+    "Black Rainbow Foil", "Black Sandglitter", "Black Holo Foil",
+    "Black Diamante Foil",
+    "Red Rainbow Foil", "Red Sandglitter", "Red Holo Foil", "Red Diamante Foil",
+    "FoilFractors", "Rose Gold Holo Foil", "First Card",
+    "Printing Plates Black", "Printing Plates Cyan",
+    "Printing Plates Magenta", "Printing Plates Yellow",
 }
+
+# Base parallels that source lists but TCDB's sub-collections do not, so
+# nothing derives them from the listing. Declared from this source alone.
+EXTRA_BASE = ["Yellow Rainbow Foil", "Yellow Holo Foil"]
 
 # TCDB entries this set cannot place. Skipped deliberately and reported, never
 # silently dropped: each is a product with no checklist here, or a name too
@@ -287,6 +299,9 @@ def build(entries, document):
         key = (parallel.lower(), tuple(target))
         derived.setdefault(key, {"name": parallel, "targets": target, "sids": []})
         derived[key]["sids"].append(sid)
+    for name in EXTRA_BASE:
+        derived.setdefault((name.lower(), ("Base",)),
+                           {"name": name, "targets": ["Base"], "sids": []})
     return derived, skipped, is_checklist, declared, unresolved
 
 
@@ -294,18 +309,9 @@ def apply_base_facts(record):
     """Coverage and print run for a base parallel, where a source states them."""
     if record.get("applies_to") != ["Base"] or record["name"] not in BASE_FACTS:
         return False
-    run = BASE_FACTS[record["name"]]
-    before = (record.get("coverage"), record.get("print_run"),
-              record.get("one_of_one"))
+    before = dict(record)
     record["coverage"] = "full"
-    if run == 1:
-        record["one_of_one"] = True
-        record.pop("print_run", None)
-    elif run:
-        record["print_run"] = run
-        record["serial_numbered"] = True
-    return before != (record.get("coverage"), record.get("print_run"),
-                      record.get("one_of_one"))
+    return before != record
 
 
 def declarations(derived, document):

@@ -623,8 +623,8 @@
       "source": "Baseball Card Pedia, 2026 Topps — insertion-ratio tables",
       "source_url": "https://baseballcardpedia.com/index.php/2026_Topps",
       "retrieved": "2026-08-05",
-      "covers": "per-series card counts and print runs for parallels and inserts",
-      "notes": "Read as rendered text, not raw HTML, so treat individual figures as reported rather than transcribed. Used to CONFIRM, never to replace: 46 of 47 checklists it lists agree exactly with the Topps PDFs once the two series are summed (Real One Relics 80+45=125, Major League Material 87+98=185, Golden Mirror Legend 51+50=101). The one disagreement is 1952: this source counts 17 in Series 2 where the Topps checklist prints 20, and TCDB's 45-card total agrees with Topps, so the manufacturer's figure is kept. It is the only source found for parallel coverage — the Topps checklist PDFs do not document parallels at all — and it establishes that a base parallel runs 350 cards per series, so one appearing in both waves covers all 700. It also resolves two names: Home Field Advantage is Series 1's name for the Home Field insert (20+20=40), and 75 Years of Topps is a base parallel numbered to /75, not a missing checklist."
+      "covers": "which parallels cover every base card",
+      "notes": "Used to CONFIRM, never to replace. Summing its per-series insertion-ratio tables agrees exactly with 46 of the 47 checklists it lists (Real One Relics 80+45=125, Major League Material 87+98=185, Golden Mirror Legend 51+50=101). The one disagreement is 1952: it counts 17 in Series 2 where the Topps checklist prints 20, and TCDB's 45-card total agrees with Topps, so the manufacturer's figure is kept. Its sentence \"All 700 base cards are available in the following parallels\" is the only statement found anywhere of which parallels cover the whole base set — the Topps checklist PDFs do not document parallels at all — and its 48 entries are recorded here as coverage: full. A base parallel absent from that list is not full coverage and stays unknown. The source also gives print runs and pack distribution for each; neither is recorded, because this repo answers which cards exist, not how many were made. Two entries on the list, Yellow Rainbow Foil and Yellow Holo Foil, appear in no TCDB sub-collection and are declared from this source alone. A third, Golden Mirror Image, is named as a parallel but changes the photograph, so it stays a 700-row variation checklist. It also resolves two names: Home Field Advantage is Series 1's name for the Home Field insert (20+20=40), and 75 Years of Topps is a base parallel, not a checklist this set was missing."
     }
   ],
   "parallels": [
@@ -1846,9 +1846,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 75,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "19654ef4-2233-4f40-9804-75744b585ec5",
@@ -1856,9 +1854,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 10,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "fedb50b0-b49d-4468-bee3-6d77acc02ffe",
@@ -1866,9 +1862,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 10,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "8381837b-686c-4614-85d3-edc2ca261f0b",
@@ -1876,9 +1870,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 10,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "d2fa12d1-5247-40f9-a585-adcb203f62bf",
@@ -1886,9 +1878,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 10,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "d8d3da51-9e5f-49fc-8984-e7fd1de954ad",
@@ -1896,9 +1886,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 150,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "41996ba1-6be8-4e8c-9f8c-d58c0794761f",
@@ -1906,9 +1894,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 150,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "389329c5-a8e6-47da-bed6-5edec485cd30",
@@ -1924,9 +1910,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 50,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "6b6cd785-d032-4914-86d5-d192436ee9d0",
@@ -1934,9 +1918,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 99,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "67c8626e-19ea-45d0-a390-15d33492a97f",
@@ -1973,7 +1955,7 @@
     {
       "id": "93f52b35-5dba-4a24-bfdc-4dbfaf99c970",
       "name": "First Card",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "Base"
       ]
@@ -1984,8 +1966,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "one_of_one": true
+      ]
     },
     {
       "id": "a6d89113-d1fc-40a1-b406-4554f0bf46be",
@@ -1993,9 +1974,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 2026,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "21bf9bf4-d2db-4408-a253-c5420247394c",
@@ -2003,9 +1982,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 50,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "62ddfcae-d242-4e0c-89d2-8e32dea0b3a9",
@@ -2013,9 +1990,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 50,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "53b6e8b9-7a8f-42ff-b438-86877039eb78",
@@ -2023,9 +1998,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 50,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "d8afbae9-8f58-48ac-8678-ef709fd4f3a7",
@@ -2033,9 +2006,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 50,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "0216f73c-a3a9-4a30-a57e-4b1792ccfb78",
@@ -2043,9 +2014,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 99,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "1c2a63f7-45a9-4977-8c3d-c74a9a59294c",
@@ -2053,9 +2022,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 99,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "6875c83d-c878-47f0-864e-fb0bd8054bb0",
@@ -2063,9 +2030,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 99,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "5922b496-a070-408f-b854-774a0bed42d6",
@@ -2081,9 +2046,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 76,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "3c9018cd-6f0f-4a55-9d27-3394ee7206dc",
@@ -2091,9 +2054,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 25,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "f5470e2b-208f-4710-beb7-e7d5e7467c9e",
@@ -2109,9 +2070,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 25,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "45b08e5a-1ad7-44dd-834f-b7e7c678e977",
@@ -2119,9 +2078,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 25,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "39cf1e53-0d11-44f7-a739-a4c84f871964",
@@ -2129,9 +2086,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 25,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "35f2db29-443e-4425-88eb-5d848acf699a",
@@ -2139,9 +2094,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 25,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "85e9e1d7-75ae-4fd3-97e7-79e7f53228be",
@@ -2165,9 +2118,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 800,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "60759515-045a-4ff9-9de3-914387f39342",
@@ -2175,8 +2126,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "one_of_one": true
+      ]
     },
     {
       "id": "4f622248-b5b4-47d3-ad73-31bfbb1bc7bd",
@@ -2184,8 +2134,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "one_of_one": true
+      ]
     },
     {
       "id": "e608f964-1599-4b3a-9f9a-59e585bcae2e",
@@ -2193,8 +2142,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "one_of_one": true
+      ]
     },
     {
       "id": "b1cbe112-1da1-43d1-8a58-045f2dde89ab",
@@ -2202,8 +2150,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "one_of_one": true
+      ]
     },
     {
       "id": "24037e17-d666-4b30-bffb-51685bd4d9ec",
@@ -2211,9 +2158,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 250,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "8fcd39a5-730e-4b79-8da3-174b8bb2593f",
@@ -2221,9 +2166,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 250,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "75b58d93-b04b-42ee-9f37-530734134de8",
@@ -2239,9 +2182,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 5,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "1c6305f8-d96d-48ad-9ea5-d2a0b04f1002",
@@ -2249,9 +2190,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 5,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "a679e02a-af09-43f6-8b86-df32668744fb",
@@ -2259,9 +2198,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 5,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "c8e76e4f-1be8-45ef-97cc-4c616b0da06e",
@@ -2269,9 +2206,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 5,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "45b0d5d0-4847-402f-b00d-ae8304f75d67",
@@ -2279,8 +2214,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "one_of_one": true
+      ]
     },
     {
       "id": "aef44c7a-5e12-4554-9f56-d8866b53989e",
@@ -2376,9 +2310,7 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ],
-      "print_run": 25,
-      "serial_numbered": true
+      ]
     },
     {
       "id": "c9d652f9-abfb-4b3b-a3ee-c10382990928",
@@ -4159,7 +4091,23 @@
     {
       "id": "aa79fc05-ee0c-4409-a98b-75031704c7ac",
       "name": "75 Years of Topps",
-      "coverage": "unknown",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "9969e7a1-95b4-4a95-8a68-7e3855d4c3cf",
+      "name": "Yellow Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "88dda6a3-80b3-4824-83f5-82517ea8e905",
+      "name": "Yellow Rainbow Foil",
+      "coverage": "full",
       "applies_to": [
         "Base"
       ]
