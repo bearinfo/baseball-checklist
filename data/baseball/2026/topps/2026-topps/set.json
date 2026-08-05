@@ -686,6 +686,3406 @@
       "varies": "inserts/the-flagship-collection-chrome-base-cards.csv",
       "card_count": 63,
       "distribution": "Super Box Exclusive"
+    },
+    {
+      "id": "8de949b4-3c90-4e48-b5d1-77c4339509c8",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1952 Autograph Variation"
+      ]
+    },
+    {
+      "id": "76f706b9-65ab-42a4-a741-2bbcc16ead28",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1952 Autograph Variation"
+      ]
+    },
+    {
+      "id": "fa243f60-f049-4e7a-9fde-df879b0a4e04",
+      "name": "\"The Real One\"",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "ef70ed5d-7087-41a2-bb5a-d99f9a2b2a6c",
+      "name": "All-Star Game",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "3cf7cf5b-d98c-490d-a871-c7eeee07502e",
+      "name": "All-Star Game Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "31be137a-aa58-4069-84f5-b6a804e092e2",
+      "name": "All-Star Game Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "20fcb3e2-1b9e-4be6-85ae-b30ce136a01b",
+      "name": "All-Star Game Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "0c52ee26-094c-4ca4-a14c-b0bc20f3e675",
+      "name": "All-Star Game Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "120dca31-66a5-44ed-800c-e2c3ee500663",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "c9c96a85-ea2f-4e3a-b394-15c6e9b6a4ee",
+      "name": "Black Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "00579d78-7ebb-4533-9260-114148c06e46",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "5530c5ea-64a1-42a1-84e0-289cda28c84d",
+      "name": "Blue Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "c5a16a4f-d427-4570-b7e5-8612feb55c1b",
+      "name": "Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "5cef0618-62b2-488a-8314-5cf3d4779ffa",
+      "name": "FoilFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "9ef6b689-812a-4835-8ed5-6636b0268f36",
+      "name": "Glowback",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "e22e5e09-c358-4eb7-a262-f6c976b219b8",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "41c673e3-6988-4970-9821-27497ebadc82",
+      "name": "Gold Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "4c068f92-b0c0-4e7e-9086-a2bdf610294d",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "ace90c5b-a2e3-4d82-bbc9-5f05c8ad6400",
+      "name": "Green Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "ef5a1d65-3d53-4da8-8781-7546669b9bb7",
+      "name": "Koi Fish",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "11411b5f-4ef3-41cd-af47-5ff745e5208a",
+      "name": "Koi Fish Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "b7dc5c59-c717-4f80-9b8f-b5e195e22caa",
+      "name": "Koi Fish Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "23496d42-44d3-45e6-81df-b8c31db0cf56",
+      "name": "Koi Fish Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "b99daf59-fd69-45d3-b588-2fb9932c099c",
+      "name": "Koi Fish Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "57cd5f5d-ec92-4e6e-a821-21e13247aa8b",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "32877dec-2715-43b1-9129-de2ccf73be8e",
+      "name": "Orange Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "31f75c8f-ee0e-43fb-9e2b-2a79c67786aa",
+      "name": "Pink",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "52db44ff-17b7-4e7e-ae38-b60472e9cf73",
+      "name": "Pink Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "39705a46-c957-4c6e-8ce5-c8a3a78644de",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "31fa0482-0ed7-44b0-8fd0-698fd632c938",
+      "name": "Red Crackle",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "84023972-1b6c-4556-a239-ebe5d6afb65d",
+      "name": "\"The Real One\"",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "ef8ad6fc-d911-4dcc-8e43-d9321d611c62",
+      "name": "All-Star Game",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "e5387909-4e62-4cdb-8f5e-ce7ff6e7a4f8",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "b92b1e48-1c70-4a1c-9206-2f553c73ca69",
+      "name": "Black Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "13561cf4-780a-4021-a58e-894806c71cc8",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "cf463acc-9416-4c0a-9c61-28940675d53b",
+      "name": "Blue Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "55b6412b-8d9b-4477-a601-b6d4fd1264de",
+      "name": "Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "ffb07463-2b22-456c-93cc-032fdb23c2c7",
+      "name": "FoilFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "993dcb5d-1628-4d5a-9019-bc39c2ad5d69",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "ba659eb4-b196-4cd5-a6da-d9d4a4c93a90",
+      "name": "Gold Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "00887a64-8cb3-4d4b-a1cf-ab81adbb4ea1",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "ec3d6ecc-abda-4993-94c3-e9c351b51398",
+      "name": "Green Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "c2b33682-e536-4fe3-bc6c-a410b693f225",
+      "name": "Koi Fish",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "3e43b404-b0c0-41dd-88ac-c5de42ba6247",
+      "name": "Koi Fish Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "cb418af5-1108-46b3-90c8-e2b34d24c81d",
+      "name": "Koi Fish Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "2f60afa4-bf29-4650-bfe7-99f1b3b0a8c5",
+      "name": "Koi Fish Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "cb537a89-d206-4263-b0b9-d7555bb9f7b3",
+      "name": "Koi Fish Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "8abfe46a-71e3-4455-833b-ba3136d40c94",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "f6a75107-a154-4aa9-96bc-58d22f835a4c",
+      "name": "Orange Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "f04b5060-f701-484c-a0ba-524a1d6e9e8c",
+      "name": "Pink",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "59653938-8c33-4463-8ec8-637464447164",
+      "name": "Pink Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "c9d56e36-421b-47c2-85d3-9281fa54085f",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "a41ca999-201e-4836-b3a3-b86602efe366",
+      "name": "Red Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "1fa9d7ff-d772-453d-89b0-f2d57ef382d6",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Autograph Cards"
+      ]
+    },
+    {
+      "id": "6c602f18-13cf-4a52-b830-1acf20d8a264",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Autograph Cards"
+      ]
+    },
+    {
+      "id": "3458cb5f-ab89-4385-b822-7f1c6e489db2",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Autograph Cards"
+      ]
+    },
+    {
+      "id": "2e696001-83ab-4912-97c3-c2d2f2f3e4b5",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Autograph Cards"
+      ]
+    },
+    {
+      "id": "0eaf38a4-e2b7-4e53-9bb3-8f0bf3dd0ade",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Autograph Cards"
+      ]
+    },
+    {
+      "id": "a03ceb43-65f5-4434-af8b-e0e9064b6974",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Autograph Cards"
+      ]
+    },
+    {
+      "id": "c05bd354-ae9c-408d-9d04-28ee9adab202",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Autograph Cards"
+      ]
+    },
+    {
+      "id": "e80ece29-3342-4a7d-8ee9-f753dba22f08",
+      "name": "Aqua Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "5d6aa49e-6811-4173-b3df-636e1168e522",
+      "name": "Blue Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "8d793b46-9b8c-4878-8a19-5b27e1b30475",
+      "name": "Gold Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "94c94544-a1b3-4c64-bc4f-aa7facf93b58",
+      "name": "Green Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "43c5d1f5-cd3a-4a86-a1db-caac2b3dc832",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Relics"
+      ]
+    },
+    {
+      "id": "29ee5818-3606-4e08-ad26-82a1aeeafb19",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Relics"
+      ]
+    },
+    {
+      "id": "1ca091ea-8fce-43ed-a350-df5d13f8f23a",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Relics"
+      ]
+    },
+    {
+      "id": "ea4ec3d1-e79e-464a-ad59-851fc643b41f",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Relics"
+      ]
+    },
+    {
+      "id": "7bfc72b5-9888-4fc1-9301-df62141e20a4",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Relics"
+      ]
+    },
+    {
+      "id": "f6265570-f472-4927-8a4e-33ba7058698c",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Relics"
+      ]
+    },
+    {
+      "id": "1c04498f-a4d6-4fa3-8398-97568d03fd5d",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball All Star Relics"
+      ]
+    },
+    {
+      "id": "25df9621-2a0e-48e5-a516-5d1d2059403f",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "2ee339db-aa2b-4edc-91e2-28080a842b0a",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "f4054579-14c4-4d82-979c-dbb8c4d5188d",
+      "name": "FoilFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "2fb99190-91be-410c-a426-278974b05236",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "4c2632a2-fc71-48bf-a7dd-d419bffeeca3",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "f1ec357e-0c3a-4d85-9995-ea7bda2c3fc6",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "2ce1e848-3ea1-4154-b670-f9d3d2c48c46",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "d7871e97-c771-4d64-914f-086e081e968b",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Autograph Cards"
+      ]
+    },
+    {
+      "id": "da47079a-e058-4598-a288-8ccaf5779ec8",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "f6c87cb3-83ab-4f9b-b651-9a48d12fe6e2",
+      "name": "Black Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "fde13309-249b-4931-96f3-b18a56066052",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "48f9a468-2c49-4737-8eed-a3c118fbc6e8",
+      "name": "Gold Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "50b79f3a-ed9f-4757-b5f9-2894881598a8",
+      "name": "Green Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "26f3fb7e-57af-4e8b-b312-4fa9812a20b6",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "37cc5b4b-f7cb-4165-8b8b-9bad108d6c23",
+      "name": "Orange Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "e29c9c22-2176-41ae-bcd4-ec9822fd3426",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "45d29acc-832e-40cf-8866-a2b1c497c730",
+      "name": "Red Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "80531314-6bf4-4629-b03d-3de17cdad93b",
+      "name": "SuperFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Autograph Parallel"
+      ]
+    },
+    {
+      "id": "51884863-b098-4336-8ecc-0e0d6ed93a6b",
+      "name": "Aqua Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "9db549ba-6004-49d0-b484-112d0fc4ae15",
+      "name": "Black Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "a53c95b2-2d15-4fb2-bf8d-024ba2a2c663",
+      "name": "Blue Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "80370687-f2ac-4674-ab34-8845e0db8483",
+      "name": "Gold Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "fe5ba028-4629-45de-b73c-a95201524e47",
+      "name": "Green Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "dc56043f-8834-4f2c-bfdb-bfb68635e0fc",
+      "name": "Orange Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "69f86c7c-2287-4150-82e0-ece8549681fd",
+      "name": "Purple Refractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "c78b5a80-18a9-45b9-b1b1-cc1414d91392",
+      "name": "SuperFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "49ce8cad-0e66-4309-b2d2-73dbfb4c9052",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Relics"
+      ]
+    },
+    {
+      "id": "bef0ffc0-d52b-4e8d-b4d7-e805adfdaeec",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Relics"
+      ]
+    },
+    {
+      "id": "fdca3b22-6ce8-4018-8f08-d20ae3a60612",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Relics"
+      ]
+    },
+    {
+      "id": "d4a34842-6715-43e8-88ce-5ac754062828",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Relics"
+      ]
+    },
+    {
+      "id": "35788b6a-c570-4807-b875-ee680241ad3b",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Relics"
+      ]
+    },
+    {
+      "id": "6c500830-376f-4f3a-af42-ad699123815b",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Relics"
+      ]
+    },
+    {
+      "id": "4127d05b-b7c4-47ea-b36b-ba4489e5fde1",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1991 Topps Baseball Relics"
+      ]
+    },
+    {
+      "id": "52839bb2-4dc0-45a0-9ba2-76aa6ff2a0c9",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "f91d5387-1e00-421f-a78b-b575cffff19b",
+      "name": "Blue Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "fea584c2-bf73-48e7-9497-10f6936fb534",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "1583b155-06a6-45be-b75d-da76bcd102fc",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "490a7229-d2c7-4bc9-b363-8fde78c81110",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "86275920-6e90-40b6-ad76-88f99bbf55c1",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "da9af96f-9a6a-4b3b-84b3-dc94c202ae3c",
+      "name": "Pink Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "7391b199-f5e1-4d55-81f8-a96d550f8d5b",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 All Topps Team"
+      ]
+    },
+    {
+      "id": "916df2c2-5561-403b-81ff-c13c5a42c54e",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "0728525e-4459-4fe9-a420-c119ae98f0da",
+      "name": "Blue Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "1818d137-6ad6-4609-8c0f-d16dbc99333c",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "7a34e600-7d5f-4260-9f2c-d66203702692",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "4f684aa2-e1d6-47d9-9949-e404b5ee40fd",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "2127447f-1ef2-4b29-93f3-1383122da971",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "18e8943d-aa93-49b8-a0a4-669318f774b1",
+      "name": "Pink Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "f1942839-6228-4e24-b244-50e8b00f19b1",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "2025 Greatest Hits"
+      ]
+    },
+    {
+      "id": "2e26cf0a-250b-4d46-89c5-778ecbfc8dba",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "75 Years Of Topps Baseball Autographs"
+      ]
+    },
+    {
+      "id": "da056bd6-9955-493a-9631-b8d4cee3d9e6",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "75 Years Of Topps Die Cut Autographs"
+      ]
+    },
+    {
+      "id": "089268f5-03cf-45e6-8722-edacd2d4cc9f",
+      "name": "Foilfractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "75 Years Of Topps Die Cut Autographs"
+      ]
+    },
+    {
+      "id": "33d002c2-2a91-4913-bc8d-03ea29afbee8",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "75 Years Of Topps Die Cut Autographs"
+      ]
+    },
+    {
+      "id": "27d09080-4109-4edc-8879-9f1c36ca36aa",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "75 Years Of Topps Die Cut Autographs"
+      ]
+    },
+    {
+      "id": "90192187-a07e-4a12-9b8d-a21f900770dc",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "75 Years Of Topps Die Cut Autographs"
+      ]
+    },
+    {
+      "id": "6f040a78-4940-4b77-8f83-7a65d7a352ac",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "75 Years Of Topps Die Cut Autographs"
+      ]
+    },
+    {
+      "id": "c72adcb5-8766-4fd2-927f-c6ab7fc089cf",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "90769b0e-4be4-4894-ba24-5d66ac2edd88",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "471f9218-3091-4e67-b844-32ab0ade8cc0",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "ddf4180d-6a41-4ec8-a400-3bb35f8297c4",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "58dd306e-84a4-4c6f-b072-602fbfd22063",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "7d18c831-255f-450c-acf8-da46a50ba57e",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "9e9607d1-08c3-411f-a451-e656d70d4e69",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "All Aces"
+      ]
+    },
+    {
+      "id": "81257193-fa03-484f-af63-07cb885aeadd",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "All Kings"
+      ]
+    },
+    {
+      "id": "89b329b0-4f9c-469b-96da-e967950dd9b3",
+      "name": "All-Star Game",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "0d6c5311-1690-4751-9170-b95d069d841d",
+      "name": "All-Star Game Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "af5bcae8-308c-4b7a-b606-ef9d813ec745",
+      "name": "All-Star Game Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "04a36229-bdae-4c91-9179-c858d65fe32f",
+      "name": "All-Star Game Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "f26815e0-bd46-4e9d-859e-b5de10fd3cb5",
+      "name": "All-Star Game Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "24db3ac0-72fe-4dcb-8e1e-de18eea3dad5",
+      "name": "All-Star Game Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "4b81ce45-688f-431c-8745-0f4d034a11ce",
+      "name": "All-Star Game Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "370fd2df-803b-479f-9946-165b08faa863",
+      "name": "Aqua Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "29697d51-227a-4ff9-92b3-386fec8aa1d9",
+      "name": "Aqua Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "446cac4e-39ff-4014-a383-4f1df8cb415b",
+      "name": "Black Border",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "19654ef4-2233-4f40-9804-75744b585ec5",
+      "name": "Black Diamante Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "fedb50b0-b49d-4468-bee3-6d77acc02ffe",
+      "name": "Black Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "8381837b-686c-4614-85d3-edc2ca261f0b",
+      "name": "Black Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "d2fa12d1-5247-40f9-a585-adcb203f62bf",
+      "name": "Black Sandglitter",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "d8d3da51-9e5f-49fc-8984-e7fd1de954ad",
+      "name": "Blue Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "41996ba1-6be8-4e8c-9f8c-d58c0794761f",
+      "name": "Blue Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "389329c5-a8e6-47da-bed6-5edec485cd30",
+      "name": "Canadian Independence Day",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "ebc59329-61ae-4cfe-96c1-15717f20fb9c",
+      "name": "Canvas",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "6b6cd785-d032-4914-86d5-d192436ee9d0",
+      "name": "Cherry Blossoms",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "67c8626e-19ea-45d0-a390-15d33492a97f",
+      "name": "Confetti",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "91a51b8a-be0b-459e-901c-97f59998eb29",
+      "name": "Confetti Lime",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c4275cc4-d9a5-4275-a3f5-b28a51d59eeb",
+      "name": "Confetti Pink",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "3d36857d-5b77-4d4a-ae71-8bc42a11c1dc",
+      "name": "Diamante Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "93f52b35-5dba-4a24-bfdc-4dbfaf99c970",
+      "name": "First Card",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "4b00ecb6-f125-40f4-8998-8e6602e97185",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "a6d89113-d1fc-40a1-b406-4554f0bf46be",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "21bf9bf4-d2db-4408-a253-c5420247394c",
+      "name": "Gold Diamante Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "62ddfcae-d242-4e0c-89d2-8e32dea0b3a9",
+      "name": "Gold Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "53b6e8b9-7a8f-42ff-b438-86877039eb78",
+      "name": "Gold Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "d8afbae9-8f58-48ac-8678-ef709fd4f3a7",
+      "name": "Gold Sandglitter",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "0216f73c-a3a9-4a30-a57e-4b1792ccfb78",
+      "name": "Green Diamante Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "1c2a63f7-45a9-4977-8c3d-c74a9a59294c",
+      "name": "Green Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "6875c83d-c878-47f0-864e-fb0bd8054bb0",
+      "name": "Green Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "5922b496-a070-408f-b854-774a0bed42d6",
+      "name": "Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "f92c096e-5cd9-45c8-b944-bdbe9e02c0d5",
+      "name": "Independence Day",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "3c9018cd-6f0f-4a55-9d27-3394ee7206dc",
+      "name": "Memorial Day Camo",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "f5470e2b-208f-4710-beb7-e7d5e7467c9e",
+      "name": "Opening Day Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "9ceab963-6b66-488b-be31-59b3ca6f40ad",
+      "name": "Orange Diamante Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "45b08e5a-1ad7-44dd-834f-b7e7c678e977",
+      "name": "Orange Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "39cf1e53-0d11-44f7-a739-a4c84f871964",
+      "name": "Orange Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "35f2db29-443e-4425-88eb-5d848acf699a",
+      "name": "Orange Sandglitter",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "85e9e1d7-75ae-4fd3-97e7-79e7f53228be",
+      "name": "Oversized 5x7",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "26e8f9d4-b9e5-4b76-83fb-fbb4b9a20af8",
+      "name": "Pink Diamante Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "95161d7b-d883-457d-a35b-06d88ae5ef52",
+      "name": "Pink Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "60759515-045a-4ff9-9de3-914387f39342",
+      "name": "Printing Plates Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "4f622248-b5b4-47d3-ad73-31bfbb1bc7bd",
+      "name": "Printing Plates Cyan",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "e608f964-1599-4b3a-9f9a-59e585bcae2e",
+      "name": "Printing Plates Magenta",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "b1cbe112-1da1-43d1-8a58-045f2dde89ab",
+      "name": "Printing Plates Yellow",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "24037e17-d666-4b30-bffb-51685bd4d9ec",
+      "name": "Purple Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "8fcd39a5-730e-4b79-8da3-174b8bb2593f",
+      "name": "Purple Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "75b58d93-b04b-42ee-9f37-530734134de8",
+      "name": "Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "0327fbca-e2ba-4000-95ed-b101faf1da7b",
+      "name": "Red Diamante Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "1c6305f8-d96d-48ad-9ea5-d2a0b04f1002",
+      "name": "Red Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "a679e02a-af09-43f6-8b86-df32668744fb",
+      "name": "Red Rainbow Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c8e76e4f-1be8-45ef-97cc-4c616b0da06e",
+      "name": "Red Sandglitter",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "45b0d5d0-4847-402f-b00d-ae8304f75d67",
+      "name": "Rose Gold Holo Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "aef44c7a-5e12-4554-9f56-d8866b53989e",
+      "name": "Sandglitter",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "9f9c3012-937d-4c84-9c09-876ca3f73663",
+      "name": "Silver Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "1cb554eb-9a6a-4245-9f5a-8db588f9b62d",
+      "name": "Spring Training",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "b0644422-ae99-480b-85be-8e795c1ef3a2",
+      "name": "Spring Training Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "130c78f2-78db-4ca8-8f13-048fba03b7e4",
+      "name": "Spring Training Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "666f8ea8-8565-421b-b862-237b44a3cc06",
+      "name": "Spring Training Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "83024c7e-6c07-4031-9f15-852ad0cda8b7",
+      "name": "Spring Training Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "98159b74-42c5-4ad4-952c-80fbd5c12be0",
+      "name": "Spring Training Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "43a6827e-27ed-436f-9017-5026e84ed1df",
+      "name": "Spring Training Rose Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "2a2acff3-5eee-497d-8469-742114b4055f",
+      "name": "Tinsel Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "57a5cb07-d0b2-4d63-b2d0-1079c89fc976",
+      "name": "Topps Foil Pattern",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "29ff19f2-ee69-4a58-886a-2de324f3779d",
+      "name": "Wood",
+      "coverage": "unknown",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c9d652f9-abfb-4b3b-a3ee-c10382990928",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Baseball Stars Autographs"
+      ]
+    },
+    {
+      "id": "e2f0d4c3-381f-4cfa-b612-b3e863b7ed55",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "Baseball Stars Autographs"
+      ]
+    },
+    {
+      "id": "e1e63f38-488e-4277-983c-1f283c454c49",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Baseball Stars Autographs"
+      ]
+    },
+    {
+      "id": "ed74d486-1dbf-4e2a-8968-35f4353603ed",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Baseball Stars Autographs"
+      ]
+    },
+    {
+      "id": "3a030e8a-b349-4d62-b689-c300e4726a60",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Baseball Stars Autographs"
+      ]
+    },
+    {
+      "id": "033a7d98-7970-46bb-b5e6-c8750e24f142",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Baseball Stars Autographs"
+      ]
+    },
+    {
+      "id": "0da6f2c2-0cac-45f7-b5af-37293e157421",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Baseball Stars Autographs"
+      ]
+    },
+    {
+      "id": "1c9a69b4-6655-4400-ac33-935e1f738735",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Apple Foil Variation"
+      ]
+    },
+    {
+      "id": "35a0597f-f4de-4d62-8267-ca097d4b1738",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Apple Foil Variation"
+      ]
+    },
+    {
+      "id": "b505dc5c-82f4-4384-9efe-560d6d696fad",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Apple Foil Variation"
+      ]
+    },
+    {
+      "id": "57392f81-f748-4861-83c2-4fd3e417f06c",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Apple Foil Variation"
+      ]
+    },
+    {
+      "id": "9182c5f7-ce38-4997-9783-03b63a3298f2",
+      "name": "Rose Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Apple Foil Variation"
+      ]
+    },
+    {
+      "id": "d41f308f-3c77-49cd-bda8-ea92da63feb2",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "d9932fb9-933b-479a-b153-bd52c4382ad8",
+      "name": "Blue Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "2c64c998-d099-4ab0-8fe7-92dc7a0c694a",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "3f705a6b-8f95-4efd-b57b-60b46372ef20",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "8a86e497-ce52-4cea-a5ba-4b5a979427bd",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "378635b7-cba8-47af-bfd8-32752f06ef94",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "8ef52ef2-b357-409d-adfe-823573d568fa",
+      "name": "Pink Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "9f7cd37b-cb78-4cc3-8a45-2d9ae0bbe870",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Big Ticket Players"
+      ]
+    },
+    {
+      "id": "90493cdb-16dc-4294-9dc8-4cbf6ef07799",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection"
+      ]
+    },
+    {
+      "id": "11277ba1-3265-405b-b4ef-41c009df3a68",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection"
+      ]
+    },
+    {
+      "id": "f87a3794-6f12-41b0-adaa-40d5efeab3e3",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection"
+      ]
+    },
+    {
+      "id": "5a41236c-e905-4b97-91c2-4392f7467ebf",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection"
+      ]
+    },
+    {
+      "id": "d6c671c4-4f3e-4e78-abca-f12d6477cc00",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection"
+      ]
+    },
+    {
+      "id": "9a601f53-eac8-4e47-9d76-8fa3fda6a3e0",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection"
+      ]
+    },
+    {
+      "id": "a1f722dc-7b89-4b34-bf11-ccb62a70a6e9",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection"
+      ]
+    },
+    {
+      "id": "6806cc68-7e30-4f00-9297-680b7a38f092",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection Autograph Relic"
+      ]
+    },
+    {
+      "id": "6014655b-36cb-42bb-bae2-1310d2ae54d4",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection Autograph Relic"
+      ]
+    },
+    {
+      "id": "4de241e5-d3f4-43a2-b505-f7f33ec1a1b9",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection Autograph Relic"
+      ]
+    },
+    {
+      "id": "0d326e67-6d73-4da9-90ec-b9a8afe6755b",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection Autograph Relic"
+      ]
+    },
+    {
+      "id": "0283bdf1-15b2-4f0e-b0a0-af987616c2f7",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "City Connect Swatch Collection Autograph Relic"
+      ]
+    },
+    {
+      "id": "77014ad5-ca7b-4977-8fdb-55d385c0a7d0",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "c70c81b9-18c8-496a-8e88-31766bf9c24e",
+      "name": "Blue Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "896e3fb4-eba4-4724-972d-20123f092510",
+      "name": "FoilFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "b33942fc-cd30-43ae-add9-cf30883b418d",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "9fa96db5-fc41-41f7-92f4-14c1a570ac48",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "023f1fd0-37d0-4760-808a-79bbb990f15c",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "6117c8df-a9c4-4809-a9c4-b504d1916747",
+      "name": "Pink Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "50900a9c-f3a2-4497-8ca3-a12f3dbd5b83",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Crooked Numbers"
+      ]
+    },
+    {
+      "id": "92399337-19de-4773-add4-d7b71bdc20a6",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "24008a8f-5258-4a4c-8e08-d861dd9f38fc",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "f5abafc7-e1ac-4f6e-a8fd-0a807348fd36",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "957dab6c-ff23-46c2-9bfe-37bb7e9e5232",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "2c73d3ee-674a-43f0-aa30-79bef812aa1b",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "e3fab706-b0b6-4ecf-83ec-892dcde49fd7",
+      "name": "Autographs Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "53bfc79e-d3c0-4650-acbf-0464a60fc859",
+      "name": "Autographs FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "6de346dd-a2b0-49da-96ba-bd96be5d7b47",
+      "name": "Autographs Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "ba100056-6a63-454a-b150-53d0b3cf025b",
+      "name": "Autographs Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "960bd400-9c29-497e-abdd-4b56641cb26e",
+      "name": "Autographs Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "6f04cc22-e7c9-4f35-bb78-0ab47716fa7b",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "ea43f602-bb54-44a1-a3d3-fbed556f65b3",
+      "name": "Blue Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "56015358-22ed-45df-8f52-798f96c734ab",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "9a95fade-dffb-404b-957e-96f141e0d23d",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "a5b816d6-efaa-424f-ba7d-28d5cc3ffe1e",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "38ef6bac-b7e6-45f2-9f24-622ef9e6d992",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "e6da588c-4ad4-490a-96e8-913b0b00bfa9",
+      "name": "Pink Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "ba34cbfd-772b-497a-96d1-952b32a3cc4d",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "First Pitch"
+      ]
+    },
+    {
+      "id": "d9b24716-3d3c-48b6-8ea5-33360fd185a0",
+      "name": "75th Anniversary",
+      "coverage": "unknown",
+      "applies_to": [
+        "Flagship Real One Autograph Cards"
+      ]
+    },
+    {
+      "id": "54f5068e-1c64-435c-a2df-273d3af9d0a7",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Flagship Real One Autograph Cards"
+      ]
+    },
+    {
+      "id": "70249cf3-266d-4a83-85a1-02706b316d6f",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Flagship Real One Autograph Cards"
+      ]
+    },
+    {
+      "id": "01ad196b-6add-46f2-a149-54f7a1cfdf24",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Flagship Real One Autograph Cards"
+      ]
+    },
+    {
+      "id": "7ba9c073-fada-4540-baee-58791d5e5a4a",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Flagship Real One Autograph Cards"
+      ]
+    },
+    {
+      "id": "8b6c0600-00f5-404a-9cc7-847dcf062de3",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Flagship Real One Autograph Cards"
+      ]
+    },
+    {
+      "id": "1c7676bc-bde0-47a8-b1d7-d04e81dae140",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Flagship Real One Autograph Cards"
+      ]
+    },
+    {
+      "id": "4a327ab5-6fcc-45b8-9a99-7d44e3f77cf7",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "1c825d03-872b-45da-ac61-fc2c4d740613",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "ea7e7ac5-8e34-4b0a-923f-e14063faf002",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "8d8be302-134f-4b01-9bff-239754de9b6d",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "f37e7629-f7fe-49b7-92f0-5b23cd50453e",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "3369c735-d7d0-41da-888e-732e8c7c75fe",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "7b2402bf-2c00-4995-9a10-fc87490a98b8",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "ef65312a-df2e-4ee6-ae85-4274ddd810da",
+      "name": "Blue Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "e16a833a-d8e8-4eaa-85e9-6438402e29bc",
+      "name": "FoilFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "d54a82ca-34a3-4c8e-9485-03124ea6e1aa",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "6b64e914-aaa2-47f4-b337-f1c34384c863",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "06892cde-d833-47af-a1ee-054f3c5b4b4f",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "3a54cb18-205e-45be-b4b4-dc4201293232",
+      "name": "Pink Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "77a2bfec-8257-41c4-b207-38151935022b",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Glove Work"
+      ]
+    },
+    {
+      "id": "30d78a28-4f16-4ee8-9c0d-710d80b5a8ce",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Hidden Mascots"
+      ]
+    },
+    {
+      "id": "b02a8946-1e91-429c-94b6-a459008297f3",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Hidden Mascots"
+      ]
+    },
+    {
+      "id": "22c3893d-5133-4f0c-b9c9-ad00dc5981cb",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Hidden Mascots"
+      ]
+    },
+    {
+      "id": "cad4c4eb-6112-43a2-bc7d-3f813ab8c2f7",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Hidden Mascots"
+      ]
+    },
+    {
+      "id": "fa835761-e515-44a9-b3af-f8a7fa207779",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Hidden Mascots"
+      ]
+    },
+    {
+      "id": "39419f27-b458-4a01-812c-b371a22222aa",
+      "name": "Beach Umbrella",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "5cbd65dc-3f84-4255-bb8a-413b5df054d2",
+      "name": "Birds",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "215ef127-b763-488f-9ec0-52af16d6a80d",
+      "name": "Chicks",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "2b83735e-718e-4b26-add4-b523fbfe4215",
+      "name": "Eggs",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "71ba8e7d-9b9a-496c-85b2-4366712e5b2a",
+      "name": "Fireworks",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "e1a2469e-6f25-4b22-9ded-23ec52777b4b",
+      "name": "Flowers",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "3e796ecc-088c-4b6c-b3c9-d54b806b3772",
+      "name": "Hot Dog",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "415b4983-e695-4057-8986-e3fa78788d2c",
+      "name": "Ice Cream",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "db3a8bff-fe8a-408c-bdb1-1d3fc5981615",
+      "name": "Polka Dots Green/Pink",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "6c329e2b-a6a2-41b6-8347-52e45d654f00",
+      "name": "Polka Dots Purple/Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "95804ccf-c3a4-4505-aa4b-95a0d89bf301",
+      "name": "Rabbits",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "111723bd-de25-46cf-a6f9-d289861a49f5",
+      "name": "Umbrellas",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "295c28a8-bbd0-4fd9-8b8c-a1c9d7ac144c",
+      "name": "Watering Cans",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "c841e24a-0e46-41c9-998c-f1e2c606c427",
+      "name": "Waves",
+      "coverage": "unknown",
+      "applies_to": [
+        "Holiday Variation"
+      ]
+    },
+    {
+      "id": "857b474e-1177-4a21-85a6-7aad7900791c",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Autograph Cards"
+      ]
+    },
+    {
+      "id": "c819135c-276f-46cc-ac3d-4dff6700b46e",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Autograph Cards"
+      ]
+    },
+    {
+      "id": "3ddee9d2-de48-47c7-a2af-fcd24ec399b4",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Autograph Cards"
+      ]
+    },
+    {
+      "id": "b9114980-12cc-4a04-bce1-47bce12bc25f",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Autograph Cards"
+      ]
+    },
+    {
+      "id": "90bec108-0026-4454-b240-d179ae3e4b03",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Autograph Cards"
+      ]
+    },
+    {
+      "id": "353b3c22-c654-48c2-a47d-6f2f648cf6f0",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Autograph Cards"
+      ]
+    },
+    {
+      "id": "ab948a27-b397-4226-a3c5-067ffad1f756",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Autograph Cards"
+      ]
+    },
+    {
+      "id": "df097848-a190-4af7-8ce4-c59a626e4b54",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Cards"
+      ]
+    },
+    {
+      "id": "f723ce89-0013-408c-8ba2-805b0dcf560a",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Cards"
+      ]
+    },
+    {
+      "id": "102a1e3a-847c-458b-885c-523567d74006",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Cards"
+      ]
+    },
+    {
+      "id": "a7be7eee-22e7-4285-bd17-bc5fedf464a5",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Cards"
+      ]
+    },
+    {
+      "id": "96e94748-dccb-4c15-9b84-7ffcc491b4a1",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Cards"
+      ]
+    },
+    {
+      "id": "58352d30-cc6c-437d-bcd6-31aec9012558",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Cards"
+      ]
+    },
+    {
+      "id": "558d9db9-028c-4887-bb1e-3e4afa2d6ce5",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Cards"
+      ]
+    },
+    {
+      "id": "10ae9c9b-6527-4479-8f85-aa92559686a9",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Dual Autograph Cards"
+      ]
+    },
+    {
+      "id": "c4485e54-2bd9-4c7f-b849-6313854a24e3",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Dual Autograph Cards"
+      ]
+    },
+    {
+      "id": "c6ab3bb4-be83-44ac-95f9-b1af6af7104c",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Dual Autograph Cards"
+      ]
+    },
+    {
+      "id": "9b8d6c5f-16ac-4e49-bfed-4f09f66faaae",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Major League Material Dual Autograph Cards"
+      ]
+    },
+    {
+      "id": "cac7f04c-9843-4bfe-a3db-c7c3cc1b0a5a",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascot Relics"
+      ]
+    },
+    {
+      "id": "b1cf3a51-1a5e-4475-a4e0-6052940cbff7",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascot Relics"
+      ]
+    },
+    {
+      "id": "c4b24bbc-ca98-402f-80c9-35f5ba2c770e",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascot Relics"
+      ]
+    },
+    {
+      "id": "a5283ca1-dfa6-4788-a92b-bb8063561b00",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascot Relics"
+      ]
+    },
+    {
+      "id": "b06cae2c-4fc3-4a72-8891-714df9f5def0",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascot Relics"
+      ]
+    },
+    {
+      "id": "1d9abb2f-d36f-4523-b71a-a30ded9c9aba",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascot Relics"
+      ]
+    },
+    {
+      "id": "fd5f0b99-0e31-450f-b834-8f2f2280ba1c",
+      "name": "Autographs Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "8ae4d3d8-b643-4ad2-abdb-58ecca238e5e",
+      "name": "Autographs FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "079f8904-8ec8-4b97-9ffd-4796c700b8f5",
+      "name": "Autographs Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "02d83f57-c460-4cf3-9a0e-dca7eaacce57",
+      "name": "Autographs Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "b24802a1-239e-4810-aff2-17d41659cba4",
+      "name": "Autographs Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "f643a7dc-fc21-4151-ae91-d1725c4db16b",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "3a9bba50-3e0c-426f-9668-4a4742c70e20",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "6286a193-cceb-4899-9066-e6f969e36ff3",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "6be98c90-bc8f-441b-a679-647fffe5ee2b",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "93e4cece-de15-4666-a484-37c679d1a668",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "a3c5ceca-6441-4554-a107-1b905888bdce",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "76a6810c-1a23-4c98-b171-b22e451f9f5e",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots Dynasty Autograph Patch"
+      ]
+    },
+    {
+      "id": "ec8dcd48-307f-4d36-b952-243c4bf4ec6e",
+      "name": "Silver",
+      "coverage": "unknown",
+      "applies_to": [
+        "Mascots Dynasty Autograph Patch"
+      ]
+    },
+    {
+      "id": "36d070c4-b0ac-4c7a-9d53-db6287166b70",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Oversized 1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "a24d88d7-c109-4783-941a-6e1c20451786",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Oversized 1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "39239839-c4e1-4cec-aabb-86c0beefd1ff",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Oversized 1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "6f86caed-dc70-4178-9017-b58d5c80601d",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Oversized 1991 Topps Baseball"
+      ]
+    },
+    {
+      "id": "3df2cf36-20a7-42ce-a94e-c7346214c70e",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Perennial All Stars"
+      ]
+    },
+    {
+      "id": "a8da5f26-7af6-4f96-826d-0661af261165",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Perennial All Stars"
+      ]
+    },
+    {
+      "id": "1882f9ac-295e-4b98-90a7-156da3baea31",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Perennial All Stars"
+      ]
+    },
+    {
+      "id": "d9a08f54-ba1b-4f15-a67b-8609978d0210",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "Perennial All Stars"
+      ]
+    },
+    {
+      "id": "d74ce970-dd3b-4cc0-9513-51e98ef387d4",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Perennial All Stars"
+      ]
+    },
+    {
+      "id": "9ffaa7e0-9811-4f77-9b07-b45ddd98fce2",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Perennial All Stars"
+      ]
+    },
+    {
+      "id": "e2007651-40c9-43da-adf4-c303042f6082",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Postseason Performance Autograph Cards"
+      ]
+    },
+    {
+      "id": "b3a34078-54f8-40f1-bea0-152f9f8a331b",
+      "name": "FoilFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "Postseason Performance Autograph Cards"
+      ]
+    },
+    {
+      "id": "5311c475-3574-4a8b-982b-cd013f222b45",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Postseason Performance Autograph Cards"
+      ]
+    },
+    {
+      "id": "ec1d9d2f-1e9e-4aef-8dee-8b76cae40f50",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Postseason Performance Autograph Cards"
+      ]
+    },
+    {
+      "id": "09043cbb-6f14-4c1c-aed5-c274d76c9dd6",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Real One Relics"
+      ]
+    },
+    {
+      "id": "d747ce26-173d-4dd1-9d4b-7c592728f945",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Real One Relics"
+      ]
+    },
+    {
+      "id": "3e5c1d94-0157-4d9a-a0b3-a20b70184452",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Real One Relics"
+      ]
+    },
+    {
+      "id": "86789774-ca6c-446f-90c9-a9f69b0e2871",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Real One Relics"
+      ]
+    },
+    {
+      "id": "f0d2ac46-d971-493d-b02f-fbc8a9da6ac7",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Real One Relics"
+      ]
+    },
+    {
+      "id": "d39ecedb-c29f-4b67-933e-92436257734c",
+      "name": "Autographs Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "bd018662-36c5-46b1-b548-f13f4b85409d",
+      "name": "Autographs Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "efe7ecbc-847f-4642-875a-b4f3a338761c",
+      "name": "Autographs Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "fd49f3af-e77e-4a18-8e93-4cb81f7a5ae8",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "60ee8d37-a7a1-479f-89ad-eba6904631d1",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "d9e76d7e-166b-468b-8249-1425ba4c203c",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "2f94c324-a78e-4ba4-bbb7-f52ed1921822",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "f4b7b985-7567-46dc-a965-3857918c5133",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Rounding The Bases Relic"
+      ]
+    },
+    {
+      "id": "93691933-b55d-43f3-9abf-a9e022c7abf4",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Signature Tunes Dual Autographs"
+      ]
+    },
+    {
+      "id": "d29fb736-cc1f-483c-88dd-7fba84a08929",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Signature Tunes Dual Autographs"
+      ]
+    },
+    {
+      "id": "4a77a1c6-95ac-4f7b-b39f-06d577b3052e",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Signature Tunes Dual Autographs"
+      ]
+    },
+    {
+      "id": "e347be94-2db3-4ebe-a7ce-48cf0f71141b",
+      "name": "Black Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "c5291a67-8ad9-4458-81cb-6f7a4b6b1a8e",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "6fd2cd51-d31a-47a8-a8e8-a14b1e446de1",
+      "name": "Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "0aef8db3-0580-4007-9187-24467ad699ac",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "b276dd0e-a6f2-426e-8e4b-52e361f5669c",
+      "name": "Gold Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "a9e51ebf-e58b-4529-ad40-e174834ff4d9",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "2db1b76a-d46d-4491-94e4-829f88ba0ce5",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "08cf2b51-1567-4cb9-964a-760a0980ce52",
+      "name": "Orange Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "e826885c-d920-4db9-8376-357c8952537e",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "19b3eefd-6f9d-454c-9a89-9d08cd2259ce",
+      "name": "Red Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "7ace315a-427d-4790-8f63-e43cef55228e",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "b24254b6-a904-4294-835e-0f9e32960d61",
+      "name": "Black Refractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "Swinging With The Stars"
+      ]
+    },
+    {
+      "id": "1cfabee8-9c8c-4fd8-9b66-7272e498facf",
+      "name": "Orange Refractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "Swinging With The Stars"
+      ]
+    },
+    {
+      "id": "9658371a-ab61-4f5f-9a3b-c8ba85f6d9e2",
+      "name": "Red Refractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "Swinging With The Stars"
+      ]
+    },
+    {
+      "id": "4c6e79e6-2359-4094-b7b0-23003c61795f",
+      "name": "SuperFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "Swinging With The Stars"
+      ]
+    },
+    {
+      "id": "46970bed-9a2e-4f91-b533-123e6ed7c245",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Base Cards"
+      ]
+    },
+    {
+      "id": "6005e730-c70d-4010-a60c-90886ccc09c5",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Base Cards"
+      ]
+    },
+    {
+      "id": "a54806f1-f013-4554-b883-d54a2d8b71fc",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Base Cards"
+      ]
+    },
+    {
+      "id": "64cf97ae-4654-4271-b18f-1035227787bb",
+      "name": "Purple",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Base Cards"
+      ]
+    },
+    {
+      "id": "402ec4ce-28bd-4091-b8fd-75a30c933b96",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "bd748912-cde9-4e2f-aaba-2769d8871c7f",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "67a24781-f6fe-496c-ac85-df8c725ef169",
+      "name": "Green",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "0d1fd14e-1daf-442a-8400-135b4c984166",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "d81b6fc6-d818-478a-b9e4-64b894c0928e",
+      "name": "Purple",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "b7249160-5679-44e2-9455-add7f0e496f6",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "The Flagship Collection Chrome Base Cards"
+      ]
+    },
+    {
+      "id": "82bf2fd8-a8d8-432f-b3fc-3c4b37390347",
+      "name": "Black Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "5e455ecb-3c2a-4f20-95c8-3018f728d4b6",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "8c5b17b3-f182-480d-bb23-e23aa21b2e05",
+      "name": "Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "527b88e6-997d-4956-a6d1-8bab0a442628",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "46bbaa9d-5afe-4e4c-b071-3a2f8fd7b141",
+      "name": "Gold Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "2ce017cb-0632-43bb-a1ee-394a620e0b33",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "cc99bcf8-0a78-46a3-944a-ad40e2e93046",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "c9ad3849-fa22-4482-bab3-dd111ee5acea",
+      "name": "Orange Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "53c04991-05b3-4123-8a2f-56427c2d8b09",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "f341947f-25b6-40e9-9a70-75ec6ddfa63b",
+      "name": "Red Crackle Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "d1dcd10b-079e-4265-aa58-77852f140634",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Titans Of The Game"
+      ]
+    },
+    {
+      "id": "ad617e65-46a8-47d7-b264-b1cb5e69d852",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Flagship Autograph Patch Cards"
+      ]
+    },
+    {
+      "id": "82cc77bc-416f-4f1c-aeb9-03c2f125c96f",
+      "name": "Bronze",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Flagship Autograph Patch Cards"
+      ]
+    },
+    {
+      "id": "2022e62b-bf67-4859-ae9f-3abd928f2628",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Flagship Autograph Patch Cards"
+      ]
+    },
+    {
+      "id": "1fd58495-6a2b-4ad6-b288-622ab1bb7994",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Flagship Autograph Patch Cards"
+      ]
+    },
+    {
+      "id": "11ee5828-6514-4ae0-9f91-cecb2202940a",
+      "name": "Black Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "d10dc215-cc6a-4b55-826b-770605b72932",
+      "name": "Blue Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "17425c7f-e9ef-4daf-8781-14aec214b890",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "58ba1520-07a6-4828-b7fe-e4c98d32bd62",
+      "name": "Gold Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "dabc6d3f-5c37-4b10-941e-678e70df112f",
+      "name": "Green Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "9166f69c-c8a8-4358-95bf-86374c27d9ce",
+      "name": "Orange Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "d068120b-95e9-404e-8558-c38306399aef",
+      "name": "Pink Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "5a97143c-fd60-4fcc-b799-23887975233d",
+      "name": "Red Foil",
+      "coverage": "unknown",
+      "applies_to": [
+        "Topps Profiles"
+      ]
+    },
+    {
+      "id": "134f6779-c28a-4c94-8650-a7fce6c3fb21",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "561c2591-3e82-42aa-a9fb-ad6348d397ef",
+      "name": "FoilFractors",
+      "coverage": "unknown",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "bcc63171-c23e-43ea-9ef7-3ec060b7557b",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "0b9e1437-25f1-4e1e-a380-6b7a50fd2648",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "fc6fbb28-6026-4fca-85db-3485381f6d2d",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "50abe759-37df-43b0-8381-4fae39004366",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "World Champion Autograph Cards"
+      ]
+    },
+    {
+      "id": "95c5e701-1b02-4b37-adcb-60314ef436d8",
+      "name": "FoilFractor",
+      "coverage": "unknown",
+      "applies_to": [
+        "World Champion Autograph Cards"
+      ]
+    },
+    {
+      "id": "958b8093-817e-45e4-8b8d-57966b349edd",
+      "name": "Orange",
+      "coverage": "unknown",
+      "applies_to": [
+        "World Champion Autograph Cards"
+      ]
+    },
+    {
+      "id": "d4542d27-3f0e-4c9e-a4c0-3f6bbf832890",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "World Champion Autograph Cards"
+      ]
     }
   ],
   "verified": false,
