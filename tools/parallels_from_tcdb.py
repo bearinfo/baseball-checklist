@@ -86,7 +86,9 @@ ALIAS = {
     # Variations. TCDB prints "Variations" on some and omits it on others, so
     # the word cannot be used to detect them — Clear, Holiday, Team Color
     # Border, Vintage Stock and Big Apple Foil are variations named without it.
-    "1952 Base Card Variations": "1952 Variation",
+    # TCDB counts 45 cards here, which is Topps' Rookie 1952 (Series 1, 25) and
+    # 1952 (Series 2, 20) together — one TCDB entry over two checklists.
+    "1952 Base Card Variations": ["1952 Variation", "Rookie 1952 Variation"],
     "1952 Base Card Variations Autographs": "1952 Autograph Variation",
     "Golden Mirror Variations": "Golden Mirror Base Image Variation",
     "Golden Mirror Legend Variations": "Golden Mirror Legend Variation",
@@ -269,10 +271,20 @@ def declarations(derived, document):
             existing[(parallel["name"].lower(), target)] = parallel
 
     out = list(document.get("parallels", []))
-    added = 0
+    added, retargeted = 0, []
     for key in sorted(derived, key=lambda k: (k[1], k[0])):
         item = derived[key]
-        if any((key[0], target) in existing for target in item["targets"]):
+        matches = [existing[(key[0], t)] for t in item["targets"]
+                   if (key[0], t) in existing]
+        if matches:
+            # A correction to ALIAS can widen or narrow what a parallel covers.
+            # Carry it onto the record already declared rather than leaving a
+            # stale applies_to behind, and never mint a second id for it.
+            parallel = matches[0]
+            if parallel.get("applies_to") != item["targets"]:
+                retargeted.append((parallel["name"],
+                                   parallel.get("applies_to"), item["targets"]))
+                parallel["applies_to"] = item["targets"]
             continue
         confirmed = {CONFIRMED.get((item["name"], t)) for t in item["targets"]}
         out.append({
@@ -282,7 +294,7 @@ def declarations(derived, document):
             "applies_to": item["targets"],
         })
         added += 1
-    return out, added
+    return out, added, retargeted
 
 
 def main(argv):
@@ -314,9 +326,11 @@ def main(argv):
             print(f"  {raw}  https://www.tcdb.com/ViewCollection.cfm/sid/{sid}")
         return 1
 
-    parallels, added = declarations(derived, document)
+    parallels, added, retargeted = declarations(derived, document)
     print(f"\n{added} new declaration(s); "
-          f"{len(parallels) - added} already declared and left untouched")
+          f"{len(parallels) - added} already declared")
+    for name, was, now in retargeted:
+        print(f"  retargeted {name!r}: {was} -> {now}")
     if not args.write:
         print("Nothing written (no --write).")
         return 0
