@@ -853,6 +853,15 @@
       ]
     },
     {
+      "id": "a0e6560b-87a0-4c8e-87bc-fa285cb1b42c",
+      "name": "Holiday Eggs",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "f17a371b-57fa-48c8-8220-d3ba94d2716c",
       "name": "Holiday Fireworks",
       "coverage": "full",
@@ -862,10 +871,55 @@
       ]
     },
     {
+      "id": "34d18572-4b98-4e19-9d62-f8655ce259bc",
+      "name": "Holiday Flowers",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "b1bcb91f-3203-4f87-8045-cbfdae9bb80e",
+      "name": "Holiday Green Leaf",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "2cf34a87-0598-47b1-a25a-2e60052d08d9",
       "name": "Holiday Hot Dog",
       "coverage": "full",
       "series": "Series 2",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "a9236bb3-19e9-45b8-82ef-397130139104",
+      "name": "Holiday Rabbit",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "acd96902-fba2-455e-b594-a765c744be55",
+      "name": "Holiday Umbrella",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "8e0c45e4-556c-4f5b-8325-d165916f6e3e",
+      "name": "Holiday Watering",
+      "coverage": "full",
+      "series": "Series 1",
       "applies_to": [
         "Base"
       ]
