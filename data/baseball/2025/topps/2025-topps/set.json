@@ -199,6 +199,7 @@
       "file": "inserts/big-apple.csv",
       "name": "Big Apple",
       "kind": "insert",
+      "varies": "base.csv",
       "card_count": 100,
       "distribution": "FANATICS FEST EXCLUSIVE"
     },
@@ -628,7 +629,7 @@
       "source_url": "https://baseballcardpedia.com/index.php/2025_Topps",
       "retrieved": "2026-08-05",
       "covers": "the factory set cards and which parallels cover every base card",
-      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so."
+      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so. Its Big Apple checklist prints #658 Gleyber Torres where the Topps Series 2 PDF prints #656 Jairo Iriarte in that section; the manufacturer's card stands. The 99 they agree on match exactly."
     },
     {
       "source_type": "manual-transcription",
@@ -1212,14 +1213,6 @@
       "applies_to": [
         "Base"
       ]
-    },
-    {
-      "id": "6c626133-71fd-461c-af0b-46aec90cdf43",
-      "name": "Big Apple",
-      "coverage": "partial",
-      "file": "parallels/big-apple.csv",
-      "varies": "base.csv",
-      "card_count": 100
     }
   ],
   "verified": false,
