@@ -231,6 +231,18 @@ FULL_COVERAGE = {
         "Pink", "Blue", "Green", "Gold", "Orange", "Black", "Red",
         "FoilFractor",
     },
+    # A 50-card Series 2 insert, so its All-Star Game parallels cover all of it
+    # and need no rows, unlike the same-named parallel of the 150-card insert
+    # above. TCDB abbreviates the crackles here ("Black Crackle").
+    "1991 Topps All Star Baseball": {
+        "Crackle", "Koi Fish", "Pink Crackle", "Blue Crackle", "Green Crackle",
+        '"The Real One"', "Gold Crackle", "Koi Fish Gold", "Orange Crackle",
+        "Koi Fish Orange", "Black Crackle", "Koi Fish Black", "Red Crackle",
+        "Koi Fish Red",
+        "Pink", "Blue", "Green", "Gold", "Orange", "Black", "Red", "FoilFractor",
+        "All-Star Game", "All-Star Game Gold", "All-Star Game Orange",
+        "All-Star Game Red", "All-Star Game Black", "All-Star Game Platinum",
+    },
 }
 
 # Base parallels printed in one wave only. Each covers every base card of that
@@ -255,9 +267,15 @@ SERIES_SCOPED = {
     "All-Star Game Red": "Series 2", "Tinsel Foil": "Series 2",
 }
 
-# Base parallels that source lists but TCDB's sub-collections do not, so
-# nothing derives them from the listing. Declared from this source alone.
-EXTRA_BASE = ["Yellow Rainbow Foil", "Yellow Holo Foil"]
+# Parallels Baseball Card Pedia lists but TCDB's sub-collections do not, so
+# nothing derives them from the listing. Declared from that source alone, as
+# (name, target checklist).
+EXTRA_PARALLELS = [
+    ("Yellow Rainbow Foil", "Base"),
+    ("Yellow Holo Foil", "Base"),
+    ("All-Star Game Black", "1991 Topps All Star Baseball"),
+    ("All-Star Game Platinum", "1991 Topps All Star Baseball"),
+]
 
 # TCDB entries this set cannot place. Skipped deliberately and reported, never
 # silently dropped: each is a product with no checklist here, or a name too
@@ -353,9 +371,9 @@ def build(entries, document):
         key = (parallel.lower(), tuple(target))
         derived.setdefault(key, {"name": parallel, "targets": target, "sids": []})
         derived[key]["sids"].append(sid)
-    for name in EXTRA_BASE:
-        derived.setdefault((name.lower(), ("Base",)),
-                           {"name": name, "targets": ["Base"], "sids": []})
+    for name, target in EXTRA_PARALLELS:
+        derived.setdefault((name.lower(), (target,)),
+                           {"name": name, "targets": [target], "sids": []})
     return derived, skipped, is_checklist, declared, unresolved
 
 
