@@ -177,11 +177,34 @@ def check_set(set_dir, schemas, vocab, failures):
 
     names = {c["name"] for c in document["checklists"]}
     waves = {s["name"] for s in document.get("series", [])}
+
+    # A parallel may print another parallel — Big Apple Gold prints the 100
+    # cards of Big Apple — so applies_to names either array. That only reads
+    # unambiguously while the two do not share a name.
+    parallel_names = {p["name"] for p in parallels}
+    for shared in sorted(names & parallel_names):
+        failures.add(rel, f"{shared!r} names both a checklist and a parallel, "
+                          f"so applies_to cannot say which is meant")
+
+    parents = {p["name"]: [t for t in p.get("applies_to", [])
+                           if t in parallel_names] for p in parallels}
     for parallel in parallels:
         for target in parallel.get("applies_to", []):
-            if target not in names:
+            if target not in names and target not in parallel_names:
                 failures.add(rel, f"parallel {parallel['name']!r} applies to "
-                                  f"{target!r}, not a checklist of this set")
+                                  f"{target!r}, which this set declares as "
+                                  f"neither a checklist nor a parallel")
+        # Walk up the parallel-of-a-parallel chain; a loop would otherwise
+        # leave a card whose numbering is defined only in terms of itself.
+        seen, walk = {parallel["name"]}, list(parents.get(parallel["name"], []))
+        while walk:
+            step = walk.pop()
+            if step in seen:
+                failures.add(rel, f"parallel {parallel['name']!r} applies to "
+                                  f"itself through {step!r}")
+                break
+            seen.add(step)
+            walk.extend(parents.get(step, []))
         wave = parallel.get("series")
         if wave and wave not in waves:
             failures.add(rel, f"parallel {parallel['name']!r} is printed in "

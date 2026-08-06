@@ -1213,6 +1213,46 @@
       "file": "parallels/big-apple.csv",
       "varies": "base.csv",
       "card_count": 100
+    },
+    {
+      "id": "4f244690-d836-4026-aafc-52d20cd8f3cf",
+      "name": "Big Apple Black",
+      "coverage": "full",
+      "applies_to": [
+        "Big Apple"
+      ]
+    },
+    {
+      "id": "63b84437-d90b-449e-9d0c-850047c2fcf3",
+      "name": "Big Apple FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Big Apple"
+      ]
+    },
+    {
+      "id": "ea533537-6cde-45b3-8862-e19dc6b55687",
+      "name": "Big Apple Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Big Apple"
+      ]
+    },
+    {
+      "id": "40d74f21-cd07-429e-8db9-a4a448935469",
+      "name": "Big Apple Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Big Apple"
+      ]
+    },
+    {
+      "id": "e26d134f-2224-4224-9b3a-bc037ac3b79c",
+      "name": "Big Apple Red",
+      "coverage": "full",
+      "applies_to": [
+        "Big Apple"
+      ]
     }
   ],
   "verified": false,

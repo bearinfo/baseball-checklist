@@ -49,6 +49,22 @@ else:
   supports nothing stronger, and consumers are told not to assume any given card
   exists in it.
 
+`applies_to` names checklists, or other parallels. A colour run of a parallel
+points at its parent by name:
+
+```json
+{ "id": "…", "name": "Big Apple", "coverage": "partial",
+  "file": "parallels/big-apple.csv", "varies": "base.csv", "card_count": 100 }
+{ "id": "…", "name": "Big Apple Gold", "coverage": "full",
+  "applies_to": ["Big Apple"] }
+```
+
+Gold prints the same 100 cards Big Apple does, so it is full coverage of that
+parallel and needs no rows of its own. Validation rejects a name the set
+declares in neither array, a parallel naming itself, and a cycle — and rejects
+one name used for both a checklist and a parallel, which is what keeps
+`applies_to` unambiguous.
+
 A parallel printed in only one wave of a multi-series set adds `series`, naming
 an entry in `series[]`. It narrows the target before `coverage` is read:
 

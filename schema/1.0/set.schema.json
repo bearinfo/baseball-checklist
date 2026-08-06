@@ -326,7 +326,7 @@
             "items": {
               "type": "string"
             },
-            "description": "Checklist names (from `checklists[].name`) this parallel prints; validation fails on a name this set does not declare. Omit = applies to the whole set. Only coverage: full and unknown use this — a partial parallel's extent is its rows."
+            "description": "What this parallel prints, named from `checklists[].name` or from another entry's `parallels[].name`; validation fails on a name this set declares in neither, on a parallel naming itself, and on a cycle. Omit = applies to the whole set. Only coverage: full and unknown use this — a partial parallel's extent is its rows. Naming a parallel is how a colour run of a parallel is recorded: 2025 Topps' Big Apple is a 100-card partial parallel of the base set, and its Gold, Orange, Black, Red and FoilFractor print those same 100 cards again. Without it the same programme is expressible only when its parent happens to be filed as a checklist. A set may not use one name for both a checklist and a parallel, which is what keeps this unambiguous."
           },
           "series": {
             "type": "string",
