@@ -1212,6 +1212,14 @@
       "applies_to": [
         "Base"
       ]
+    },
+    {
+      "id": "6c626133-71fd-461c-af0b-46aec90cdf43",
+      "name": "Big Apple",
+      "coverage": "partial",
+      "file": "parallels/big-apple.csv",
+      "varies": "base.csv",
+      "card_count": 100
     }
   ],
   "verified": false,
