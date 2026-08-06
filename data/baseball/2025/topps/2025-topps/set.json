@@ -196,14 +196,6 @@
       "card_count": 25
     },
     {
-      "file": "inserts/big-apple.csv",
-      "name": "Big Apple",
-      "kind": "insert",
-      "varies": "base.csv",
-      "card_count": 100,
-      "distribution": "FANATICS FEST EXCLUSIVE"
-    },
-    {
       "file": "inserts/call-to-the-hall.csv",
       "name": "Call To The Hall",
       "kind": "insert",
@@ -1213,6 +1205,14 @@
       "applies_to": [
         "Base"
       ]
+    },
+    {
+      "id": "15f39cc9-d6d8-4ee3-a9c4-b0d6b2ad045a",
+      "name": "Big Apple",
+      "coverage": "partial",
+      "file": "parallels/big-apple.csv",
+      "varies": "base.csv",
+      "card_count": 100
     }
   ],
   "verified": false,
