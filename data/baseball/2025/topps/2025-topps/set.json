@@ -228,7 +228,7 @@
     },
     {
       "file": "inserts/ops-bests.csv",
-      "name": "Ops Bests",
+      "name": "OPS Bests",
       "kind": "insert",
       "card_count": 25
     },
@@ -269,7 +269,7 @@
       "file": "inserts/topps-mega-stars.csv",
       "name": "Topps Mega Stars",
       "kind": "insert",
-      "card_count": 20,
+      "card_count": 40,
       "distribution": "MEGA BOX EXCLUSIVE"
     },
     {
@@ -340,7 +340,7 @@
       "file": "relics/history-of-japanese-baseball.csv",
       "name": "History Of Japanese Baseball",
       "kind": "relic",
-      "card_count": 54,
+      "card_count": 19,
       "distribution": "TOKYO SERIES EXCLUSIVE"
     },
     {
@@ -368,7 +368,7 @@
       "name": "Major League Material Cards",
       "kind": "relic",
       "card_count": 170,
-      "distribution": "FANATICS AUTHENTIC REDEMPTION CARDS"
+      "distribution": "FANATICS BOX EXCLUSIVE"
     },
     {
       "file": "relics/major-league-material-dual-autograph-cards.csv",
@@ -461,6 +461,13 @@
       "distribution": "TOKYO SERIES EXCLUSIVE"
     },
     {
+      "file": "relics/tokyo-nights.csv",
+      "name": "Tokyo Nights",
+      "kind": "relic",
+      "card_count": 35,
+      "distribution": "TOKYO SERIES EXCLUSIVE"
+    },
+    {
       "file": "relics/trading-card-enamel-pins.csv",
       "name": "Trading Card Enamel Pins",
       "kind": "relic",
@@ -493,7 +500,7 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 5,
-      "distribution": "Hobby Only Exclusive"
+      "distribution": "FANATICS BOX EXCLUSIVE"
     },
     {
       "file": "variations/big-head-variation.csv",
@@ -575,14 +582,14 @@
       "source": "Topps official checklist PDF: 2025_Topps_Series_1_BB_Checklist_-_updated.pdf",
       "retrieved": "2026-08-05",
       "covers": "Series 1 (#1-350) and its inserts",
-      "notes": "Card #4 name repaired from interleaved PDF text ('Christian Encarnacion-StraCnindcinnati Reds' -> 'Christian Encarnacion-Strand' + 'Cincinnati Reds', deterministic rightmost-subsequence removal), as was the Tokyo Series first-game card. Two non-card sections skipped: Mystery Redemption Autograph Card and Social Media Follow Back Redemption."
+      "notes": "Card #4 name repaired from interleaved PDF text ('Christian Encarnacion-StraCnindcinnati Reds' -> 'Christian Encarnacion-Strand' + 'Cincinnati Reds', deterministic rightmost-subsequence removal), as was the Tokyo Series first-game card. Three non-card sections skipped: Mystery Redemption Autograph Card, Social Media Follow Back Redemption and Fanatics Authentic Redemption Cards."
     },
     {
       "source_type": "manufacturer-pdf",
       "source": "Topps official checklist PDF: 2025ToppsSeries2BaseballChecklist6-3.pdf",
       "retrieved": "2026-08-05",
       "covers": "Series 2 (#351-700) and its inserts",
-      "notes": "One non-card section skipped: Social Media Follow Back Redemption. Cards #365, #409 and #639 print a league where the team would go (Major League Baseball, National League), which is why those values are in teams.json."
+      "notes": "Two non-card sections skipped: Social Media Follow Back Redemption and Fanatics Authentic Redemption Cards. Cards #365, #409 and #639 print a league where the team would go (Major League Baseball, National League), which is why those values are in teams.json."
     }
   ],
   "series": [

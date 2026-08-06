@@ -110,9 +110,14 @@ FURNITURE = re.compile(
 
 # How the cards were distributed. Printed between sections, and true of the
 # section that follows rather than of any card.
+# A distribution note is recognised by how it ENDS, never by how it starts.
+# Matching a leading keyword swallowed real content: every "MEGA-1 Mike Trout"
+# row parsed as a distribution line, because \b sits between MEGA and the
+# hyphen, and the section header "TOKYO NIGHTS" did too, so its 35 cards fell
+# into the section above it. Every distribution Topps prints ends in one of
+# these words; a card row does not.
 DISTRIBUTION = re.compile(
-    r"^((hobby|retail|jumbo|hta|blaster|mega|target|walmart|fanatics|super box|"
-    r"celebration|tokyo)\b.*|.*\b(only|exclusive|exclusives|boxtopper|boxloader)\s*$)",
+    r".*\b(only|exclusive|exclusives|boxtopper|boxloader)\s*$",
     re.IGNORECASE)
 
 
@@ -252,7 +257,7 @@ def classify(header, kind_context):
     return titlecase(header), kind_context, False
 
 
-KEEP_UPPER = {"MLB", "AL", "NL", "RC", "SP", "SSP", "HR", "RBI", "ERA", "US",
+KEEP_UPPER = {"MLB", "AL", "NL", "RC", "SP", "SSP", "HR", "RBI", "ERA", "OPS", "US",
               "II", "III", "IV"}
 
 
