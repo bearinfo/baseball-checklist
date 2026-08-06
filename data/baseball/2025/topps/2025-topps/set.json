@@ -629,6 +629,13 @@
       "retrieved": "2026-08-05",
       "covers": "the factory set cards and which parallels cover every base card",
       "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so."
+    },
+    {
+      "source_type": "manual-transcription",
+      "source": "Repo owner, from the cards",
+      "retrieved": "2026-08-06",
+      "covers": "True Photo and Team Color Border as full base parallels",
+      "notes": "Both print all 700 base cards in 2025 and are declared coverage: full on that assertion alone. Baseball Card Pedia omits them from its list of parallels covering the whole base set, while listing Vintage Stock and Clear, which print all 700 the same year. Its 2026 page says of all four \"after years as full parallels, the following are now 200-card partial-parallels\", so the omission is that list being incomplete rather than these two being partial in 2025."
     }
   ],
   "series": [
@@ -971,6 +978,14 @@
       ]
     },
     {
+      "id": "00662285-6a77-4791-8d9e-8af97bb6a201",
+      "name": "Team Color Border",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "2e83211c-aeaf-41b6-a198-16e3295d6b4a",
       "name": "Tinsel",
       "coverage": "full",
@@ -981,6 +996,14 @@
     {
       "id": "c7ba85a6-a017-484d-98f5-87daf575897a",
       "name": "Topps Pattern Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "658790e3-7c02-4f35-8bd4-b6626d41a6e0",
+      "name": "True Photo",
       "coverage": "full",
       "applies_to": [
         "Base"
