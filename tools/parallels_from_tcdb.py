@@ -93,12 +93,8 @@ ALIAS = {
     "1952 Base Card Variations Autographs": "1952 Autograph Variation",
     "Golden Mirror Variations": "Golden Mirror Base Image Variation",
     "Golden Mirror Legend Variations": "Golden Mirror Legend Variation",
-    "True Photo Variations": "True Photo Variation",
     "Big Apple Foil": "Big Apple Foil Variation",
-    "Clear": "Clear Variation",
     "Holiday": "Holiday Variation",
-    "Team Color Border": "Team Color Border Variation",
-    "Vintage Stock": "Vintage Stock Variation",
 
     # "Swinging for the Stars" (TCDB) vs "Swinging With The Stars" (Topps PDF).
     # Same 25-card insert under a misremembered preposition.
@@ -158,6 +154,12 @@ BASE_PARALLELS = {
 # card two permanent ids. Their colour runs are ordinary derived parallels of
 # the parent checklist and are not listed here.
 DECLARED = {
+    # Partial parallels, not checklists: each keeps the photograph and alters
+    # borders, stock or finish, and the four share one 200-card list.
+    "True Photo Variations": "True Photo",
+    "Clear": "Clear",
+    "Team Color Border": "Team Color Border",
+    "Vintage Stock": "Vintage Stock",
     # 24 Blue Jays across both waves, 10 in Series 1 and 14 in Series 2 — an
     # arbitrary subset, so it carries rows and is not a base parallel to derive.
     "Canadian Independence Day": "Canadian Independence Day",
