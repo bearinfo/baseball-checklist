@@ -161,6 +161,10 @@ DECLARED = {
     # 24 Blue Jays across both waves, 10 in Series 1 and 14 in Series 2 — an
     # arbitrary subset, so it carries rows and is not a base parallel to derive.
     "Canadian Independence Day": "Canadian Independence Day",
+    # Series 2 only: the 50 cards numbered 91B2-*. Which 50 of the insert's 150
+    # is not derivable — series[] ranges are base numbering — so it has rows.
+    "1991 Topps Baseball 35th Anniversary All-Star Game":
+        "1991 Topps Baseball All-Star Game",
     "First Pitch Autographs": "First Pitch Autograph Parallel",
     "Mascots Autographs": "Mascots Autograph Parallel",
     "Rounding the Bases Relic Autographs":
@@ -205,6 +209,28 @@ BASE_FACTS = {
     "FoilFractors", "Rose Gold Holo Foil", "First Card",
     "Printing Plates Black", "Printing Plates Cyan",
     "Printing Plates Magenta", "Printing Plates Yellow",
+}
+
+# Parallels of a named checklist that a source states cover ALL of it, keyed by
+# the checklist they apply to. Baseball Card Pedia gives these two ways: a
+# sentence per insert ("each 1991 Topps Baseball is also available in the
+# following parallels") and its per-series ratio tables, where a colour run
+# carrying its parent's exact card count in each wave covers the whole thing.
+# Names are this repo's, from TCDB, which orders some differently — Koi Fish
+# Gold for that source's Gold Koi Fish.
+FULL_COVERAGE = {
+    "1991 Topps Baseball": {
+        # the fourteen named outright
+        "Crackle Foil", "Koi Fish", "Pink Crackle Foil", "Blue Crackle Foil",
+        "Green Crackle Foil", '"The Real One"', "Gold Crackle Foil",
+        "Koi Fish Gold", "Orange Crackle Foil", "Koi Fish Orange",
+        "Black Crackle Foil", "Koi Fish Black", "Red Crackle Foil",
+        "Koi Fish Red",
+        # colour runs the ratio tables carry at 100 in Series 1 and 50 in
+        # Series 2, which is the whole 150-card insert
+        "Pink", "Blue", "Green", "Gold", "Orange", "Black", "Red",
+        "FoilFractor",
+    },
 }
 
 # Base parallels printed in one wave only. Each covers every base card of that
@@ -334,15 +360,19 @@ def build(entries, document):
 
 
 def apply_base_facts(record):
-    """Coverage and print run for a base parallel, where a source states them."""
-    if record.get("applies_to") != ["Base"]:
+    """Coverage for a parallel, where a source states it."""
+    targets = record.get("applies_to")
+    if not targets:
         return False
     before = dict(record)
-    if record["name"] in BASE_FACTS:
+    if targets == ["Base"]:
+        if record["name"] in BASE_FACTS:
+            record["coverage"] = "full"
+        elif record["name"] in SERIES_SCOPED:
+            record["coverage"] = "full"
+            record["series"] = SERIES_SCOPED[record["name"]]
+    elif len(targets) == 1 and record["name"] in FULL_COVERAGE.get(targets[0], ()):
         record["coverage"] = "full"
-    elif record["name"] in SERIES_SCOPED:
-        record["coverage"] = "full"
-        record["series"] = SERIES_SCOPED[record["name"]]
     return before != record
 
 

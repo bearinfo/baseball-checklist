@@ -932,23 +932,23 @@
     {
       "id": "84023972-1b6c-4556-a239-ebe5d6afb65d",
       "name": "\"The Real One\"",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
     },
     {
       "id": "ef8ad6fc-d911-4dcc-8e43-d9321d611c62",
-      "name": "All-Star Game",
-      "coverage": "unknown",
-      "applies_to": [
-        "1991 Topps Baseball"
-      ]
+      "name": "1991 Topps Baseball All-Star Game",
+      "coverage": "partial",
+      "file": "parallels/1991-topps-baseball-all-star-game.csv",
+      "varies": "inserts/1991-topps-baseball.csv",
+      "card_count": 50
     },
     {
       "id": "e5387909-4e62-4cdb-8f5e-ce7ff6e7a4f8",
       "name": "Black",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -956,7 +956,7 @@
     {
       "id": "b92b1e48-1c70-4a1c-9206-2f553c73ca69",
       "name": "Black Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -964,7 +964,7 @@
     {
       "id": "13561cf4-780a-4021-a58e-894806c71cc8",
       "name": "Blue",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -972,7 +972,7 @@
     {
       "id": "cf463acc-9416-4c0a-9c61-28940675d53b",
       "name": "Blue Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -980,7 +980,7 @@
     {
       "id": "55b6412b-8d9b-4477-a601-b6d4fd1264de",
       "name": "Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -988,7 +988,7 @@
     {
       "id": "ffb07463-2b22-456c-93cc-032fdb23c2c7",
       "name": "FoilFractor",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -996,7 +996,7 @@
     {
       "id": "993dcb5d-1628-4d5a-9019-bc39c2ad5d69",
       "name": "Gold",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1004,7 +1004,7 @@
     {
       "id": "ba659eb4-b196-4cd5-a6da-d9d4a4c93a90",
       "name": "Gold Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1012,7 +1012,7 @@
     {
       "id": "00887a64-8cb3-4d4b-a1cf-ab81adbb4ea1",
       "name": "Green",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1020,7 +1020,7 @@
     {
       "id": "ec3d6ecc-abda-4993-94c3-e9c351b51398",
       "name": "Green Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1028,7 +1028,7 @@
     {
       "id": "c2b33682-e536-4fe3-bc6c-a410b693f225",
       "name": "Koi Fish",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1036,7 +1036,7 @@
     {
       "id": "3e43b404-b0c0-41dd-88ac-c5de42ba6247",
       "name": "Koi Fish Black",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1044,7 +1044,7 @@
     {
       "id": "cb418af5-1108-46b3-90c8-e2b34d24c81d",
       "name": "Koi Fish Gold",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1052,7 +1052,7 @@
     {
       "id": "2f60afa4-bf29-4650-bfe7-99f1b3b0a8c5",
       "name": "Koi Fish Orange",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1060,7 +1060,7 @@
     {
       "id": "cb537a89-d206-4263-b0b9-d7555bb9f7b3",
       "name": "Koi Fish Red",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1068,7 +1068,7 @@
     {
       "id": "8abfe46a-71e3-4455-833b-ba3136d40c94",
       "name": "Orange",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1076,7 +1076,7 @@
     {
       "id": "f6a75107-a154-4aa9-96bc-58d22f835a4c",
       "name": "Orange Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1084,7 +1084,7 @@
     {
       "id": "f04b5060-f701-484c-a0ba-524a1d6e9e8c",
       "name": "Pink",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1092,7 +1092,7 @@
     {
       "id": "59653938-8c33-4463-8ec8-637464447164",
       "name": "Pink Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1100,7 +1100,7 @@
     {
       "id": "c9d56e36-421b-47c2-85d3-9281fa54085f",
       "name": "Red",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
@@ -1108,7 +1108,7 @@
     {
       "id": "a41ca999-201e-4836-b3a3-b86602efe366",
       "name": "Red Crackle Foil",
-      "coverage": "unknown",
+      "coverage": "full",
       "applies_to": [
         "1991 Topps Baseball"
       ]
