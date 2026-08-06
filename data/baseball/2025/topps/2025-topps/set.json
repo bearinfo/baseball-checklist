@@ -47,6 +47,12 @@
       "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
     },
     {
+      "file": "autographs/2024-first-pitch-autograph-variation.csv",
+      "name": "2024 First Pitch Autograph Variation",
+      "kind": "autograph",
+      "card_count": 4
+    },
+    {
       "file": "autographs/2024-first-pitch-autographs.csv",
       "name": "2024 First Pitch Autographs",
       "kind": "autograph",
@@ -102,6 +108,12 @@
       "card_count": 5
     },
     {
+      "file": "autographs/the-big-hurt-autograph-variation.csv",
+      "name": "The Big Hurt Autograph Variation",
+      "kind": "autograph",
+      "card_count": 25
+    },
+    {
       "file": "autographs/world-champion-autograph-cards.csv",
       "name": "World Champion Autograph Cards",
       "kind": "autograph",
@@ -112,6 +124,13 @@
       "name": "World Champion Dual Autograph Cards",
       "kind": "autograph",
       "card_count": 13
+    },
+    {
+      "file": "autographs/world-tour-domination-autograph-variation.csv",
+      "name": "World Tour Domination Autograph Variation",
+      "kind": "autograph",
+      "card_count": 14,
+      "distribution": "TOKYO SERIES EXCLUSIVE"
     },
     {
       "file": "inserts/1990-topps-all-star-baseball.csv",
@@ -213,6 +232,12 @@
       "name": "Homefield Advantage",
       "kind": "insert",
       "card_count": 40
+    },
+    {
+      "file": "inserts/k-zone-short-prints.csv",
+      "name": "K Zone Short Prints",
+      "kind": "insert",
+      "card_count": 25
     },
     {
       "file": "inserts/k-zone.csv",
@@ -489,12 +514,6 @@
       "distribution": "TOKYO SERIES EXCLUSIVE"
     },
     {
-      "file": "autographs/2024-first-pitch-autograph-variation.csv",
-      "name": "2024 First Pitch Autograph Variation",
-      "kind": "autograph",
-      "card_count": 4
-    },
-    {
       "file": "variations/all-positions-variation.csv",
       "name": "All Positions Variation",
       "kind": "variation",
@@ -536,17 +555,30 @@
       ]
     },
     {
+      "file": "variations/factory-set-rookie-bonus.csv",
+      "name": "Factory Set Rookie Bonus",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 3,
+      "distribution": "Factory Set Only",
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
+      "file": "variations/factory-set-rookie-variation.csv",
+      "name": "Factory Set Rookie Variation",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 5,
+      "distribution": "Retail Factory Set Only"
+    },
+    {
       "file": "variations/golden-mirror-image-variation.csv",
       "name": "Golden Mirror Image Variation",
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 700
-    },
-    {
-      "file": "inserts/k-zone-short-prints.csv",
-      "name": "K Zone Short Prints",
-      "kind": "insert",
-      "card_count": 25
     },
     {
       "file": "variations/murakami-variation.csv",
@@ -573,19 +605,6 @@
       "tags": [
         "gimmick"
       ]
-    },
-    {
-      "file": "autographs/the-big-hurt-autograph-variation.csv",
-      "name": "The Big Hurt Autograph Variation",
-      "kind": "autograph",
-      "card_count": 25
-    },
-    {
-      "file": "autographs/world-tour-domination-autograph-variation.csv",
-      "name": "World Tour Domination Autograph Variation",
-      "kind": "autograph",
-      "card_count": 14,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
     }
   ],
   "provenance": [
@@ -602,6 +621,14 @@
       "retrieved": "2026-08-05",
       "covers": "Series 2 (#351-700) and its inserts",
       "notes": "Two non-card sections skipped: Social Media Follow Back Redemption and Fanatics Authentic Redemption Cards. Cards #365, #409 and #639 print a league where the team would go (Major League Baseball, National League), which is why those values are in teams.json."
+    },
+    {
+      "source_type": "community",
+      "source": "Baseball Card Pedia, 2025 Topps",
+      "source_url": "https://baseballcardpedia.com/index.php/2025_Topps",
+      "retrieved": "2026-08-05",
+      "covers": "the factory set cards, which no Topps series checklist lists",
+      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag."
     }
   ],
   "series": [
