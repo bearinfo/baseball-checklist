@@ -5,7 +5,7 @@ Run with no arguments to check everything, or pass set directories to check
 only those. Exits non-zero on the first failing set so CI fails the PR.
 
     scripts/validate.py
-    scripts/validate.py data/baseball/2026/topps/2026-topps
+    scripts/validate.py data/baseball/2026/2026-topps
 
 Every failure names the file and, for row problems, the line number.
 """

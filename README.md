@@ -12,7 +12,7 @@ schema/1.0/ROW-FORMAT.md       the row standard (frozen for 1.0)
 schema/1.0/designations.json   controlled vocabulary: RC, FS, LL, TC, CC, CL, RCUP
 schema/1.0/tags.json           controlled vocabulary for checklist categories
 data/baseball/teams.json       closed list of valid team names
-data/baseball/<year>/<manufacturer>/<set-slug>/
+data/baseball/<year>/<set-slug>/
     set.json                   identity, provenance, series, packagings, parallels
     base.csv                   the base checklist
     variations/*.csv           cards sharing base numbering (short prints, photo variations)
@@ -155,7 +155,7 @@ in the base set and whose players are entirely different.
 ```sh
 pip install -r requirements.txt
 scripts/validate.py                                   # everything
-scripts/validate.py data/baseball/2026/topps/2026-topps
+scripts/validate.py data/baseball/2026/2026-topps
 ```
 
 Every failure names the file and, for rows, the line number. CI runs this on

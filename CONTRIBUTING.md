@@ -14,7 +14,7 @@ It must pass. CI runs the same command.
 
 ## Adding a set
 
-1. Create `data/baseball/<year>/<manufacturer>/<set-slug>/`, kebab-case
+1. Create `data/baseball/<year>/<set-slug>/`, kebab-case
    throughout. The set slug is the brand-year, e.g. `2026-topps` — one set per
    brand-year, not one per series or product.
 2. Generate a **new UUID** for `id` (`python -c "import uuid; print(uuid.uuid4())"`).
