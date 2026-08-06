@@ -70,9 +70,19 @@ in the PR what the source shows — a correction without a source is a guess.
 
 ## Extending a vocabulary
 
-Team names (`data/baseball/teams.json`) and designation codes
-(`schema/1.0/designations.json`) are closed lists. To add one, include evidence
-of the printed form — which set and card prints it that way. Historical and
+Team names (`data/baseball/teams.json`), designation codes
+(`schema/1.0/designations.json`) and checklist tags (`schema/1.0/tags.json`) are
+closed lists. To add one, include evidence of the printed form — which set and
+card prints it that way.
+
+Tags are the exception to "as printed", and the only curatorial field here.
+Nothing prints the word *gimmick*; Topps prints `BASE CARDS DANCING DODGERS
+VARIATION`. A tag exists so a question spanning sets can be answered in one
+pass — every gimmick across every year — which `kind` cannot, since it says only
+that these are variations. Two rules keep the list honest: a tag must never
+restate data already held (`distribution` for how it was sold, the row's
+`is_short_print` for short prints), and adding one still needs evidence that a
+given checklist belongs in the category. Historical and
 defunct franchises belong in the list once a card prints them; so do a
 manufacturer's inconsistent forms, since rows record names **as printed**.
 

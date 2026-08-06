@@ -160,6 +160,12 @@ def check_set(set_dir, schemas, vocab, failures):
                                   f"{packaging['card_count']} cards but its "
                                   f"checklists hold {total}")
 
+    for checklist in document["checklists"]:
+        for tag in checklist.get("tags", []):
+            if tag not in vocab["tags"]:
+                failures.add(rel, f"{checklist['file']} is tagged {tag!r}, "
+                                  f"which is not in schema/1.0/tags.json")
+
     numbers = {}
     for checklist in document["checklists"]:
         path = set_dir / checklist["file"]
@@ -240,6 +246,7 @@ def main(argv):
     vocab = {
         "teams": set(load_json(DATA_DIR / "baseball/teams.json")["teams"]),
         "codes": set(load_json(SCHEMA_DIR / "1.0/designations.json")["codes"]),
+        "tags": set(load_json(SCHEMA_DIR / "1.0/tags.json")["tags"]),
     }
     set_dirs = ([p.resolve() for p in args.sets] or
                 sorted(p.parent for p in DATA_DIR.rglob("set.json")))

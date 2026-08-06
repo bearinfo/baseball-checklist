@@ -10,6 +10,7 @@ into any application — consumers pull from it and convert on their own side.
 schema/1.0/set.schema.json     the specification for set.json
 schema/1.0/ROW-FORMAT.md       the row standard (frozen for 1.0)
 schema/1.0/designations.json   controlled vocabulary: RC, FS, LL, TC, CC, CL, RCUP
+schema/1.0/tags.json           controlled vocabulary for checklist categories
 data/baseball/teams.json       closed list of valid team names
 data/baseball/<year>/<manufacturer>/<set-slug>/
     set.json                   identity, provenance, series, packagings, parallels

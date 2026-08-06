@@ -1,0 +1,9 @@
+{
+  "description": "Closed list of valid `tags` values on a checklist. Unlike every other classification here, these are the repo's OWN categories, not something a manufacturer prints: Topps prints \"BASE CARDS DANCING DODGERS VARIATION\", never the word gimmick. A tag is asserted by a person, like `varies` and `coverage`, and exists so a question that spans sets can be answered in one pass — \"every gimmick Topps has issued\" is not answerable from `kind`, which says only that these are variations. A tag must never restate something the data already holds: how a checklist was sold is `distribution`, whether a card is short-printed is the row's `is_short_print`, and what a checklist is remains `kind`. Grows by PR, with the evidence that puts a checklist in the category.",
+  "tags": [
+    "gimmick"
+  ],
+  "meanings": {
+    "gimmick": "A novelty variation whose interest is the joke or stunt rather than the photograph — the Dodgers dancing, a player's head oversized. Not derivable from the rows: Big Head changes no subject at all while Dancing Dodgers changes four of ten, and Golden Mirror Legend changes every one without being a gimmick."
+  }
+}

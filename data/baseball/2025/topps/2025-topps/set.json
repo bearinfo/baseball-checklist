@@ -508,7 +508,10 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 20,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "CELEBRATION SERIES EXCLUSIVE",
+      "tags": [
+        "gimmick"
+      ]
     },
     {
       "file": "variations/cardinals-base-card-variation-autograph.csv",
@@ -524,7 +527,10 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 10,
-      "distribution": "Hobby Only Exclusive"
+      "distribution": "Hobby Only Exclusive",
+      "tags": [
+        "gimmick"
+      ]
     },
     {
       "file": "variations/golden-mirror-image-variation.csv",
