@@ -738,6 +738,15 @@
       ]
     },
     {
+      "id": "f6a0959e-47c1-460e-8266-b514247a9cf5",
+      "name": "Confetti",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "55322755-c0d5-41b1-bb66-c9484943f856",
       "name": "Diamante Foil",
       "coverage": "full",
