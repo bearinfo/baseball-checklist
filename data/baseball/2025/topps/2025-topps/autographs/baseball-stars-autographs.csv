@@ -1,0 +1,208 @@
+card_number,name,team,designations
+BSA-AA,Adael Amador,Colorado Rockies,RC
+BSA-AB,Alec Burleson,St. Louis Cardinals,
+BSA-ADI,Alexis Díaz,Cincinnati Reds,
+BSA-AG,Andrés Giménez,Cleveland Guardians,
+BSA-AJ,Andruw Jones,Atlanta Braves,
+BSA-AMA,Adam Mazur,Miami Marlins,RC
+BSA-BB,Byron Buxton,Minnesota Twins,
+BSA-BD,Bryan De La Cruz,Pittsburgh Pirates,
+BSA-BDO,Brenton Doyle,Colorado Rockies,
+BSA-BDU,Blake Dunn,Cincinnati Reds,RC
+BSA-BJ,Ben Joyce,Angels,
+BSA-BL,Brooks Lee,Minnesota Twins,RC
+BSA-BM,Bryce Miller,Seattle Mariners,
+BSA-BP,Brandon Pfaadt,Arizona Diamondbacks,
+BSA-BT,Brice Turang,Milwaukee Brewers,
+BSA-CA,CJ Alexander,Kansas City Royals,RC
+BSA-CFI,Cecil Fielder,Detroit Tigers,
+BSA-CL,Cliff Lee,Philadelphia Phillies,
+BSA-CMC,Chayce McDermott,Baltimore Orioles,RC
+BSA-CMO,Christopher Morel,Tampa Bay Rays,
+BSA-CN,Connor Norby,Miami Marlins,RC
+BSA-CP,Cade Povich,Baltimore Orioles,RC
+BSA-CR,Carlos Rodriguez,Milwaukee Brewers,RC
+BSA-DF,David Festa,Minnesota Twins,RC
+BSA-DJ,David Justice,Atlanta Braves,
+BSA-DM,Dale Murphy,Atlanta Braves,
+BSA-DS,Darryl Strawberry,New York Mets,
+BSA-DT,Drew Thorpe,Chicago White Sox,RC
+BSA-GG,Gordon Graceffo,St. Louis Cardinals,RC
+BSA-GMO,Gabriel Moreno,Arizona Diamondbacks,
+BSA-GR,Grayson Rodriguez,Baltimore Orioles,
+BSA-GS,Gavin Stone,Los Angeles Dodgers,
+BSA-HB,Hayden Birdsong,San Francisco Giants,RC
+BSA-HJ,Howard Johnson,New York Mets,
+BSA-JB,José Berríos,Toronto Blue Jays,
+BSA-JBL,Jake Bloss,Toronto Blue Jays,RC
+BSA-JG,Juan Gonzalez,Texas Rangers,
+BSA-JHM,Justyn-Henry Malloy,Detroit Tigers,RC
+BSA-JI,Jake Irvin,Washington Nationals,
+BSA-JK,John Kruk,Philadelphia Phillies,
+BSA-JKO,Jack Kochanowicz,Angels,RC
+BSA-JMI,Jose Miranda,Minnesota Twins,
+BSA-JN,Jhonkensy Noel,Cleveland Guardians,RC
+BSA-JO,Joey Ortiz,Milwaukee Brewers,
+BSA-JS,Johan Santana,New York Mets,
+BSA-JW,Justin Wrobleski,Los Angeles Dodgers,RC
+BSA-JWO,James Wood,Washington Nationals,RC
+BSA-KC,Kerry Carpenter,Detroit Tigers,
+BSA-KF,Kyle Finnegan,Washington Nationals,
+BSA-KH,Ke'Bryan Hayes,Pittsburgh Pirates,
+BSA-KM,Keider Montero,Detroit Tigers,RC
+BSA-LT,Lane Thomas,Cleveland Guardians,
+BSA-LW,Larry Walker,Montréal Expos,
+BSA-MBU,Michael Busch,Chicago Cubs,
+BSA-MG,Maikel Garcia,Kansas City Royals,
+BSA-MH,Michael Harris II,Atlanta Braves,
+BSA-MME,Michael Mercado,Philadelphia Phillies,RC
+BSA-MT,Michael Toglia,Colorado Rockies,
+BSA-MW,Matt Williams,San Francisco Giants,
+BSA-NE,Nate Eovaldi,Texas Rangers,
+BSA-NL,Nick Lodolo,Cincinnati Reds,
+BSA-OM,Orelvis Martinez,Toronto Blue Jays,RC
+BSA-PM,Paul Molitor,Milwaukee Brewers,
+BSA-RB,Ryan Bliss,Seattle Mariners,RC
+BSA-RR,Robbie Ray,San Francisco Giants,
+BSA-RRY,River Ryan,Los Angeles Dodgers,RC
+BSA-SL,Shea Langeliers,Athletics,
+BSA-SSC,Spencer Schwellenbach,Atlanta Braves,RC
+BSA-TL,Tyler Locklear,Seattle Mariners,RC
+BSA-TS,Tyler Stephenson,Cincinnati Reds,
+BSA-VG,Vladimir Guerrero Jr.,Toronto Blue Jays,
+BSA-VP,Vinnie Pasquantino,Kansas City Royals,
+BSA-YD,Yilber Diaz,Arizona Diamondbacks,RC
+BSA-AD,Adrian Del Castillo,Arizona Diamondbacks,RC
+BSA-CDA,Caden Dana,Angels,RC
+BSA-CMA,Coby Mayo,Baltimore Orioles,RC
+BSA-COOK,Billy Cook,Pittsburgh Pirates,RC
+BSA-DB,Darren Baker,Washington Nationals,RC
+BSA-DC,Dylan Crews,Washington Nationals,RC
+BSA-DDI,Dillon Dingler,Detroit Tigers,RC
+BSA-DR,Drew Romo,Colorado Rockies,RC
+BSA-GM,Grant McCray,San Francisco Giants,RC
+BSA-JC,Joey Cantillo,Cleveland Guardians,RC
+BSA-JJ,Jace Jung,Detroit Tigers,RC
+BSA-JJO,Jackson Jobe,Detroit Tigers,RC
+BSA-KAL,Kevin Alcántara,Chicago Cubs,RC
+BSA-KB,Ky Bush,Chicago White Sox,RC
+BSA-LA,Luisangel Acuña,New York Mets,RC
+BSA-LEO,Leo Jiménez,Toronto Blue Jays,RC
+BSA-MMC,Michael McGreevy,St. Louis Cardinals,RC
+BSA-NAR,Carlos Narváez,New York Yankees,RC
+BSA-NK,Niko Kavadas,Angels,RC
+BSA-RL,Rhett Lowder,Cincinnati Reds,RC
+BSA-SA,Samuel Aldegheri,Angels,RC
+BSA-SAG,Thomas Saggese,St. Louis Cardinals,RC
+BSA-SW,Shay Whitcomb,Houston Astros,RC
+BSA-TRE,Trey Sweeney,Detroit Tigers,RC
+BSA-WW,Will Wagner,Toronto Blue Jays,RC
+BSA-WWA,Will Warren,New York Yankees,RC
+BSA-YOR,Nick Yorke,Pittsburgh Pirates,RC
+BSA-ZD,Zach Dezenzo,Houston Astros,RC
+BSA-ZM,Zebby Matthews,Minnesota Twins,RC
+BSA2-AG,Andrés Giménez,Toronto Blue Jays,
+BSA2-AP,Andy Pages,Los Angeles Dodgers,
+BSA2-AS,Alfonso Soriano,New York Yankees,
+BSA2-AV,Alex Verdugo,New York Yankees,
+BSA2-BB,Ben Brown,Chicago Cubs,
+BSA2-BG,Brett Gardner,New York Yankees,
+BSA2-BL,Brooks Lee,Minnesota Twins,RC
+BSA2-BN,Bo Naylor,Cleveland Guardians,
+BSA2-BR,Billy Ripken,Baltimore Orioles,
+BSA2-BRO,Brian Roberts,Baltimore Orioles,
+BSA2-BT,Bryce Teodosio,Angels,RC
+BSA2-CB,Cody Bellinger,New York Yankees,
+BSA2-CK,Colt Keith,Detroit Tigers,
+BSA2-CM,Coby Mayo,Baltimore Orioles,RC
+BSA2-CR,Cole Ragans,Kansas City Royals,
+BSA2-DC,Dylan Crews,Washington Nationals,RC
+BSA2-DH,Dustin Harris,Texas Rangers,RC
+BSA2-DS,Daniel Schneemann,Cleveland Guardians,RC
+BSA2-DV,Daulton Varsho,Toronto Blue Jays,
+BSA2-EC,Eric Chavez,Oakland Athletics,
+BSA2-EH,Edgardo Henriquez,Los Angeles Dodgers,RC
+BSA2-FM,Fred McGriff,Toronto Blue Jays,
+BSA2-FP,Freddy Peralta,Milwaukee Brewers,
+BSA2-GC,Garrett Crochet,Boston Red Sox,
+BSA2-GH,Grant Holmes,Atlanta Braves,RC
+BSA2-GK,George Kirby,Seattle Mariners,
+BSA2-HB,Harrison Bader,Minnesota Twins,
+BSA2-HF,Hunter Feduccia,Los Angeles Dodgers,RC
+BSA2-HK,Hyeseong Kim,Los Angeles Dodgers,RC
+BSA2-IK,Ian Kinsler,Texas Rangers,
+BSA2-JA,Javier Assad,Chicago Cubs,
+BSA2-JB,Jake Burger,Texas Rangers,
+BSA2-JBA,Joey Bart,Pittsburgh Pirates,
+BSA2-JC,Joe Carter,Toronto Blue Jays,
+BSA2-JF,Jack Flaherty,Detroit Tigers,
+BSA2-JIR,Jairo Iriarte,Chicago White Sox,RC
+BSA2-JM,Justin Morneau,Minnesota Twins,
+BSA2-JN,Jack Neely,Chicago Cubs,RC
+BSA2-JS,Juan Soto,New York Mets,
+BSA2-JW,Jordan Westburg,Baltimore Orioles,
+BSA2-JWO,James Wood,Washington Nationals,RC
+BSA2-KL,Kenny Lofton,Atlanta Braves,
+BSA2-KM,Kameron Misner,Tampa Bay Rays,RC
+BSA2-KR,Kumar Rocker,Texas Rangers,RC
+BSA2-KS,Kyle Seager,Seattle Mariners,
+BSA2-KTU,Kyle Tucker,Chicago Cubs,
+BSA2-LG,Luis Gil,New York Yankees,
+BSA2-LN,Lars Nootbaar,St. Louis Cardinals,
+BSA2-MC,Michael Conforto,Los Angeles Dodgers,
+BSA2-MG,MacKenzie Gore,Washington Nationals,
+BSA2-MM,Mark Mulder,Oakland Athletics,
+BSA2-MMU,Max Muncy,Los Angeles Dodgers,
+BSA2-MT,Miguel Tejada,Oakland Athletics,
+BSA2-MV,Mark Vientos,New York Mets,
+BSA2-NC,Nestor Cortes,Milwaukee Brewers,
+BSA2-NL,Nathaniel Lowe,Washington Nationals,
+BSA2-NS,Nolan Schanuel,Angels,
+BSA2-NSO,Nick Sogard,Boston Red Sox,RC
+BSA2-PA,Pete Alonso,New York Mets,
+BSA2-PB,Patrick Bailey,San Francisco Giants,
+BSA2-PL,Pedro León,Houston Astros,RC
+BSA2-PO,Paul O'Neill,New York Yankees,
+BSA2-RA,Ronald Acuña Jr.,Atlanta Braves,
+BSA2-RB,Ronel Blanco,Houston Astros,
+BSA2-RD,Ron Darling,New York Mets,
+BSA2-RF,Richard Fitts,Boston Red Sox,RC
+BSA2-RH,Ryan Howard,Philadelphia Phillies,
+BSA2-RJ,Reggie Jackson,New York Yankees,
+BSA2-RS,Roki Sasaki,Los Angeles Dodgers,RC
+BSA2-SF,Sandro Fabian,Texas Rangers,RC
+BSA2-SJ,Seth Johnson,Philadelphia Phillies,RC
+BSA2-SW,Shay Whitcomb,Houston Astros,RC
+BSA2-TB,Tanner Bibee,Cleveland Guardians,
+BSA2-TG,Tony Gonsolin,Los Angeles Dodgers,
+BSA2-TGE,Tyler Gentry,Kansas City Royals,RC
+BSA2-TMA,Ty Madden,Detroit Tigers,RC
+BSA2-TMC,Triston McKenzie,Cleveland Guardians,
+BSA2-TSW,Trey Sweeney,Detroit Tigers,RC
+BSA2-VG,Vladimir Guerrero Jr.,Toronto Blue Jays,
+BSA2-YD,Yandy Díaz,Tampa Bay Rays,
+BSA-AM,Angel Martínez,Cleveland Guardians,RC
+BSA-AS,Aaron Schunk,Colorado Rockies,RC
+BSA-BBA,Brady Basso,Athletics,RC
+BSA-BBL,Bradley Blalock,Colorado Rockies,RC
+BSA-BBN,Brooks Baldwin,Chicago White Sox,RC
+BSA-BR,Ben Rice,New York Yankees,RC
+BSA-CB,Carlos Beltran,New York Mets,
+BSA-CF,Carlton Fisk,Boston Red Sox,
+BSA-CME,Cristian Mena,Arizona Diamondbacks,RC
+BSA-DH,DJ Herz,Washington Nationals,RC
+BSA-EG,Eric Gagne,Los Angeles Dodgers,
+BSA-GC,Griffin Conine,Miami Marlins,RC
+BSA-GJ,Greg Jones,Colorado Rockies,RC
+BSA-HW,Hurston Waldrep,Atlanta Braves,RC
+BSA-JR,Jim Rice,Boston Red Sox,
+BSA-JWI,Jacob Wilson,Athletics,RC
+BSA-MO,Matt Olson,Atlanta Braves,
+BSA-NA,Nacho Alvarez Jr.,Atlanta Braves,RC
+BSA-RAJ,Ronald Acuña Jr.,Atlanta Braves,
+BSA-RH,Rece Hinds,Cincinnati Reds,RC
+BSA-SBE,Steward Berroa,Toronto Blue Jays,RC
+BSA-SS,Spencer Steer,Cincinnati Reds,
+BSA-TO,Tony Oliva,Minnesota Twins,
+BSA-TP,Tyler Phillips,Philadelphia Phillies,RC
+BSA-VB,Valente Bellozo,Miami Marlins,RC

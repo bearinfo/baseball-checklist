@@ -1,0 +1,108 @@
+card_number,name,team,designations
+MLMAR-AN,Aaron Nola,Philadelphia Phillies,
+MLMAR-AR,Adley Rutschman,Baltimore Orioles,
+MLMAR-ARI,Anthony Rizzo,New York Yankees,
+MLMAR-AV,Anthony Volpe,New York Yankees,
+MLMAR-BB,Byron Buxton,Minnesota Twins,
+MLMAR-BL,Brooks Lee,Minnesota Twins,RC
+MLMAR-BN,Brandon Nimmo,New York Mets,
+MLMAR-BW,Bobby Witt Jr.,Kansas City Royals,
+MLMAR-CB,Corbin Burnes,Baltimore Orioles,
+MLMAR-CC,Corbin Carroll,Arizona Diamondbacks,
+MLMAR-CMA,Coby Mayo,Baltimore Orioles,RC
+MLMAR-CY,Christian Yelich,Milwaukee Brewers,
+MLMAR-DC,Dylan Crews,Washington Nationals,RC
+MLMAR-DS,Dansby Swanson,Chicago Cubs,
+MLMAR-FT,Fernando Tatis Jr.,San Diego Padres,
+MLMAR-GR,Grayson Rodriguez,Baltimore Orioles,
+MLMAR-HB,Hayden Birdsong,San Francisco Giants,RC
+MLMAR-JA,Jose Altuve,Houston Astros,
+MLMAR-JC,Jackson Chourio,Milwaukee Brewers,
+MLMAR-JCJ,Jazz Chisholm Jr.,New York Yankees,
+MLMAR-JD,Jarren Duran,Boston Red Sox,
+MLMAR-JL,Jung Hoo Lee,San Francisco Giants,
+MLMAR-JRA,José Ramírez,Cleveland Guardians,
+MLMAR-JS,Juan Soto,New York Yankees,
+MLMAR-JWO,James Wood,Washington Nationals,RC
+MLMAR-KH,Ke'Bryan Hayes,Pittsburgh Pirates,
+MLMAR-KS,Kyle Schwarber,Philadelphia Phillies,
+MLMAR-KT,Kyle Tucker,Houston Astros,
+MLMAR-LR,Luis Robert Jr.,Chicago White Sox,
+MLMAR-LW,Logan Webb,San Francisco Giants,
+MLMAR-MF,Max Fried,Atlanta Braves,
+MLMAR-MH,Michael Harris II,Atlanta Braves,
+MLMAR-MMU,Max Muncy,Los Angeles Dodgers,
+MLMAR-MO,Matt Olson,Atlanta Braves,
+MLMAR-MS,Marcus Semien,Texas Rangers,
+MLMAR-MT,Mike Trout,Angels,
+MLMAR-NH,Nico Hoerner,Chicago Cubs,
+MLMAR-OM,Orelvis Martinez,Toronto Blue Jays,RC
+MLMAR-PG,Paul Goldschmidt,St. Louis Cardinals,
+MLMAR-RA,Ronald Acuña Jr.,Atlanta Braves,
+MLMAR-RM,Ryan Mountcastle,Baltimore Orioles,
+MLMAR-SI,Shota Imanaga,Chicago Cubs,
+MLMAR-SK,Steven Kwan,Cleveland Guardians,
+MLMAR-SM,Shane McClanahan,Tampa Bay Rays,
+MLMAR-SS,Spencer Strider,Atlanta Braves,
+MLMAR-SST,Spencer Steer,Cincinnati Reds,
+MLMAR-VG,Vladimir Guerrero Jr.,Toronto Blue Jays,
+MLMAR-WL,Wyatt Langford,Texas Rangers,
+MLMAR-XB,Xander Bogaerts,San Diego Padres,
+MLMAR-YA,Yordan Alvarez,Houston Astros,
+MLMA2-AB,Alec Bohm,Philadelphia Phillies,
+MLMA2-ABU,Alec Burleson,St. Louis Cardinals,
+MLMA2-AM,Angel Martínez,Cleveland Guardians,RC
+MLMA2-AP,Andy Pages,Los Angeles Dodgers,
+MLMA2-BR,Ben Rice,New York Yankees,RC
+MLMA2-CA,CJ Abrams,Washington Nationals,
+MLMA2-CC,Corbin Carroll,Arizona Diamondbacks,
+MLMA2-CM,Coby Mayo,Baltimore Orioles,RC
+MLMA2-CN,Connor Norby,Miami Marlins,RC
+MLMA2-CP,Cade Povich,Baltimore Orioles,RC
+MLMA2-CR,Cal Raleigh,Seattle Mariners,
+MLMA2-DC,Dylan Cease,San Diego Padres,
+MLMA2-DCR,Dylan Crews,Washington Nationals,RC
+MLMA2-DF,David Festa,Minnesota Twins,RC
+MLMA2-DT,Drew Thorpe,Chicago White Sox,RC
+MLMA2-FA,Francisco Alvarez,New York Mets,
+MLMA2-GM,Gabriel Moreno,Arizona Diamondbacks,
+MLMA2-GS,George Springer,Toronto Blue Jays,
+MLMA2-HW,Hurston Waldrep,Atlanta Braves,RC
+MLMA2-JAJ,Jace Jung,Detroit Tigers,RC
+MLMA2-JD,Jasson Domínguez,New York Yankees,
+MLMA2-JJ,Jackson Jobe,Detroit Tigers,RC
+MLMA2-JM,Justyn-Henry Malloy,Detroit Tigers,RC
+MLMA2-JN,Jhonkensy Noel,Cleveland Guardians,RC
+MLMA2-JW,Jordan Westburg,Baltimore Orioles,
+MLMA2-JWI,Jacob Wilson,Athletics,RC
+MLMA2-JWO,James Wood,Washington Nationals,RC
+MLMA2-JWR,Justin Wrobleski,Los Angeles Dodgers,RC
+MLMA2-KA,Kevin Alcántara,Chicago Cubs,RC
+MLMA2-KB,Kris Bryant,Colorado Rockies,
+MLMA2-KR,Kumar Rocker,Texas Rangers,RC
+MLMA2-LA,Luis Arraez,San Diego Padres,
+MLMA2-LAA,Luisangel Acuña,New York Mets,RC
+MLMA2-LN,Lars Nootbaar,St. Louis Cardinals,
+MLMA2-MG,MacKenzie Gore,Washington Nationals,
+MLMA2-MM,Max Muncy,Los Angeles Dodgers,
+MLMA2-MMC,Michael McGreevy,St. Louis Cardinals,RC
+MLMA2-MT,Mike Trout,Angels,
+MLMA2-MY,Mike Yastrzemski,San Francisco Giants,
+MLMA2-NS,Nolan Schanuel,Angels,
+MLMA2-NY,Nick Yorke,Pittsburgh Pirates,RC
+MLMA2-OA,Ozzie Albies,Atlanta Braves,
+MLMA2-PC,Pete Crow-Armstrong,Chicago Cubs,
+MLMA2-PS,Paul Skenes,Pittsburgh Pirates,
+MLMA2-RA,Ronald Acuña Jr.,Atlanta Braves,
+MLMA2-RH,Rece Hinds,Cincinnati Reds,RC
+MLMA2-RL,Rhett Lowder,Cincinnati Reds,RC
+MLMA2-RR,River Ryan,Los Angeles Dodgers,RC
+MLMA2-SL,Seth Lugo,Kansas City Royals,
+MLMA2-SS,Spencer Schwellenbach,Atlanta Braves,RC
+MLMA2-SW,Shay Whitcomb,Houston Astros,RC
+MLMA2-TL,Tyler Locklear,Seattle Mariners,RC
+MLMA2-TS,Thomas Saggese,St. Louis Cardinals,RC
+MLMA2-TSW,Trey Sweeney,Detroit Tigers,RC
+MLMA2-WW,Will Wagner,Toronto Blue Jays,RC
+MLMA2-ZD,Zach Dezenzo,Houston Astros,RC
+MLMA2-ZM,Zebby Matthews,Minnesota Twins,RC

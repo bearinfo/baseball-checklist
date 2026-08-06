@@ -1,0 +1,298 @@
+card_number,name,team,designations
+90A-AD,Andre Dawson,Chicago Cubs,
+90A-AJ,Adam Jones,Baltimore Orioles,
+90A-AN,Aaron Nola,Philadelphia Phillies,
+90A-AP,Andy Pettitte,New York Yankees,
+90A-AR,Anthony Rizzo,New York Yankees,
+90A-AT,Alan Trammell,Detroit Tigers,
+90A-AV,Anthony Volpe,New York Yankees,
+90A-AVE,Alex Verdugo,New York Yankees,
+90A-BB,Bert Blyleven,California Angels,
+90A-BN,Brandon Nimmo,New York Mets,
+90A-BR,Bryan Reynolds,Pittsburgh Pirates,
+90A-BW,Bernie Williams,New York Yankees,
+90A-CA,CJ Abrams,Washington Nationals,
+90A-CBE,Carlos Beltrán,New York Yankees,
+90A-CBU,Corbin Burnes,Baltimore Orioles,
+90A-CC,Colton Cowser,Baltimore Orioles,
+90A-CL,Cliff Lee,Philadelphia Phillies,
+90A-CM,Christopher Morel,Tampa Bay Rays,
+90A-CR,Cole Ragans,Kansas City Royals,
+90A-CRA,Cal Raleigh,Seattle Mariners,
+90A-CS,Christian Scott,New York Mets,
+90A-DJ,David Justice,Atlanta Braves,
+90A-DM,Dale Murphy,Atlanta Braves,
+90A-DP,Dustin Pedroia,Boston Red Sox,
+90A-DS,Dave Stieb,Toronto Blue Jays,
+90A-ED,Eric Davis,Cincinnati Reds,
+90A-EM,Edgar Martinez,Seattle Mariners,
+90A-FJ,Fergie Jenkins,Chicago Cubs,
+90A-FM,Fred McGriff,Atlanta Braves,
+90A-FP,Freddy Peralta,Milwaukee Brewers,
+90A-GK,George Kirby,Seattle Mariners,
+90A-GS,George Springer,Toronto Blue Jays,
+90A-GSH,Gary Sheffield,Milwaukee Brewers,
+90A-IH,Ian Happ,Chicago Cubs,
+90A-JA,Jim Abbott,California Angels,
+90A-JC,Jazz Chisholm Jr.,New York Yankees,
+90A-JCA,Junior Caminero,Tampa Bay Rays,
+90A-JG,Juan Gonzalez,Texas Rangers,
+90A-JH,Jackson Holliday,Baltimore Orioles,
+90A-JM,Jackson Merrill,San Diego Padres,
+90A-JP,Jim Palmer,Baltimore Orioles,
+90A-JPO,Jorge Posada,New York Yankees,
+90A-JRO,Jimmy Rollins,Philadelphia Phillies,
+90A-JSA,Johan Santana,Minnesota Twins,
+90A-JSM,John Smoltz,Atlanta Braves,
+90A-JST,Justin Steele,Chicago Cubs,
+90A-JW,Jerome Walton,Chicago Cubs,
+90A-KH,Ke'Bryan Hayes,Pittsburgh Pirates,
+90A-KT,Kyle Tucker,Houston Astros,
+90A-KW,Kerry Wood,Chicago Cubs,
+90A-LG,Lourdes Gurriel Jr.,Arizona Diamondbacks,
+90A-LN,Lars Nootbaar,St. Louis Cardinals,
+90A-MB,Mark Buehrle,Chicago White Sox,
+90A-MG,Mark Grace,Chicago Cubs,
+90A-MM,Mason Miller,Athletics,
+90A-MMU,Max Muncy,Los Angeles Dodgers,
+90A-NC,Nestor Cortes,New York Yankees,
+90A-NG,Nomar Garciaparra,Boston Red Sox,
+90A-PK,Paul Konerko,Chicago White Sox,
+90A-PM,Paul Molitor,Milwaukee Brewers,
+90A-PS,Paul Skenes,Pittsburgh Pirates,
+90A-RH,Ryan Howard,Philadelphia Phillies,
+90A-RHO,Rhys Hoskins,Milwaukee Brewers,
+90A-RM,Ryan Mountcastle,Baltimore Orioles,
+90A-SG,Sonny Gray,St. Louis Cardinals,
+90A-SGA,Steve Garvey,Los Angeles Dodgers,
+90A-SK,Steven Kwan,Cleveland Guardians,
+90A-TGL,Tom Glavine,Atlanta Braves,
+90A-TH,Torii Hunter,Minnesota Twins,
+90A-TT,Trea Turner,Philadelphia Phillies,
+90A-WL,Wyatt Langford,Texas Rangers,
+90A-XB,Xander Bogaerts,San Diego Padres,
+90A-AA,Adael Amador,Colorado Rockies,RC
+90A-AK,Adam Kloffenstein,St. Louis Cardinals,RC
+90A-AMZ,Angel Martínez,Cleveland Guardians,RC
+90A-AS,Aaron Schunk,Colorado Rockies,RC
+90A-AVS,Andy Van Slyke,Pittsburgh Pirates,
+90A-BBA,Brady Basso,Athletics,RC
+90A-BBN,Brooks Baldwin,Chicago White Sox,RC
+90A-BBO,Barry Bonds,San Francisco Giants,
+90A-BBO2,Barry Bonds,Pittsburgh Pirates,
+90A-BBR,Ben Brown,Chicago Cubs,
+90A-BL,Brooks Lee,Minnesota Twins,RC
+90A-BRI,Ben Rice,New York Yankees,RC
+90A-BRN,Billy Ripken,Baltimore Orioles,
+90A-BWI,Brian Wilson,San Francisco Giants,
+90A-CED,Ceddanne Rafaela,Boston Red Sox,
+90A-CF,Cecil Fielder,Detroit Tigers,
+90A-CK,Colt Keith,Detroit Tigers,
+90A-CMA,Coby Mayo,Baltimore Orioles,RC
+90A-CME,Cristian Mena,Arizona Diamondbacks,RC
+90A-CMT,Chayce McDermott,Baltimore Orioles,RC
+90A-CN,Connor Norby,Miami Marlins,RC
+90A-CP,Cade Povich,Baltimore Orioles,RC
+90A-DCR,Dylan Crews,Washington Nationals,RC
+90A-DF,David Festa,Minnesota Twins,RC
+90A-DH,DJ Herz,Washington Nationals,RC
+90A-DT,Drew Thorpe,Chicago White Sox,RC
+90A-EG,Eric Gagne,Los Angeles Dodgers,
+90A-GG,Gordon Graceffo,St. Louis Cardinals,RC
+90A-GJ,Greg Jones,Colorado Rockies,RC
+90A-HB,Hayden Birdsong,San Francisco Giants,RC
+90A-HW,Hurston Waldrep,Atlanta Braves,RC
+90A-JB,Jake Bloss,Houston Astros,RC
+90A-JE,Jim Edmonds,St. Louis Cardinals,
+90A-JHM,Justyn-Henry Malloy,Detroit Tigers,RC
+90A-JJ,Jared Jones,Pittsburgh Pirates,
+90A-JJE,Jackson Jobe,Detroit Tigers,RC
+90A-JJU,Jace Jung,Detroit Tigers,RC
+90A-JK,John Kruk,Philadelphia Phillies,
+90A-JN,Jhonkensy Noel,Cleveland Guardians,RC
+90A-JRI,Jim Rice,Boston Red Sox,
+90A-JWI,Jacob Wilson,Athletics,RC
+90A-JWO,James Wood,Washington Nationals,RC
+90A-JWR,Justin Wrobleski,Los Angeles Dodgers,RC
+90A-KL,Kenny Lofton,Cleveland,
+90A-MS,Marcus Semien,Texas Rangers,
+90A-MY,Michael Young,Texas Rangers,
+90A-NA,Nacho Alvarez Jr.,Atlanta Braves,RC
+90A-OM,Orelvis Martinez,Toronto Blue Jays,RC
+90A-PO,Paul O'neill,New York Yankees,
+90A-RHI,Rece Hinds,Cincinnati Reds,RC
+90A-RL,Rhett Lowder,Cincinnati Reds,RC
+90A-RR,River Ryan,Los Angeles Dodgers,RC
+90A-RZ,Ryan Zimmerman,Washington Nationals,
+90A-SBE,Steward Berroa,Toronto Blue Jays,RC
+90A-SSC,Spencer Schwellenbach,Atlanta Braves,RC
+90A-TL,Tyler Locklear,Seattle Mariners,RC
+90A-TP,Tyler Phillips,Philadelphia Phillies,RC
+90A-TSA,Tim Salmon,California Angels,
+90A-VB,Valente Bellozo,Miami Marlins,RC
+90A-VC,Vince Coleman,St. Louis Cardinals,
+90AU-AB,Adrían Beltré,Texas Rangers,
+90AU-ABR,Alex Bregman,Houston Astros,
+90AU-AP,Albert Pujols,St. Louis Cardinals,
+90AU-ARU,Adley Rutschman,Baltimore Orioles,
+90AU-BJ,Bo Jackson,Kansas City Royals,
+90AU-BL,Barry Larkin,Cincinnati Reds,
+90AU-BP,Buster Posey,San Francisco Giants,
+90AU-BW,Bobby Witt Jr.,Kansas City Royals,
+90AU-CB,Craig Biggio,Houston Astros,
+90AU-CC,Corbin Carroll,Arizona Diamondbacks,
+90AU-CF,Carlton Fisk,Boston Red Sox,
+90AU-CJ,Chipper Jones,Atlanta Braves,
+90AU-CK,Clayton Kershaw,Los Angeles Dodgers,
+90AU-CR,Cal Ripken Jr.,Baltimore Orioles,
+90AU-CYE,Christian Yelich,Milwaukee Brewers,
+90AU-DJ,Derek Jeter,New York Yankees,
+90AU-DM,Don Mattingly,New York Yankees,
+90AU-DO,David Ortiz,Boston Red Sox,
+90AU-DS,Darryl Strawberry,New York Mets,
+90AU-DSW,Dansby Swanson,Chicago Cubs,
+90AU-DW,David Wright,New York Mets,
+90AU-ED,Elly De La Cruz,Cincinnati Reds,
+90AU-EM,Eddie Murray,Baltimore Orioles,
+90AU-FTH,Frank Thomas,Chicago White Sox,
+90AU-GB,George Brett,Kansas City Royals,
+90AU-GH,Gunnar Henderson,Baltimore Orioles,
+90AU-GMA,Greg Maddux,Atlanta Braves,
+90AU-I,Ichiro,Seattle Mariners,
+90AU-IR,Ivan Rodriguez,Texas Rangers,
+90AU-JA,Jose Altuve,Houston Astros,
+90AU-JB,Johnny Bench,Cincinnati Reds,
+90AU-JBA,Jeff Bagwell,Houston Astros,
+90AU-JD,Jasson Domínguez,New York Yankees,
+90AU-JRA,José Ramírez,Cleveland Guardians,
+90AU-JS,Juan Soto,New York Yankees,
+90AU-JV,Jason Varitek,Boston Red Sox,
+90AU-LW,Larry Walker,Colorado Rockies,
+90AU-MH,Michael Harris II,Atlanta Braves,
+90AU-MMC,Mark McGwire,Oakland Athletics,
+90AU-MO,Matt Olson,Atlanta Braves,
+90AU-MP,Mike Piazza,New York Mets,
+90AU-MSC,Mike Schmidt,Philadelphia Phillies,
+90AU-MT,Mike Trout,Angels,
+90AU-NA,Nolan Arenado,St. Louis Cardinals,
+90AU-NRN,Nolan Ryan,Houston Astros,
+90AU-OA,Ozzie Albies,Atlanta Braves,
+90AU-OS,Ozzie Smith,St. Louis Cardinals,
+90AU-PA,Pete Alonso,New York Mets,
+90AU-PMA,Pedro Martinez,Boston Red Sox,
+90AU-RAJ,Ronald Acuña Jr.,Atlanta Braves,
+90AU-RC,Rod Carew,Minnesota Twins,
+90AU-RCL,Roger Clemens,Boston Red Sox,
+90AU-RD,Rafael Devers,Boston Red Sox,
+90AU-RH,Rickey Henderson,Oakland Athletics,
+90AU-RJ,Randy Johnson,Seattle Mariners,
+90AU-RJA,Reggie Jackson,New York Yankees,
+90AU-RJN,Reggie Jackson,Oakland Athletics,
+90AU-ROH,Randy Johnson,Arizona Diamondbacks,
+90AU-RS,Ryne Sandberg,Chicago Cubs,
+90AU-RY,Robin Yount,Milwaukee Brewers,
+90AU-SC,Steve Carlton,Philadelphia Phillies,
+90AU-SI,Shota Imanaga,Chicago Cubs,
+90AU-SK,Sandy Koufax,Los Angeles Dodgers,
+90AU-SO,Shohei Ohtani,Los Angeles Dodgers,
+90AU-SST,Spencer Strider,Atlanta Braves,
+90AU-VGJ,Vladimir Guerrero Jr.,Toronto Blue Jays,
+90AU-WB,Wade Boggs,Boston Red Sox,
+90AU-WC,Will Clark,San Francisco Giants,
+90AU-YY,Yoshinobu Yamamoto,Los Angeles Dodgers,
+90B2-AD,Andre Dawson,Montréal Expos,
+90B2-AV,Andy Van Slyke,Pittsburgh Pirates,
+90B2-AW,Austin Wells,New York Yankees,
+90B2-BCA,Ben Casparius,Los Angeles Dodgers,RC
+90B2-BL,Brooks Lee,Minnesota Twins,RC
+90B2-BRI,Ben Rice,New York Yankees,RC
+90B2-BRO,Brent Rooker,Athletics,
+90B2-BWI,Billy Williams,Chicago Cubs,
+90B2-CD,Caden Dana,Angels,RC
+90B2-CM,Coby Mayo,Baltimore Orioles,RC
+90B2-CP,Cade Povich,Baltimore Orioles,RC
+90B2-CS,Chris Sale,Atlanta Braves,
+90B2-DC,Dylan Crews,Washington Nationals,RC
+90B2-DD,Dillon Dingler,Detroit Tigers,RC
+90B2-DE,Dennis Eckersley,Oakland Athletics,
+90B2-DF,David Festa,Minnesota Twins,RC
+90B2-DG,Dwight Gooden,New York Mets,
+90B2-GC,Griffin Conine,Miami Marlins,RC
+90B2-GM,Grant McCray,San Francisco Giants,RC
+90B2-HB,Hayden Birdsong,San Francisco Giants,RC
+90B2-HJ,Howard Johnson,New York Mets,
+90B2-JB,Jay Buhner,Seattle Mariners,
+90B2-JC,Jose Canseco,Oakland Athletics,
+90B2-JCR,Joe Carter,Toronto Blue Jays,
+90B2-JJ,Jace Jung,Detroit Tigers,RC
+90B2-JK,Jason Kendall,Pittsburgh Pirates,
+90B2-JMY,Justyn-Henry Malloy,Detroit Tigers,RC
+90B2-JO,Joey Ortiz,Milwaukee Brewers,
+90B2-JS,Javier Sanoja,Miami Marlins,RC
+90B2-JT,Joe Torre,New York Yankees,
+90B2-JW,James Wood,Washington Nationals,RC
+90B2-KIRK,Kirk Gibson,Los Angeles Dodgers,
+90B2-KM,Kyle Manzardo,Cleveland Guardians,
+90B2-LA,Luisangel Acuña,New York Mets,RC
+90B2-LG,Luis Gil,New York Yankees,
+90B2-LGO,Luis Gonzalez,Arizona Diamondbacks,
+90B2-MM,Mason Montgomery,Tampa Bay Rays,RC
+90B2-MMC,Michael McGreevy,St. Louis Cardinals,RC
+90B2-MO,Marcell Ozuna,Atlanta Braves,
+90B2-MW,Masyn Winn,St. Louis Cardinals,
+90B2-MWI,Matt Williams,San Francisco Giants,
+90B2-NS,Nolan Schanuel,Angels,
+90B2-NY,Nick Yorke,Pittsburgh Pirates,RC
+90B2-PARK,Chan Ho Park,Los Angeles Dodgers,
+90B2-PC,Pete Crow-Armstrong,Chicago Cubs,
+90B2-RFU,Rafael Furcal,Atlanta Braves,
+90B2-RL,Rhett Lowder,Cincinnati Reds,RC
+90B2-SA,Samuel Aldegheri,Angels,RC
+90B2-SB,Shane Bieber,Cleveland Guardians,
+90B2-SL,Seth Lugo,Kansas City Royals,
+90B2-SR,Scott Rolen,Philadelphia Phillies,
+90B2-SS,Spencer Schwellenbach,Atlanta Braves,RC
+90B2-SW,Shay Whitcomb,Houston Astros,RC
+90B2-TBI,Tanner Bibee,Cleveland Guardians,
+90B2-TF,Tyler Fitzgerald,San Francisco Giants,
+90B2-TH,Tim Hudson,Atlanta Braves,
+90B2-TR,Tim Raines,Montréal Expos,
+90B2-TS,Thomas Saggese,St. Louis Cardinals,RC
+90B2-TSW,Trey Sweeney,Detroit Tigers,RC
+90B2-WW,Will Wagner,Toronto Blue Jays,RC
+90B2-WWA,Will Warren,New York Yankees,RC
+90B2-ZD,Zach Dezenzo,Houston Astros,RC
+90B2-ZM,Zebby Matthews,Minnesota Twins,RC
+90B2-ZN,Zach Neto,Angels,
+90A-AJO,Andruw Jones,Atlanta Braves,
+90A-BS,Bryson Stott,Philadelphia Phillies,
+90A-DC,Dylan Cease,San Diego Padres,
+90A-JCH,Jackson Chourio,Milwaukee Brewers,
+90A-JD,Jhoan Duran,Minnesota Twins,
+90A-JKO,Jack Kochanowicz,Angels,RC
+90A-JR,J.T. Realmuto,Philadelphia Phillies,
+90A-JT,Jim Thome,Philadelphia Phillies,
+90A-JWE,Jordan Westburg,Baltimore Orioles,
+90A-KM,Keider Montero,Detroit Tigers,RC
+90A-KS,Kyle Schwarber,Philadelphia Phillies,
+90A-LAC,Luisangel Acuña,New York Mets,RC
+90A-LC,Luis Castillo,Seattle Mariners,
+90A-NH,Nico Hoerner,Chicago Cubs,
+90A-RB,Ryan Bliss,Seattle Mariners,RC
+90A-SS,Spencer Steer,Cincinnati Reds,
+90A-TS,Tarik Skubal,Detroit Tigers,
+90A-WC,William Contreras,Milwaukee Brewers,
+90A-WS,Will Smith,Los Angeles Dodgers,
+90A-YD,Yilber Diaz,Arizona Diamondbacks,RC
+90AU-AR,Alex Rodriguez,New York Yankees,
+90AU-ARI,Austin Riley,Atlanta Braves,
+90AU-CS,Corey Seager,Texas Rangers,
+90AU-CY,Carl Yastrzemski,Boston Red Sox,
+90AU-FT,Fernando Tatis Jr.,San Diego Padres,
+90AU-JR,Julio Rodríguez,Seattle Mariners,
+90AU-KB,Kris Bryant,Colorado Rockies,
+90AU-KG,Ken Griffey Jr.,Seattle Mariners,
+90AU-MB,Mookie Betts,Los Angeles Dodgers,
+90AU-MM,Manny Machado,San Diego Padres,
+90AU-PG,Paul Goldschmidt,St. Louis Cardinals,
+90AU-SS,Sammy Sosa,Chicago Cubs,

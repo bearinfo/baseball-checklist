@@ -1,0 +1,51 @@
+card_number,name,team,designations
+CC-1,Shohei Ohtani,Los Angeles Dodgers,
+CC-2,Mike Trout,Angels,
+CC-3,Ronald Acuña Jr.,Atlanta Braves,
+CC-4,Aaron Judge,New York Yankees,
+CC-5,Bryce Harper,Philadelphia Phillies,
+CC-6,Julio Rodríguez,Seattle Mariners,
+CC-7,Corbin Carroll,Arizona Diamondbacks,
+CC-8,Bobby Witt Jr.,Kansas City Royals,
+CC-9,Rafael Devers,Boston Red Sox,
+CC-10,Vladimir Guerrero Jr.,Toronto Blue Jays,
+CC-11,Gunnar Henderson,Baltimore Orioles,
+CC-12,Nolan Arenado,St. Louis Cardinals,
+CC-13,Corey Seager,Texas Rangers,
+CC-14,Carlos Correa,Minnesota Twins,
+CC-15,Yordan Alvarez,Houston Astros,
+CC-16,Christian Yelich,Milwaukee Brewers,
+CC-17,James Wood,Washington Nationals,RC
+CC-18,Brooks Lee,Minnesota Twins,RC
+CC-19,Dylan Crews,Washington Nationals,RC
+CC-20,Coby Mayo,Baltimore Orioles,RC
+CC-21,Paul Skenes,Pittsburgh Pirates,
+CC-22,Jace Jung,Detroit Tigers,RC
+CC-23,Jacob Wilson,Athletics,RC
+CC-24,Francisco Lindor,New York Mets,
+CC-25,Manny Machado,San Diego Padres,
+CC2-1,Jackson Chourio,Milwaukee Brewers,
+CC2-2,Wyatt Langford,Texas Rangers,
+CC2-3,Shota Imanaga,Chicago Cubs,
+CC2-4,Ozzie Albies,Atlanta Braves,
+CC2-5,Michael Harris II,Atlanta Braves,
+CC2-6,Spencer Strider,Atlanta Braves,
+CC2-7,Adley Rutschman,Baltimore Orioles,
+CC2-8,Jarren Duran,Boston Red Sox,
+CC2-9,Alex Bregman,Boston Red Sox,
+CC2-10,Mookie Betts,Los Angeles Dodgers,
+CC2-11,William Contreras,Milwaukee Brewers,
+CC2-12,Byron Buxton,Minnesota Twins,
+CC2-13,Pete Alonso,New York Mets,
+CC2-14,Juan Soto,New York Mets,
+CC2-15,Trea Turner,Philadelphia Phillies,
+CC2-16,Fernando Tatis Jr.,San Diego Padres,
+CC2-17,Paul Goldschmidt,New York Yankees,
+CC2-18,Shohei Ohtani,Los Angeles Dodgers,
+CC2-19,Jackson Jobe,Detroit Tigers,RC
+CC2-20,Kevin Alcántara,Chicago Cubs,RC
+CC2-21,Luisangel Acuña,New York Mets,RC
+CC2-22,Kumar Rocker,Texas Rangers,RC
+CC2-23,Thomas Saggese,St. Louis Cardinals,RC
+CC2-24,Roki Sasaki,Los Angeles Dodgers,RC
+CC2-25,Bo Bichette,Toronto Blue Jays,

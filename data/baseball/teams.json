@@ -1,5 +1,5 @@
 {
-  "description": "Closed list of valid `team` values, as printed. Rows may only use names from `teams`; validation fails otherwise. Includes historical printed forms (e.g. Oakland Athletics through 2024, bare 'Athletics' from 2025; 'Angels' as Topps prints it) and defunct franchises, which legends and buyback cards reference. Bare city forms are listed only where a manufacturer prints them that way. Grows by PR with evidence of the printed form.",
+  "description": "Closed list of valid `team` values, as printed. Rows may only use names from `teams`; validation fails otherwise. Includes historical printed forms (e.g. Oakland Athletics through 2024, bare 'Athletics' from 2025; 'Angels' as Topps prints it) and defunct franchises, which legends and buyback cards reference. Bare city forms are listed only where a manufacturer prints them that way. A few entries are not franchises at all: Topps prints a league where the team would go on cards that belong to no club, as on the 2025 Series 2 combo cards #365 and #409 (Major League Baseball) and #639 (National League). Grows by PR with evidence of the printed form.",
   "teams": [
     "Angels",
     "Arizona Diamondbacks",
@@ -23,11 +23,13 @@
     "Kansas City Royals",
     "Los Angeles Angels",
     "Los Angeles Dodgers",
+    "Major League Baseball",
     "Miami Marlins",
     "Milwaukee Braves",
     "Milwaukee Brewers",
     "Minnesota Twins",
     "Montréal Expos",
+    "National League",
     "New York Giants",
     "New York Mets",
     "New York Yankees",
