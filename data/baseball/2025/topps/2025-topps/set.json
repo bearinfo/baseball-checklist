@@ -827,14 +827,6 @@
       ]
     },
     {
-      "id": "d257ef8a-9df7-4c3c-a028-6ecbdb755e59",
-      "name": "Holiday",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
       "id": "30a3f9ae-00de-4743-9167-9bea4dd12c5d",
       "name": "Holiday Beach Ball",
       "coverage": "full",
