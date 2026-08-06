@@ -500,7 +500,10 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 5,
-      "distribution": "FANATICS BOX EXCLUSIVE"
+      "distribution": "FANATICS BOX EXCLUSIVE",
+      "tags": [
+        "gimmick"
+      ]
     },
     {
       "file": "variations/big-head-variation.csv",
@@ -566,7 +569,10 @@
       "name": "Rookie Short Print",
       "kind": "variation",
       "varies": "base.csv",
-      "card_count": 3
+      "card_count": 3,
+      "tags": [
+        "gimmick"
+      ]
     },
     {
       "file": "autographs/the-big-hurt-autograph-variation.csv",
