@@ -810,6 +810,59 @@
       ]
     },
     {
+      "id": "d257ef8a-9df7-4c3c-a028-6ecbdb755e59",
+      "name": "Holiday",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "30a3f9ae-00de-4743-9167-9bea4dd12c5d",
+      "name": "Holiday Beach Ball",
+      "coverage": "full",
+      "series": "Series 2",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c48fbd56-edb2-431d-bd86-c85cff04b234",
+      "name": "Holiday Beach Umbrella",
+      "coverage": "full",
+      "series": "Series 2",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "f17a371b-57fa-48c8-8220-d3ba94d2716c",
+      "name": "Holiday Fireworks",
+      "coverage": "full",
+      "series": "Series 2",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "2cf34a87-0598-47b1-a25a-2e60052d08d9",
+      "name": "Holiday Hot Dog",
+      "coverage": "full",
+      "series": "Series 2",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "61b1ecc1-d940-4572-8b6f-c089063df473",
+      "name": "Holiday Waves",
+      "coverage": "full",
+      "series": "Series 2",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "4665e084-27d5-40d2-9653-652da338cdda",
       "name": "Holo Foil",
       "coverage": "full",
