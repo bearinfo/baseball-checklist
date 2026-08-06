@@ -1203,6 +1203,15 @@
       "applies_to": [
         "Base"
       ]
+    },
+    {
+      "id": "f6d51547-ad07-483a-a782-bab62883e9ad",
+      "name": "Yellow",
+      "coverage": "full",
+      "series": "Series 2",
+      "applies_to": [
+        "Base"
+      ]
     }
   ],
   "verified": false,
