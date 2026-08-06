@@ -907,6 +907,15 @@
       ]
     },
     {
+      "id": "d0c84aa4-61a6-469f-9242-0dafcae27c47",
+      "name": "Holiday Tin",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "acd96902-fba2-455e-b594-a765c744be55",
       "name": "Holiday Umbrella",
       "coverage": "full",
