@@ -628,7 +628,7 @@
       "source_url": "https://baseballcardpedia.com/index.php/2025_Topps",
       "retrieved": "2026-08-05",
       "covers": "the factory set cards and which parallels cover every base card",
-      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag."
+      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so."
     }
   ],
   "series": [
@@ -875,8 +875,32 @@
       ]
     },
     {
-      "id": "251c9df4-3fca-4d2e-b748-3b400cf9113c",
-      "name": "Printing Plates",
+      "id": "e1f9f3d7-1916-43a9-85cc-27b650bb2a97",
+      "name": "Printing Plates Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "2cc71033-46ea-49e7-98db-086fd2798fdd",
+      "name": "Printing Plates Cyan",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "906da52b-701a-42b0-a877-05d606539840",
+      "name": "Printing Plates Magenta",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "0162bec5-92ae-49a9-b573-9bd95a703d5a",
+      "name": "Printing Plates Yellow",
       "coverage": "full",
       "applies_to": [
         "Base"

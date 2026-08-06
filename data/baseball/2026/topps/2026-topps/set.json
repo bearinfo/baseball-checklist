@@ -630,6 +630,577 @@
   ],
   "parallels": [
     {
+      "id": "89b329b0-4f9c-469b-96da-e967950dd9b3",
+      "name": "All-Star Game",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "0d6c5311-1690-4751-9170-b95d069d841d",
+      "name": "All-Star Game Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "af5bcae8-308c-4b7a-b606-ef9d813ec745",
+      "name": "All-Star Game Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "04a36229-bdae-4c91-9179-c858d65fe32f",
+      "name": "All-Star Game Green",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "f26815e0-bd46-4e9d-859e-b5de10fd3cb5",
+      "name": "All-Star Game Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "24db3ac0-72fe-4dcb-8e1e-de18eea3dad5",
+      "name": "All-Star Game Platinum",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "4b81ce45-688f-431c-8745-0f4d034a11ce",
+      "name": "All-Star Game Red",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "370fd2df-803b-479f-9946-165b08faa863",
+      "name": "Aqua Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "29697d51-227a-4ff9-92b3-386fec8aa1d9",
+      "name": "Aqua Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "446cac4e-39ff-4014-a383-4f1df8cb415b",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "19654ef4-2233-4f40-9804-75744b585ec5",
+      "name": "Black Diamante Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "fedb50b0-b49d-4468-bee3-6d77acc02ffe",
+      "name": "Black Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "8381837b-686c-4614-85d3-edc2ca261f0b",
+      "name": "Black Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "d2fa12d1-5247-40f9-a585-adcb203f62bf",
+      "name": "Black Sandglitter",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "d8d3da51-9e5f-49fc-8984-e7fd1de954ad",
+      "name": "Blue Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "41996ba1-6be8-4e8c-9f8c-d58c0794761f",
+      "name": "Blue Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "ebc59329-61ae-4cfe-96c1-15717f20fb9c",
+      "name": "Canvas",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "6b6cd785-d032-4914-86d5-d192436ee9d0",
+      "name": "Cherry Blossom",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "67c8626e-19ea-45d0-a390-15d33492a97f",
+      "name": "Confetti",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "91a51b8a-be0b-459e-901c-97f59998eb29",
+      "name": "Confetti Lime",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "c4275cc4-d9a5-4275-a3f5-b28a51d59eeb",
+      "name": "Confetti Pink",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "3d36857d-5b77-4d4a-ae71-8bc42a11c1dc",
+      "name": "Diamante Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "93f52b35-5dba-4a24-bfdc-4dbfaf99c970",
+      "name": "First Card",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "4b00ecb6-f125-40f4-8998-8e6602e97185",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "a6d89113-d1fc-40a1-b406-4554f0bf46be",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "21bf9bf4-d2db-4408-a253-c5420247394c",
+      "name": "Gold Diamante Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "62ddfcae-d242-4e0c-89d2-8e32dea0b3a9",
+      "name": "Gold Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "53b6e8b9-7a8f-42ff-b438-86877039eb78",
+      "name": "Gold Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "d8afbae9-8f58-48ac-8678-ef709fd4f3a7",
+      "name": "Gold Sandglitter",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "0216f73c-a3a9-4a30-a57e-4b1792ccfb78",
+      "name": "Green Diamante Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "1c2a63f7-45a9-4977-8c3d-c74a9a59294c",
+      "name": "Green Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "6875c83d-c878-47f0-864e-fb0bd8054bb0",
+      "name": "Green Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "5922b496-a070-408f-b854-774a0bed42d6",
+      "name": "Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "f92c096e-5cd9-45c8-b944-bdbe9e02c0d5",
+      "name": "Independence Day",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "3c9018cd-6f0f-4a55-9d27-3394ee7206dc",
+      "name": "Memorial Day Camouflage",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "f5470e2b-208f-4710-beb7-e7d5e7467c9e",
+      "name": "Opening Day Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "9ceab963-6b66-488b-be31-59b3ca6f40ad",
+      "name": "Orange Diamante Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "45b08e5a-1ad7-44dd-834f-b7e7c678e977",
+      "name": "Orange Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "39cf1e53-0d11-44f7-a739-a4c84f871964",
+      "name": "Orange Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "35f2db29-443e-4425-88eb-5d848acf699a",
+      "name": "Orange Sandglitter",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "26e8f9d4-b9e5-4b76-83fb-fbb4b9a20af8",
+      "name": "Pink Diamante Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "95161d7b-d883-457d-a35b-06d88ae5ef52",
+      "name": "Pink Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "60759515-045a-4ff9-9de3-914387f39342",
+      "name": "Printing Plates Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "4f622248-b5b4-47d3-ad73-31bfbb1bc7bd",
+      "name": "Printing Plates Cyan",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "e608f964-1599-4b3a-9f9a-59e585bcae2e",
+      "name": "Printing Plates Magenta",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "b1cbe112-1da1-43d1-8a58-045f2dde89ab",
+      "name": "Printing Plates Yellow",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "24037e17-d666-4b30-bffb-51685bd4d9ec",
+      "name": "Purple Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "8fcd39a5-730e-4b79-8da3-174b8bb2593f",
+      "name": "Purple Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "75b58d93-b04b-42ee-9f37-530734134de8",
+      "name": "Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "0327fbca-e2ba-4000-95ed-b101faf1da7b",
+      "name": "Red Diamante Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "1c6305f8-d96d-48ad-9ea5-d2a0b04f1002",
+      "name": "Red Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "a679e02a-af09-43f6-8b86-df32668744fb",
+      "name": "Red Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c8e76e4f-1be8-45ef-97cc-4c616b0da06e",
+      "name": "Red Sandglitter",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "45b0d5d0-4847-402f-b00d-ae8304f75d67",
+      "name": "Rose Gold Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "aef44c7a-5e12-4554-9f56-d8866b53989e",
+      "name": "Sandglitter",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "9f9c3012-937d-4c84-9c09-876ca3f73663",
+      "name": "Silver Crackle Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "1cb554eb-9a6a-4245-9f5a-8db588f9b62d",
+      "name": "Spring Training",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "b0644422-ae99-480b-85be-8e795c1ef3a2",
+      "name": "Spring Training Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "130c78f2-78db-4ca8-8f13-048fba03b7e4",
+      "name": "Spring Training Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "666f8ea8-8565-421b-b862-237b44a3cc06",
+      "name": "Spring Training Green",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "83024c7e-6c07-4031-9f15-852ad0cda8b7",
+      "name": "Spring Training Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "98159b74-42c5-4ad4-952c-80fbd5c12be0",
+      "name": "Spring Training Red",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "43a6827e-27ed-436f-9017-5026e84ed1df",
+      "name": "Spring Training Rose Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 1"
+    },
+    {
+      "id": "2a2acff3-5eee-497d-8469-742114b4055f",
+      "name": "Tinsel",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "series": "Series 2"
+    },
+    {
+      "id": "57a5cb07-d0b2-4d63-b2d0-1079c89fc976",
+      "name": "Topps Pattern Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "29ff19f2-ee69-4a58-886a-2de324f3779d",
+      "name": "Wood",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "aa79fc05-ee0c-4409-a98b-75031704c7ac",
+      "name": "75th Anniversary",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "9969e7a1-95b4-4a95-8a68-7e3855d4c3cf",
+      "name": "Yellow Holo Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "88dda6a3-80b3-4824-83f5-82517ea8e905",
+      "name": "Yellow Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "93455892-cf87-4f8e-bba5-a18e6d90fad8",
       "name": "1991 Topps Baseball All Star Chrome Base Cards Autograph Parallel",
       "coverage": "partial",
@@ -1770,559 +2341,12 @@
       ]
     },
     {
-      "id": "89b329b0-4f9c-469b-96da-e967950dd9b3",
-      "name": "All-Star Game",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "0d6c5311-1690-4751-9170-b95d069d841d",
-      "name": "All-Star Game Black",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "af5bcae8-308c-4b7a-b606-ef9d813ec745",
-      "name": "All-Star Game Gold",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "04a36229-bdae-4c91-9179-c858d65fe32f",
-      "name": "All-Star Game Green",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "f26815e0-bd46-4e9d-859e-b5de10fd3cb5",
-      "name": "All-Star Game Orange",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "24db3ac0-72fe-4dcb-8e1e-de18eea3dad5",
-      "name": "All-Star Game Platinum",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "4b81ce45-688f-431c-8745-0f4d034a11ce",
-      "name": "All-Star Game Red",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "370fd2df-803b-479f-9946-165b08faa863",
-      "name": "Aqua Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "29697d51-227a-4ff9-92b3-386fec8aa1d9",
-      "name": "Aqua Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "446cac4e-39ff-4014-a383-4f1df8cb415b",
-      "name": "Black Border",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "19654ef4-2233-4f40-9804-75744b585ec5",
-      "name": "Black Diamante Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "fedb50b0-b49d-4468-bee3-6d77acc02ffe",
-      "name": "Black Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "8381837b-686c-4614-85d3-edc2ca261f0b",
-      "name": "Black Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "d2fa12d1-5247-40f9-a585-adcb203f62bf",
-      "name": "Black Sandglitter",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "d8d3da51-9e5f-49fc-8984-e7fd1de954ad",
-      "name": "Blue Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "41996ba1-6be8-4e8c-9f8c-d58c0794761f",
-      "name": "Blue Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
       "id": "389329c5-a8e6-47da-bed6-5edec485cd30",
       "name": "Canadian Independence Day",
       "coverage": "partial",
       "file": "parallels/canada-day.csv",
       "varies": "base.csv",
       "card_count": 24
-    },
-    {
-      "id": "ebc59329-61ae-4cfe-96c1-15717f20fb9c",
-      "name": "Canvas",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "6b6cd785-d032-4914-86d5-d192436ee9d0",
-      "name": "Cherry Blossoms",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "67c8626e-19ea-45d0-a390-15d33492a97f",
-      "name": "Confetti",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "91a51b8a-be0b-459e-901c-97f59998eb29",
-      "name": "Confetti Lime",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "c4275cc4-d9a5-4275-a3f5-b28a51d59eeb",
-      "name": "Confetti Pink",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "3d36857d-5b77-4d4a-ae71-8bc42a11c1dc",
-      "name": "Diamante Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "93f52b35-5dba-4a24-bfdc-4dbfaf99c970",
-      "name": "First Card",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "4b00ecb6-f125-40f4-8998-8e6602e97185",
-      "name": "FoilFractors",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "a6d89113-d1fc-40a1-b406-4554f0bf46be",
-      "name": "Gold",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "21bf9bf4-d2db-4408-a253-c5420247394c",
-      "name": "Gold Diamante Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "62ddfcae-d242-4e0c-89d2-8e32dea0b3a9",
-      "name": "Gold Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "53b6e8b9-7a8f-42ff-b438-86877039eb78",
-      "name": "Gold Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "d8afbae9-8f58-48ac-8678-ef709fd4f3a7",
-      "name": "Gold Sandglitter",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "0216f73c-a3a9-4a30-a57e-4b1792ccfb78",
-      "name": "Green Diamante Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "1c2a63f7-45a9-4977-8c3d-c74a9a59294c",
-      "name": "Green Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "6875c83d-c878-47f0-864e-fb0bd8054bb0",
-      "name": "Green Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "5922b496-a070-408f-b854-774a0bed42d6",
-      "name": "Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "f92c096e-5cd9-45c8-b944-bdbe9e02c0d5",
-      "name": "Independence Day",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "3c9018cd-6f0f-4a55-9d27-3394ee7206dc",
-      "name": "Memorial Day Camo",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "f5470e2b-208f-4710-beb7-e7d5e7467c9e",
-      "name": "Opening Day Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "9ceab963-6b66-488b-be31-59b3ca6f40ad",
-      "name": "Orange Diamante Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "45b08e5a-1ad7-44dd-834f-b7e7c678e977",
-      "name": "Orange Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "39cf1e53-0d11-44f7-a739-a4c84f871964",
-      "name": "Orange Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "35f2db29-443e-4425-88eb-5d848acf699a",
-      "name": "Orange Sandglitter",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "26e8f9d4-b9e5-4b76-83fb-fbb4b9a20af8",
-      "name": "Pink Diamante Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "95161d7b-d883-457d-a35b-06d88ae5ef52",
-      "name": "Pink Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "60759515-045a-4ff9-9de3-914387f39342",
-      "name": "Printing Plates Black",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "4f622248-b5b4-47d3-ad73-31bfbb1bc7bd",
-      "name": "Printing Plates Cyan",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "e608f964-1599-4b3a-9f9a-59e585bcae2e",
-      "name": "Printing Plates Magenta",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "b1cbe112-1da1-43d1-8a58-045f2dde89ab",
-      "name": "Printing Plates Yellow",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "24037e17-d666-4b30-bffb-51685bd4d9ec",
-      "name": "Purple Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "8fcd39a5-730e-4b79-8da3-174b8bb2593f",
-      "name": "Purple Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "75b58d93-b04b-42ee-9f37-530734134de8",
-      "name": "Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "0327fbca-e2ba-4000-95ed-b101faf1da7b",
-      "name": "Red Diamante Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "1c6305f8-d96d-48ad-9ea5-d2a0b04f1002",
-      "name": "Red Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "a679e02a-af09-43f6-8b86-df32668744fb",
-      "name": "Red Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "c8e76e4f-1be8-45ef-97cc-4c616b0da06e",
-      "name": "Red Sandglitter",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "45b0d5d0-4847-402f-b00d-ae8304f75d67",
-      "name": "Rose Gold Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "aef44c7a-5e12-4554-9f56-d8866b53989e",
-      "name": "Sandglitter",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "9f9c3012-937d-4c84-9c09-876ca3f73663",
-      "name": "Silver Crackle Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "1cb554eb-9a6a-4245-9f5a-8db588f9b62d",
-      "name": "Spring Training",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "b0644422-ae99-480b-85be-8e795c1ef3a2",
-      "name": "Spring Training Black",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "130c78f2-78db-4ca8-8f13-048fba03b7e4",
-      "name": "Spring Training Gold",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "666f8ea8-8565-421b-b862-237b44a3cc06",
-      "name": "Spring Training Green",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "83024c7e-6c07-4031-9f15-852ad0cda8b7",
-      "name": "Spring Training Orange",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "98159b74-42c5-4ad4-952c-80fbd5c12be0",
-      "name": "Spring Training Red",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "43a6827e-27ed-436f-9017-5026e84ed1df",
-      "name": "Spring Training Rose Gold",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 1"
-    },
-    {
-      "id": "2a2acff3-5eee-497d-8469-742114b4055f",
-      "name": "Tinsel Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ],
-      "series": "Series 2"
-    },
-    {
-      "id": "57a5cb07-d0b2-4d63-b2d0-1079c89fc976",
-      "name": "Topps Foil Pattern",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "29ff19f2-ee69-4a58-886a-2de324f3779d",
-      "name": "Wood",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
     },
     {
       "id": "c9d652f9-abfb-4b3b-a3ee-c10382990928",
@@ -4098,30 +4122,6 @@
       "coverage": "unknown",
       "applies_to": [
         "World Champion Autograph Cards"
-      ]
-    },
-    {
-      "id": "aa79fc05-ee0c-4409-a98b-75031704c7ac",
-      "name": "75 Years of Topps",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "9969e7a1-95b4-4a95-8a68-7e3855d4c3cf",
-      "name": "Yellow Holo Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
-      ]
-    },
-    {
-      "id": "88dda6a3-80b3-4824-83f5-82517ea8e905",
-      "name": "Yellow Rainbow Foil",
-      "coverage": "full",
-      "applies_to": [
-        "Base"
       ]
     },
     {

@@ -191,24 +191,40 @@ DECLARED = {
 # photograph, so this repo holds it as a 700-row variation checklist. A
 # parallel list naming it does not make it one.
 BASE_FACTS = {
-    "Rainbow Foil", "Holo Foil", "Diamante Foil", "Silver Crackle Foil",
-    "Topps Foil Pattern", "Sandglitter", "Pink Diamante Foil",
+    "Rainbow Foil", "Holo Foil", "Diamante Foil", "Silver Crackle Foilboard",
+    "Topps Pattern Foil", "Sandglitter", "Pink Diamante Foil",
     "Aqua Rainbow Foil", "Aqua Holo Foil", "Gold", "Pink Holo Foil",
     "Yellow Rainbow Foil", "Yellow Holo Foil",
     "Purple Rainbow Foil", "Purple Holo Foil",
     "Blue Rainbow Foil", "Blue Holo Foil",
     "Green Rainbow Foil", "Green Holo Foil", "Green Diamante Foil",
-    "Cherry Blossoms", "Independence Day", "75 Years of Topps", "Black Border",
+    "Cherry Blossom", "Independence Day", "75th Anniversary", "Black",
     "Gold Rainbow Foil", "Gold Sandglitter", "Gold Holo Foil",
     "Gold Diamante Foil", "Canvas",
     "Orange Rainbow Foil", "Orange Sandglitter", "Orange Holo Foil",
-    "Orange Diamante Foil", "Wood", "Memorial Day Camo",
+    "Orange Diamante Foil", "Wood", "Memorial Day Camouflage",
     "Black Rainbow Foil", "Black Sandglitter", "Black Holo Foil",
     "Black Diamante Foil",
     "Red Rainbow Foil", "Red Sandglitter", "Red Holo Foil", "Red Diamante Foil",
-    "FoilFractors", "Rose Gold Holo Foil", "First Card",
+    "FoilFractor", "Rose Gold Holo Foil", "First Card",
     "Printing Plates Black", "Printing Plates Cyan",
     "Printing Plates Magenta", "Printing Plates Yellow",
+}
+
+# TCDB's spelling of a parallel, mapped to the one Baseball Card Pedia prints.
+# The two sources name the same programme differently, and a programme that
+# cannot be followed from one year to the next is most of the point of keeping
+# several years. Baseball Card Pedia wins because it is the source that also
+# states coverage, so the names and the facts stay in one vocabulary.
+CANONICAL = {
+    "Silver Crackle Foil": "Silver Crackle Foilboard",
+    "Topps Foil Pattern": "Topps Pattern Foil",
+    "Cherry Blossoms": "Cherry Blossom",
+    "75 Years of Topps": "75th Anniversary",
+    "Black Border": "Black",
+    "Memorial Day Camo": "Memorial Day Camouflage",
+    "FoilFractors": "FoilFractor",
+    "Tinsel Foil": "Tinsel",
 }
 
 # Parallels of a named checklist that a source states cover ALL of it, keyed by
@@ -264,7 +280,7 @@ SERIES_SCOPED = {
     "All-Star Game": "Series 2", "All-Star Game Black": "Series 2",
     "All-Star Game Gold": "Series 2", "All-Star Game Green": "Series 2",
     "All-Star Game Orange": "Series 2", "All-Star Game Platinum": "Series 2",
-    "All-Star Game Red": "Series 2", "Tinsel Foil": "Series 2",
+    "All-Star Game Red": "Series 2", "Tinsel": "Series 2",
 }
 
 # Parallels Baseball Card Pedia lists but TCDB's sub-collections do not, so
@@ -353,7 +369,7 @@ def build(entries, document):
             declared.append((sid, raw, DECLARED[name]))
             continue
         if name in BASE_PARALLELS:
-            target, parallel = ["Base"], name
+            target, parallel = ["Base"], CANONICAL.get(name, name)
         else:
             key = longest_prefix(name, routes) if name else ""
             if key is None:
