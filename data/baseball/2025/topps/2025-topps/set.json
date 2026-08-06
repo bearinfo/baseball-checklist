@@ -634,8 +634,8 @@
       "source_type": "manual-transcription",
       "source": "Repo owner, from the cards",
       "retrieved": "2026-08-06",
-      "covers": "True Photo and Team Color Border as full base parallels",
-      "notes": "Both print all 700 base cards in 2025 and are declared coverage: full on that assertion alone. Baseball Card Pedia omits them from its list of parallels covering the whole base set, while listing Vintage Stock and Clear, which print all 700 the same year. Its 2026 page says of all four \"after years as full parallels, the following are now 200-card partial-parallels\", so the omission is that list being incomplete rather than these two being partial in 2025."
+      "covers": "True Photo and Team Color Border as full base parallels; the 582 Montgomery Club factory set parallel",
+      "notes": "Both print all 700 base cards in 2025 and are declared coverage: full on that assertion alone. Baseball Card Pedia omits them from its list of parallels covering the whole base set, while listing Vintage Stock and Clear, which print all 700 the same year. Its 2026 page says of all four \"after years as full parallels, the following are now 200-card partial-parallels\", so the omission is that list being incomplete rather than these two being partial in 2025. The 582 Montgomery Club factory set, sold to club members, prints every base card with a sublimated 582 Club logo, so it is declared coverage: full. The box itself is not declared as a packaging: a packaging lists checklist files it contains and this one holds a parallel, which has no file, so the schema cannot yet say what is in it."
     }
   ],
   "series": [
@@ -649,6 +649,14 @@
     }
   ],
   "parallels": [
+    {
+      "id": "7d0d11d5-06d8-4087-966c-b9284c250c75",
+      "name": "582 Montgomery Club",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
     {
       "id": "8697ebc3-87cf-4674-a33e-29001bbb00f6",
       "name": "Aqua Holo Foil",
