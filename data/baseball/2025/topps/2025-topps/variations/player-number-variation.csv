@@ -1,50 +1,50 @@
-card_number,name,team,designations
-1,Shohei Ohtani,Los Angeles Dodgers,
-20,Coby Mayo,Baltimore Orioles,RC
-49,Christian Yelich,Milwaukee Brewers,
-65,Gunnar Henderson,Baltimore Orioles,
-74,Dylan Crews,Washington Nationals,RC
-78,Corbin Carroll,Arizona Diamondbacks,
-80,Jace Jung,Detroit Tigers,RC
-98,Paul Skenes,Pittsburgh Pirates,
-100,Bobby Witt Jr.,Kansas City Royals,
-101,Nolan Arenado,St. Louis Cardinals,
-146,Clayton Kershaw,Los Angeles Dodgers,
-150,Elly De La Cruz,Cincinnati Reds,
-163,Vladimir Guerrero Jr.,Toronto Blue Jays,
-181,James Wood,Washington Nationals,RC
-187,Gerrit Cole,New York Yankees,
-200,Mike Trout,Angels,
-207,Ronald Acuña Jr.,Atlanta Braves,
-244,Yordan Alvarez,Houston Astros,
-250,Bryce Harper,Philadelphia Phillies,
-266,Julio Rodríguez,Seattle Mariners,
-285,Rafael Devers,Boston Red Sox,
-300,Aaron Judge,New York Yankees,
-314,Jacob Wilson,Athletics,RC
-317,Brooks Lee,Minnesota Twins,RC
-350,Francisco Lindor,New York Mets,
-400,Shohei Ohtani,Los Angeles Dodgers,
-408,Kumar Rocker,Texas Rangers,RC
-450,Trea Turner,Philadelphia Phillies,
-455,Wyatt Langford,Texas Rangers,
-457,Seiya Suzuki,Chicago Cubs,
-463,Thomas Saggese,St. Louis Cardinals,RC
-473,Shota Imanaga,Chicago Cubs,
-474,Bo Bichette,Toronto Blue Jays,
-490,Jackson Jobe,Detroit Tigers,RC
-500,Mookie Betts,Los Angeles Dodgers,
-512,Michael Harris II,Atlanta Braves,
-524,Luisangel Acuña,New York Mets,RC
-530,Byron Buxton,Minnesota Twins,
-550,Pete Alonso,New York Mets,
-558,Roki Sasaki,Los Angeles Dodgers,RC
-561,Paul Goldschmidt,New York Yankees,
-578,Kevin Alcántara,Chicago Cubs,RC
-579,Spencer Strider,Atlanta Braves,
-583,Alex Bregman,Boston Red Sox,
-587,Jarren Duran,Boston Red Sox,
-600,Fernando Tatis Jr.,San Diego Padres,
-650,Adley Rutschman,Baltimore Orioles,
-676,Blake Snell,Los Angeles Dodgers,
-700,Juan Soto,New York Mets,
+card_number,name,team,designations,variation_note
+1,Shohei Ohtani,Los Angeles Dodgers,,Front carries the player's jersey number 17 in place of the card number
+20,Coby Mayo,Baltimore Orioles,RC,Front carries the player's jersey number 95 in place of the card number
+49,Christian Yelich,Milwaukee Brewers,,Front carries the player's jersey number 22 in place of the card number
+65,Gunnar Henderson,Baltimore Orioles,,Front carries the player's jersey number 2 in place of the card number
+74,Dylan Crews,Washington Nationals,RC,Front carries the player's jersey number 3 in place of the card number
+78,Corbin Carroll,Arizona Diamondbacks,,Front carries the player's jersey number 7 in place of the card number
+80,Jace Jung,Detroit Tigers,RC,Front carries the player's jersey number 17 in place of the card number
+98,Paul Skenes,Pittsburgh Pirates,,Front carries the player's jersey number 30 in place of the card number
+100,Bobby Witt Jr.,Kansas City Royals,,Front carries the player's jersey number 7 in place of the card number
+101,Nolan Arenado,St. Louis Cardinals,,Front carries the player's jersey number 28 in place of the card number
+146,Clayton Kershaw,Los Angeles Dodgers,,Front carries the player's jersey number 22 in place of the card number
+150,Elly De La Cruz,Cincinnati Reds,,Front carries the player's jersey number 44 in place of the card number
+163,Vladimir Guerrero Jr.,Toronto Blue Jays,,Front carries the player's jersey number 27 in place of the card number
+181,James Wood,Washington Nationals,RC,Front carries the player's jersey number 29 in place of the card number
+187,Gerrit Cole,New York Yankees,,Front carries the player's jersey number 45 in place of the card number
+200,Mike Trout,Angels,,Front carries the player's jersey number 27 in place of the card number
+207,Ronald Acuña Jr.,Atlanta Braves,,Front carries the player's jersey number 13 in place of the card number
+244,Yordan Alvarez,Houston Astros,,Front carries the player's jersey number 44 in place of the card number
+250,Bryce Harper,Philadelphia Phillies,,Front carries the player's jersey number 3 in place of the card number
+266,Julio Rodríguez,Seattle Mariners,,Front carries the player's jersey number 44 in place of the card number
+285,Rafael Devers,Boston Red Sox,,Front carries the player's jersey number 11 in place of the card number
+300,Aaron Judge,New York Yankees,,Front carries the player's jersey number 99 in place of the card number
+314,Jacob Wilson,Athletics,RC,Front carries the player's jersey number 5 in place of the card number
+317,Brooks Lee,Minnesota Twins,RC,Front carries the player's jersey number 72 in place of the card number
+350,Francisco Lindor,New York Mets,,Front carries the player's jersey number 12 in place of the card number
+400,Shohei Ohtani,Los Angeles Dodgers,,Front carries the player's jersey number 17 in place of the card number
+408,Kumar Rocker,Texas Rangers,RC,Front carries the player's jersey number 80 in place of the card number
+450,Trea Turner,Philadelphia Phillies,,Front carries the player's jersey number 7 in place of the card number
+455,Wyatt Langford,Texas Rangers,,Front carries the player's jersey number 36 in place of the card number
+457,Seiya Suzuki,Chicago Cubs,,Front carries the player's jersey number 27 in place of the card number
+463,Thomas Saggese,St. Louis Cardinals,RC,Front carries the player's jersey number 25 in place of the card number
+473,Shota Imanaga,Chicago Cubs,,Front carries the player's jersey number 18 in place of the card number
+474,Bo Bichette,Toronto Blue Jays,,Front carries the player's jersey number 11 in place of the card number
+490,Jackson Jobe,Detroit Tigers,RC,Front carries the player's jersey number 21 in place of the card number
+500,Mookie Betts,Los Angeles Dodgers,,Front carries the player's jersey number 50 in place of the card number
+512,Michael Harris II,Atlanta Braves,,Front carries the player's jersey number 23 in place of the card number
+524,Luisangel Acuña,New York Mets,RC,Front carries the player's jersey number 2 in place of the card number
+530,Byron Buxton,Minnesota Twins,,Front carries the player's jersey number 25 in place of the card number
+550,Pete Alonso,New York Mets,,Front carries the player's jersey number 20 in place of the card number
+558,Roki Sasaki,Los Angeles Dodgers,RC,Front carries the player's jersey number 11 in place of the card number
+561,Paul Goldschmidt,New York Yankees,,Front carries the player's jersey number 48 in place of the card number
+578,Kevin Alcántara,Chicago Cubs,RC,Front carries the player's jersey number 13 in place of the card number
+579,Spencer Strider,Atlanta Braves,,Front carries the player's jersey number 99 in place of the card number
+583,Alex Bregman,Boston Red Sox,,Front carries the player's jersey number 2 in place of the card number
+587,Jarren Duran,Boston Red Sox,,Front carries the player's jersey number 16 in place of the card number
+600,Fernando Tatis Jr.,San Diego Padres,,Front carries the player's jersey number 23 in place of the card number
+650,Adley Rutschman,Baltimore Orioles,,Front carries the player's jersey number 35 in place of the card number
+676,Blake Snell,Los Angeles Dodgers,,Front carries the player's jersey number 7 in place of the card number
+700,Juan Soto,New York Mets,,Front carries the player's jersey number 22 in place of the card number
