@@ -130,7 +130,7 @@
       "name": "World Tour Domination Autograph Variation",
       "kind": "autograph",
       "card_count": 14,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "inserts/1990-topps-all-star-baseball.csv",
@@ -206,7 +206,7 @@
       "name": "Companion Cards",
       "kind": "insert",
       "card_count": 50,
-      "distribution": "SUPERBOX EXCLUSIVE"
+      "distribution": "Superbox Exclusive"
     },
     {
       "file": "inserts/dynamic-duos.csv",
@@ -255,7 +255,7 @@
       "name": "Oversized 2025 Topps Baseball",
       "kind": "insert",
       "card_count": 50,
-      "distribution": "SUPERBOX EXCLUSIVE"
+      "distribution": "Superbox Exclusive"
     },
     {
       "file": "inserts/plakata.csv",
@@ -319,7 +319,7 @@
       "name": "8 Bit Ballers",
       "kind": "relic",
       "card_count": 25,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "Celebration Series Exclusive"
     },
     {
       "file": "relics/city-connect-swatch-collection-autograph-relic.csv",
@@ -339,14 +339,14 @@
       "name": "Dugout Peeks",
       "kind": "relic",
       "card_count": 20,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "Celebration Series Exclusive"
     },
     {
       "file": "relics/gameday-drip.csv",
       "name": "Gameday Drip",
       "kind": "relic",
       "card_count": 25,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "Celebration Series Exclusive"
     },
     {
       "file": "relics/heavy-lumber-autograph-relics.csv",
@@ -359,7 +359,7 @@
       "name": "History Of Japanese Baseball",
       "kind": "relic",
       "card_count": 19,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "relics/in-the-name-relics-series-1.csv",
@@ -386,7 +386,7 @@
       "name": "Major League Material Cards",
       "kind": "relic",
       "card_count": 170,
-      "distribution": "FANATICS BOX EXCLUSIVE"
+      "distribution": "Fanatics Box Exclusive"
     },
     {
       "file": "relics/major-league-material-dual-autograph-cards.csv",
@@ -405,21 +405,21 @@
       "name": "Mascots Dynasty Autograph Patch",
       "kind": "relic",
       "card_count": 7,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "Celebration Series Exclusive"
     },
     {
       "file": "relics/mascots.csv",
       "name": "Mascots",
       "kind": "relic",
       "card_count": 25,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "Celebration Series Exclusive"
     },
     {
       "file": "relics/power-players.csv",
       "name": "Power Players",
       "kind": "relic",
       "card_count": 25,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "Celebration Series Exclusive"
     },
     {
       "file": "relics/real-one-relics.csv",
@@ -462,28 +462,28 @@
       "name": "Stars Of Japan Autographs",
       "kind": "relic",
       "card_count": 15,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "relics/stars-of-japan-dual-autographs.csv",
       "name": "Stars Of Japan Dual Autographs",
       "kind": "relic",
       "card_count": 8,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "relics/stars-of-japan.csv",
       "name": "Stars Of Japan",
       "kind": "relic",
       "card_count": 20,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "relics/tokyo-nights.csv",
       "name": "Tokyo Nights",
       "kind": "relic",
       "card_count": 35,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "relics/trading-card-enamel-pins.csv",
@@ -497,14 +497,14 @@
       "name": "Walk This Way",
       "kind": "relic",
       "card_count": 40,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE"
+      "distribution": "Celebration Series Exclusive"
     },
     {
       "file": "relics/world-tour-domination.csv",
       "name": "World Tour Domination",
       "kind": "relic",
       "card_count": 15,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "variations/all-positions-variation.csv",
@@ -512,7 +512,7 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 5,
-      "distribution": "FANATICS BOX EXCLUSIVE",
+      "distribution": "Fanatics Box Exclusive",
       "tags": [
         "gimmick"
       ]
@@ -523,7 +523,7 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 20,
-      "distribution": "CELEBRATION SERIES EXCLUSIVE",
+      "distribution": "Celebration Series Exclusive",
       "tags": [
         "gimmick"
       ]
@@ -579,7 +579,7 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 100,
-      "distribution": "TOKYO SERIES EXCLUSIVE"
+      "distribution": "Tokyo Series Exclusive"
     },
     {
       "file": "variations/player-number-variation.csv",
