@@ -978,6 +978,60 @@
       ]
     },
     {
+      "id": "f6a37916-294e-4e18-9051-b9792d1f40b6",
+      "name": "Spring Training",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "51de99fd-4968-4c6e-aeab-384607f6320a",
+      "name": "Spring Training Black",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "f6b6c5b8-aeb0-4062-8c58-af367164f890",
+      "name": "Spring Training Gold",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c1f85650-44e3-45d4-8252-56ee86a81c27",
+      "name": "Spring Training Green",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c41d3c5f-863c-4ed7-85c9-7b5ebc7aaefe",
+      "name": "Spring Training Orange",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "92f387c9-da41-42a9-8a17-e8060e2599ad",
+      "name": "Spring Training Red",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "00662285-6a77-4791-8d9e-8af97bb6a201",
       "name": "Team Color Border",
       "coverage": "full",
