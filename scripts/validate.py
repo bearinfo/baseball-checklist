@@ -66,16 +66,23 @@ def check_rows(path, checklist, vocab, failures):
         team = (row.get("team") or "").strip()
 
         # A manufacturer sometimes prints several different cards on ONE
-        # number — all six 2024 Jackson Holliday Fun Face cards say 697 — so
-        # the number alone cannot identify a row. What tells them apart is
-        # variation_note, which therefore joins the key. Two rows sharing both
-        # are still a duplicate.
+        # number, in two ways, and neither is an error to reject.
+        #
+        # Same subject, different card: all six 2024 Jackson Holliday Fun Face
+        # cards say 697, and only variation_note tells them apart.
+        #
+        # Different subject, same code: 2023 Topps numbers autographs by
+        # initials, so 88BA-AR is both Adley Rutschman and Austin Riley, and
+        # PPA-AR is the same pair again. Here `name` is what tells them apart.
+        #
+        # So the key is all three. A row matching another on every one of them
+        # is a duplicate — it describes no card the file does not already have.
         note = (row.get("variation_note") or "").strip()
-        key = (card_number, note)
+        key = (card_number, name, note)
         if not card_number:
             failures.add(where, "card_number is empty")
         elif key in seen:
-            failures.add(where, f"card_number {card_number!r}"
+            failures.add(where, f"card_number {card_number!r} for {name!r}"
                                 + (f" with variation_note {note!r}" if note else "")
                                 + f" already used on line {seen[key]} of this file")
         else:

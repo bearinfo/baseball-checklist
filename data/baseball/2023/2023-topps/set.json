@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "id": "7ae61c3a-2155-42f3-acd5-e98a0913d6b4",
+  "name": "2023 Topps",
+  "slug": "2023-topps",
+  "sport": "baseball",
+  "year": 2023,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 660
+    },
+    {
+      "file": "autographs/1988-topps-baseball-all-stars-autograph-cards.csv",
+      "name": "1988 Topps Baseball All Stars Autograph Cards",
+      "kind": "autograph",
+      "card_count": 71
+    },
+    {
+      "file": "autographs/1988-topps-baseball-all-stars-relics.csv",
+      "name": "1988 Topps Baseball All Stars Relics",
+      "kind": "autograph",
+      "card_count": 50
+    },
+    {
+      "file": "autographs/1988-topps-baseball-autograph-cards-series-1.csv",
+      "name": "1988 Topps Baseball Autograph Cards Series 1",
+      "kind": "autograph",
+      "card_count": 117
+    },
+    {
+      "file": "autographs/1988-topps-baseball-autograph-cards-series-2.csv",
+      "name": "1988 Topps Baseball Autograph Cards Series 2",
+      "kind": "autograph",
+      "card_count": 97
+    },
+    {
+      "file": "autographs/1988-topps-baseball-chrome-autograph-cards.csv",
+      "name": "1988 Topps Baseball Chrome Autograph Cards",
+      "kind": "autograph",
+      "card_count": 75
+    },
+    {
+      "file": "autographs/1988-topps-baseball-chrome-autograph-parallel.csv",
+      "name": "1988 Topps Baseball Chrome Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 48,
+      "varies": "inserts/1988-topps-baseball-chrome-base-cards.csv"
+    },
+    {
+      "file": "autographs/2022-greatest-hits-autographs.csv",
+      "name": "2022 Greatest Hits Autographs",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/2022-silver-slugger-award-winners-cards-autograph-parallel.csv",
+      "name": "2022 Silver Slugger Award Winners Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 9,
+      "varies": "autographs/2022-silver-slugger-award-winners-cards.csv"
+    },
+    {
+      "file": "autographs/2022-silver-slugger-award-winners-cards.csv",
+      "name": "2022 Silver Slugger Award Winners Cards",
+      "kind": "autograph",
+      "card_count": 20
+    },
+    {
+      "file": "autographs/2023-world-baseball-classic-stars-autograph-parallel.csv",
+      "name": "2023 World Baseball Classic Stars Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 37,
+      "varies": "inserts/2023-world-baseball-classic-stars.csv"
+    },
+    {
+      "file": "autographs/all-aces-autograph-parallel.csv",
+      "name": "All Aces Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 15,
+      "varies": "inserts/all-aces.csv"
+    },
+    {
+      "file": "autographs/all-aces-autographs.csv",
+      "name": "All Aces Autographs",
+      "kind": "autograph",
+      "card_count": 18
+    },
+    {
+      "file": "autographs/baseball-stars-autographs-series-1.csv",
+      "name": "Baseball Stars Autographs Series 1",
+      "kind": "autograph",
+      "card_count": 112
+    },
+    {
+      "file": "autographs/baseball-stars-autographs-series-2.csv",
+      "name": "Baseball Stars Autographs Series 2",
+      "kind": "autograph",
+      "card_count": 63
+    },
+    {
+      "file": "autographs/baseball-stars-dual-autographs.csv",
+      "name": "Baseball Stars Dual Autographs",
+      "kind": "autograph",
+      "card_count": 46
+    },
+    {
+      "file": "autographs/crowning-achievements-commemorative-patch-cards-autograph-parallel.csv",
+      "name": "Crowning Achievements Commemorative Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 12,
+      "varies": "autographs/crowning-achievements-commemorative-patch-cards.csv"
+    },
+    {
+      "file": "autographs/crowning-achievements-commemorative-patch-cards.csv",
+      "name": "Crowning Achievements Commemorative Patch Cards",
+      "kind": "autograph",
+      "card_count": 24
+    },
+    {
+      "file": "autographs/fathers-day-commemorative-team-patch-cards-autograph-parallel.csv",
+      "name": "Fathers Day Commemorative Team Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 38,
+      "varies": "autographs/fathers-day-commemorative-team-patch-cards.csv"
+    },
+    {
+      "file": "autographs/fathers-day-commemorative-team-patch-cards.csv",
+      "name": "Fathers Day Commemorative Team Patch Cards",
+      "kind": "autograph",
+      "card_count": 50
+    },
+    {
+      "file": "autographs/favorite-sons-autograph-parallel.csv",
+      "name": "Favorite Sons Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 12,
+      "varies": "inserts/favorite-sons.csv"
+    },
+    {
+      "file": "autographs/legends-of-the-game-autograph-parallel.csv",
+      "name": "Legends Of The Game Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 12,
+      "varies": "inserts/legends-of-the-game.csv"
+    },
+    {
+      "file": "autographs/one-two-punch-dual-autographs.csv",
+      "name": "One Two Punch Dual Autographs",
+      "kind": "autograph",
+      "card_count": 9
+    },
+    {
+      "file": "autographs/oversized-1988-topps-league-leaders-autograph-variation.csv",
+      "name": "Oversized 1988 Topps League Leaders Autograph Variation",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/oversized-topps-record-breakers-card-autograph-variation.csv",
+      "name": "Oversized Topps Record Breakers Card Autograph Variation",
+      "kind": "autograph",
+      "card_count": 12
+    },
+    {
+      "file": "autographs/postseason-performance-autograph-cards.csv",
+      "name": "Postseason Performance Autograph Cards",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/significant-statistics-autograph-parallel.csv",
+      "name": "Significant Statistics Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 12,
+      "varies": "inserts/significant-statistics.csv"
+    },
+    {
+      "file": "autographs/welcome-to-the-club-autographs.csv",
+      "name": "Welcome To The Club Autographs",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/world-champion-autograph-cards.csv",
+      "name": "World Champion Autograph Cards",
+      "kind": "autograph",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/1988-topps-all-star-baseball.csv",
+      "name": "1988 Topps All Star Baseball",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1988-topps-baseball-chrome-base-cards.csv",
+      "name": "1988 Topps Baseball Chrome Base Cards",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/1988-topps-baseball-chrome-cards.csv",
+      "name": "1988 Topps Baseball Chrome Cards",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/1988-topps-baseball.csv",
+      "name": "1988 Topps Baseball",
+      "kind": "insert",
+      "card_count": 150
+    },
+    {
+      "file": "inserts/2022-greatest-hits.csv",
+      "name": "2022 Greatest Hits",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/2023-world-baseball-classic-stars.csv",
+      "name": "2023 World Baseball Classic Stars",
+      "kind": "insert",
+      "card_count": 60
+    },
+    {
+      "file": "inserts/aka.csv",
+      "name": "AKA",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/all-aces.csv",
+      "name": "All Aces",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/chrome-stars-of-mlb.csv",
+      "name": "Chrome Stars Of MLB",
+      "kind": "insert",
+      "card_count": 60
+    },
+    {
+      "file": "inserts/favorite-sons.csv",
+      "name": "Favorite Sons",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "inserts/heavy-lumber.csv",
+      "name": "Heavy Lumber",
+      "kind": "insert",
+      "card_count": 40
+    },
+    {
+      "file": "inserts/homerun-challenge-code-card.csv",
+      "name": "Homerun Challenge Code Card",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/legends-of-the-game.csv",
+      "name": "Legends Of The Game",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/one-two-punch.csv",
+      "name": "One Two Punch",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/oversized-1988-topps-league-leaders.csv",
+      "name": "Oversized 1988 Topps League Leaders",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/oversized-topps-record-breakers-card.csv",
+      "name": "Oversized Topps Record Breakers Card",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/significant-statistics.csv",
+      "name": "Significant Statistics",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/stars-of-mlb.csv",
+      "name": "Stars Of MLB",
+      "kind": "insert",
+      "card_count": 60
+    },
+    {
+      "file": "inserts/welcome-to-the-club.csv",
+      "name": "Welcome To The Club",
+      "kind": "insert",
+      "card_count": 24
+    },
+    {
+      "file": "relics/1988-topps-baseball-relics-series-1.csv",
+      "name": "1988 Topps Baseball Relics Series 1",
+      "kind": "relic",
+      "card_count": 85
+    },
+    {
+      "file": "relics/1988-topps-baseball-relics-series-2.csv",
+      "name": "1988 Topps Baseball Relics Series 2",
+      "kind": "relic",
+      "card_count": 49
+    },
+    {
+      "file": "relics/city-connect-commemorative-patch-autograph-cards.csv",
+      "name": "City Connect Commemorative Patch Autograph Cards",
+      "kind": "relic",
+      "card_count": 19
+    },
+    {
+      "file": "relics/city-connect-commemorative-patch-cards.csv",
+      "name": "City Connect Commemorative Patch Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/cut-signatures-series-1.csv",
+      "name": "Cut Signatures Series 1",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/cut-signatures-series-2.csv",
+      "name": "Cut Signatures Series 2",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/in-the-name-relics-series-1.csv",
+      "name": "In The Name Relics Series 1",
+      "kind": "relic",
+      "card_count": 42
+    },
+    {
+      "file": "relics/in-the-name-relics-series-2.csv",
+      "name": "In The Name Relics Series 2",
+      "kind": "relic",
+      "card_count": 60
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards.csv",
+      "name": "Major League Material Autograph Cards",
+      "kind": "relic",
+      "card_count": 46
+    },
+    {
+      "file": "relics/major-league-material-autographs-cards.csv",
+      "name": "Major League Material Autographs Cards",
+      "kind": "relic",
+      "card_count": 33
+    },
+    {
+      "file": "relics/major-league-material-cards-series-1.csv",
+      "name": "Major League Material Cards Series 1",
+      "kind": "relic",
+      "card_count": 87
+    },
+    {
+      "file": "relics/major-league-material-cards-series-2.csv",
+      "name": "Major League Material Cards Series 2",
+      "kind": "relic",
+      "card_count": 52
+    },
+    {
+      "file": "relics/patchwork-of-the-past-commemorative-patch-autograph-cards.csv",
+      "name": "Patchwork Of The Past Commemorative Patch Autograph Cards",
+      "kind": "relic",
+      "card_count": 19
+    },
+    {
+      "file": "relics/patchwork-of-the-past-commemorative-patch-cards.csv",
+      "name": "Patchwork Of The Past Commemorative Patch Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/postseason-performance-autograph-relic-cards.csv",
+      "name": "Postseason Performance Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 20
+    },
+    {
+      "file": "relics/postseason-performance-relic-cards.csv",
+      "name": "Postseason Performance Relic Cards",
+      "kind": "relic",
+      "card_count": 38
+    },
+    {
+      "file": "relics/team-logo-commemorative-patch-autograph-cards.csv",
+      "name": "Team Logo Commemorative Patch Autograph Cards",
+      "kind": "relic",
+      "card_count": 27
+    },
+    {
+      "file": "relics/team-logo-commemorative-patch-cards.csv",
+      "name": "Team Logo Commemorative Patch Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards.csv",
+      "name": "Topps Reverence Autograph Patch Cards",
+      "kind": "relic",
+      "card_count": 112
+    },
+    {
+      "file": "relics/world-champion-autograph-relic-cards.csv",
+      "name": "World Champion Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 9
+    },
+    {
+      "file": "relics/world-champion-relic-cards.csv",
+      "name": "World Champion Relic Cards",
+      "kind": "relic",
+      "card_count": 12
+    },
+    {
+      "file": "variations/clear-variation.csv",
+      "name": "Clear Variation",
+      "kind": "variation",
+      "card_count": 200,
+      "varies": "base.csv"
+    },
+    {
+      "file": "variations/luke-the-cardist-base-card-art-variation.csv",
+      "name": "Luke The Cardist Base Card Art Variation",
+      "kind": "variation",
+      "card_count": 17,
+      "varies": "base.csv"
+    }
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-330"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "331-660"
+    }
+  ],
+  "parallels": [],
+  "verified": false,
+  "notes": "One set issued in two waves, 660 base cards.",
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2023ToppsSeries1BaseballChecklistV2.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 1 (#1-330) and its inserts",
+      "notes": "Four relic programmes run in both series under one name while reusing their card codes for different players, so they are kept per series rather than merged: 1988 Topps Baseball Relics, Cut Signatures, In The Name Relics and Major League Material Cards. 88R-AB is Adrian Beltre in Series 1 and Alex Bregman in Series 2, ITN-AB is Andrew Benintendi and then Alex Bregman, and there are 23 such collisions across the four. Merging would have silently dropped one player of each pair. Topps prints \"22GHA-AP Albert Pujols St. Louis Cardinals\" twice in the 2022 Greatest Hits Autographs section, seven lines apart and identical on every field, so the section holds 15 cards and not the 16 lines it lists. The repeat is dropped and the converter now drops any line repeated identically inside one section. Where Topps reuses a code for genuinely different players — 88BA-AR is both Adley Rutschman and Austin Riley, 88BA-MMA both Miles Mastrobuoni and Manny Machado, 88BA-RD both Reid Detmers and Rafael Devers, PPA-AR the Rutschman/Riley pair again — both rows are kept, because those are two cards."
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: MLB2302-2023ToppsSeries2BBChecklistFinalv2.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 2 (#331-660) and its inserts",
+      "notes": "This document prints its relic marker as RELICS and places these four programmes after the AUTOGRAPH marker, so they arrived as autographs and were refiled as relics to match Series 1. Topps also heads eleven sections AUTOGRAPH PARALLEL or AUTOGRAPH VARIATION, and neither is a parallel here. Nine reuse their parent checklist's card numbers exactly and are recorded as autograph checklists declaring varies, an autograph of a card sharing that card's number. The two oversized ones number themselves independently — 88LLA-AJ against the parent's 88LL-1 — so they introduce cards, which a variation must never do, and they are autograph checklists with no varies. Both readings follow the rule in ROW-FORMAT: a signature is not a colour, and an autographed subset is not a partial parallel."
+    }
+  ]
+}

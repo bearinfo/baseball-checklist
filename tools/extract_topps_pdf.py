@@ -354,7 +354,7 @@ def read_sections(pdf_path, teams):
 
     sections, current = [], None
     kind_context, distribution, skipping = "insert", "", None
-    skipped, teamless, missing = [], 0, []
+    skipped, teamless, missing, repeated = [], 0, [], []
     for page_no, line in lines:
         if FURNITURE.match(line) or (page_no == 1 and TITLE_LINE.match(line)):
             continue
@@ -408,12 +408,24 @@ def read_sections(pdf_path, teams):
                 sys.exit(f"page {page_no}: UNPARSEABLE (aborting, never guess): {line!r}")
             teamless += 1
             parsed = (rest, "", [])
+        # Topps repeats a line inside one section: 2023 Series 1 prints
+        # "22GHA-AP Albert Pujols St. Louis Cardinals" twice, seven lines
+        # apart. Identical on every field, so it names no second card.
+        if any(c["card_number"] == number and c["names"] == [parsed[0]]
+               and c["teams"] == [parsed[1]] for c in current.cards):
+            repeated.append(f"p{page_no}: {line}")
+            continue
         current.add(number, *parsed)
 
     if skipped:
         print(f"skipped {len(skipped)} non-card section(s):", file=sys.stderr)
         for page_no, name in skipped:
             print(f"    p{page_no}: {name}", file=sys.stderr)
+    if repeated:
+        print(f"{len(repeated)} line(s) printed twice in one section (kept "
+              f"once):", file=sys.stderr)
+        for line in repeated:
+            print(f"    {line}", file=sys.stderr)
     if missing:
         print(f"{len(missing)} number(s) printed as absent (no row):", file=sys.stderr)
         for line in missing:

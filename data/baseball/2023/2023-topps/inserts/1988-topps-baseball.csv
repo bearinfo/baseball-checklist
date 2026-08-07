@@ -1,0 +1,151 @@
+card_number,name,team,designations
+T88-1,José Abreu,Chicago White Sox,
+T88-2,Max Scherzer,New York Mets,
+T88-3,Sandy Alcantara,Miami Marlins,
+T88-4,Buster Posey,San Francisco Giants,
+T88-5,Mark McGwire,Oakland Athletics,
+T88-6,Oneil Cruz,Pittsburgh Pirates,
+T88-7,George Brett,Kansas City Royals,
+T88-8,Alek Manoah,Toronto Blue Jays,
+T88-9,Josh Jung,Texas Rangers,RC
+T88-10,José Ramírez,Cleveland Guardians,
+T88-11,Christopher Morel,Chicago Cubs,RC
+T88-12,Willie Mays,San Francisco Giants,
+T88-13,Justin Verlander,Houston Astros,
+T88-14,Gabriel Moreno,Toronto Blue Jays,RC
+T88-15,Christian Yelich,Milwaukee Brewers,
+T88-16,Shea Langeliers,Oakland Athletics,RC
+T88-17,Julio Urías,Los Angeles Dodgers,
+T88-18,Michael Harris II,Atlanta Braves,RC
+T88-19,Fernando Tatis Jr.,San Diego Padres,
+T88-20,Ke'Bryan Hayes,Pittsburgh Pirates,
+T88-21,Clayton Kershaw,Los Angeles Dodgers,
+T88-22,Nestor Cortes,New York Yankees,
+T88-23,Cal Ripken Jr.,Baltimore Orioles,
+T88-24,Brayan Bello,Boston Red Sox,RC
+T88-25,Ezequiel Duran,Texas Rangers,RC
+T88-26,Nolan Arenado,St. Louis Cardinals,
+T88-27,Chipper Jones,Atlanta Braves,
+T88-28,Will Clark,San Francisco Giants,
+T88-29,Graham Ashcraft,Cincinnati Reds,RC
+T88-30,Bo Bichette,Toronto Blue Jays,
+T88-31,Randy Arozarena,Tampa Bay Rays,
+T88-32,Kris Bryant,Colorado Rockies,
+T88-33,Salvador Perez,Kansas City Royals,
+T88-34,Carlos Correa,Minnesota Twins,
+T88-35,Trevor Story,Boston Red Sox,
+T88-36,Francisco Lindor,New York Mets,
+T88-37,Aaron Judge,New York Yankees,
+T88-38,Corbin Burnes,Milwaukee Brewers,
+T88-39,Miguel Cabrera,Detroit Tigers,
+T88-40,Brendan Rodgers,Colorado Rockies,
+T88-41,Paul Goldschmidt,St. Louis Cardinals,
+T88-42,Triston Casas,Boston Red Sox,RC
+T88-43,Ichiro,Seattle Mariners,
+T88-44,Jackie Robinson,Brooklyn Dodgers,
+T88-45,Mike Trout,Angels,
+T88-46,Wander Franco,Tampa Bay Rays,
+T88-47,Manny Machado,San Diego Padres,
+T88-48,Shane Bieber,Cleveland Guardians,
+T88-49,Hunter Greene,Cincinnati Reds,
+T88-50,Max Meyer,Miami Marlins,RC
+T88-51,Bo Jackson,Kansas City Royals,
+T88-52,Bryce Harper,Philadelphia Phillies,
+T88-53,Jeter Downs,Boston Red Sox,RC
+T88-54,Jacob deGrom,New York Mets,
+T88-55,Barry Larkin,Cincinnati Reds,
+T88-56,Eddie Murray,Baltimore Orioles,
+T88-57,Greg Maddux,Atlanta Braves,
+T88-58,Alex Bregman,Houston Astros,
+T88-59,Freddie Freeman,Los Angeles Dodgers,
+T88-60,Rickey Henderson,Oakland Athletics,
+T88-61,Vladimir Guerrero,Montréal Expos,
+T88-62,Jeff Bagwell,Houston Astros,
+T88-63,Ozzie Albies,Atlanta Braves,
+T88-64,Julio Rodríguez,Seattle Mariners,
+T88-65,Vinnie Pasquantino,Kansas City Royals,RC
+T88-66,Shohei Ohtani,Angels,
+T88-67,Rafael Devers,Boston Red Sox,
+T88-68,Vladimir Guerrero Jr.,Toronto Blue Jays,
+T88-69,Adley Rutschman,Baltimore Orioles,RC
+T88-70,Juan Soto,San Diego Padres,
+T88-71,Javier Báez,Detroit Tigers,
+T88-72,Don Mattingly,New York Yankees,
+T88-73,Seiya Suzuki,Chicago Cubs,
+T88-74,Pete Alonso,New York Mets,
+T88-75,Dylan Cease,Chicago White Sox,
+T88-76,Jose Altuve,Houston Astros,
+T88-77,Jazz Chisholm Jr.,Miami Marlins,
+T88-78,Robin Yount,Milwaukee Brewers,
+T88-79,Gerrit Cole,New York Yankees,
+T88-80,Sonny Gray,Minnesota Twins,
+T88-81,Ronald Acuña Jr.,Atlanta Braves,
+T88-82,Ken Griffey Jr.,Seattle Mariners,
+T88-83,Corey Seager,Texas Rangers,
+T88-84,Wade Boggs,Boston Red Sox,
+T88-85,Frank Thomas,Chicago White Sox,
+T88-86,Nolan Ryan,Texas Rangers,
+T88-87,Tony Gwynn,San Diego Padres,
+T88-88,Mookie Betts,Los Angeles Dodgers,
+T88-89,Luis Robert,Chicago White Sox,
+T88-90,Bobby Witt Jr.,Kansas City Royals,
+T88-91,Joey Votto,Cincinnati Reds,
+T88-92,Ryne Sandberg,Chicago Cubs,
+T88-93,Riley Greene,Detroit Tigers,RC
+T88-94,Mike Schmidt,Philadelphia Phillies,
+T88-95,Matthew Liberatore,St. Louis Cardinals,RC
+T88-96,Brett Baty,New York Mets,RC
+T88-97,Nolan Gorman,St. Louis Cardinals,RC
+T88-98,Spencer Torkelson,Detroit Tigers,
+T88-99,Byron Buxton,Minnesota Twins,
+T88-100,Anthony Rizzo,New York Yankees,
+2T88-1,Justin Verlander,New York Mets,
+2T88-2,Dale Murphy,Atlanta Braves,
+2T88-3,Mitch Haniger,San Francisco Giants,
+2T88-4,Oswald Peraza,New York Yankees,RC
+2T88-5,Corbin Carroll,Arizona Diamondbacks,RC
+2T88-6,Cody Bellinger,Chicago Cubs,
+2T88-7,Kyle Schwarber,Philadelphia Phillies,
+2T88-8,Logan O'Hoppe,Angels,RC
+2T88-9,Shohei Ohtani,Angels,
+2T88-10,Jordan Groshans,Miami Marlins,RC
+2T88-11,Óscar González,Cleveland Guardians,RC
+2T88-12,Yordan Alvarez,Houston Astros,
+2T88-13,Hunter Brown,Houston Astros,RC
+2T88-14,Garrett Mitchell,Milwaukee Brewers,RC
+2T88-15,Matt Chapman,Toronto Blue Jays,
+2T88-16,Albert Pujols,St. Louis Cardinals,
+2T88-17,Kodai Senga,New York Mets,RC
+2T88-18,Eloy Jiménez,Chicago White Sox,
+2T88-19,José Abreu,Houston Astros,
+2T88-20,Cade Cavalli,Washington Nationals,RC
+2T88-21,Dansby Swanson,Chicago Cubs,
+2T88-22,Juan Soto,San Diego Padres,
+2T88-23,Kirby Puckett,Minnesota Twins,
+2T88-24,Jacob deGrom,Texas Rangers,
+2T88-25,Nick Pratto,Kansas City Royals,RC
+2T88-26,Joe Musgrove,San Diego Padres,
+2T88-27,Mike Trout,Angels,
+2T88-28,Hank Aaron,Atlanta Braves,
+2T88-29,Drew Waters,Kansas City Royals,RC
+2T88-30,Derek Jeter,New York Yankees,
+2T88-31,Adley Rutschman,Baltimore Orioles,RC
+2T88-32,Julio Rodríguez,Seattle Mariners,RC
+2T88-33,Miguel Vargas,Los Angeles Dodgers,RC
+2T88-34,Liover Peguero,Pittsburgh Pirates,RC
+2T88-35,Pedro Martinez,Boston Red Sox,
+2T88-36,Gunnar Henderson,Baltimore Orioles,RC
+2T88-37,DL Hall,Baltimore Orioles,RC
+2T88-38,Spencer Steer,Cincinnati Reds,RC
+2T88-39,Mookie Betts,Los Angeles Dodgers,
+2T88-40,Francisco Álvarez,New York Mets,RC
+2T88-41,Ezequiel Tovar,Colorado Rockies,RC
+2T88-42,Aaron Judge,New York Yankees,
+2T88-43,David Ortiz,Boston Red Sox,
+2T88-44,Trea Turner,Philadelphia Phillies,
+2T88-45,Randy Johnson,Seattle Mariners,
+2T88-46,Roberto Clemente,Pittsburgh Pirates,
+2T88-47,Bo Naylor,Cleveland Guardians,RC
+2T88-48,Xander Bogaerts,San Diego Padres,
+2T88-49,Masataka Yoshida,Boston Red Sox,RC
+2T88-50,Willson Contreras,St. Louis Cardinals,
