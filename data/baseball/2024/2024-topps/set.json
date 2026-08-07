@@ -545,6 +545,13 @@
       "retrieved": "2026-08-07",
       "covers": "the Foil parallels of the 1989 Topps Baseball and 1989 Topps All Star Baseball inserts, and the All Star parallels",
       "notes": "Every 1989 Topps Baseball card also comes in Foil, and Foil in six colours: Green /99, Purple /75, Gold /50, Orange /25, Red /5 and Black one-of-one. Trading Card Database gives the identical six figures under its own name for the insert, 1989 Topps Baseball 35th Anniversary, listing each colour twice because it splits the insert by series. Declaring this removed two checklists rather than adding any. Topps' own documents carried the Foil parallel as two insert sections, 1989 Topps Baseball Foil Mega Box Cards in Series 1 and 1989 Topps Baseball Foilboard Mega Box Cards in Series 2, and both were byte-identical to blocks of the insert they parallel: the 100 rows numbered 89B-1 to 89B-100 and the 50 rows numbered 89B2-1 to 89B2-50. They were 150 rows that said nothing base 1989 Topps Baseball did not already say, and the wave each card belongs to stays readable from the 89B and 89B2 prefixes, so nothing was lost with them. The sources disagree on where Foil was sold. This page calls it exclusive to Monster and Giant Boxes; Trading Card Database says Mega box, and Topps titles both its sections Mega Box Cards. Mega Box Exclusive is recorded, on the manufacturer's wording backed by TCDB, and the distinction is real in this set — Topps Mega Stars is separately recorded as Giant/Monster Box Exclusive. Topps also names the two halves differently, Foil in Series 1 and Foilboard in Series 2, where both other sources describe a single Foil parallel; the single parallel is what is declared, and the six colour runs all carry Foilboard in their own names on every source. Both insert checklists were verified row by row against that page, 150 and 50, matching on every number and name but one: 89B-68 is Vladimir Guerrero there and Vladimir Guerrero, Sr. on that page, which reads as a disambiguation from 89B-32 Vladimir Guerrero, Jr. rather than a printed form, so Topps' wording is kept. The All Star insert had the same duplication, its Topps section 1989 Topps All Stars Baseball Foilboard Mega Box Cards being identical row for row to 1989 Topps All Star Baseball, and it is now a parallel too; that is what shows the Foil covers all 50. Its parallels come from Trading Card Database, since that page documents no parallel of the All Star insert at all, and its six Foil colours run the same ladder as the main insert: Green /99, Purple /75, Gold /50, Orange /25, Red /5, Black one-of-one. They are recorded as coverage unknown, along with the five parallels of the All Star insert itself — Black and Blue unnumbered, Gold /50, Platinum one-of-one, Red /10 — because naming a parallel and giving its print run is not saying how many cards it covers. The main insert's six are full only because that page states it. Trading Card Database calls the All Star Foil a Giant/Monster Box exclusive, not a Mega Box one, so the two Foils are recorded with different distributions. Both are named for the checklist they parallel rather than being called Foil, because a parallel that other parallels point at has to be named uniquely within the set."
+    },
+    {
+      "source_type": "community",
+      "source": "2024 Topps Baseball — Inserts and Related Sets, Trading Card Database",
+      "retrieved": "2026-08-07",
+      "covers": "the parallels of the 2023 All Topps Team insert",
+      "notes": "Five parallels: Black /299, Blue unnumbered, Gold /75, Platinum one-of-one and Red /10, all recorded as coverage unknown because that database names them and prints their runs without saying how many of the twelve cards each covers. Baseball Card Pedia documents no parallel of this insert, so nothing corroborates a count. The same insert one year later, 2024 All Topps Team in 2025 Topps, does have all eight of its parallels declared as full coverage — from a statement on that site, not from the shape of the ladder, and the difference between the two years is what evidence exists rather than what the cards are likely to be. A sixth entry there, 2023 All Topps Team Autographs, is not recorded as a parallel: it is already an autograph checklist in this set, and its run is given as 25 or less, a range rather than anything printed on a card. The twelve rows of the insert were verified against Baseball Card Pedia and match on every number and name."
     }
   ],
   "series": [
@@ -1139,6 +1146,50 @@
       "applies_to": [
         "1989 Topps Baseball Foil"
       ]
+    },
+    {
+      "id": "7b82f50e-032a-4885-bd2e-068d8fdfeff8",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 All Topps Team"
+      ],
+      "print_run": 299
+    },
+    {
+      "id": "e9281212-7a25-43df-8812-5f70dc193edb",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 All Topps Team"
+      ]
+    },
+    {
+      "id": "c8d30b20-3765-4ee5-9c59-b179170bfba1",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 All Topps Team"
+      ],
+      "print_run": 75
+    },
+    {
+      "id": "74bfdbaf-03aa-45cd-9550-fdf6ac06446a",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 All Topps Team"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "dfd66404-dcd0-4f0f-b321-7f65fee0c6cf",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 All Topps Team"
+      ],
+      "print_run": 10
     }
   ],
   "verified": false,
