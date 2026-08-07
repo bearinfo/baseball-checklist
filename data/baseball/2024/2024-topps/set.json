@@ -451,6 +451,16 @@
       "card_count": 700
     },
     {
+      "file": "variations/jackson-holliday-fun-face-gimmicks.csv",
+      "name": "Jackson Holliday Fun Face Gimmicks",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 6,
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
       "file": "variations/kayfabe-rookies.csv",
       "name": "Kayfabe Rookies",
       "kind": "variation",

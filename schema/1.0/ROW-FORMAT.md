@@ -12,7 +12,7 @@ bump — never by ad-hoc columns.
 
 | Column | Required | Meaning |
 |---|---|---|
-| `card_number` | **yes** | Always TEXT, exactly as printed: `1`, `US300`, `GN-1`. Unique **within the file** — see Numbering scope. |
+| `card_number` | **yes** | Always TEXT, exactly as printed: `1`, `US300`, `GN-1`. Unique **within the file** — see Numbering scope. A lowercase suffix (`697b`, `697c`) is the one addition allowed: it distinguishes cards a manufacturer printed on ONE number. |
 | `name` | **yes** | Who or what is on the card, **as printed** — a player name, a team name (team cards), or a title. Never a resolved/corrected identity. |
 | `team` | **yes** | Team name from the checked-in `data/baseball/teams.json` list, trademark glyphs stripped. |
 | `designations` | no | Space-separated codes from `schema/1.0/designations.json`, e.g. `RC`, `FS`, `CC CL`. Empty = plain base card. |
@@ -54,6 +54,23 @@ Both are real cards, so both are rows, in separate files:
 base.csv                            697  Bryan Reynolds
 variations/short-print-rookies.csv  697  Kevin McGonigle   is_short_print=true
 ```
+
+### Several cards on one number
+
+Topps stamps 697 on all six Jackson Holliday Fun Face cards of 2024, so the
+number identifies none of them. Such cards take a lowercase suffix — `697c`
+"Fun Face" on the bat knob, `697d` black box, `697e` black scribble — which is
+how Trading Card Database writes them and the only departure from *as printed*
+this format allows.
+
+It is a small lie that prevents a larger one. Six rows numbered `697` would
+break uniqueness; one row for all six would lose five cards; renumbering the
+base card would corrupt a checklist that is right. The suffix leaves `base.csv`
+untouched, invents no card, and keeps every card individually ownable, which is
+the point of a checklist.
+
+Validation follows the suffix: `697c` satisfies `varies: base.csv` because 697
+does. A suffix whose stem is not in the parent — `999z` — still fails.
 
 Each variation checklist declares what it varies:
 

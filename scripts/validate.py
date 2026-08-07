@@ -103,6 +103,25 @@ def check_rows(path, checklist, vocab, failures):
             failures.add(where, f"is_short_print {flag!r} is not true/false")
 
 
+SUFFIXED = re.compile(r"^(.*?)([a-z])$")
+
+
+def varies_number(number, known):
+    """Whether a row's card_number belongs to the checklist it varies.
+
+    Normally it is simply one of them. A card can also carry a lowercase
+    suffix — 697b, 697c — which is how a set that prints several different
+    cards on ONE number is written down: Topps stamps 697 on all six Jackson
+    Holliday Fun Face cards, so the number alone identifies none of them.
+    The suffix distinguishes them without touching base.csv and without
+    inventing a card, and 697b is a variation of 697 exactly as 697 would be.
+    """
+    if number in known:
+        return True
+    match = SUFFIXED.match(number)
+    return bool(match) and match.group(1) in known
+
+
 def check_set(set_dir, schemas, vocab, failures):
     """One set: metadata against the schema, then its rows."""
     import jsonschema
@@ -259,7 +278,7 @@ def check_set(set_dir, schemas, vocab, failures):
             continue
         known = set(numbers.get(source, []))
         for line, number in enumerate(numbers.get(checklist["file"], []), start=2):
-            if number and number not in known:
+            if number and not varies_number(number, known):
                 failures.add(f"{(set_dir / checklist['file']).relative_to(REPO)}:{line}",
                              f"card_number {number!r} is not in {source} — a "
                              f"variation cannot introduce a new card")
