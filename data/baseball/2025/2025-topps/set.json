@@ -1216,7 +1216,7 @@
     },
     {
       "id": "4f244690-d836-4026-aafc-52d20cd8f3cf",
-      "name": "Big Apple Black",
+      "name": "Black",
       "coverage": "full",
       "applies_to": [
         "Big Apple"
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "63b84437-d90b-449e-9d0c-850047c2fcf3",
-      "name": "Big Apple FoilFractor",
+      "name": "FoilFractor",
       "coverage": "full",
       "applies_to": [
         "Big Apple"
@@ -1232,7 +1232,7 @@
     },
     {
       "id": "ea533537-6cde-45b3-8862-e19dc6b55687",
-      "name": "Big Apple Gold",
+      "name": "Gold",
       "coverage": "full",
       "applies_to": [
         "Big Apple"
@@ -1240,7 +1240,7 @@
     },
     {
       "id": "40d74f21-cd07-429e-8db9-a4a448935469",
-      "name": "Big Apple Orange",
+      "name": "Orange",
       "coverage": "full",
       "applies_to": [
         "Big Apple"
@@ -1248,10 +1248,50 @@
     },
     {
       "id": "e26d134f-2224-4224-9b3a-bc037ac3b79c",
-      "name": "Big Apple Red",
+      "name": "Red",
       "coverage": "full",
       "applies_to": [
         "Big Apple"
+      ]
+    },
+    {
+      "id": "a8e097a1-3b92-49a1-85b1-1146bcc32b45",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Big Head Variation"
+      ]
+    },
+    {
+      "id": "76f4bd7b-20c6-4cb4-90e2-40053f110b6a",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Big Head Variation"
+      ]
+    },
+    {
+      "id": "25b10794-1623-4643-9571-120c7e5cfb33",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Big Head Variation"
+      ]
+    },
+    {
+      "id": "e5955cf1-6cb8-4043-b0f4-4821676da3ca",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Big Head Variation"
+      ]
+    },
+    {
+      "id": "1d258279-2cd6-4b47-a463-befc47746f45",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Big Head Variation"
       ]
     }
   ],
