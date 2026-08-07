@@ -186,6 +186,10 @@ def check_set(set_dir, schemas, vocab, failures):
         failures.add(rel, f"{shared!r} names both a checklist and a parallel, "
                           f"so applies_to cannot say which is meant")
 
+    # A colour is named once per parent — a dozen parallels are called Gold —
+    # so a name only identifies a parallel while it is unique.
+    repeated = {n for n in parallel_names
+                if sum(1 for p in parallels if p["name"] == n) > 1}
     parents = {p["name"]: [t for t in p.get("applies_to", [])
                            if t in parallel_names] for p in parallels}
     for parallel in parallels:
@@ -194,6 +198,10 @@ def check_set(set_dir, schemas, vocab, failures):
                 failures.add(rel, f"parallel {parallel['name']!r} applies to "
                                   f"{target!r}, which this set declares as "
                                   f"neither a checklist nor a parallel")
+            elif target in repeated and target not in names:
+                failures.add(rel, f"parallel {parallel['name']!r} applies to "
+                                  f"{target!r}, which names more than one "
+                                  f"parallel of this set")
         # Walk up the parallel-of-a-parallel chain; a loop would otherwise
         # leave a card whose numbering is defined only in terms of itself.
         seen, walk = {parallel["name"]}, list(parents.get(parallel["name"], []))

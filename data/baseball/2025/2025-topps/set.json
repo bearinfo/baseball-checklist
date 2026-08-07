@@ -1215,6 +1215,278 @@
       "card_count": 100
     },
     {
+      "id": "2fe38fb8-c3b5-4122-bc1c-fa2e96949cce",
+      "name": "Blue Nameplate",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "47bbd8d0-5e9f-4e5d-a9b0-55f7b5e63f83",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "25c47514-84f2-4c54-84a3-4426be06b4f8",
+      "name": "Foil",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "7722392b-3a8e-43a5-aef1-7624ef7bc42a",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "efda03d6-4825-4df1-83ef-116cd370f862",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "71bc38ef-6606-4f24-acce-506e6ff349a5",
+      "name": "No Name on Front",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "37715d36-06c8-4204-9b55-cf273b970b53",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "b4475bc8-f058-4048-970e-21bd3f3207db",
+      "name": "Pink",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "94bac02a-91ea-410d-b30c-92f4410f208e",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "b5190146-7783-4768-b6fa-c907546c8dc5",
+      "name": "The Real One",
+      "coverage": "full",
+      "applies_to": [
+        "1990 Topps Baseball"
+      ]
+    },
+    {
+      "id": "a6814d9d-f3c1-4e81-b365-c7d369ed6514",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "22b729a6-5c89-45d4-aa39-17ab80176805",
+      "name": "Blue",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "889b270b-eef4-413e-a5d1-fb19d0569def",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "0fbd4fd0-0eb8-48d5-982a-e7af0d9af40d",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "b64ebcc1-dfb9-4f5c-87fd-6facda7698bc",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "f2e98d4c-c7f8-4e30-aec5-88b812642321",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "2be75c41-b888-4a06-b2fa-85cfd2d0dff8",
+      "name": "Pink",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "660fca10-84fa-44fc-92ee-067a5f9d37a8",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "2024 All Topps Team"
+      ]
+    },
+    {
+      "id": "65976070-db8f-4b6d-a7e8-c1e15e4b4f87",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "a5576bf2-20a7-4b77-ad84-396b005bf21b",
+      "name": "Blue",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "34b5a656-d558-450b-bbaf-c5184ed16ec6",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "9b777a76-8b6e-486a-950c-d72fab6b8145",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "78a9ca1f-6288-470c-9c72-44841f01d009",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "6f22310d-3610-4ac7-8f10-dbc976d588d8",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "15521d40-c040-4acb-ac94-8afe3f9363e8",
+      "name": "Pink",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "f3f2fd76-963c-42b6-9936-aa8ec75de197",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "2024 First Pitch"
+      ]
+    },
+    {
+      "id": "0ee797dc-6d88-4eec-b5ed-063cb2ffe728",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
+      "id": "0f3ca122-1a19-4c41-aac5-5e1616945864",
+      "name": "Blue",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
+      "id": "7dafe817-f29d-40cb-924f-4634f948297b",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
+      "id": "7e873806-cc38-4f4a-95de-4193512474bd",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
+      "id": "aadf33bb-b56f-4cdd-bf6c-5fd85cc6cf6f",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
+      "id": "c3d72d53-2835-4573-afbf-685a733ba1c3",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
+      "id": "c01c3747-27f3-4c0a-857a-29d1d943d88b",
+      "name": "Pink",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
+      "id": "6ff9fa0a-975e-48e1-989b-d280b0a77876",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "2024 Greatest Hits"
+      ]
+    },
+    {
       "id": "4f244690-d836-4026-aafc-52d20cd8f3cf",
       "name": "Black",
       "coverage": "full",
@@ -1292,6 +1564,182 @@
       "coverage": "full",
       "applies_to": [
         "Big Head Variation"
+      ]
+    },
+    {
+      "id": "99a47a34-1880-44d2-bb68-10e885f35aaa",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "734e871e-c184-42de-972c-176e5c7debcf",
+      "name": "Blue",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "4306172e-3480-49f2-94cc-c692ac2807f3",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "15d8ee7a-ab87-4b58-9de6-337ac19d0480",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "ae4d0a8d-2ccb-461b-9516-7095ef99eb94",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "b668219b-af4a-4c33-bd81-701276d7fddb",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "2b1d645f-e0e0-4cb8-b7eb-b76c87e5db59",
+      "name": "Pink",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "9c04d85f-9b85-45db-ad0c-dd7d60c37920",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Call To The Hall"
+      ]
+    },
+    {
+      "id": "2e028e1f-b94f-4b90-8788-b3217ec91fc7",
+      "name": "Black Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "978f72bc-9c08-40c3-a4d6-393dee01b250",
+      "name": "Gold Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "51cc9932-908a-485c-ad32-4703f53ed0d3",
+      "name": "Green Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "ddca03d0-c407-4c8f-80c2-bebfb8dfa960",
+      "name": "Orange Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "155c8289-eca5-4a82-80f1-3e8920c6fabc",
+      "name": "Purple Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "4afefa13-118a-4737-95b9-56b37b05d229",
+      "name": "Red Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "1ce59782-3284-4370-8154-d0f4fb91be2b",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
+      ]
+    },
+    {
+      "id": "79cf2458-b206-428d-a81c-6d676078be94",
+      "name": "Blue",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
+      ]
+    },
+    {
+      "id": "4c05a610-9bd1-4739-8e99-a88184c3be60",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
+      ]
+    },
+    {
+      "id": "d95d6d92-2d00-4b53-ba61-06545fdc169b",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
+      ]
+    },
+    {
+      "id": "d787fdb0-45ad-4a70-8f46-e444b07c2c06",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
+      ]
+    },
+    {
+      "id": "2e19ea41-8e83-4c09-832b-4850280cd84f",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
+      ]
+    },
+    {
+      "id": "7991bbe1-6349-4b01-8df7-3dba38e62014",
+      "name": "Pink",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
+      ]
+    },
+    {
+      "id": "883e42cd-7cc4-45dd-8258-f07a45504a76",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Training Grounds"
       ]
     }
   ],
