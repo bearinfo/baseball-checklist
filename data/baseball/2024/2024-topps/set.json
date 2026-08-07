@@ -657,6 +657,73 @@
       "print_run": 499
     },
     {
+      "id": "21196dd8-f7a3-4ed3-8e1d-d5787de379bb",
+      "name": "Holiday",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "43c73caa-ea4c-4d77-8f8c-75cceba6f322",
+      "name": "Holiday Birds",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "8872d7ce-42f8-4493-91b8-bde21de8669a",
+      "name": "Holiday Egg",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "6d5d6d8b-14b9-4bf0-89af-7208e2a0967e",
+      "name": "Holiday Flowers",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 50
+    },
+    {
+      "id": "e4462ac9-2a76-49ad-b3f9-711fe5c8e1f3",
+      "name": "Holiday Rabbit",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "6ba6e850-0722-47e0-bf8e-b6940d798388",
+      "name": "Holiday Umbrella",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 10
+    },
+    {
+      "id": "e2988e23-478c-4353-a582-7a30d5e5b389",
+      "name": "Holiday Watering Can",
+      "coverage": "full",
+      "series": "Series 1",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 5
+    },
+    {
       "id": "9491e3ab-1463-49ee-b2a5-5bd687ef90a5",
       "name": "Independence Day",
       "coverage": "full",
