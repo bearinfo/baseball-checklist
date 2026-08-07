@@ -1695,6 +1695,46 @@
       ]
     },
     {
+      "id": "f7498f86-fff2-410c-8722-7df6f94e2171",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "84f6f642-37e1-463a-876b-8c7e23af271c",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "f87926b2-7d08-49e1-bbec-e441b769e934",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "d819a739-899b-4ef4-9ed1-46e0a23af3b4",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
+      "id": "3bab4118-d557-417a-bcb0-15e0471c8612",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Dugout Peeks"
+      ]
+    },
+    {
       "id": "2e028e1f-b94f-4b90-8788-b3217ec91fc7",
       "name": "Black Foilboard",
       "coverage": "full",
@@ -1988,6 +2028,38 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "c1ce1f6a-3759-45ff-939e-a99df1b7eedf",
+      "name": "Black Refractor",
+      "coverage": "full",
+      "applies_to": [
+        "Swinging With The Stars"
+      ]
+    },
+    {
+      "id": "e4e19d9e-e0fb-4841-9db2-d80c6b730d15",
+      "name": "Orange Refractor",
+      "coverage": "full",
+      "applies_to": [
+        "Swinging With The Stars"
+      ]
+    },
+    {
+      "id": "45788521-e56e-4986-abdd-154fc27a924c",
+      "name": "Red Refractor",
+      "coverage": "full",
+      "applies_to": [
+        "Swinging With The Stars"
+      ]
+    },
+    {
+      "id": "7739d986-69d3-4fb4-9b0c-f2e727257c87",
+      "name": "SuperFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Swinging With The Stars"
       ]
     },
     {
