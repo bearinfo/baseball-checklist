@@ -1495,6 +1495,14 @@
       ]
     },
     {
+      "id": "cca0f376-3cb9-4ac1-a228-ed4c1bc24bfc",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "All Kings"
+      ]
+    },
+    {
       "id": "4f244690-d836-4026-aafc-52d20cd8f3cf",
       "name": "Black",
       "coverage": "full",
