@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "id": "c5cf7f80-c352-4c7c-98c0-dc868eca52b1",
+  "name": "2025 Topps Flagship Collection",
+  "slug": "2025-topps-flagship-collection",
+  "sport": "baseball",
+  "year": 2025,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "inserts/carrying-the-flag.csv",
+      "name": "Carrying the Flag",
+      "kind": "insert",
+      "card_count": 30,
+      "distribution": "Series One Super Box Exclusive"
+    },
+    {
+      "file": "inserts/mesmerized.csv",
+      "name": "Mesmerized",
+      "kind": "insert",
+      "card_count": 20,
+      "distribution": "Series One Super Box Exclusive"
+    }
+  ],
+  "provenance": [
+    {
+      "source_type": "community",
+      "source": "Baseball Card Pedia, 2025 Topps Flagship Collection; Trading Card Database, 2025 Topps — Inserts and Related Sets",
+      "source_url": "https://baseballcardpedia.com/index.php/2025_Topps_Flagship_Collection",
+      "retrieved": "2026-08-07",
+      "covers": "the Carrying the Flag and Mesmerized insert checklists",
+      "notes": "\"2025 Topps Flagship Collection are two 100-card sets exclusive to specially-marked Super Boxes sold exclusively to Costco stores.\" Its own product, not part of 2025 Topps, which is why the Topps series checklists never listed these cards. Card numbers and players come from Trading Card Database; each name and team is spelled as Topps prints it in 2025 Topps, so the accents and the bare \"Angels\" carry over. Both sets are serial numbered — Carrying the Flag to 100 — which is not recorded, because print_run belongs to a parallel and these are checklists."
+    }
+  ],
+  "verified": false,
+  "notes": "Two 100-card base sets, one per series, are NOT recorded here: no checklist for them has been found. Nor are the base parallels (Series 1 Green/Gold/Orange/Black/Red/Platinum, Series 2 adding Purple), the Series 2 Bulk Order insert of 30 serial numbered to 100, or the 16 oversized and companion cards plus 5 SP variations per series. What is here is the two Series One inserts whose card lists could be had."
+}
