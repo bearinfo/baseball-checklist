@@ -550,8 +550,8 @@
       "source_type": "community",
       "source": "2024 Topps Baseball — Inserts and Related Sets, Trading Card Database",
       "retrieved": "2026-08-07",
-      "covers": "the parallels of the 2023 All Topps Team insert",
-      "notes": "Five parallels: Black /299, Blue unnumbered, Gold /75, Platinum one-of-one and Red /10, all recorded as coverage unknown because that database names them and prints their runs without saying how many of the twelve cards each covers. Baseball Card Pedia documents no parallel of this insert, so nothing corroborates a count. The same insert one year later, 2024 All Topps Team in 2025 Topps, does have all eight of its parallels declared as full coverage — from a statement on that site, not from the shape of the ladder, and the difference between the two years is what evidence exists rather than what the cards are likely to be. A sixth entry there, 2023 All Topps Team Autographs, is not recorded as a parallel: it is already an autograph checklist in this set, and its run is given as 25 or less, a range rather than anything printed on a card. The twelve rows of the insert were verified against Baseball Card Pedia and match on every number and name."
+      "covers": "the parallels of the 2023 All Topps Team and 2023 Greatest Hits inserts",
+      "notes": "Five parallels: Black /299, Blue unnumbered, Gold /75, Platinum one-of-one and Red /10, all recorded as coverage unknown because that database names them and prints their runs without saying how many of the twelve cards each covers. Baseball Card Pedia documents no parallel of this insert, so nothing corroborates a count. The same insert one year later, 2024 All Topps Team in 2025 Topps, does have all eight of its parallels declared as full coverage — from a statement on that site, not from the shape of the ladder, and the difference between the two years is what evidence exists rather than what the cards are likely to be. A sixth entry there, 2023 All Topps Team Autographs, is not recorded as a parallel: it is already an autograph checklist in this set, and its run is given as 25 or less, a range rather than anything printed on a card. The twelve rows of the insert were verified against Baseball Card Pedia and match on every number and name. 2023 Greatest Hits carries the same five parallels on the same runs — Black /299, Blue unnumbered, Gold /75, Platinum one-of-one, Red /10 — recorded as unknown for the same reason, and its autographs are likewise already a checklist here rather than a parallel. That two unrelated inserts share a ladder to the copy is worth stating: it is a house structure Topps applied across the product, not a fact discovered about either insert, and it is not evidence of coverage for either. That database adds that both were issued in Series One packs, which is recorded on neither, being a statement about the inserts rather than about their parallels. The thirty-one rows of Greatest Hits were verified and match on every number and name, including the three consecutive Shohei Ohtani cards at 23GH-12, 13 and 14 and the repeated players at 5 and 8, 9 and 20, 10 and 19, 2 and 27, 16 and 28."
     }
   ],
   "series": [
@@ -1188,6 +1188,50 @@
       "coverage": "unknown",
       "applies_to": [
         "2023 All Topps Team"
+      ],
+      "print_run": 10
+    },
+    {
+      "id": "73a9d4b1-057a-4a07-b087-13dccf73a2e9",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 Greatest Hits"
+      ],
+      "print_run": 299
+    },
+    {
+      "id": "f053efe3-ca4e-4dcf-bbf0-bd34f6b7aebd",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 Greatest Hits"
+      ]
+    },
+    {
+      "id": "f417481d-987c-4605-8889-bfe263855ff3",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 Greatest Hits"
+      ],
+      "print_run": 75
+    },
+    {
+      "id": "187dd7ff-6bd0-4266-b1c1-bd7bf1ba291b",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 Greatest Hits"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "8808a430-acbf-40f6-bc05-093b471d63bd",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "2023 Greatest Hits"
       ],
       "print_run": 10
     }
