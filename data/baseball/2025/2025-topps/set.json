@@ -621,7 +621,7 @@
       "source_url": "https://baseballcardpedia.com/index.php/2025_Topps",
       "retrieved": "2026-08-05",
       "covers": "the factory set cards and which parallels cover every base card",
-      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so. Its Big Apple checklist prints #658 Gleyber Torres where the Topps Series 2 PDF prints #656 Jairo Iriarte in that section; the manufacturer's card stands. The 99 they agree on match exactly."
+      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so. Its Big Apple checklist prints #658 Gleyber Torres where the Topps Series 2 PDF prints #656 Jairo Iriarte in that section; the manufacturer's card stands. The 99 they agree on match exactly. Serial numbering is recorded only where a source states it outright for a given parallel: 2025 has 164 of 330 numbered and 2026 has 41 of 440, all from that source's parallel lists as transcribed by the repo owner. The rest carry no print_run and that is deliberate. Its relic and autograph ratio tables give card counts without print runs, so those 133 parallels stay unnumbered rather than take the /150-/99-/50-/25-/10-/5 ladder their neighbours use, which would be inference. An estimate for an unnumbered card is not a print run either: the 1990 inserts' Pink is described as limited to 600 copies but not serial-numbered, so it gets none."
     },
     {
       "source_type": "manual-transcription",
@@ -672,7 +672,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 74,
+      "serial_numbered": true
     },
     {
       "id": "741450ae-27ff-4b7c-b34c-121c90140860",
@@ -680,7 +682,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "0f9306ab-4d05-4439-996d-c4a8f3bb4ff7",
@@ -688,7 +692,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "2ed8abcc-ad7e-45a0-94ed-2b0834031ffa",
@@ -696,7 +702,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "de0671ff-b94d-44e9-a1ac-bb07abcbfaf2",
@@ -704,7 +712,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "8f09fcb5-dfbf-4151-99f0-175eb96b3f94",
@@ -712,7 +722,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "04840064-b4f4-43e1-aac2-646cfdb39468",
@@ -720,7 +732,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "6d900645-82a3-4708-ba88-bf64f19f2eaa",
@@ -728,7 +742,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "f6a0959e-47c1-460e-8266-b514247a9cf5",
@@ -753,7 +769,10 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "bbae6752-071a-4453-8c4f-48ba01bdbcb9",
@@ -761,7 +780,10 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "c639a0f0-115a-420e-9503-4efcb1078803",
@@ -769,7 +791,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 417,
+      "serial_numbered": true
     },
     {
       "id": "af12696d-7c8e-40f7-9b2b-c91042f4eebc",
@@ -777,7 +801,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 2025,
+      "serial_numbered": true
     },
     {
       "id": "fd437923-936b-470b-941f-94271f7693a9",
@@ -785,7 +811,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "c408e9f7-461f-473d-be53-6aafa6715ed5",
@@ -793,7 +821,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "4cd13874-d7c7-4a04-bd75-592619a33251",
@@ -801,7 +831,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "b7783b93-0132-4c63-be62-b4642c65a326",
@@ -809,7 +841,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "4a17e4c6-ee42-4cef-863c-f6fbbf38e2d4",
@@ -817,7 +851,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "30a3f9ae-00de-4743-9167-9bea4dd12c5d",
@@ -826,7 +862,9 @@
       "series": "Series 2",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "c48fbd56-edb2-431d-bd86-c85cff04b234",
@@ -835,7 +873,9 @@
       "series": "Series 2",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "a0e6560b-87a0-4c8e-87bc-fa285cb1b42c",
@@ -853,7 +893,9 @@
       "series": "Series 2",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "34d18572-4b98-4e19-9d62-f8655ce259bc",
@@ -880,7 +922,9 @@
       "series": "Series 2",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "a9236bb3-19e9-45b8-82ef-397130139104",
@@ -925,7 +969,10 @@
       "series": "Series 2",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "4665e084-27d5-40d2-9653-652da338cdda",
@@ -941,7 +988,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 76,
+      "serial_numbered": true
     },
     {
       "id": "199c02df-45c5-4d89-8852-df6fa9e56ae4",
@@ -949,7 +998,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "55570d8c-0d54-4363-acf0-ed15b201f197",
@@ -957,7 +1008,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "6fc914ca-ebb2-4c94-8ae8-6d09a9d8f106",
@@ -965,7 +1018,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "012ae963-89a3-465a-ad7b-d86b8d817651",
@@ -973,7 +1028,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "9557ffcf-f290-4899-aad8-a57d4695f9bb",
@@ -997,7 +1054,10 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "e1f9f3d7-1916-43a9-85cc-27b650bb2a97",
@@ -1005,7 +1065,10 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "2cc71033-46ea-49e7-98db-086fd2798fdd",
@@ -1013,7 +1076,10 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "906da52b-701a-42b0-a877-05d606539840",
@@ -1021,7 +1087,10 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "0162bec5-92ae-49a9-b573-9bd95a703d5a",
@@ -1029,7 +1098,10 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "ab85640c-ca88-466c-b7fd-ebe8aa97273c",
@@ -1037,7 +1109,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 250,
+      "serial_numbered": true
     },
     {
       "id": "84220ddc-9e56-48fb-99e5-3e167c0cf6e8",
@@ -1045,7 +1119,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 250,
+      "serial_numbered": true
     },
     {
       "id": "9d07566a-7da9-4a86-a610-3b5188db95b1",
@@ -1061,7 +1137,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "5ce3ceca-cb8e-4569-89ee-6bb642f21b64",
@@ -1069,7 +1147,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "d86325d0-d6e8-4e69-8a6c-dc6c28d51790",
@@ -1077,7 +1157,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "1ab29563-6211-4526-bd56-b92c7bcd18c2",
@@ -1111,7 +1193,10 @@
       "series": "Series 1",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "f6b6c5b8-aeb0-4062-8c58-af367164f890",
@@ -1120,7 +1205,9 @@
       "series": "Series 1",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "c1f85650-44e3-45d4-8252-56ee86a81c27",
@@ -1129,7 +1216,9 @@
       "series": "Series 1",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "c41d3c5f-863c-4ed7-85c9-7b5ebc7aaefe",
@@ -1138,7 +1227,9 @@
       "series": "Series 1",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "92f387c9-da41-42a9-8a17-e8060e2599ad",
@@ -1147,7 +1238,9 @@
       "series": "Series 1",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "00662285-6a77-4791-8d9e-8af97bb6a201",
@@ -1187,7 +1280,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "2d5b913a-1300-49bc-b1d6-21b7ef72bdf2",
@@ -1195,7 +1290,9 @@
       "coverage": "full",
       "applies_to": [
         "Base"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "f6d51547-ad07-483a-a782-bab62883e9ad",
@@ -1228,7 +1325,9 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "25c47514-84f2-4c54-84a3-4426be06b4f8",
@@ -1244,7 +1343,10 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "efda03d6-4825-4df1-83ef-116cd370f862",
@@ -1252,7 +1354,9 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "71bc38ef-6606-4f24-acce-506e6ff349a5",
@@ -1260,7 +1364,9 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball"
-      ]
+      ],
+      "print_run": 35,
+      "serial_numbered": true
     },
     {
       "id": "37715d36-06c8-4204-9b55-cf273b970b53",
@@ -1268,7 +1374,9 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "b4475bc8-f058-4048-970e-21bd3f3207db",
@@ -1284,7 +1392,9 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "b5190146-7783-4768-b6fa-c907546c8dc5",
@@ -1292,7 +1402,9 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball"
-      ]
+      ],
+      "print_run": 90,
+      "serial_numbered": true
     },
     {
       "id": "e9164370-a20b-45da-a617-1f910438d643",
@@ -1476,7 +1588,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 All Topps Team"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "22b729a6-5c89-45d4-aa39-17ab80176805",
@@ -1484,7 +1598,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 All Topps Team"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "889b270b-eef4-413e-a5d1-fb19d0569def",
@@ -1492,7 +1608,10 @@
       "coverage": "full",
       "applies_to": [
         "2024 All Topps Team"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "0fbd4fd0-0eb8-48d5-982a-e7af0d9af40d",
@@ -1500,7 +1619,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 All Topps Team"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "b64ebcc1-dfb9-4f5c-87fd-6facda7698bc",
@@ -1508,7 +1629,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 All Topps Team"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "f2e98d4c-c7f8-4e30-aec5-88b812642321",
@@ -1516,7 +1639,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 All Topps Team"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "2be75c41-b888-4a06-b2fa-85cfd2d0dff8",
@@ -1532,7 +1657,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 All Topps Team"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "65976070-db8f-4b6d-a7e8-c1e15e4b4f87",
@@ -1540,7 +1667,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 First Pitch"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "a5576bf2-20a7-4b77-ad84-396b005bf21b",
@@ -1548,7 +1677,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 First Pitch"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "34b5a656-d558-450b-bbaf-c5184ed16ec6",
@@ -1556,7 +1687,10 @@
       "coverage": "full",
       "applies_to": [
         "2024 First Pitch"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "9b777a76-8b6e-486a-950c-d72fab6b8145",
@@ -1564,7 +1698,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 First Pitch"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "78a9ca1f-6288-470c-9c72-44841f01d009",
@@ -1572,7 +1708,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 First Pitch"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "6f22310d-3610-4ac7-8f10-dbc976d588d8",
@@ -1580,7 +1718,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 First Pitch"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "15521d40-c040-4acb-ac94-8afe3f9363e8",
@@ -1596,7 +1736,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 First Pitch"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "5cbd6fec-48d3-4d12-a309-01a53e23f1c2",
@@ -1684,7 +1826,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 Greatest Hits"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "0f3ca122-1a19-4c41-aac5-5e1616945864",
@@ -1692,7 +1836,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 Greatest Hits"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "7dafe817-f29d-40cb-924f-4634f948297b",
@@ -1700,7 +1846,10 @@
       "coverage": "full",
       "applies_to": [
         "2024 Greatest Hits"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "7e873806-cc38-4f4a-95de-4193512474bd",
@@ -1708,7 +1857,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 Greatest Hits"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "aadf33bb-b56f-4cdd-bf6c-5fd85cc6cf6f",
@@ -1716,7 +1867,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 Greatest Hits"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "c3d72d53-2835-4573-afbf-685a733ba1c3",
@@ -1724,7 +1877,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 Greatest Hits"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "c01c3747-27f3-4c0a-857a-29d1d943d88b",
@@ -1740,7 +1895,9 @@
       "coverage": "full",
       "applies_to": [
         "2024 Greatest Hits"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "87781418-ad1e-49c2-a739-1ab6018cddd1",
@@ -1780,7 +1937,9 @@
       "coverage": "full",
       "applies_to": [
         "8 Bit Ballers"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "543f8d5c-fef6-4dce-ac95-e9a51629b1b6",
@@ -1788,7 +1947,10 @@
       "coverage": "full",
       "applies_to": [
         "8 Bit Ballers"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "f810ba37-d527-49da-ae00-7818e1dbab94",
@@ -1796,7 +1958,9 @@
       "coverage": "full",
       "applies_to": [
         "8 Bit Ballers"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "14c0f4cd-d219-4d9d-9390-4127d380ef35",
@@ -1804,7 +1968,9 @@
       "coverage": "full",
       "applies_to": [
         "8 Bit Ballers"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "0be8c2a5-6fee-4f0f-8811-120d5d2d5db1",
@@ -1812,7 +1978,9 @@
       "coverage": "full",
       "applies_to": [
         "8 Bit Ballers"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "9d0f04c8-dca7-48c7-96cd-8c3ce7040174",
@@ -1820,7 +1988,9 @@
       "coverage": "full",
       "applies_to": [
         "8 Bit Ballers"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "f32b02ad-b724-4a1c-ba3c-4b8df865705a",
@@ -1828,7 +1998,10 @@
       "coverage": "full",
       "applies_to": [
         "All Aces"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "cca0f376-3cb9-4ac1-a228-ed4c1bc24bfc",
@@ -1836,7 +2009,10 @@
       "coverage": "full",
       "applies_to": [
         "All Kings"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "26d845c0-b495-49c9-ba07-b31a8d6a7f41",
@@ -1892,7 +2068,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Apple"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "63b84437-d90b-449e-9d0c-850047c2fcf3",
@@ -1900,7 +2078,10 @@
       "coverage": "full",
       "applies_to": [
         "Big Apple"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "ea533537-6cde-45b3-8862-e19dc6b55687",
@@ -1908,7 +2089,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Apple"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "40d74f21-cd07-429e-8db9-a4a448935469",
@@ -1916,7 +2099,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Apple"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "e26d134f-2224-4224-9b3a-bc037ac3b79c",
@@ -1924,7 +2109,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Apple"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "a8e097a1-3b92-49a1-85b1-1146bcc32b45",
@@ -1932,7 +2119,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Head Variation"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "76f4bd7b-20c6-4cb4-90e2-40053f110b6a",
@@ -1940,7 +2129,10 @@
       "coverage": "full",
       "applies_to": [
         "Big Head Variation"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "25b10794-1623-4643-9571-120c7e5cfb33",
@@ -1948,7 +2140,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Head Variation"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "e5955cf1-6cb8-4043-b0f4-4821676da3ca",
@@ -1956,7 +2150,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Head Variation"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "1d258279-2cd6-4b47-a463-befc47746f45",
@@ -1964,7 +2160,9 @@
       "coverage": "full",
       "applies_to": [
         "Big Head Variation"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "99a47a34-1880-44d2-bb68-10e885f35aaa",
@@ -1972,7 +2170,9 @@
       "coverage": "full",
       "applies_to": [
         "Call To The Hall"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "734e871e-c184-42de-972c-176e5c7debcf",
@@ -1980,7 +2180,9 @@
       "coverage": "full",
       "applies_to": [
         "Call To The Hall"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "4306172e-3480-49f2-94cc-c692ac2807f3",
@@ -1988,7 +2190,10 @@
       "coverage": "full",
       "applies_to": [
         "Call To The Hall"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "15d8ee7a-ab87-4b58-9de6-337ac19d0480",
@@ -1996,7 +2201,9 @@
       "coverage": "full",
       "applies_to": [
         "Call To The Hall"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "ae4d0a8d-2ccb-461b-9516-7095ef99eb94",
@@ -2004,7 +2211,9 @@
       "coverage": "full",
       "applies_to": [
         "Call To The Hall"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "b668219b-af4a-4c33-bd81-701276d7fddb",
@@ -2012,7 +2221,9 @@
       "coverage": "full",
       "applies_to": [
         "Call To The Hall"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "2b1d645f-e0e0-4cb8-b7eb-b76c87e5db59",
@@ -2028,7 +2239,9 @@
       "coverage": "full",
       "applies_to": [
         "Call To The Hall"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "51a23122-77cd-4fdf-a83d-fd14f5a91554",
@@ -2124,7 +2337,9 @@
       "coverage": "full",
       "applies_to": [
         "Dugout Peeks"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "84f6f642-37e1-463a-876b-8c7e23af271c",
@@ -2132,7 +2347,10 @@
       "coverage": "full",
       "applies_to": [
         "Dugout Peeks"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "f87926b2-7d08-49e1-bbec-e441b769e934",
@@ -2140,7 +2358,9 @@
       "coverage": "full",
       "applies_to": [
         "Dugout Peeks"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "d819a739-899b-4ef4-9ed1-46e0a23af3b4",
@@ -2148,7 +2368,9 @@
       "coverage": "full",
       "applies_to": [
         "Dugout Peeks"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "3bab4118-d557-417a-bcb0-15e0471c8612",
@@ -2156,7 +2378,9 @@
       "coverage": "full",
       "applies_to": [
         "Dugout Peeks"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "3ff01f43-9e1c-4959-9a62-4f9cca517172",
@@ -2212,7 +2436,10 @@
       "coverage": "full",
       "applies_to": [
         "Foil"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "978f72bc-9c08-40c3-a4d6-393dee01b250",
@@ -2220,7 +2447,9 @@
       "coverage": "full",
       "applies_to": [
         "Foil"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "51cc9932-908a-485c-ad32-4703f53ed0d3",
@@ -2228,7 +2457,9 @@
       "coverage": "full",
       "applies_to": [
         "Foil"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "ddca03d0-c407-4c8f-80c2-bebfb8dfa960",
@@ -2236,7 +2467,9 @@
       "coverage": "full",
       "applies_to": [
         "Foil"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "155c8289-eca5-4a82-80f1-3e8920c6fabc",
@@ -2244,7 +2477,9 @@
       "coverage": "full",
       "applies_to": [
         "Foil"
-      ]
+      ],
+      "print_run": 75,
+      "serial_numbered": true
     },
     {
       "id": "4afefa13-118a-4737-95b9-56b37b05d229",
@@ -2252,7 +2487,9 @@
       "coverage": "full",
       "applies_to": [
         "Foil"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "848d5df5-8a60-465e-a61b-1f8c4c983508",
@@ -2260,7 +2497,9 @@
       "coverage": "full",
       "applies_to": [
         "Gameday Drip"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "03607e8f-1d6a-445b-b4ac-a19a4b37d427",
@@ -2268,7 +2507,10 @@
       "coverage": "full",
       "applies_to": [
         "Gameday Drip"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "ef2eafa4-a30f-4fc3-a3b6-4cf0d32dfc72",
@@ -2276,7 +2518,9 @@
       "coverage": "full",
       "applies_to": [
         "Gameday Drip"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "bc89831c-1d1a-451c-a759-bd43efe920d4",
@@ -2284,7 +2528,9 @@
       "coverage": "full",
       "applies_to": [
         "Gameday Drip"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "a2d38b3f-2fcf-45d3-90fa-7f9e5af4d928",
@@ -2292,7 +2538,9 @@
       "coverage": "full",
       "applies_to": [
         "Gameday Drip"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "e4c9aab8-f1a5-4409-909f-fc28b3fdd678",
@@ -2300,7 +2548,9 @@
       "coverage": "full",
       "applies_to": [
         "Gameday Drip"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "fb5984ec-27ad-46a4-b632-1efce7ec5d2f",
@@ -2308,7 +2558,9 @@
       "coverage": "full",
       "applies_to": [
         "History Of Japanese Baseball"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "90f51ad9-6068-467b-9867-2278ff88153f",
@@ -2316,7 +2568,10 @@
       "coverage": "full",
       "applies_to": [
         "History Of Japanese Baseball"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "a6b97d80-b679-4a0a-bf3d-5be5ecabf3bd",
@@ -2324,7 +2579,9 @@
       "coverage": "full",
       "applies_to": [
         "History Of Japanese Baseball"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "da884144-9b16-4e26-b106-01d9df3e5fda",
@@ -2332,7 +2589,9 @@
       "coverage": "full",
       "applies_to": [
         "History Of Japanese Baseball"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "6bed04be-e16b-4cd9-9227-7c1d5468dfcc",
@@ -2516,7 +2775,9 @@
       "coverage": "full",
       "applies_to": [
         "Mascots"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "815e83c5-3cc4-4bd8-9ed4-de878f9ec137",
@@ -2524,7 +2785,10 @@
       "coverage": "full",
       "applies_to": [
         "Mascots"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "598deb23-cc35-46d4-a7db-fb9c1279e0b1",
@@ -2532,7 +2796,9 @@
       "coverage": "full",
       "applies_to": [
         "Mascots"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "e2bc8b4e-7d2b-4e03-964c-19dd491ba50c",
@@ -2540,7 +2806,9 @@
       "coverage": "full",
       "applies_to": [
         "Mascots"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "7cbbe308-8db2-4ee2-b49d-4b7e5bcb7408",
@@ -2548,7 +2816,9 @@
       "coverage": "full",
       "applies_to": [
         "Mascots"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "598138bb-49e3-4811-94ec-92da907dde3a",
@@ -2556,7 +2826,9 @@
       "coverage": "full",
       "applies_to": [
         "Mascots"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "2b769762-4f7b-4bf5-93a6-16995965a79c",
@@ -2596,7 +2868,9 @@
       "coverage": "full",
       "applies_to": [
         "Power Players"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "678fb3cf-ee2f-4d47-9c9f-f602004154e4",
@@ -2604,7 +2878,10 @@
       "coverage": "full",
       "applies_to": [
         "Power Players"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "af6c9680-1a20-44f2-a832-72580f632317",
@@ -2612,7 +2889,9 @@
       "coverage": "full",
       "applies_to": [
         "Power Players"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "e7b48bce-d938-46f8-8ce4-a366a90843d6",
@@ -2620,7 +2899,9 @@
       "coverage": "full",
       "applies_to": [
         "Power Players"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "78861881-beeb-481c-8505-c5e86cba7095",
@@ -2628,7 +2909,9 @@
       "coverage": "full",
       "applies_to": [
         "Power Players"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "98fa2520-dee6-48d9-92af-bcf42c8cad79",
@@ -2636,7 +2919,9 @@
       "coverage": "full",
       "applies_to": [
         "Power Players"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "360ecc48-f9ce-4256-b30e-927be57d08e1",
@@ -2905,7 +3190,9 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of Japan"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "2d770b46-fd1c-4c2c-a420-0ac37eab9115",
@@ -2913,7 +3200,10 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of Japan"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "a88cced3-5771-4964-9a88-07f84eed5b41",
@@ -2921,7 +3211,9 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of Japan"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "b3b13050-02ef-474f-a6e5-b15c2e901527",
@@ -2929,7 +3221,9 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of Japan"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "bd70bd1f-5a60-4637-ba82-403a73ad0f71",
@@ -2993,7 +3287,9 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of MLB"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "63dbcff8-0639-45b1-81f2-8889c427e8c4",
@@ -3001,7 +3297,10 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of MLB"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "071f5ac1-13b3-4747-9b21-b1c91cde485c",
@@ -3009,7 +3308,9 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of MLB"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "847d8a71-669d-45bf-8361-0c1aa48b241f",
@@ -3017,7 +3318,9 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of MLB"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "0fb07e8a-b8bb-4a21-acfb-a3656e2a872d",
@@ -3025,7 +3328,9 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of MLB"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "c1ce1f6a-3759-45ff-939e-a99df1b7eedf",
@@ -3033,7 +3338,9 @@
       "coverage": "full",
       "applies_to": [
         "Swinging With The Stars"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "e4e19d9e-e0fb-4841-9db2-d80c6b730d15",
@@ -3041,7 +3348,9 @@
       "coverage": "full",
       "applies_to": [
         "Swinging With The Stars"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "45788521-e56e-4986-abdd-154fc27a924c",
@@ -3049,7 +3358,9 @@
       "coverage": "full",
       "applies_to": [
         "Swinging With The Stars"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "7739d986-69d3-4fb4-9b0c-f2e727257c87",
@@ -3057,7 +3368,10 @@
       "coverage": "full",
       "applies_to": [
         "Swinging With The Stars"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "7aab6a61-9f75-4fe7-ba57-a53801132432",
@@ -3065,7 +3379,9 @@
       "coverage": "full",
       "applies_to": [
         "Topps Mega Stars"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "20681655-be4d-4ebb-ab55-350a4c86c532",
@@ -3073,7 +3389,10 @@
       "coverage": "full",
       "applies_to": [
         "Topps Mega Stars"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "c55026d9-7306-4352-817f-912f5b89f7ee",
@@ -3081,7 +3400,9 @@
       "coverage": "full",
       "applies_to": [
         "Topps Mega Stars"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "7e0035e7-23fe-453f-b510-fb89705f7a2d",
@@ -3089,7 +3410,9 @@
       "coverage": "full",
       "applies_to": [
         "Topps Mega Stars"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "1a5ad4fb-ab10-4e31-979f-6eb907ca68f9",
@@ -3097,7 +3420,9 @@
       "coverage": "full",
       "applies_to": [
         "Topps Mega Stars"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "1ce59782-3284-4370-8154-d0f4fb91be2b",
@@ -3105,7 +3430,9 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "79cf2458-b206-428d-a81c-6d676078be94",
@@ -3113,7 +3440,9 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "4c05a610-9bd1-4739-8e99-a88184c3be60",
@@ -3121,7 +3450,10 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "d95d6d92-2d00-4b53-ba61-06545fdc169b",
@@ -3129,7 +3461,9 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "d787fdb0-45ad-4a70-8f46-e444b07c2c06",
@@ -3137,7 +3471,9 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
-      ]
+      ],
+      "print_run": 99,
+      "serial_numbered": true
     },
     {
       "id": "2e19ea41-8e83-4c09-832b-4850280cd84f",
@@ -3145,7 +3481,9 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "7991bbe1-6349-4b01-8df7-3dba38e62014",
@@ -3161,7 +3499,9 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "8a46bbed-38f8-4886-962b-44b53ced8fe5",
@@ -3169,7 +3509,9 @@
       "coverage": "full",
       "applies_to": [
         "Walk This Way"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "7017edc0-9a48-495b-a2d6-d15a73686d3e",
@@ -3177,7 +3519,10 @@
       "coverage": "full",
       "applies_to": [
         "Walk This Way"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "74355f14-c039-4c33-88a0-9d8316bb2bae",
@@ -3185,7 +3530,9 @@
       "coverage": "full",
       "applies_to": [
         "Walk This Way"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "66a6d7a6-dbfb-4ba1-8988-559b4fe227d6",
@@ -3193,7 +3540,9 @@
       "coverage": "full",
       "applies_to": [
         "Walk This Way"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "98193be1-93f3-4825-9e0f-1b4659e9c976",
@@ -3201,7 +3550,9 @@
       "coverage": "full",
       "applies_to": [
         "Walk This Way"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "3d01d7e3-5a1b-4afd-9dac-aa1df3a46fb3",
@@ -3257,7 +3608,9 @@
       "coverage": "full",
       "applies_to": [
         "World Tour Domination"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "18cb5ef4-5503-431a-a407-715f2bff2581",
@@ -3265,7 +3618,10 @@
       "coverage": "full",
       "applies_to": [
         "World Tour Domination"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "6a93b432-c399-4817-a02d-0980a2130df5",
@@ -3273,7 +3629,9 @@
       "coverage": "full",
       "applies_to": [
         "World Tour Domination"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "9523f3ec-1b17-461f-acce-44e4995d48b2",
@@ -3281,7 +3639,9 @@
       "coverage": "full",
       "applies_to": [
         "World Tour Domination"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "997304dd-6dee-4071-9943-ab1453df64aa",
