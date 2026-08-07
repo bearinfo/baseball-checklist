@@ -1695,6 +1695,54 @@
       ]
     },
     {
+      "id": "848d5df5-8a60-465e-a61b-1f8c4c983508",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "03607e8f-1d6a-445b-b4ac-a19a4b37d427",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "ef2eafa4-a30f-4fc3-a3b6-4cf0d32dfc72",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "bc89831c-1d1a-451c-a759-bd43efe920d4",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "a2d38b3f-2fcf-45d3-90fa-7f9e5af4d928",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
+      "id": "e4c9aab8-f1a5-4409-909f-fc28b3fdd678",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Gameday Drip"
+      ]
+    },
+    {
       "id": "fb5984ec-27ad-46a4-b632-1efce7ec5d2f",
       "name": "Black",
       "coverage": "full",
