@@ -120,6 +120,28 @@ both number *and* player, and are genuinely relics of those cards.
 So `varies` is always a human assertion. Once made, validation enforces it: every
 card number in the file must exist in the file it varies.
 
+### An autographed subset is not a partial parallel
+
+2024 Topps prints a twelve-card All-Topps Team insert, `ATT-1` to `ATT-12`, and
+nine autographs of players drawn from it — numbered by initials, `ATTA-SO`,
+`ATTA-JROD`. Nine of twelve, signed, looks like a partial parallel and is not
+one, for a reason worth stating once:
+
+- A parallel never introduces a card number, and `ATTA-SO` exists nowhere else.
+  Rows that introduce numbers belong to a checklist. Declared as a parallel it
+  fails validation on its first row, which is that rule doing its job.
+- A signature is not a colour, border, finish or foil. That is why `autograph`
+  is a `kind`.
+- The only thing linking `ATTA-SO` to `ATT-8` is that both print Shohei Ohtani.
+  Asserting they are the same subject is identity resolution, which this repo
+  leaves to consumers.
+
+So it is an `autograph` checklist with its own numbering and no `varies` — the
+same shape every autograph and relic takes unless the manufacturer reuses the
+parent's numbers, which is the *only* thing `varies` records. That the nine were
+selected from the twelve is real and is deliberately not captured: it is a fact
+about people, and this format keys on what is printed.
+
 ## Rules
 
 1. **As printed, never resolved.** Misspellings by the manufacturer are kept and
