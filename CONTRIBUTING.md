@@ -85,17 +85,19 @@ A card numbered `3/5` says so on its face, so `print_run` records what is
 printed. Production estimates do not qualify: "limited to 600 copies" on a card
 carrying no number is somebody's research, and stays out.
 
-`serial_numbered: false` is the weakest claim in this schema and the easiest to
-get wrong, because the thing that suggests it — no print run in any source —
-is also what "we don't know yet" looks like. **Failing to find a number is not
-evidence that no number exists.** Use `false` only when a source says the cards
-are unnumbered or you have the card in hand; otherwise leave both fields absent,
-which is the honest way to say nothing.
+`print_run` alone carries this. Present means the parallel is serial numbered,
+absent means it is not — there is no second flag to keep in step with it, and
+none to contradict it.
 
-Getting this backwards is quiet and permanent: mark a numbered card `false` and
-nobody will ever look for its print run again. Validation catches only the
-contradiction — `serial_numbered: false` alongside a `print_run` — and the rest
-rests on you, as it does for `varies` and `coverage`.
+That rule has a cost worth knowing. A parallel whose number nobody has found is
+recorded exactly like one that carries no number. Where the difference matters,
+say so in the set's `provenance` notes: "the relic ladders are unnumbered here
+because no source gives figures, not because the cards are unnumbered" is one
+line that covers a hundred records, and it does not tempt anyone into marking
+records they have not checked.
+
+**Failing to find a number is not evidence that no number exists.** That still
+holds; it is just no longer something the data can be made to say per card.
 
 ## Correcting a name
 

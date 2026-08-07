@@ -600,8 +600,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 75,
-      "serial_numbered": true
+      "print_run": 75
     },
     {
       "id": "89b329b0-4f9c-469b-96da-e967950dd9b3",
@@ -689,8 +688,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 75,
-      "serial_numbered": true
+      "print_run": 75
     },
     {
       "id": "19654ef4-2233-4f40-9804-75744b585ec5",
@@ -699,8 +697,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 10,
-      "serial_numbered": true
+      "print_run": 10
     },
     {
       "id": "fedb50b0-b49d-4468-bee3-6d77acc02ffe",
@@ -709,8 +706,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 10,
-      "serial_numbered": true
+      "print_run": 10
     },
     {
       "id": "8381837b-686c-4614-85d3-edc2ca261f0b",
@@ -719,8 +715,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 10,
-      "serial_numbered": true
+      "print_run": 10
     },
     {
       "id": "d2fa12d1-5247-40f9-a585-adcb203f62bf",
@@ -729,8 +724,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 10,
-      "serial_numbered": true
+      "print_run": 10
     },
     {
       "id": "d8d3da51-9e5f-49fc-8984-e7fd1de954ad",
@@ -739,8 +733,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 150,
-      "serial_numbered": true
+      "print_run": 150
     },
     {
       "id": "41996ba1-6be8-4e8c-9f8c-d58c0794761f",
@@ -749,8 +742,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 150,
-      "serial_numbered": true
+      "print_run": 150
     },
     {
       "id": "ebc59329-61ae-4cfe-96c1-15717f20fb9c",
@@ -759,8 +751,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 50,
-      "serial_numbered": true
+      "print_run": 50
     },
     {
       "id": "6b6cd785-d032-4914-86d5-d192436ee9d0",
@@ -769,8 +760,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 99,
-      "serial_numbered": true
+      "print_run": 99
     },
     {
       "id": "67c8626e-19ea-45d0-a390-15d33492a97f",
@@ -814,9 +804,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 1,
-      "serial_numbered": true,
-      "one_of_one": true
+      "print_run": 1
     },
     {
       "id": "4b00ecb6-f125-40f4-8998-8e6602e97185",
@@ -825,9 +813,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 1,
-      "serial_numbered": true,
-      "one_of_one": true
+      "print_run": 1
     },
     {
       "id": "a6d89113-d1fc-40a1-b406-4554f0bf46be",
@@ -836,8 +822,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 2026,
-      "serial_numbered": true
+      "print_run": 2026
     },
     {
       "id": "21bf9bf4-d2db-4408-a253-c5420247394c",
@@ -846,8 +831,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 50,
-      "serial_numbered": true
+      "print_run": 50
     },
     {
       "id": "62ddfcae-d242-4e0c-89d2-8e32dea0b3a9",
@@ -856,8 +840,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 50,
-      "serial_numbered": true
+      "print_run": 50
     },
     {
       "id": "53b6e8b9-7a8f-42ff-b438-86877039eb78",
@@ -866,8 +849,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 50,
-      "serial_numbered": true
+      "print_run": 50
     },
     {
       "id": "d8afbae9-8f58-48ac-8678-ef709fd4f3a7",
@@ -876,8 +858,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 50,
-      "serial_numbered": true
+      "print_run": 50
     },
     {
       "id": "0216f73c-a3a9-4a30-a57e-4b1792ccfb78",
@@ -886,8 +867,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 99,
-      "serial_numbered": true
+      "print_run": 99
     },
     {
       "id": "1c2a63f7-45a9-4977-8c3d-c74a9a59294c",
@@ -896,8 +876,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 99,
-      "serial_numbered": true
+      "print_run": 99
     },
     {
       "id": "6875c83d-c878-47f0-864e-fb0bd8054bb0",
@@ -906,8 +885,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 99,
-      "serial_numbered": true
+      "print_run": 99
     },
     {
       "id": "5922b496-a070-408f-b854-774a0bed42d6",
@@ -924,8 +902,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 76,
-      "serial_numbered": true
+      "print_run": 76
     },
     {
       "id": "3c9018cd-6f0f-4a55-9d27-3394ee7206dc",
@@ -934,8 +911,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 25,
-      "serial_numbered": true
+      "print_run": 25
     },
     {
       "id": "f5470e2b-208f-4710-beb7-e7d5e7467c9e",
@@ -953,8 +929,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 25,
-      "serial_numbered": true
+      "print_run": 25
     },
     {
       "id": "45b08e5a-1ad7-44dd-834f-b7e7c678e977",
@@ -963,8 +938,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 25,
-      "serial_numbered": true
+      "print_run": 25
     },
     {
       "id": "39cf1e53-0d11-44f7-a739-a4c84f871964",
@@ -973,8 +947,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 25,
-      "serial_numbered": true
+      "print_run": 25
     },
     {
       "id": "35f2db29-443e-4425-88eb-5d848acf699a",
@@ -983,8 +956,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 25,
-      "serial_numbered": true
+      "print_run": 25
     },
     {
       "id": "26e8f9d4-b9e5-4b76-83fb-fbb4b9a20af8",
@@ -1001,8 +973,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 800,
-      "serial_numbered": true
+      "print_run": 800
     },
     {
       "id": "60759515-045a-4ff9-9de3-914387f39342",
@@ -1011,9 +982,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 1,
-      "serial_numbered": true,
-      "one_of_one": true
+      "print_run": 1
     },
     {
       "id": "4f622248-b5b4-47d3-ad73-31bfbb1bc7bd",
@@ -1022,9 +991,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 1,
-      "serial_numbered": true,
-      "one_of_one": true
+      "print_run": 1
     },
     {
       "id": "e608f964-1599-4b3a-9f9a-59e585bcae2e",
@@ -1033,9 +1000,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 1,
-      "serial_numbered": true,
-      "one_of_one": true
+      "print_run": 1
     },
     {
       "id": "b1cbe112-1da1-43d1-8a58-045f2dde89ab",
@@ -1044,9 +1009,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 1,
-      "serial_numbered": true,
-      "one_of_one": true
+      "print_run": 1
     },
     {
       "id": "24037e17-d666-4b30-bffb-51685bd4d9ec",
@@ -1055,8 +1018,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 250,
-      "serial_numbered": true
+      "print_run": 250
     },
     {
       "id": "8fcd39a5-730e-4b79-8da3-174b8bb2593f",
@@ -1065,8 +1027,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 250,
-      "serial_numbered": true
+      "print_run": 250
     },
     {
       "id": "75b58d93-b04b-42ee-9f37-530734134de8",
@@ -1083,8 +1044,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 5,
-      "serial_numbered": true
+      "print_run": 5
     },
     {
       "id": "1c6305f8-d96d-48ad-9ea5-d2a0b04f1002",
@@ -1093,8 +1053,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 5,
-      "serial_numbered": true
+      "print_run": 5
     },
     {
       "id": "a679e02a-af09-43f6-8b86-df32668744fb",
@@ -1103,8 +1062,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 5,
-      "serial_numbered": true
+      "print_run": 5
     },
     {
       "id": "c8e76e4f-1be8-45ef-97cc-4c616b0da06e",
@@ -1113,8 +1071,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 5,
-      "serial_numbered": true
+      "print_run": 5
     },
     {
       "id": "45b0d5d0-4847-402f-b00d-ae8304f75d67",
@@ -1123,9 +1080,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 1,
-      "serial_numbered": true,
-      "one_of_one": true
+      "print_run": 1
     },
     {
       "id": "aef44c7a-5e12-4554-9f56-d8866b53989e",
@@ -1230,8 +1185,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 25,
-      "serial_numbered": true
+      "print_run": 25
     },
     {
       "id": "9969e7a1-95b4-4a95-8a68-7e3855d4c3cf",
@@ -1240,8 +1194,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 399,
-      "serial_numbered": true
+      "print_run": 399
     },
     {
       "id": "88dda6a3-80b3-4824-83f5-82517ea8e905",
@@ -1250,8 +1203,7 @@
       "applies_to": [
         "Base"
       ],
-      "print_run": 399,
-      "serial_numbered": true
+      "print_run": 399
     },
     {
       "id": "fa243f60-f049-4e7a-9fde-df879b0a4e04",

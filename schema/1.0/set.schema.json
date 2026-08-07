@@ -378,14 +378,7 @@
           "print_run": {
             "type": "integer",
             "minimum": 1,
-            "description": "Serial-numbered run size as printed on the card, e.g. 2025 for /2025. Omit if unnumbered or unknown. A production estimate is not a print run: a card described as limited to 600 copies but carrying no number gets nothing."
-          },
-          "serial_numbered": {
-            "type": "boolean",
-            "description": "Whether the cards carry a serial number on their face. True normally accompanies print_run; validation rejects false alongside one. FALSE IS A CLAIM, not a default: it says a source states these cards are unnumbered, or a person has the card. Failing to find a print run is not evidence that none exists, and omitting both fields is how to say nothing — the only way this schema can distinguish a card nobody numbered from a card nobody has told us about. Marked wrongly it is quiet and permanent, because nobody looks again."
-          },
-          "one_of_one": {
-            "type": "boolean"
+            "description": "Serial-numbered run size as printed on the card, e.g. 2025 for /2025, 1 for a one-of-one. THIS FIELD ALONE SAYS WHETHER A PARALLEL IS SERIAL NUMBERED: present means it is, absent means it is not, and there is no separate flag to contradict. A production estimate is not a print run — a card described as limited to 600 copies but carrying no number gets nothing. Note what the rule costs: a parallel whose number nobody has found yet is indistinguishable from one that carries no number, so where that difference matters, say which is which in `provenance` notes rather than inventing a field per record."
           },
           "finish": {
             "type": "string",
