@@ -1695,6 +1695,46 @@
       ]
     },
     {
+      "id": "785e443e-be6b-41c9-b7eb-e368a65aa089",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "63dbcff8-0639-45b1-81f2-8889c427e8c4",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "071f5ac1-13b3-4747-9b21-b1c91cde485c",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "847d8a71-669d-45bf-8361-0c1aa48b241f",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "0fb07e8a-b8bb-4a21-acfb-a3656e2a872d",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of MLB"
+      ]
+    },
+    {
       "id": "1ce59782-3284-4370-8154-d0f4fb91be2b",
       "name": "Black",
       "coverage": "full",
