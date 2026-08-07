@@ -451,6 +451,16 @@
       "card_count": 700
     },
     {
+      "file": "variations/kayfabe-rookies.csv",
+      "name": "Kayfabe Rookies",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 4,
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
       "file": "variations/kevin-hart-gimmicks.csv",
       "name": "Kevin Hart Gimmicks",
       "kind": "variation",
@@ -491,8 +501,8 @@
       "source": "Baseball Card Pedia, 2024 Topps",
       "source_url": "https://baseballcardpedia.com/index.php/2024_Topps",
       "retrieved": "2026-08-07",
-      "covers": "the Traded Gimmicks variation; the Kevin Hart Gimmicks variation",
-      "notes": "Neither Topps checklist lists these two cards, in any section: #50 appears only as Juan Soto of the San Diego Padres. Both are variations of base cards — #50 shows Soto after his trade to the Yankees, and #250 shows Shohei Ohtani where the base card is Mookie Betts, a different player on the same number. Team abbreviations NYY and LAD are expanded to the forms Topps prints elsewhere in this set. Kevin Hart Gimmicks is eighteen cards with the comedian photoshopped into the foreground, every one a Phillie, and all eighteen verify against base.csv on number, name and team. Two claims about them are not recorded. That source says they are exclusive to Series One packs, but twelve of the eighteen carry Series 2 numbers and this set's Series 1 is #1-350 exactly, so the claim cannot be right as stated. And each is serial numbered to 52 — a joke about Hart's height — which has nowhere to go, because print_run belongs to a parallel and this is a variation checklist."
+      "covers": "the Traded Gimmicks variation; the Kevin Hart Gimmicks variation; the Kayfabe Rookies variation",
+      "notes": "Neither Topps checklist lists these two cards, in any section: #50 appears only as Juan Soto of the San Diego Padres. Both are variations of base cards — #50 shows Soto after his trade to the Yankees, and #250 shows Shohei Ohtani where the base card is Mookie Betts, a different player on the same number. Team abbreviations NYY and LAD are expanded to the forms Topps prints elsewhere in this set. Kevin Hart Gimmicks is eighteen cards with the comedian photoshopped into the foreground, every one a Phillie, and all eighteen verify against base.csv on number, name and team. Two claims about them are not recorded. That source says they are exclusive to Series One packs, but twelve of the eighteen carry Series 2 numbers and this set's Series 1 is #1-350 exactly, so the claim cannot be right as stated. And each is serial numbered to 52 — a joke about Hart's height — which has nowhere to go, because print_run belongs to a parallel and this is a variation checklist. Kayfabe Rookies is #697-700 with Jackson Holliday, Jackson Chourio, Jackson Merrill and Wyatt Langford where the base cards are Jordan Diaz, Gio Urshela, Sean Bouchard and Jose Altuve — four different players on four existing numbers, the same shape as 2026's Short Print Rookies. Topps prints no name for them and no checklist lists them, so the name is the one that source gives its section; teams and the RC designation are taken from where this set prints those players elsewhere. Trading Card Database describes the same four as the base factory set versions of those numbers, which is consistent and is why the 582 Montgomery Club entry says they are on the base checklist."
     }
   ],
   "series": [
