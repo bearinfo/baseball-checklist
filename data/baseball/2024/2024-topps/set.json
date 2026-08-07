@@ -561,6 +561,16 @@
   ],
   "parallels": [
     {
+      "id": "439093d0-40af-43e0-9a73-bf0b95d025db",
+      "name": "582 Montgomery Club",
+      "coverage": "full",
+      "finish": "Foilboard",
+      "distribution": "582 Montgomery Club Factory Set Only",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "7986962f-3a6e-455e-95c6-d94fa7ccbc37",
       "name": "All-Star Game",
       "coverage": "full",
