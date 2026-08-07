@@ -181,18 +181,6 @@
       "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
     },
     {
-      "file": "inserts/1989-topps-baseball-foil-mega-box-cards.csv",
-      "name": "1989 Topps Baseball Foil Mega Box Cards",
-      "kind": "insert",
-      "card_count": 100
-    },
-    {
-      "file": "inserts/1989-topps-baseball-foilboard-mega-box-cards.csv",
-      "name": "1989 Topps Baseball Foilboard Mega Box Cards",
-      "kind": "insert",
-      "card_count": 50
-    },
-    {
       "file": "inserts/1989-topps-baseball.csv",
       "name": "1989 Topps Baseball",
       "kind": "insert",
@@ -555,6 +543,14 @@
       "retrieved": "2026-08-07",
       "covers": "the thirteen Holiday parallels, the All-Star Game and 582 Montgomery Club factory set parallels",
       "notes": "Three sections of that page, each naming a parallel the base-parallel sentence omits. The Holiday parallels come in two waves of seven and six. Series 1: Holiday, Egg and Rabbit unnumbered, Flowers /50, Umbrella /10, Watering Can /5, Birds one-of-one. Series 2: Hot Dog and Statue of Liberty unnumbered, Beach Umbrella /50, Sun /10, Fireworks /5, Waves one-of-one. Plain Holiday heads both lists, so it is declared over the whole set rather than scoped to a wave, which is what Trading Card Database says too — floral pattern in Series 1, dotted circles in Series 2. The other twelve are scoped. Each wave runs the same ladder, unnumbered / unnumbered / 50 / 10 / 5 / 1, so a theme's print run is never evidence of which wave it belongs to. Trading Card Database gives thirteen Holiday entries that pair one-for-one with these thirteen and agrees on every print run, but calls the Series 1 one-of-one Chicks where this page calls it Birds. They are one card: that PDF has no Birds anywhere, and the pairing is exact only when Birds is read as Chicks. The baseballcardpedia name is kept, which is this repo's tie-break wherever two sources name one parallel differently — that page is the one a reader can open and check. The sources do disagree on distribution: this page calls the Holiday parallels Blaster box exclusives, while Trading Card Database puts the Series 1 themes in Value Boxes and only the Series 2 themes in Blasters, and no distribution is recorded on them for that reason. All-Star Game is all 700 base cards on foilboard with an ASG 2024 logo in specially-marked All-Star Game factory sets; 582 Montgomery Club is a factory set sent to every club member at the end of 2024, each card on foilboard with the club logo. Both are declared as full coverage of Base, and both carry a caveat the schema cannot express: Trading Card Database records a 2024 factory set as numbering 697-700 Jackson Holliday, Jackson Chourio, Jackson Merrill and Wyatt Langford — the rookies held here in variations/factory-set-kayfabe-rookie-bonus.csv — where base.csv has Jordan Diaz, Gio Urshela, Sean Bouchard and Jose Altuve. A factory-set parallel therefore covers 696 base cards plus four variations, so full coverage of Base is right about 696 numbers and wrong about four. Declaring them that way was preferred to 700 rows copied out to correct four of them, or to coverage unknown on parallels whose extent is documented."
+    },
+    {
+      "source_type": "community",
+      "source": "Baseball Card Pedia, 2024 Topps — 1989 Topps Baseball",
+      "source_url": "https://baseballcardpedia.com/index.php/2024_Topps",
+      "retrieved": "2026-08-07",
+      "covers": "the Foil parallel of the 1989 Topps Baseball insert and its six colour runs",
+      "notes": "Every 1989 Topps Baseball card also comes in Foil, and Foil in six colours: Green /99, Purple /75, Gold /50, Orange /25, Red /5 and Black one-of-one. Trading Card Database gives the identical six figures under its own name for the insert, 1989 Topps Baseball 35th Anniversary, listing each colour twice because it splits the insert by series. Declaring this removed two checklists rather than adding any. Topps' own documents carried the Foil parallel as two insert sections, 1989 Topps Baseball Foil Mega Box Cards in Series 1 and 1989 Topps Baseball Foilboard Mega Box Cards in Series 2, and both were byte-identical to blocks of the insert they parallel: the 100 rows numbered 89B-1 to 89B-100 and the 50 rows numbered 89B2-1 to 89B2-50. They were 150 rows that said nothing base 1989 Topps Baseball did not already say, and the wave each card belongs to stays readable from the 89B and 89B2 prefixes, so nothing was lost with them. The sources disagree on where Foil was sold. This page calls it exclusive to Monster and Giant Boxes; Trading Card Database says Mega box, and Topps titles both its sections Mega Box Cards. Mega Box Exclusive is recorded, on the manufacturer's wording backed by TCDB, and the distinction is real in this set — Topps Mega Stars is separately recorded as Giant/Monster Box Exclusive. Topps also names the two halves differently, Foil in Series 1 and Foilboard in Series 2, where both other sources describe a single Foil parallel; the single parallel is what is declared, and the six colour runs all carry Foilboard in their own names on every source."
     }
   ],
   "series": [
@@ -980,6 +976,69 @@
       "file": "parallels/team-color-border.csv",
       "varies": "base.csv",
       "card_count": 625
+    },
+    {
+      "id": "bea936a5-ae09-4963-a43b-2802f1bec688",
+      "name": "Foil",
+      "coverage": "full",
+      "distribution": "Mega Box Exclusive",
+      "applies_to": [
+        "1989 Topps Baseball"
+      ]
+    },
+    {
+      "id": "fa8f662f-1ee4-48b9-ba23-b967ccaeaa9d",
+      "name": "Black Foilboard",
+      "coverage": "full",
+      "print_run": 1,
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "8c94ee11-216f-4b9f-81a3-36c8a56ea431",
+      "name": "Gold Foilboard",
+      "coverage": "full",
+      "print_run": 50,
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "075831aa-b5f8-4213-baa1-eb12d1d4b778",
+      "name": "Green Foilboard",
+      "coverage": "full",
+      "print_run": 99,
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "bae9f17b-6870-496e-83e3-7d267be9bbfe",
+      "name": "Orange Foilboard",
+      "coverage": "full",
+      "print_run": 25,
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "dab883cd-c4ac-4fd3-b9ab-1ab168d4ab17",
+      "name": "Purple Foilboard",
+      "coverage": "full",
+      "print_run": 75,
+      "applies_to": [
+        "Foil"
+      ]
+    },
+    {
+      "id": "b2e785a3-127d-493b-9521-4d670ccc8ea8",
+      "name": "Red Foilboard",
+      "coverage": "full",
+      "print_run": 5,
+      "applies_to": [
+        "Foil"
+      ]
     }
   ],
   "verified": false,
