@@ -621,7 +621,7 @@
       "source_url": "https://baseballcardpedia.com/index.php/2025_Topps",
       "retrieved": "2026-08-05",
       "covers": "the factory set cards and which parallels cover every base card",
-      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so. Its Big Apple checklist prints #658 Gleyber Torres where the Topps Series 2 PDF prints #656 Jairo Iriarte in that section; the manufacturer's card stands. The 99 they agree on match exactly. Serial numbering is recorded only where a source states it outright for a given parallel: 2025 has 164 of 330 numbered and 2026 has 41 of 440, all from that source's parallel lists as transcribed by the repo owner. The rest carry no print_run and that is deliberate. Its relic and autograph ratio tables give card counts without print runs, so those 133 parallels stay unnumbered rather than take the /150-/99-/50-/25-/10-/5 ladder their neighbours use, which would be inference. An estimate for an unnumbered card is not a print run either: the 1990 inserts' Pink is described as limited to 600 copies but not serial-numbered, so it gets none. Serial numbers were then cross-checked against Trading Card Database's 2025 Topps Inserts and Related Sets listing: 44 agreed exactly and none conflicted, and 70 more were filled from it. That listing also supplies 24 parallels this source omits for lists it does carry — the eleven the 1990 All-Stars insert prints beyond Blue Nameplate, the OPS Bests ladder, Summer Superstars Red, Dynamic Duos Black, 2024 First Pitch Autographs FoilFractor, and Rounding the Bases Dual Relics Platinum and Red. Nothing was added for a list this source does not carry: Carrying the Flag and Mesmerized turned out to belong to 2025 Topps Flagship Collection and Hidden Gems to 2025 Topps Chrome Hidden Gems, both separate products. The two disagree on one figure, the Mega Box Black foil of the 1990 insert: this source calls it a one-of-one and TCDB numbers it to 10, where every other programme in the set puts Black at 10 and reserves the one-of-one for a FoilFractor. The repo owner settled it at 10, so TCDB's figure stands. That source also names these Crackle Foilboard and omits the Purple /75 this repo holds. Signature Tunes Dual Autographs is recorded from that page's own text — Black /10, Red /5, Platinum 1/1 — rather than from the insertion-ratio table read earlier, which gave a Gold in Platinum's place. The table was read through a summarizer that has misread a column here before; the page text was read directly."
+      "notes": "Confirms 66 of the 67 checklists it lists once the two series are summed; the exception is Legendary Homefield Advantage, counted 5 per series where the Topps PDFs print LHA-1 to LHA-5 and LHA-6 to LHA-9, so the manufacturer stands. Sole source for the two Factory Set checklists here, which are in neither series PDF. It states \"All 700 base cards are available in the following parallels\" and lists 42, recorded here as coverage: full. It qualifies Black as Series Two only, which the repo owner corrected: Black prints all 700. Names are taken from base.csv rather than from this source, which prints \"Colby Mayo\" for Topps' Coby Mayo at #20. Its KRC designation on the short-print rookies is not adopted: Topps prints \"Rookie\", and the kayfabe idea it marks is a category, recorded as a tag. It lists Printing Plates as one entry, \"set of four for each card\". They are declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one card a collector owns, and one entry cannot record owning the cyan plate of a given card. The count is this source's; the four colour names are the standard printing set, and TCDB names 2026's plates exactly so. Its Big Apple checklist prints #658 Gleyber Torres where the Topps Series 2 PDF prints #656 Jairo Iriarte in that section; the manufacturer's card stands. The 99 they agree on match exactly. Serial numbering is recorded only where a source states it outright for a given parallel: 2025 has 164 of 330 numbered and 2026 has 41 of 440, all from that source's parallel lists as transcribed by the repo owner. The rest carry no print_run and that is deliberate. Its relic and autograph ratio tables give card counts without print runs, so those 133 parallels stay unnumbered rather than take the /150-/99-/50-/25-/10-/5 ladder their neighbours use, which would be inference. An estimate for an unnumbered card is not a print run either: the 1990 inserts' Pink is described as limited to 600 copies but not serial-numbered, so it gets none. Serial numbers were then cross-checked against Trading Card Database's 2025 Topps Inserts and Related Sets listing: 44 agreed exactly and none conflicted, and 70 more were filled from it. That listing also supplies 24 parallels this source omits for lists it does carry — the eleven the 1990 All-Stars insert prints beyond Blue Nameplate, the OPS Bests ladder, Summer Superstars Red, Dynamic Duos Black, 2024 First Pitch Autographs FoilFractor, and Rounding the Bases Dual Relics Platinum and Red. Nothing was added for a list this source does not carry: Carrying the Flag and Mesmerized turned out to belong to 2025 Topps Flagship Collection and Hidden Gems to 2025 Topps Chrome Hidden Gems, both separate products. The two disagree on one figure, the Mega Box Black foil of the 1990 insert: this source calls it a one-of-one and TCDB numbers it to 10, where every other programme in the set puts Black at 10 and reserves the one-of-one for a FoilFractor. The repo owner settled it at 10, so TCDB's figure stands. That source also names these Crackle Foilboard and omits the Purple /75 this repo holds. Signature Tunes Dual Autographs is recorded from that page's own text — Black /10, Red /5, Platinum 1/1 — rather than from the insertion-ratio table read earlier, which gave a Gold in Platinum's place. The table was read through a summarizer that has misread a column here before; the page text was read directly. Where a parallel is known NOT to be serial numbered, it now says so with serial_numbered: false rather than simply omitting print_run — the 1990 All-Star Autographs and All-Star Relics parallels are the first, on the repo owner's word. An absent print_run alone cannot distinguish a card nobody numbered from a card nobody has told us about, and this repo holds both."
     },
     {
       "source_type": "manual-transcription",
@@ -1523,7 +1523,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Autograph Cards"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "ee6bf25b-fa46-4518-a381-2934c75051c1",
@@ -1531,7 +1532,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Autograph Cards"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "ebc6d350-5008-4f10-bb2a-c2852a440ef7",
@@ -1539,7 +1541,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Autograph Cards"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "7dcac07e-1afe-464d-a9f1-36283e30580b",
@@ -1547,7 +1550,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Autograph Cards"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "41b64133-c715-4f94-8b1a-332b41cba4f4",
@@ -1555,7 +1559,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Autograph Cards"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "10e56a32-b94b-4725-b8f1-fdce3a9beb66",
@@ -1563,7 +1568,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Relics"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "d0f18625-175c-4c05-ac1f-3e987b4b6ec5",
@@ -1571,7 +1577,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Relics"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "af419251-8d8c-475b-97a4-932c9b5b9703",
@@ -1579,7 +1586,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Relics"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "3098d41a-92f5-4398-8b87-56c5426ea2c8",
@@ -1587,7 +1595,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Relics"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "ef34a009-af19-487a-adf3-63b561ed5866",
@@ -1595,7 +1604,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Relics"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "2c7978da-cfd5-4606-888f-1882aa8e55da",
@@ -1603,7 +1613,8 @@
       "coverage": "full",
       "applies_to": [
         "1990 Topps Baseball All Star Relics"
-      ]
+      ],
+      "serial_numbered": false
     },
     {
       "id": "57073e9f-e8ca-469d-a120-dfb057ffba01",
