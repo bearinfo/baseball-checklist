@@ -288,7 +288,7 @@
       "name": "Topps Mega Stars",
       "kind": "insert",
       "card_count": 40,
-      "distribution": "MEGA BOX EXCLUSIVE"
+      "distribution": "Mega Box Exclusive"
     },
     {
       "file": "inserts/training-grounds.csv",
@@ -1732,6 +1732,46 @@
       "coverage": "full",
       "applies_to": [
         "Stars Of MLB"
+      ]
+    },
+    {
+      "id": "7aab6a61-9f75-4fe7-ba57-a53801132432",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Topps Mega Stars"
+      ]
+    },
+    {
+      "id": "20681655-be4d-4ebb-ab55-350a4c86c532",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Topps Mega Stars"
+      ]
+    },
+    {
+      "id": "c55026d9-7306-4352-817f-912f5b89f7ee",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Topps Mega Stars"
+      ]
+    },
+    {
+      "id": "7e0035e7-23fe-453f-b510-fb89705f7a2d",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Topps Mega Stars"
+      ]
+    },
+    {
+      "id": "1a5ad4fb-ab10-4e31-979f-6eb907ca68f9",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Topps Mega Stars"
       ]
     },
     {
