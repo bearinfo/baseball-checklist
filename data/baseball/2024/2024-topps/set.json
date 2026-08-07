@@ -161,12 +161,6 @@
       "card_count": 50
     },
     {
-      "file": "inserts/1989-topps-all-stars-baseball-foilboard-mega-box-cards.csv",
-      "name": "1989 Topps All Stars Baseball Foilboard Mega Box Cards",
-      "kind": "insert",
-      "card_count": 50
-    },
-    {
       "file": "inserts/1989-topps-baseball-chrome-base-cards.csv",
       "name": "1989 Topps Baseball Chrome Base Cards",
       "kind": "insert",
@@ -549,8 +543,8 @@
       "source": "Baseball Card Pedia, 2024 Topps — 1989 Topps Baseball",
       "source_url": "https://baseballcardpedia.com/index.php/2024_Topps",
       "retrieved": "2026-08-07",
-      "covers": "the Foil parallel of the 1989 Topps Baseball insert and its six colour runs",
-      "notes": "Every 1989 Topps Baseball card also comes in Foil, and Foil in six colours: Green /99, Purple /75, Gold /50, Orange /25, Red /5 and Black one-of-one. Trading Card Database gives the identical six figures under its own name for the insert, 1989 Topps Baseball 35th Anniversary, listing each colour twice because it splits the insert by series. Declaring this removed two checklists rather than adding any. Topps' own documents carried the Foil parallel as two insert sections, 1989 Topps Baseball Foil Mega Box Cards in Series 1 and 1989 Topps Baseball Foilboard Mega Box Cards in Series 2, and both were byte-identical to blocks of the insert they parallel: the 100 rows numbered 89B-1 to 89B-100 and the 50 rows numbered 89B2-1 to 89B2-50. They were 150 rows that said nothing base 1989 Topps Baseball did not already say, and the wave each card belongs to stays readable from the 89B and 89B2 prefixes, so nothing was lost with them. The sources disagree on where Foil was sold. This page calls it exclusive to Monster and Giant Boxes; Trading Card Database says Mega box, and Topps titles both its sections Mega Box Cards. Mega Box Exclusive is recorded, on the manufacturer's wording backed by TCDB, and the distinction is real in this set — Topps Mega Stars is separately recorded as Giant/Monster Box Exclusive. Topps also names the two halves differently, Foil in Series 1 and Foilboard in Series 2, where both other sources describe a single Foil parallel; the single parallel is what is declared, and the six colour runs all carry Foilboard in their own names on every source."
+      "covers": "the Foil parallels of the 1989 Topps Baseball and 1989 Topps All Star Baseball inserts, and the All Star parallels",
+      "notes": "Every 1989 Topps Baseball card also comes in Foil, and Foil in six colours: Green /99, Purple /75, Gold /50, Orange /25, Red /5 and Black one-of-one. Trading Card Database gives the identical six figures under its own name for the insert, 1989 Topps Baseball 35th Anniversary, listing each colour twice because it splits the insert by series. Declaring this removed two checklists rather than adding any. Topps' own documents carried the Foil parallel as two insert sections, 1989 Topps Baseball Foil Mega Box Cards in Series 1 and 1989 Topps Baseball Foilboard Mega Box Cards in Series 2, and both were byte-identical to blocks of the insert they parallel: the 100 rows numbered 89B-1 to 89B-100 and the 50 rows numbered 89B2-1 to 89B2-50. They were 150 rows that said nothing base 1989 Topps Baseball did not already say, and the wave each card belongs to stays readable from the 89B and 89B2 prefixes, so nothing was lost with them. The sources disagree on where Foil was sold. This page calls it exclusive to Monster and Giant Boxes; Trading Card Database says Mega box, and Topps titles both its sections Mega Box Cards. Mega Box Exclusive is recorded, on the manufacturer's wording backed by TCDB, and the distinction is real in this set — Topps Mega Stars is separately recorded as Giant/Monster Box Exclusive. Topps also names the two halves differently, Foil in Series 1 and Foilboard in Series 2, where both other sources describe a single Foil parallel; the single parallel is what is declared, and the six colour runs all carry Foilboard in their own names on every source. Both insert checklists were verified row by row against that page, 150 and 50, matching on every number and name but one: 89B-68 is Vladimir Guerrero there and Vladimir Guerrero, Sr. on that page, which reads as a disambiguation from 89B-32 Vladimir Guerrero, Jr. rather than a printed form, so Topps' wording is kept. The All Star insert had the same duplication, its Topps section 1989 Topps All Stars Baseball Foilboard Mega Box Cards being identical row for row to 1989 Topps All Star Baseball, and it is now a parallel too; that is what shows the Foil covers all 50. Its parallels come from Trading Card Database, since that page documents no parallel of the All Star insert at all, and its six Foil colours run the same ladder as the main insert: Green /99, Purple /75, Gold /50, Orange /25, Red /5, Black one-of-one. They are recorded as coverage unknown, along with the five parallels of the All Star insert itself — Black and Blue unnumbered, Gold /50, Platinum one-of-one, Red /10 — because naming a parallel and giving its print run is not saying how many cards it covers. The main insert's six are full only because that page states it. Trading Card Database calls the All Star Foil a Giant/Monster Box exclusive, not a Mega Box one, so the two Foils are recorded with different distributions. Both are named for the checklist they parallel rather than being called Foil, because a parallel that other parallels point at has to be named uniquely within the set."
     }
   ],
   "series": [
@@ -978,8 +972,114 @@
       "card_count": 625
     },
     {
+      "id": "0ad4c353-100c-417f-be10-8b07a9de398c",
+      "name": "1989 Topps All Star Baseball Foil",
+      "coverage": "full",
+      "distribution": "Giant/Monster Box Exclusive",
+      "applies_to": [
+        "1989 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "8827af98-78df-4c30-ac76-34c12bb338f9",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "1989 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "9cc61814-d8b1-49c6-990a-e5d257318657",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "1989 Topps All Star Baseball"
+      ]
+    },
+    {
+      "id": "873c9b16-f43c-45fe-a18b-c5b7fb777122",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "1989 Topps All Star Baseball"
+      ],
+      "print_run": 50
+    },
+    {
+      "id": "5e74758e-3c69-44be-bb67-8f5d5ef2a82d",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "1989 Topps All Star Baseball"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "0783d305-6061-4850-a66f-f049038ef379",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "1989 Topps All Star Baseball"
+      ],
+      "print_run": 10
+    },
+    {
+      "id": "4f197eb6-3fbe-4a9b-ab4e-9900039009ae",
+      "name": "Black Foilboard",
+      "coverage": "unknown",
+      "print_run": 1,
+      "applies_to": [
+        "1989 Topps All Star Baseball Foil"
+      ]
+    },
+    {
+      "id": "59c74e7f-8356-47c6-b946-b0981f919c34",
+      "name": "Gold Foilboard",
+      "coverage": "unknown",
+      "print_run": 50,
+      "applies_to": [
+        "1989 Topps All Star Baseball Foil"
+      ]
+    },
+    {
+      "id": "75082516-2416-4297-ba9c-d8b88b240be8",
+      "name": "Green Foilboard",
+      "coverage": "unknown",
+      "print_run": 99,
+      "applies_to": [
+        "1989 Topps All Star Baseball Foil"
+      ]
+    },
+    {
+      "id": "f2f8d73c-7686-45a7-b10d-481f6f7d2c2f",
+      "name": "Orange Foilboard",
+      "coverage": "unknown",
+      "print_run": 25,
+      "applies_to": [
+        "1989 Topps All Star Baseball Foil"
+      ]
+    },
+    {
+      "id": "af03f88d-a369-4dde-917d-957c06d185f5",
+      "name": "Purple Foilboard",
+      "coverage": "unknown",
+      "print_run": 75,
+      "applies_to": [
+        "1989 Topps All Star Baseball Foil"
+      ]
+    },
+    {
+      "id": "6c4150c6-4b62-401d-8600-77c5273a2c4a",
+      "name": "Red Foilboard",
+      "coverage": "unknown",
+      "print_run": 5,
+      "applies_to": [
+        "1989 Topps All Star Baseball Foil"
+      ]
+    },
+    {
       "id": "bea936a5-ae09-4963-a43b-2802f1bec688",
-      "name": "Foil",
+      "name": "1989 Topps Baseball Foil",
       "coverage": "full",
       "distribution": "Mega Box Exclusive",
       "applies_to": [
@@ -992,7 +1092,7 @@
       "coverage": "full",
       "print_run": 1,
       "applies_to": [
-        "Foil"
+        "1989 Topps Baseball Foil"
       ]
     },
     {
@@ -1001,7 +1101,7 @@
       "coverage": "full",
       "print_run": 50,
       "applies_to": [
-        "Foil"
+        "1989 Topps Baseball Foil"
       ]
     },
     {
@@ -1010,7 +1110,7 @@
       "coverage": "full",
       "print_run": 99,
       "applies_to": [
-        "Foil"
+        "1989 Topps Baseball Foil"
       ]
     },
     {
@@ -1019,7 +1119,7 @@
       "coverage": "full",
       "print_run": 25,
       "applies_to": [
-        "Foil"
+        "1989 Topps Baseball Foil"
       ]
     },
     {
@@ -1028,7 +1128,7 @@
       "coverage": "full",
       "print_run": 75,
       "applies_to": [
-        "Foil"
+        "1989 Topps Baseball Foil"
       ]
     },
     {
@@ -1037,7 +1137,7 @@
       "coverage": "full",
       "print_run": 5,
       "applies_to": [
-        "Foil"
+        "1989 Topps Baseball Foil"
       ]
     }
   ],
