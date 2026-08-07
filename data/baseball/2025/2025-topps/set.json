@@ -3962,7 +3962,9 @@
       "coverage": "full",
       "applies_to": [
         "World Champion Autograph Cards"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "e22faaca-7063-4289-8eed-72d0d327c627",
@@ -3970,7 +3972,9 @@
       "coverage": "full",
       "applies_to": [
         "World Champion Autograph Cards"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "8b3a099b-ef15-4c20-b9b9-45842c6522cd",
@@ -3978,7 +3982,10 @@
       "coverage": "full",
       "applies_to": [
         "World Champion Autograph Cards"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "23e4d838-cb42-45e9-9a20-dd65b4754103",
@@ -3986,7 +3993,9 @@
       "coverage": "full",
       "applies_to": [
         "World Champion Autograph Cards"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "4f8a548b-9c1b-42f1-8ad7-ffcb6d53d21d",
@@ -3994,7 +4003,10 @@
       "coverage": "full",
       "applies_to": [
         "World Champion Dual Autograph Cards"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "67cc2935-661c-4d7e-a58c-ea1360069f2f",
@@ -4002,7 +4014,9 @@
       "coverage": "full",
       "applies_to": [
         "World Champion Dual Autograph Cards"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "3171ef5a-7130-4506-87f5-1a25c981646e",
