@@ -561,6 +561,16 @@
   ],
   "parallels": [
     {
+      "id": "7986962f-3a6e-455e-95c6-d94fa7ccbc37",
+      "name": "All-Star Game",
+      "coverage": "full",
+      "finish": "Foilboard",
+      "distribution": "All-Star Game Factory Set Only",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
       "id": "f48261ce-2f66-495c-b609-dca4f9b53708",
       "name": "Aqua",
       "coverage": "full",
