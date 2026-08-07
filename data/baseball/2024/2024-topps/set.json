@@ -451,6 +451,16 @@
       "card_count": 700
     },
     {
+      "file": "variations/kevin-hart-gimmicks.csv",
+      "name": "Kevin Hart Gimmicks",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 18,
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
       "file": "variations/traded-gimmicks.csv",
       "name": "Traded Gimmicks",
       "kind": "variation",
@@ -481,8 +491,8 @@
       "source": "Baseball Card Pedia, 2024 Topps",
       "source_url": "https://baseballcardpedia.com/index.php/2024_Topps",
       "retrieved": "2026-08-07",
-      "covers": "the Traded Gimmicks variation",
-      "notes": "Neither Topps checklist lists these two cards, in any section: #50 appears only as Juan Soto of the San Diego Padres. Both are variations of base cards — #50 shows Soto after his trade to the Yankees, and #250 shows Shohei Ohtani where the base card is Mookie Betts, a different player on the same number. Team abbreviations NYY and LAD are expanded to the forms Topps prints elsewhere in this set."
+      "covers": "the Traded Gimmicks variation; the Kevin Hart Gimmicks variation",
+      "notes": "Neither Topps checklist lists these two cards, in any section: #50 appears only as Juan Soto of the San Diego Padres. Both are variations of base cards — #50 shows Soto after his trade to the Yankees, and #250 shows Shohei Ohtani where the base card is Mookie Betts, a different player on the same number. Team abbreviations NYY and LAD are expanded to the forms Topps prints elsewhere in this set. Kevin Hart Gimmicks is eighteen cards with the comedian photoshopped into the foreground, every one a Phillie, and all eighteen verify against base.csv on number, name and team. Two claims about them are not recorded. That source says they are exclusive to Series One packs, but twelve of the eighteen carry Series 2 numbers and this set's Series 1 is #1-350 exactly, so the claim cannot be right as stated. And each is serial numbered to 52 — a joke about Hart's height — which has nowhere to go, because print_run belongs to a parallel and this is a variation checklist."
     }
   ],
   "series": [
