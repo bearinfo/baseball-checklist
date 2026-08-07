@@ -1,0 +1,49 @@
+card_number,name,team,designations
+TRA-GT,Gleyber Torres,New York Yankees,RC
+TRA-RA,Ronald Acuña Jr.,Atlanta Braves,RC
+LITMA-AB,Adrian Beltre,Texas Rangers,
+LITMA-AE,Alex Bregman,Houston Astros,
+LITMA-AO,Amed Rosario,New York Mets,RC
+LITMA-BB,Byron Buxton,Minnesota Twins,
+LITMA-CK,Corey Kluber,Cleveland Indians,
+LITMA-CY,Christian Yelich,Milwaukee Brewers,
+LITMA-GA,Gary Sanchez,New York Yankees,
+LITMA-GP,George Springer,Houston Astros,
+LITMA-KS,Kyle Schwarber,Chicago Cubs,
+LITMA-LS,Luis Severino,New York Yankees,
+LITMA-MC,Michael Conforto,New York Mets,
+LITMA-MO,Marcell Ozuna,St. Louis Cardinals,
+LITMA-OA,Ozzie Albies,Atlanta Braves,RC
+LITMA-RD,Rafael Devers,Boston Red Sox,RC
+LITMA-RH,Rhys Hoskins,Philadelphia Phillies,RC
+LITMA-SO,Shohei Ohtani,Angels,RC
+LITMA-VR,Victor Robles,Washington Nationals,RC
+FTA-AB,Alex Bregman,Houston Astros,
+FTA-AH,Austin Hays,Baltimore Orioles,RC
+FTA-AJ,Aaron Judge,New York Yankees,
+FTA-AO,Amed Rosario,New York Mets,RC
+FTA-AV,Alex Verdugo,Los Angeles Dodgers,RC
+FTA-BB,Byron Buxton,Minnesota Twins,
+FTA-CF,Clint Frazier,New York Yankees,RC
+FTA-CS,Chance Sisco,Baltimore Orioles,RC
+FTA-DM,Dominic Smith,New York Mets,RC
+FTA-DS,Dansby Swanson,Atlanta Braves,
+FTA-FB,Franklin Barreto,Oakland Athletics,
+FTA-FL,Francisco Lindor,Cleveland Indians,
+FTA-FM,Francisco Mejia,Cleveland Indians,RC
+FTA-HB,Harrison Bader,St. Louis Cardinals,RC
+FTA-IH,Ian Happ,Chicago Cubs,
+FTA-JC,J.P. Crawford,Philadelphia Phillies,RC
+FTA-JF,Jack Flaherty,St. Louis Cardinals,RC
+FTA-JU,Julio Urias,Los Angeles Dodgers,
+FTA-KS,Kyle Schwarber,Chicago Cubs,
+FTA-LB,Lewis Brinson,Miami Marlins,
+FTA-MF,Michael Conforto,New York Mets,
+FTA-MO,Matt Olson,Oakland Athletics,
+FTA-OA,Ozzie Albies,Atlanta Braves,RC
+FTA-RH,Rhys Hoskins,Philadelphia Phillies,RC
+FTA-RM,Ryan McMahon,Colorado Rockies,RC
+FTA-SO,Shohei Ohtani,Angels,RC
+FTA-TA,Trey Mancini,Baltimore Orioles,
+FTA-VR,Victor Robles,Washington Nationals,RC
+FTA-WB,Walker Buehler,Los Angeles Dodgers,RC

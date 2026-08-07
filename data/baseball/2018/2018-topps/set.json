@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "id": "2fdcc3f3-4422-493d-91d0-3625e774be9b",
+  "name": "2018 Topps",
+  "slug": "2018-topps",
+  "sport": "baseball",
+  "year": 2018,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 698
+    },
+    {
+      "file": "autographs/1983-topps-baseball-autograph-variation.csv",
+      "name": "1983 Topps Baseball Autograph Variation",
+      "kind": "autograph",
+      "card_count": 42
+    },
+    {
+      "file": "autographs/1983-topps-baseball-autograph.csv",
+      "name": "1983 Topps Baseball Autograph",
+      "kind": "autograph",
+      "card_count": 87
+    },
+    {
+      "file": "autographs/1983-topps-baseball-rookies-and-all-stars-autograph-variation.csv",
+      "name": "1983 Topps Baseball Rookies And All Stars Autograph Variation",
+      "kind": "autograph",
+      "card_count": 92
+    },
+    {
+      "file": "autographs/derek-jeter-highlights-autograph-target.csv",
+      "name": "Derek Jeter Highlights Autograph Target",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/home-run-challenge.csv",
+      "name": "Home Run Challenge",
+      "kind": "autograph",
+      "card_count": 50
+    },
+    {
+      "file": "autographs/instant-impact-autograph-parallel.csv",
+      "name": "Instant Impact Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 45
+    },
+    {
+      "file": "autographs/kris-bryant-highlights-autograph-walmart.csv",
+      "name": "Kris Bryant Highlights Autograph Walmart",
+      "kind": "autograph",
+      "card_count": 10
+    },
+    {
+      "file": "autographs/legends-in-the-making-autograph-retail.csv",
+      "name": "Legends In The Making Autograph Retail",
+      "kind": "autograph",
+      "card_count": 13
+    },
+    {
+      "file": "autographs/longball-legends-autograph-parallel.csv",
+      "name": "Longball Legends Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 28
+    },
+    {
+      "file": "autographs/mlb-awards-autograph-retail.csv",
+      "name": "MLB Awards Autograph Retail",
+      "kind": "autograph",
+      "card_count": 16
+    },
+    {
+      "file": "autographs/mlb-opening-day-autographs-retail.csv",
+      "name": "MLB Opening Day Autographs Retail",
+      "kind": "autograph",
+      "card_count": 16
+    },
+    {
+      "file": "autographs/postseason-performance-autograph-cards.csv",
+      "name": "Postseason Performance Autograph Cards",
+      "kind": "autograph",
+      "card_count": 10
+    },
+    {
+      "file": "autographs/target-exclusive-rookie-autographs.csv",
+      "name": "Target Exclusive Rookie Autographs",
+      "kind": "autograph",
+      "card_count": 48
+    },
+    {
+      "file": "autographs/topps-salute-autograph-variation.csv",
+      "name": "Topps Salute Autograph Variation",
+      "kind": "autograph",
+      "card_count": 77
+    },
+    {
+      "file": "autographs/topps-salute-autographs.csv",
+      "name": "Topps Salute Autographs",
+      "kind": "autograph",
+      "card_count": 83
+    },
+    {
+      "file": "autographs/world-champion-autograph-cards.csv",
+      "name": "World Champion Autograph Cards",
+      "kind": "autograph",
+      "card_count": 6
+    },
+    {
+      "file": "inserts/1983-topps-baseball-all-stars.csv",
+      "name": "1983 Topps Baseball All Stars",
+      "kind": "insert",
+      "card_count": 75
+    },
+    {
+      "file": "inserts/1983-topps-baseball-rookies.csv",
+      "name": "1983 Topps Baseball Rookies",
+      "kind": "insert",
+      "card_count": 24
+    },
+    {
+      "file": "inserts/1983-topps-baseball.csv",
+      "name": "1983 Topps Baseball",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/derek-jeter-highlights-target.csv",
+      "name": "Derek Jeter Highlights Target",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/instant-impact.csv",
+      "name": "Instant Impact",
+      "kind": "insert",
+      "card_count": 300
+    },
+    {
+      "file": "inserts/kris-bryant-highlights-walmart.csv",
+      "name": "Kris Bryant Highlights Walmart",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/legends-in-the-making-retail.csv",
+      "name": "Legends In The Making Retail",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/longball-legends.csv",
+      "name": "Longball Legends",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/mlb-awards.csv",
+      "name": "MLB Awards",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/mlb-opening-day-retail.csv",
+      "name": "MLB Opening Day Retail",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/superstar-sensations.csv",
+      "name": "Superstar Sensations",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/topps-now-top-10.csv",
+      "name": "Topps Now Top 10",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/topps-salute.csv",
+      "name": "Topps Salute",
+      "kind": "insert",
+      "card_count": 199
+    },
+    {
+      "file": "relics/cut-signatures-series-1.csv",
+      "name": "Cut Signatures Series 1",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/cut-signatures-series-2.csv",
+      "name": "Cut Signatures Series 2",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/in-the-name-relics.csv",
+      "name": "In The Name Relics",
+      "kind": "relic",
+      "card_count": 42
+    },
+    {
+      "file": "relics/instant-impact-autograph-relic-cards.csv",
+      "name": "Instant Impact Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 20
+    },
+    {
+      "file": "relics/instant-impact-relic-cards.csv",
+      "name": "Instant Impact Relic Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/longball-legends-autograph-relic-cards.csv",
+      "name": "Longball Legends Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 23
+    },
+    {
+      "file": "relics/longball-legends-relic-cards.csv",
+      "name": "Longball Legends Relic Cards",
+      "kind": "relic",
+      "card_count": 80
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards-series-1.csv",
+      "name": "Major League Material Autograph Cards Series 1",
+      "kind": "relic",
+      "card_count": 33
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards-series-2.csv",
+      "name": "Major League Material Autograph Cards Series 2",
+      "kind": "relic",
+      "card_count": 19
+    },
+    {
+      "file": "relics/major-league-material-cards-series-1.csv",
+      "name": "Major League Material Cards Series 1",
+      "kind": "relic",
+      "card_count": 88
+    },
+    {
+      "file": "relics/major-league-material-cards-series-2.csv",
+      "name": "Major League Material Cards Series 2",
+      "kind": "relic",
+      "card_count": 72
+    },
+    {
+      "file": "relics/mlb-all-star-team-medallion-cards-autograph.csv",
+      "name": "MLB All Star Team Medallion Cards Autograph",
+      "kind": "relic",
+      "card_count": 15
+    },
+    {
+      "file": "relics/mlb-all-star-team-medallion-cards.csv",
+      "name": "MLB All Star Team Medallion Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/mlb-spring-training-team-logo-patch-cards-autograph.csv",
+      "name": "MLB Spring Training Team Logo Patch Cards Autograph",
+      "kind": "relic",
+      "card_count": 17
+    },
+    {
+      "file": "relics/mlb-spring-training-team-logo-patch-cards.csv",
+      "name": "MLB Spring Training Team Logo Patch Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/players-weekend-patch-cards-autograph-retail.csv",
+      "name": "Players Weekend Patch Cards Autograph Retail",
+      "kind": "relic",
+      "card_count": 29
+    },
+    {
+      "file": "relics/players-weekend-patch-cards-retail.csv",
+      "name": "Players Weekend Patch Cards Retail",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/postseason-performance-autograph-relic-cards.csv",
+      "name": "Postseason Performance Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 15
+    },
+    {
+      "file": "relics/postseason-performance-relic-cards.csv",
+      "name": "Postseason Performance Relic Cards",
+      "kind": "relic",
+      "card_count": 27
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards.csv",
+      "name": "Topps Reverence Autograph Patch Cards",
+      "kind": "relic",
+      "card_count": 53
+    },
+    {
+      "file": "relics/world-champion-autograph-relic-cards.csv",
+      "name": "World Champion Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 6
+    },
+    {
+      "file": "relics/world-champion-relic-cards.csv",
+      "name": "World Champion Relic Cards",
+      "kind": "relic",
+      "card_count": 12
+    },
+    {
+      "file": "variations/clear-variation.csv",
+      "name": "Clear Variation",
+      "kind": "variation",
+      "card_count": 200,
+      "varies": "base.csv"
+    }
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-350"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "351-700"
+    }
+  ],
+  "parallels": [],
+  "verified": false,
+  "notes": "One set issued in two waves. Topps numbers it 1-700 but prints #364 and #565 as holding no card, so the base checklist has 698 rows across the two ranges.",
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2018-Topps-BB-Series-1-Checklist.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 1 (#1-350) and its inserts",
+      "notes": "Four base cards are tailed \"World Series\" for the 2017 Series, the earliest printed form of the designation this repo records as WSH; later years print \"World Series Highlights\"."
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2018-Topps-Baseball-Series-2-Checklist.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 2 (#351-700) and its inserts",
+      "notes": "Topps prints \"364DOES NOT EXIST IN SERIES 2\" and the same for #565, so those two numbers hold no card and the base checklist is 698 rows over a 700-number range. Both lines are set in full caps and read as section headers, which split the base run into sections named after themselves before the converter learned to recognise them; they are now reported as absent numbers and get no row. The series ranges in series[] are the numbering Topps used, not a count. Five sections headed AUTOGRAPH PARALLEL or AUTOGRAPH VARIATION share no card number with any other file here, so each is an autograph checklist numbering itself."
+    }
+  ]
+}

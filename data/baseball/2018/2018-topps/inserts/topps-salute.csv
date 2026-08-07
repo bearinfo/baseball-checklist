@@ -1,0 +1,200 @@
+card_number,name,team,designations
+TS-1,Bryce Harper,Washington Nationals,
+TS-2,Carlos Correa,Houston Astros,
+TS-3,Joey Votto,Cincinnati Reds,
+TS-4,Corey Seager,Los Angeles Dodgers,
+TS-5,Adam Jones,Baltimore Orioles,
+TS-6,Chris Sale,Boston Red Sox,
+TS-7,Jose Altuve,Houston Astros,
+TS-8,Dexter Fowler,St. Louis Cardinals,
+TS-9,George Springer,Houston Astros,
+TS-10,Charlie Blackmon,Colorado Rockies,
+TS-11,Khris Davis,Oakland Athletics,
+TS-12,Trevor Story,Colorado Rockies,
+TS-13,Alex Wood,Los Angeles Dodgers,
+TS-14,Domingo Santana,Milwaukee Brewers,
+TS-15,Anthony Rizzo,Chicago Cubs,
+TS-16,Paul Goldschmidt,Arizona Diamondbacks,
+TS-17,Francisco Lindor,Cleveland Indians,
+TS-18,Javier Baez,Chicago Cubs,
+TS-19,Aaron Judge,New York Yankees,
+TS-20,Ryon Healy,Oakland Athletics,
+TS-21,Trey Mancini,Baltimore Orioles,
+TS-22,Ben Gamel,Seattle Mariners,
+TS-23,Mitch Haniger,Seattle Mariners,
+TS-24,Matt Carpenter,St. Louis Cardinals,
+TS-25,Cody Bellinger,Los Angeles Dodgers,
+TS-26,Cal Ripken Jr.,Baltimore Orioles,
+TS-27,Don Mattingly,New York Yankees,
+TS-28,Frank Thomas,Chicago White Sox,
+TS-29,Barry Larkin,Cincinnati Reds,
+TS-30,John Smoltz,Atlanta Braves,
+TS-31,Brooks Robinson,Baltimore Orioles,
+TS-32,Craig Biggio,Houston Astros,
+TS-33,Jim Palmer,Baltimore Orioles,
+TS-34,Roy Halladay,Philadelphia Phillies,
+TS-35,Ivan Rodriguez,Texas Rangers,
+TS-36,Roberto Alomar,Toronto Blue Jays,
+TS-37,Darryl Strawberry,New York Mets,
+TS-38,Johnny Damon,Boston Red Sox,
+TS-39,Andres Galarraga,Colorado Rockies,
+TS-40,Eric Davis,Cincinnati Reds,
+TS-41,George Brett,Kansas City Royals,
+TS-42,Willie McCovey,San Francisco Giants,
+TS-43,Andre Dawson,Chicago Cubs,
+TS-44,Tom Seaver,New York Mets,
+TS-45,Jose Canseco,Oakland Athletics,
+TS-46,Nolan Arenado,Colorado Rockies,
+TS-47,Kris Bryant,Chicago Cubs,
+TS-48,Miguel Sano,Minnesota Twins,
+TS-49,Eric Thames,Milwaukee Brewers,
+TS-50,Kyle Seager,Seattle Mariners,
+TS-51,Michael Fulmer,Detroit Tigers,
+TS-52,Joe Panik,San Francisco Giants,
+TS-53,Jean Segura,Seattle Mariners,
+TS-54,Aledmys Diaz,St. Louis Cardinals,
+TS-55,Kevin Kiermaier,Tampa Bay Rays,
+TS-56,Keon Broxton,Milwaukee Brewers,
+TS-57,Bradley Zimmer,Cleveland Indians,
+TS-58,Christian Arroyo,San Francisco Giants,
+TS-59,Mike Trout,Angels,
+TS-60,Daniel Murphy,Washington Nationals,
+TS-61,Alex Bregman,Houston Astros,
+TS-62,Andrew Benintendi,Boston Red Sox,
+TS-63,Luis Severino,New York Yankees,
+TS-64,Didi Gregorius,New York Yankees,
+TS-65,Dellin Betances,New York Yankees,
+TS-66,Hunter Renfroe,San Diego Padres,
+TS-67,Jose Berrios,Minnesota Twins,
+TS-68,Ken Giles,Houston Astros,
+TS-69,Dansby Swanson,Atlanta Braves,
+TS-70,Ian Happ,Chicago Cubs,
+TS-71,Rafael Devers,Boston Red Sox,RC
+TS-72,Amed Rosario,New York Mets,RC
+TS-73,Nick Williams,Philadelphia Phillies,RC
+TS-74,Ozzie Albies,Atlanta Braves,RC
+TS-75,Clint Frazier,New York Yankees,RC
+TS-76,J.P. Crawford,Philadelphia Phillies,RC
+TS-77,Dominic Smith,New York Mets,RC
+TS-78,Rhys Hoskins,Philadelphia Phillies,RC
+TS-79,Ryan McMahon,Colorado Rockies,RC
+TS-80,Alex Verdugo,Los Angeles Dodgers,RC
+TS-81,Willie Calhoun,Texas Rangers,RC
+TS-82,Victor Robles,Washington Nationals,RC
+TS-83,Walker Buehler,Los Angeles Dodgers,RC
+TS-84,Luiz Gohara,Atlanta Braves,RC
+TS-85,Francisco Mejia,Cleveland Indians,RC
+TS-86,Jack Flaherty,St. Louis Cardinals,RC
+TS-87,Tyler Mahle,Cincinnati Reds,RC
+TS-88,J.D. Davis,Houston Astros,RC
+TS-89,Lucas Sims,Atlanta Braves,RC
+TS-90,Max Fried,Atlanta Braves,RC
+TS-91,Brandon Woodruff,Milwaukee Brewers,RC
+TS-92,Nicky Delmonico,Chicago White Sox,RC
+TS-93,Harrison Bader,St. Louis Cardinals,RC
+TS-94,Miguel Andujar,New York Yankees,RC
+TS-95,Parker Bridwell,Angels,RC
+TS-96,Zack Granite,Minnesota Twins,RC
+TS-97,Andrew Stevenson,Washington Nationals,RC
+TS-98,Austin Hays,Baltimore Orioles,RC
+TS-99,Chance Sisco,Baltimore Orioles,RC
+TS-100,Sandy Alcantara,St. Louis Cardinals,RC
+S-1,Bryce Harper,Washington Nationals,
+S-2,Francisco Lindor,Cleveland Indians,
+S-3,Tommy Pham,St. Louis Cardinals,
+S-4,Trey Mancini,Baltimore Orioles,
+S-5,Manny Machado,Baltimore Orioles,
+S-6,Eric Thames,Milwaukee Brewers,
+S-7,Nolan Arenado,Colorado Rockies,
+S-8,Clint Frazier,New York Yankees,RC
+S-9,Franklin Barreto,Oakland Athletics,
+S-10,Khris Davis,Oakland Athletics,
+S-11,Miguel Cabrera,Detroit Tigers,
+S-12,Edwin Encarnacion,Cleveland Indians,
+S-13,Josh Harrison,Pittsburgh Pirates,
+S-14,Jose Altuve,Houston Astros,
+S-15,Manny Machado,Baltimore Orioles,
+S-16,Alex Bregman,Houston Astros,
+S-17,Jose Altuve,Houston Astros,
+S-18,Travis Shaw,Milwaukee Brewers,
+S-19,Orlando Arcia,Milwaukee Brewers,
+S-20,Adam Duvall,Cincinnati Reds,
+S-21,Mike Clevinger,Cleveland Indians,
+S-22,Francisco Lindor,Cleveland Indians,
+S-23,Jose Ramirez,Cleveland Indians,
+S-24,Edwin Encarnacion,Cleveland Indians,
+S-25,Chris Archer,Tampa Bay Rays,
+S-26,Corey Kluber,Cleveland Indians,
+S-27,Francisco Lindor,Cleveland Indians,
+S-28,Yoan Moncada,Chicago White Sox,
+S-29,Jose Abreu,Chicago White Sox,
+S-30,Nick Williams,Philadelphia Phillies,RC
+S-31,Keon Broxton,Milwaukee Brewers,
+S-32,Eric Thames,Milwaukee Brewers,
+S-33,Aaron Nola,Philadelphia Phillies,
+S-34,Travis Shaw,Milwaukee Brewers,
+S-35,Ryan Braun,Milwaukee Brewers,
+S-36,Domingo Santana,Milwaukee Brewers,
+S-37,Carlos Carrasco,Cleveland Indians,
+S-38,Nicholas Castellanos,Detroit Tigers,
+S-39,Nick Williams,Philadelphia Phillies,RC
+S-40,Elvis Andrus,Texas Rangers,
+S-41,Robinson Cano,Seattle Mariners,
+S-42,Josh Reddick,Houston Astros,
+S-43,Lance McCullers,Houston Astros,
+S-44,Ben Gamel,Seattle Mariners,
+S-45,Alex Bregman,Houston Astros,
+S-46,Jean Segura,Seattle Mariners,
+S-47,Hunter Renfroe,San Diego Padres,
+S-48,Wil Myers,San Diego Padres,
+S-49,Anthony Rizzo,Chicago Cubs,
+S-50,Addison Russell,Chicago Cubs,
+S-51,Josh Bell,Pittsburgh Pirates,
+S-52,Josh Harrison,Pittsburgh Pirates,
+S-53,Andrew McCutchen,Pittsburgh Pirates,
+S-54,Shohei Ohtani,Angels,RC
+S-55,Dillon Maples,Chicago Cubs,RC
+S-56,Rafael Devers,Boston Red Sox,RC
+S-57,Amed Rosario,New York Mets,RC
+S-58,Clint Frazier,New York Yankees,RC
+S-59,Willie Calhoun,Texas Rangers,RC
+S-60,Ozzie Albies,Atlanta Braves,RC
+S-61,Rhys Hoskins,Philadelphia Phillies,RC
+S-62,J.P. Crawford,Philadelphia Phillies,RC
+S-63,Francisco Mejia,Cleveland Indians,RC
+S-64,Jack Flaherty,St. Louis Cardinals,RC
+S-65,Austin Hays,Baltimore Orioles,RC
+S-66,Sandy Alcantara,Miami Marlins,RC
+S-67,Christian Villanueva,San Diego Padres,RC
+S-68,Kyle Farmer,Los Angeles Dodgers,RC
+S-69,Tim Locastro,Los Angeles Dodgers,RC
+S-70,Bob Gibson,St. Louis Cardinals,
+S-71,Chipper Jones,Atlanta Braves,
+S-72,Jim Thome,Cleveland Indians,
+S-73,Roberto Clemente,Pittsburgh Pirates,
+S-74,Ted Williams,Boston Red Sox,
+S-75,Ernie Banks,Chicago Cubs,
+S-76,Wade Boggs,Boston Red Sox,
+S-77,Reggie Jackson,New York Yankees,
+S-78,Derek Jeter,New York Yankees,
+S-79,Nolan Ryan,Houston Astros,
+S-80,Rickey Henderson,Oakland Athletics,
+S-81,Ozzie Smith,St. Louis Cardinals,
+S-82,Mariano Rivera,New York Yankees,
+S-83,Sandy Koufax,Los Angeles Dodgers,
+S-84,Jackie Robinson,Brooklyn Dodgers,
+S-85,Hank Aaron,Atlanta Braves,
+S-86,Aaron Judge,New York Yankees,
+S-87,Billy Hamilton,Cincinnati Reds,
+S-88,Jackie Bradley Jr.,Boston Red Sox,
+S-89,Manny Margot,San Diego Padres,
+S-90,Javier Baez,Chicago Cubs,
+S-91,Addison Russell,Chicago Cubs,
+S-92,Byron Buxton,Minnesota Twins,
+S-93,Kevin Kiermaier,Tampa Bay Rays,
+S-94,Nolan Arenado,Colorado Rockies,
+S-95,Yasiel Puig,Los Angeles Dodgers,
+S-96,Kevin Pillar,Toronto Blue Jays,
+S-98,Chris Taylor,Los Angeles Dodgers,
+S-99,Tommy Pham,St. Louis Cardinals,
+S-100,Justin Turner,Los Angeles Dodgers,
