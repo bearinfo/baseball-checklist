@@ -3,37 +3,69 @@
   "codes": {
     "RC": {
       "name": "Rookie Card",
-      "printed_as": ["Rookie", "RC", "(R)"],
+      "printed_as": [
+        "Rookie",
+        "RC",
+        "(R)"
+      ],
       "note": "Official MLB/MLBPA rookie card logo."
     },
     "FS": {
       "name": "Future Stars",
-      "printed_as": ["Future Stars", "FS"]
+      "printed_as": [
+        "Future Stars",
+        "FS"
+      ]
     },
     "RCUP": {
       "name": "All-Star Rookie Cup",
-      "printed_as": ["All-Star Rookie", "RCup"],
+      "printed_as": [
+        "All-Star Rookie",
+        "RCup",
+        "Rookie Cup"
+      ],
       "note": "Topps All-Star Rookie trophy. Not always noted on manufacturer checklists even when printed on the card."
     },
     "LL": {
       "name": "League Leaders",
-      "printed_as": ["League Leaders", "LL"],
+      "printed_as": [
+        "League Leaders",
+        "LL"
+      ],
       "note": "Usually a multi-subject card; see the multi-subject rule in ROW-FORMAT.md."
     },
     "TC": {
       "name": "Team Card",
-      "printed_as": ["Team Card", "TC"],
+      "printed_as": [
+        "Team Card",
+        "TC",
+        "Team Cards"
+      ],
       "note": "`name` holds the team name; `team` repeats it."
     },
     "CC": {
       "name": "Combo Card",
-      "printed_as": ["Combo Card"],
+      "printed_as": [
+        "Combo Card",
+        "Combo"
+      ],
       "note": "Multiple players in one photo. Independent of CL: 2026 Topps prints \"Combo Card\" alone (CC), 2025 Topps prints \"Combo Card/Checklist\" (CC CL)."
     },
     "CL": {
       "name": "Checklist",
-      "printed_as": ["Checklist", "CL"],
+      "printed_as": [
+        "Checklist",
+        "CL"
+      ],
       "note": "The card's back is a checklist."
+    },
+    "WSH": {
+      "name": "World Series Highlights",
+      "printed_as": [
+        "World Series Highlights",
+        "World Series"
+      ],
+      "note": "A base card commemorating a World Series moment, the same shape as LL. Topps prints World Series in 2018 (four Astros cards for the 2017 Series) and World Series Highlights from 2019 on; one code, both printed forms."
     }
   }
 }

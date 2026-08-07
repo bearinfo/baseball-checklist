@@ -48,6 +48,12 @@ PRINTED_TAILS = {
     "Combo Card/Checklist": ["CC", "CL"],
     "Future Star": ["FS"],
     "Checklist": ["CL"],
+    "Rookie Cup": ["RCUP"],
+    "RC": ["RC"],
+    "Team Cards": ["TC"],
+    "Combo": ["CC"],
+    "World Series Highlights": ["WSH"],
+    "World Series": ["WSH"],
 }
 
 # Headers that announce a kind rather than naming a section of their own.
@@ -174,7 +180,12 @@ def split_name_team(rest, teams):
             name = rest[:idx].strip()
             # Team cards print the team as the subject too:
             # "34Kansas City Royals Kansas City Royals Team Card"
-            if not name and tail == "Team Card":
+            # Some print it once and leave the subject implied: 2020 Series 2
+            # runs "DBC-1 Detroit Tigers Detroit Tigers" and then, on the same
+            # page of the same section, "DBC-3 St. Louis Cardinals". A line
+            # holding a team and nothing else is that card, and reading the
+            # subject off it repeats what is printed rather than inventing it.
+            if not name and tail in ("", "Team Card"):
                 name = team
             if name and tail in PRINTED_TAILS:
                 return name, team, PRINTED_TAILS[tail]
