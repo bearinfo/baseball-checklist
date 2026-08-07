@@ -1695,6 +1695,118 @@
       ]
     },
     {
+      "id": "fb5984ec-27ad-46a4-b632-1efce7ec5d2f",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "History Of Japanese Baseball"
+      ]
+    },
+    {
+      "id": "90f51ad9-6068-467b-9867-2278ff88153f",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "History Of Japanese Baseball"
+      ]
+    },
+    {
+      "id": "a6b97d80-b679-4a0a-bf3d-5be5ecabf3bd",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "History Of Japanese Baseball"
+      ]
+    },
+    {
+      "id": "da884144-9b16-4e26-b106-01d9df3e5fda",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "History Of Japanese Baseball"
+      ]
+    },
+    {
+      "id": "5b4a8b3a-95e4-4de3-9975-397e6ccb9abe",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "815e83c5-3cc4-4bd8-9ed4-de878f9ec137",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "598deb23-cc35-46d4-a7db-fb9c1279e0b1",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "e2bc8b4e-7d2b-4e03-964c-19dd491ba50c",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "7cbbe308-8db2-4ee2-b49d-4b7e5bcb7408",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "598138bb-49e3-4811-94ec-92da907dde3a",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Mascots"
+      ]
+    },
+    {
+      "id": "c74d82bf-4303-4d2d-93ad-bd02b663274b",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of Japan"
+      ]
+    },
+    {
+      "id": "2d770b46-fd1c-4c2c-a420-0ac37eab9115",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of Japan"
+      ]
+    },
+    {
+      "id": "a88cced3-5771-4964-9a88-07f84eed5b41",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of Japan"
+      ]
+    },
+    {
+      "id": "b3b13050-02ef-474f-a6e5-b15c2e901527",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Stars Of Japan"
+      ]
+    },
+    {
       "id": "785e443e-be6b-41c9-b7eb-e368a65aa089",
       "name": "Black",
       "coverage": "full",
@@ -1836,6 +1948,38 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
+      ]
+    },
+    {
+      "id": "3171ef5a-7130-4506-87f5-1a25c981646e",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "World Tour Domination"
+      ]
+    },
+    {
+      "id": "18cb5ef4-5503-431a-a407-715f2bff2581",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "World Tour Domination"
+      ]
+    },
+    {
+      "id": "6a93b432-c399-4817-a02d-0980a2130df5",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "World Tour Domination"
+      ]
+    },
+    {
+      "id": "9523f3ec-1b17-461f-acce-44e4995d48b2",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "World Tour Domination"
       ]
     }
   ],
