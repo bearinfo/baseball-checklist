@@ -539,6 +539,14 @@
       "retrieved": "2026-08-07",
       "covers": "the Traded Gimmicks variation; the Kevin Hart Gimmicks variation; the Kayfabe Rookies variation; the two factory set checklists",
       "notes": "Neither Topps checklist lists these two cards, in any section: #50 appears only as Juan Soto of the San Diego Padres. Both are variations of base cards — #50 shows Soto after his trade to the Yankees, and #250 shows Shohei Ohtani where the base card is Mookie Betts, a different player on the same number. Team abbreviations NYY and LAD are expanded to the forms Topps prints elsewhere in this set. Kevin Hart Gimmicks is eighteen cards with the comedian photoshopped into the foreground, every one a Phillie, and all eighteen verify against base.csv on number, name and team. Two claims about them are not recorded. That source says they are exclusive to Series One packs, but twelve of the eighteen carry Series 2 numbers and this set's Series 1 is #1-350 exactly, so the claim cannot be right as stated. And each is serial numbered to 52 — a joke about Hart's height — which has nowhere to go, because print_run belongs to a parallel and this is a variation checklist. Kayfabe Rookies is #697-700 with Jackson Holliday, Jackson Chourio, Jackson Merrill and Wyatt Langford where the base cards are Jordan Diaz, Gio Urshela, Sean Bouchard and Jose Altuve — four different players on four existing numbers, the same shape as 2026's Short Print Rookies. Topps prints no name for them and no checklist lists them, so the name is the one that source gives its section; teams and the RC designation are taken from where this set prints those players elsewhere. Trading Card Database describes the same four as the base factory set versions of those numbers, which is consistent and is why the 582 Montgomery Club entry says they are on the base checklist. Factory Set Rookie Variations is five cards in the retail factory set: #60, #141 and #553 keep their base players, while #697 and #698 carry Jackson Holliday and Jackson Chourio over Jordan Diaz and Gio Urshela. Trading Card Database lists factory set variations at #697-700 instead, adding Merrill and Langford and dropping the three lower numbers, so the two sources disagree on the extent; the five named here are what this source states. Factory Set All-Stars is five inserts in the All-Star Game factory set, numbered 1-5 of their own — base #1-5 are Ronald Acuña Jr., the Padres team card, Endy Rodríguez, Logan Webb and Owen White — so it declares no varies. Factory Set Kayfabe Rookie Bonus is the same four players as Kayfabe Rookies, #697-700, in the factory set rather than Series 2 packs, with different photography and COMPLETE SETS on the reverse. UNRESOLVED: #697 and #698 now sit in two factory set checklists at once, this one and Factory Set Rookie Variations, because that source describes both without saying whether they are the same cards. Trading Card Database calls its equivalent a five-card cello pack, which matches the Rookie Variations count, while also listing factory set variations at #697-700, which matches this one. Both are recorded as stated and one of them may be double-counting Holliday and Chourio."
+    },
+    {
+      "source_type": "community",
+      "source": "Baseball Card Pedia, 2024 Topps — base parallels",
+      "source_url": "https://baseballcardpedia.com/index.php/2024_Topps",
+      "retrieved": "2026-08-07",
+      "covers": "which parallels cover every base card",
+      "notes": "\"All 700 base cards are available in the following parallels\", followed by 27 entries, recorded here as coverage: full. Printing Plates is one entry there, \"set of four for each card\", and is declared as four — Black, Cyan, Magenta, Yellow — because a plate is a distinct one-of-one a collector owns and one entry cannot record owning the cyan one. Serial numbers are that page's. Trading Card Database agrees on every figure it gives, differing only in calling the foilboards crackle foils and holofoils. Parallels it lists that are absent from the 700 sentence are not declared here: 582 Montgomery Club, All-Star Game, First Card, Golden Mirror, the Holiday family and True Photo. Golden Mirror Image is already a 700-row variation checklist in this set, and Team Color Border a partial parallel of 625."
     }
   ],
   "series": [
@@ -552,6 +560,267 @@
     }
   ],
   "parallels": [
+    {
+      "id": "f48261ce-2f66-495c-b609-dca4f9b53708",
+      "name": "Aqua",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "e0c28976-43f3-470f-a45e-14f87b691782",
+      "name": "Aqua Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 399
+    },
+    {
+      "id": "88369b77-5903-422e-af0d-760f7576fa96",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 73
+    },
+    {
+      "id": "c6d62108-ff11-4c85-bb77-2f7f49fbf4b9",
+      "name": "Black Crackle Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "2b8bd5a3-a8af-4d71-bba9-2cb0212183d8",
+      "name": "Blue Holo Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 999
+    },
+    {
+      "id": "45297a8a-cc01-4abe-8b16-1ab0059b9018",
+      "name": "Clear",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 10
+    },
+    {
+      "id": "b4965d98-41a4-4218-91bc-967e61036331",
+      "name": "Father's Day Powder Blue",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 50
+    },
+    {
+      "id": "3ae5f6b3-b077-4f87-9ecc-9a4bf14795eb",
+      "name": "Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 265
+    },
+    {
+      "id": "a2e22a19-52ed-4f07-bb2f-8db6dc7fc0dc",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 2024
+    },
+    {
+      "id": "64f7a075-72bd-437d-b86f-70a48dbc51d2",
+      "name": "Gold Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "c36f035c-7627-49c4-9399-fd934f965038",
+      "name": "Green Crackle Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 499
+    },
+    {
+      "id": "9491e3ab-1463-49ee-b2a5-5bd687ef90a5",
+      "name": "Independence Day",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 76
+    },
+    {
+      "id": "d264ab16-e218-4951-b547-476159371b71",
+      "name": "Memorial Day Camouflage",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 25
+    },
+    {
+      "id": "dce05df4-1f39-4e57-af17-339909b96d31",
+      "name": "Mother's Day Hot Pink",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 50
+    },
+    {
+      "id": "1f913114-557a-4ee5-8669-cbbb18dfa561",
+      "name": "Orange Crackle Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 299
+    },
+    {
+      "id": "9d8be95e-1ac7-4c47-b15b-042d819c51eb",
+      "name": "Platinum",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "8c26d2da-09c0-4eea-901d-025f25377ff8",
+      "name": "Printing Plates Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "a12bfcf6-88cf-4b49-aa23-bd321a231578",
+      "name": "Printing Plates Cyan",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "8a598281-d5db-4a78-82fc-240572f55d99",
+      "name": "Printing Plates Magenta",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "31abf39c-9011-482a-b1c7-ec084e681a5f",
+      "name": "Printing Plates Yellow",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "d5aae6b7-c990-4eb9-afe0-350fbe6ad72d",
+      "name": "Purple",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "6e276f7c-b7e3-428c-9974-443a543eaaed",
+      "name": "Purple Holo Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 799
+    },
+    {
+      "id": "f7b16733-9743-431a-89a5-4be3ed1a813c",
+      "name": "Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "80afcaff-5e9c-41c3-9fd6-9fee0871143d",
+      "name": "Red Crackle Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 199
+    },
+    {
+      "id": "fb12a5b4-012e-4075-93bd-a271c84ec55f",
+      "name": "Royal Blue",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "36d04c09-d9e7-4478-a20c-51b8afe77a25",
+      "name": "Silver Crackle Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "7e266b41-4b84-4fbb-8fe8-a749b12c0dfc",
+      "name": "Vintage Stock",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 99
+    },
+    {
+      "id": "913a93c3-ec93-4f06-8a57-562a9d81b304",
+      "name": "Yellow",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
+    {
+      "id": "fa7cfc2d-fc31-4a6c-a472-c818f443e32b",
+      "name": "Yellow Crackle Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 50
+    },
+    {
+      "id": "2d791ba5-af2b-4f27-9295-122f946a870d",
+      "name": "Yellow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ]
+    },
     {
       "id": "a0b3ae73-c16f-4131-a1d3-9b6967ce6bf4",
       "name": "Team Color Border",
