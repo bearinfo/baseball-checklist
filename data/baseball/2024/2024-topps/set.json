@@ -550,8 +550,8 @@
       "source_type": "community",
       "source": "2024 Topps Baseball — Inserts and Related Sets, Trading Card Database",
       "retrieved": "2026-08-07",
-      "covers": "the parallels of the 2023 All Topps Team and 2023 Greatest Hits inserts",
-      "notes": "Five parallels: Black /299, Blue unnumbered, Gold /75, Platinum one-of-one and Red /10, all recorded as coverage unknown because that database names them and prints their runs without saying how many of the twelve cards each covers. Baseball Card Pedia documents no parallel of this insert, so nothing corroborates a count. The same insert one year later, 2024 All Topps Team in 2025 Topps, does have all eight of its parallels declared as full coverage — from a statement on that site, not from the shape of the ladder, and the difference between the two years is what evidence exists rather than what the cards are likely to be. A sixth entry there, 2023 All Topps Team Autographs, is not recorded as a parallel: it is already an autograph checklist in this set, and its run is given as 25 or less, a range rather than anything printed on a card. The twelve rows of the insert were verified against Baseball Card Pedia and match on every number and name. 2023 Greatest Hits carries the same five parallels on the same runs — Black /299, Blue unnumbered, Gold /75, Platinum one-of-one, Red /10 — recorded as unknown for the same reason, and its autographs are likewise already a checklist here rather than a parallel. That two unrelated inserts share a ladder to the copy is worth stating: it is a house structure Topps applied across the product, not a fact discovered about either insert, and it is not evidence of coverage for either. That database adds that both were issued in Series One packs, which is recorded on neither, being a statement about the inserts rather than about their parallels. The thirty-one rows of Greatest Hits were verified and match on every number and name, including the three consecutive Shohei Ohtani cards at 23GH-12, 13 and 14 and the repeated players at 5 and 8, 9 and 20, 10 and 19, 2 and 27, 16 and 28."
+      "covers": "the parallels of the 2023 All Topps Team, 2023 Greatest Hits and Grand Gamers inserts",
+      "notes": "Five parallels: Black /299, Blue unnumbered, Gold /75, Platinum one-of-one and Red /10, all recorded as coverage unknown because that database names them and prints their runs without saying how many of the twelve cards each covers. Baseball Card Pedia documents no parallel of this insert, so nothing corroborates a count. The same insert one year later, 2024 All Topps Team in 2025 Topps, does have all eight of its parallels declared as full coverage — from a statement on that site, not from the shape of the ladder, and the difference between the two years is what evidence exists rather than what the cards are likely to be. A sixth entry there, 2023 All Topps Team Autographs, is not recorded as a parallel: it is already an autograph checklist in this set, and its run is given as 25 or less, a range rather than anything printed on a card. The twelve rows of the insert were verified against Baseball Card Pedia and match on every number and name. 2023 Greatest Hits carries the same five parallels on the same runs — Black /299, Blue unnumbered, Gold /75, Platinum one-of-one, Red /10 — recorded as unknown for the same reason, and its autographs are likewise already a checklist here rather than a parallel. That two unrelated inserts share a ladder to the copy is worth stating: it is a house structure Topps applied across the product, not a fact discovered about either insert, and it is not evidence of coverage for either. That database adds that both were issued in Series One packs, which is recorded on neither, being a statement about the inserts rather than about their parallels. The thirty-one rows of Greatest Hits were verified and match on every number and name, including the three consecutive Shohei Ohtani cards at 23GH-12, 13 and 14 and the repeated players at 5 and 8, 9 and 20, 10 and 19, 2 and 27, 16 and 28. Grand Gamers is the third insert on that identical ladder, Black /299, Blue unnumbered, Gold /75, Platinum one-of-one, Red /10, unknown for the same reason, with its autographs again already a checklist. Three inserts now share it exactly, which makes it the default treatment for this product rather than a property of any one insert. A fourth insert found on the same five names and runs should be read as confirming that pattern, and still not as evidence of how many cards any of them covers — the ladder describes what colours exist, and coverage is the separate question of how much of a checklist each colour reaches. Its twenty-six rows verified and match on every number and name."
     }
   ],
   "series": [
@@ -1232,6 +1232,50 @@
       "coverage": "unknown",
       "applies_to": [
         "2023 Greatest Hits"
+      ],
+      "print_run": 10
+    },
+    {
+      "id": "9fc7cdca-3348-4862-a4f4-ecb7fe3d4f93",
+      "name": "Black",
+      "coverage": "unknown",
+      "applies_to": [
+        "Grand Gamers"
+      ],
+      "print_run": 299
+    },
+    {
+      "id": "548507d2-4179-4143-ba5b-dcfdc8cf96e4",
+      "name": "Blue",
+      "coverage": "unknown",
+      "applies_to": [
+        "Grand Gamers"
+      ]
+    },
+    {
+      "id": "4ec31cfd-74f2-4f07-b34b-41b11a3785a3",
+      "name": "Gold",
+      "coverage": "unknown",
+      "applies_to": [
+        "Grand Gamers"
+      ],
+      "print_run": 75
+    },
+    {
+      "id": "93757ab0-e555-4bec-8ac7-e8a672bbc58b",
+      "name": "Platinum",
+      "coverage": "unknown",
+      "applies_to": [
+        "Grand Gamers"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "3d7408a8-eaa1-4abe-a6b2-637f8bd84a95",
+      "name": "Red",
+      "coverage": "unknown",
+      "applies_to": [
+        "Grand Gamers"
       ],
       "print_run": 10
     }
