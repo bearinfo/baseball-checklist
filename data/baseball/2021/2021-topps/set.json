@@ -1,0 +1,502 @@
+{
+  "schema_version": "1.0",
+  "id": "74647946-85e4-4bf7-bcaa-2795d3399b04",
+  "name": "2021 Topps",
+  "slug": "2021-topps",
+  "sport": "baseball",
+  "year": 2021,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 660
+    },
+    {
+      "file": "autographs/1951-topps-major-league-all-stars-boxtopper-autograph-variation.csv",
+      "name": "1951 Topps Major League All Stars Boxtopper Autograph Variation",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/1986-topps-all-star-baseball-autograph-variation.csv",
+      "name": "1986 Topps All Star Baseball Autograph Variation",
+      "kind": "autograph",
+      "card_count": 43
+    },
+    {
+      "file": "autographs/1986-topps-all-star-baseball-relics.csv",
+      "name": "1986 Topps All Star Baseball Relics",
+      "kind": "autograph",
+      "card_count": 45
+    },
+    {
+      "file": "autographs/1986-topps-baseball-autograph-variation.csv",
+      "name": "1986 Topps Baseball Autograph Variation",
+      "kind": "autograph",
+      "card_count": 104
+    },
+    {
+      "file": "autographs/1986-topps-baseball-autographs.csv",
+      "name": "1986 Topps Baseball Autographs",
+      "kind": "autograph",
+      "card_count": 71
+    },
+    {
+      "file": "autographs/1986-topps-baseball-chrome-autographs.csv",
+      "name": "1986 Topps Baseball Chrome Autographs",
+      "kind": "autograph",
+      "card_count": 80
+    },
+    {
+      "file": "autographs/1986-topps-baseball-chrome-variation-autograph-parallel.csv",
+      "name": "1986 Topps Baseball Chrome Variation Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 65,
+      "varies": "inserts/1986-topps-baseball-chrome-variation.csv"
+    },
+    {
+      "file": "autographs/70-years-of-baseball-autograph-cards.csv",
+      "name": "70 Years Of Baseball Autograph Cards",
+      "kind": "autograph",
+      "card_count": 70
+    },
+    {
+      "file": "autographs/70-years-of-baseball-autographs.csv",
+      "name": "70 Years Of Baseball Autographs",
+      "kind": "autograph",
+      "card_count": 69
+    },
+    {
+      "file": "autographs/70-years-of-baseball-dual-autograph-cards.csv",
+      "name": "70 Years Of Baseball Dual Autograph Cards",
+      "kind": "autograph",
+      "card_count": 20
+    },
+    {
+      "file": "autographs/70-years-of-baseball-dual-autographs.csv",
+      "name": "70 Years Of Baseball Dual Autographs",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/70-years-of-topps-baseball-autograph-parallel.csv",
+      "name": "70 Years Of Topps Baseball Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 52,
+      "varies": "inserts/70-years-of-topps-baseball-series-1.csv"
+    },
+    {
+      "file": "autographs/70-years-of-topps-baseball-autographs.csv",
+      "name": "70 Years Of Topps Baseball Autographs",
+      "kind": "autograph",
+      "card_count": 58
+    },
+    {
+      "file": "autographs/cody-bellinger-highlights-autograph-parallel.csv",
+      "name": "Cody Bellinger Highlights Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30,
+      "varies": "inserts/cody-bellinger-highlights-insert.csv"
+    },
+    {
+      "file": "autographs/commemorative-world-series-rings-cards-autograph-parallel.csv",
+      "name": "Commemorative World Series Rings Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 41
+    },
+    {
+      "file": "autographs/commemorative-world-series-rings-cards.csv",
+      "name": "Commemorative World Series Rings Cards",
+      "kind": "autograph",
+      "card_count": 50
+    },
+    {
+      "file": "autographs/dh-debuts-autographs.csv",
+      "name": "Dh Debuts Autographs",
+      "kind": "autograph",
+      "card_count": 13
+    },
+    {
+      "file": "autographs/juan-soto-highlights-autograph.csv",
+      "name": "Juan Soto Highlights Autograph",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/major-league-material-relic-cards.csv",
+      "name": "Major League Material Relic Cards",
+      "kind": "autograph",
+      "card_count": 45
+    },
+    {
+      "file": "autographs/manufactured-rookie-patch-cards-autograph-parallel.csv",
+      "name": "Manufactured Rookie Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 29
+    },
+    {
+      "file": "autographs/postseason-performance-autograph-cards.csv",
+      "name": "Postseason Performance Autograph Cards",
+      "kind": "autograph",
+      "card_count": 25
+    },
+    {
+      "file": "autographs/rookie-patch-cards.csv",
+      "name": "Rookie Patch Cards",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/significant-statistics-autographs.csv",
+      "name": "Significant Statistics Autographs",
+      "kind": "autograph",
+      "card_count": 17
+    },
+    {
+      "file": "autographs/significant-statistics-relic-cards.csv",
+      "name": "Significant Statistics Relic Cards",
+      "kind": "autograph",
+      "card_count": 20
+    },
+    {
+      "file": "autographs/spring-training-cap-logo-cards-autograph-parallel.csv",
+      "name": "Spring Training Cap Logo Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 40
+    },
+    {
+      "file": "autographs/stars-in-service-autograph-parallel.csv",
+      "name": "Stars In Service Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 16,
+      "varies": "inserts/stars-in-service.csv"
+    },
+    {
+      "file": "autographs/topps-70th-anniversary-logo-patch-cards-autograph-parallel.csv",
+      "name": "Topps 70th Anniversary Logo Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 32
+    },
+    {
+      "file": "autographs/topps-platinum-players-die-cuts-autograph-parallel.csv",
+      "name": "Topps Platinum Players Die Cuts Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 16,
+      "varies": "inserts/topps-platinum-players-die-cuts.csv"
+    },
+    {
+      "file": "autographs/topps-platinum-players-die-cuts-autographs.csv",
+      "name": "Topps Platinum Players Die Cuts Autographs",
+      "kind": "autograph",
+      "card_count": 16
+    },
+    {
+      "file": "autographs/world-champion-autograph-cards.csv",
+      "name": "World Champion Autograph Cards",
+      "kind": "autograph",
+      "card_count": 13
+    },
+    {
+      "file": "autographs/zero-to-60-autographs.csv",
+      "name": "Zero To 60 Autographs",
+      "kind": "autograph",
+      "card_count": 16
+    },
+    {
+      "file": "inserts/1986-topps-all-star-baseball.csv",
+      "name": "1986 Topps All Star Baseball",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1986-topps-baseball-chrome-variation.csv",
+      "name": "1986 Topps Baseball Chrome Variation",
+      "kind": "insert",
+      "card_count": 200
+    },
+    {
+      "file": "inserts/1986-topps-baseball-series-1.csv",
+      "name": "1986 Topps Baseball Series 1",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/1986-topps-baseball-series-2.csv",
+      "name": "1986 Topps Baseball Series 2",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/70-years-of-topps-baseball-chrome-variation-series-1.csv",
+      "name": "70 Years Of Topps Baseball Chrome Variation Series 1",
+      "kind": "insert",
+      "card_count": 70
+    },
+    {
+      "file": "inserts/70-years-of-topps-baseball-chrome-variation-series-2.csv",
+      "name": "70 Years Of Topps Baseball Chrome Variation Series 2",
+      "kind": "insert",
+      "card_count": 70
+    },
+    {
+      "file": "inserts/70-years-of-topps-baseball-series-1.csv",
+      "name": "70 Years Of Topps Baseball Series 1",
+      "kind": "insert",
+      "card_count": 70
+    },
+    {
+      "file": "inserts/70-years-of-topps-baseball-series-2.csv",
+      "name": "70 Years Of Topps Baseball Series 2",
+      "kind": "insert",
+      "card_count": 70
+    },
+    {
+      "file": "inserts/cody-bellinger-highlights-insert.csv",
+      "name": "Cody Bellinger Highlights Insert",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/dh-debuts.csv",
+      "name": "Dh Debuts",
+      "kind": "insert",
+      "card_count": 15
+    },
+    {
+      "file": "inserts/home-run-challenge-code-cards.csv",
+      "name": "Home Run Challenge Code Cards",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/hr-challenge-code-cards.csv",
+      "name": "Hr Challenge Code Cards",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/juan-soto-highlights.csv",
+      "name": "Juan Soto Highlights",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/significant-statistics.csv",
+      "name": "Significant Statistics",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/stars-in-service.csv",
+      "name": "Stars In Service",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/the-history-of-topps.csv",
+      "name": "The History Of Topps",
+      "kind": "insert",
+      "card_count": 9
+    },
+    {
+      "file": "inserts/topps-1952-redux-chrome-variation.csv",
+      "name": "Topps 1952 Redux Chrome Variation",
+      "kind": "insert",
+      "card_count": 75
+    },
+    {
+      "file": "inserts/topps-1952-redux.csv",
+      "name": "Topps 1952 Redux",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/topps-1965-redux-chrome-variation.csv",
+      "name": "Topps 1965 Redux Chrome Variation",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/topps-1965-redux.csv",
+      "name": "Topps 1965 Redux",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/topps-double-headers.csv",
+      "name": "Topps Double Headers",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/topps-platinum-players-die-cuts.csv",
+      "name": "Topps Platinum Players Die Cuts",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/topps-through-the-years.csv",
+      "name": "Topps Through The Years",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/zero-to-60.csv",
+      "name": "Zero To 60",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "relics/1986-topps-baseball-relics-series-1.csv",
+      "name": "1986 Topps Baseball Relics Series 1",
+      "kind": "relic",
+      "card_count": 53
+    },
+    {
+      "file": "relics/1986-topps-baseball-relics-series-2.csv",
+      "name": "1986 Topps Baseball Relics Series 2",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/cut-signatures-series-1.csv",
+      "name": "Cut Signatures Series 1",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/cut-signatures-series-2.csv",
+      "name": "Cut Signatures Series 2",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/iconic-card-patches.csv",
+      "name": "Iconic Card Patches",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/in-the-name-relics-series-1.csv",
+      "name": "In The Name Relics Series 1",
+      "kind": "relic",
+      "card_count": 70
+    },
+    {
+      "file": "relics/in-the-name-relics-series-2.csv",
+      "name": "In The Name Relics Series 2",
+      "kind": "relic",
+      "card_count": 60
+    },
+    {
+      "file": "relics/major-league-material-autograph-relic-cards-series-1.csv",
+      "name": "Major League Material Autograph Relic Cards Series 1",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/major-league-material-autograph-relic-cards-series-2.csv",
+      "name": "Major League Material Autograph Relic Cards Series 2",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/major-league-material-cards.csv",
+      "name": "Major League Material Cards",
+      "kind": "relic",
+      "card_count": 42
+    },
+    {
+      "file": "relics/postseason-performance-autograph-relic-cards.csv",
+      "name": "Postseason Performance Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 24
+    },
+    {
+      "file": "relics/postseason-performance-relic-cards.csv",
+      "name": "Postseason Performance Relic Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/significant-statistics-autograph-relic-cards.csv",
+      "name": "Significant Statistics Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 15
+    },
+    {
+      "file": "relics/spring-training-cap-logo-cards.csv",
+      "name": "Spring Training Cap Logo Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/topps-70th-anniversary-logo-patch-cards-series-1.csv",
+      "name": "Topps 70th Anniversary Logo Patch Cards Series 1",
+      "kind": "relic",
+      "card_count": 25
+    },
+    {
+      "file": "relics/topps-70th-anniversary-logo-patch-cards-series-2.csv",
+      "name": "Topps 70th Anniversary Logo Patch Cards Series 2",
+      "kind": "relic",
+      "card_count": 25
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards.csv",
+      "name": "Topps Reverence Autograph Patch Cards",
+      "kind": "relic",
+      "card_count": 92
+    },
+    {
+      "file": "relics/world-champion-autograph-relic-cards.csv",
+      "name": "World Champion Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 10
+    },
+    {
+      "file": "relics/world-champion-relic-cards.csv",
+      "name": "World Champion Relic Cards",
+      "kind": "relic",
+      "card_count": 15
+    },
+    {
+      "file": "variations/clear-variation.csv",
+      "name": "Clear Variation",
+      "kind": "variation",
+      "card_count": 200,
+      "varies": "base.csv"
+    }
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-330"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "331-660"
+    }
+  ],
+  "parallels": [],
+  "verified": false,
+  "notes": "One set issued in two waves, 660 base card numbers.",
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2021series1baseball.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 1 (#1-330) and its inserts",
+      "notes": "Topps prints \"Chicage White Sox\" on 86BC-9 and 86BC-16 and \"Montreal Expos\" unaccented on 70YTC-36, and both forms are in teams.json because rows record what is printed. Combo cards are tailed \"Combo\" here where other years print \"Combo Card\"."
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2021toppsseries2checklist.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 2 (#331-660) and its inserts",
+      "notes": "Five sections Topps heads CHROME VARIATION are inserts here, because each numbers itself rather than reusing what it varies: 1986 Topps Baseball Chrome runs 86BC-1 to 86BC-200, Topps 1952 Redux Chrome 51BT-1 to 51BT-75, Topps 1965 Redux Chrome TC65-1 to TC65-50, and the two 70 Years of Topps Baseball Chrome lists 70YTC-1 to 70YTC-70 against the insert's 70YT-1 to 70YT-70. A variation shares the numbering of what it varies; these introduce 465 card numbers between them. Which series each belongs to was settled by its players rather than its numbers, since the two 70 Years Chrome lists use identical numbers and disagree on all seventy: the first names the Series 1 insert's players on 69 of 70 and the Series 2 insert's on none, and the second the exact reverse. The same test placed the 70 Years autographs, which match the Series 1 insert on 50 of 52 rows and Series 2 on none, so they vary Series 1. Four other autograph lists overlap their parent without being contained by it — Spring Training Cap Logo shares 33 of its 39 numbers, Topps 70th Anniversary Logo Patch 17 of 32 — so they introduce cards and declare no varies."
+    }
+  ]
+}
