@@ -54,10 +54,34 @@ PRINTED_TAILS = {
     "Combo": ["CC"],
     "World Series Highlights": ["WSH"],
     "World Series": ["WSH"],
+    "Greatest Moments": ["GM"],
+    "Greatest Players": ["GP"],
+    "Greatest Seasons": ["GS"],
+    "Team Uniforms": ["TU"],
+    "Stadiums": ["STA"],
+    "HR Leaders League Leaders": ["LL", "HRL"],
+    "AVG Leaders League Leaders": ["LL", "AVGL"],
+    "ERA Leaders League Leaders": ["LL", "ERAL"],
+    "RBI Leaders League Leaders": ["LL", "RBIL"],
+    "Strikeouts Leaders League Leaders": ["LL", "KL"],
+    "WINS Leaders League Leaders": ["LL", "WL"],
 }
 
 # Headers that announce a kind rather than naming a section of their own.
-KIND_MARKERS = {"BASE", "BASE SET", "BASE CARD SET", "BASE COMPLETE SET"}
+KIND_MARKERS = {"BASE", "BASE SET", "BASE CARD SET", "BASE COMPLETE SET",
+                "SERIES 1 - BASE SET", "SERIES 2 - BASE SET",
+                # Topps splits the base run under sub-headers in some
+                # years — 2018 and 2019 Series 2 print VETERANS over the
+                # cards that continue base numbering. They announce a
+                # part of base, not a section of their own.
+                "VETERANS", "ROOKIES"}
+
+# Topps prints a card number to say it holds no card: 2018 Series 2 has
+# "364DOES NOT EXIST IN SERIES 2". Full caps, so it reads as a header and
+# split the base run into sections named after it. It is neither a card
+# nor a header — the number simply has no row.
+MISSING_NUMBER = re.compile(r"^#?\s*[A-Za-z0-9\-]*\d\s*DOES NOT EXIST\b",
+                            re.IGNORECASE)
 
 # A card line starts with its card number, which is TEXT and not always
 # numeric: "1", "US300", "GN-1", "MLMA-AB" and "YTA-VW" are all card numbers.
@@ -330,9 +354,13 @@ def read_sections(pdf_path, teams):
 
     sections, current = [], None
     kind_context, distribution, skipping = "insert", "", None
-    skipped, teamless = [], 0
+    skipped, teamless, missing = [], 0, []
     for page_no, line in lines:
         if FURNITURE.match(line) or (page_no == 1 and TITLE_LINE.match(line)):
+            continue
+
+        if MISSING_NUMBER.match(line):
+            missing.append(line)
             continue
 
         # A header is set in full caps. Checked before card shape because a
@@ -386,6 +414,10 @@ def read_sections(pdf_path, teams):
         print(f"skipped {len(skipped)} non-card section(s):", file=sys.stderr)
         for page_no, name in skipped:
             print(f"    p{page_no}: {name}", file=sys.stderr)
+    if missing:
+        print(f"{len(missing)} number(s) printed as absent (no row):", file=sys.stderr)
+        for line in missing:
+            print(f"    {line}", file=sys.stderr)
     if teamless:
         print(f"note: {teamless} row(s) printed without a team (emitted with "
               f"team empty; not allowed in base/variation)", file=sys.stderr)

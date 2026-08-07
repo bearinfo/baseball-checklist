@@ -66,6 +66,83 @@
         "World Series"
       ],
       "note": "A base card commemorating a World Series moment, the same shape as LL. Topps prints World Series in 2018 (four Astros cards for the 2017 Series) and World Series Highlights from 2019 on; one code, both printed forms."
+    },
+    "GM": {
+      "name": "Greatest Moments",
+      "printed_as": [
+        "Greatest Moments"
+      ],
+      "note": "A category Topps prints per card inside 2019 Series 1's 150-card 150 Years of Professional Baseball insert. These are the manufacturer's own taxonomy, not this repo's: 2019 Series 2 promotes the same five names to separate inserts with their own numbering (GP-1 to GP-50, GM-1 to GM-25, GS-1 to GS-25, and the two Evolution sets), where they are checklists rather than designations."
+    },
+    "GP": {
+      "name": "Greatest Players",
+      "printed_as": [
+        "Greatest Players"
+      ],
+      "note": "A category Topps prints per card inside 2019 Series 1's 150-card 150 Years of Professional Baseball insert. These are the manufacturer's own taxonomy, not this repo's: 2019 Series 2 promotes the same five names to separate inserts with their own numbering (GP-1 to GP-50, GM-1 to GM-25, GS-1 to GS-25, and the two Evolution sets), where they are checklists rather than designations."
+    },
+    "GS": {
+      "name": "Greatest Seasons",
+      "printed_as": [
+        "Greatest Seasons"
+      ],
+      "note": "A category Topps prints per card inside 2019 Series 1's 150-card 150 Years of Professional Baseball insert. These are the manufacturer's own taxonomy, not this repo's: 2019 Series 2 promotes the same five names to separate inserts with their own numbering (GP-1 to GP-50, GM-1 to GM-25, GS-1 to GS-25, and the two Evolution sets), where they are checklists rather than designations."
+    },
+    "TU": {
+      "name": "Team Uniforms",
+      "printed_as": [
+        "Team Uniforms"
+      ],
+      "note": "A category Topps prints per card inside 2019 Series 1's 150-card 150 Years of Professional Baseball insert. These are the manufacturer's own taxonomy, not this repo's: 2019 Series 2 promotes the same five names to separate inserts with their own numbering (GP-1 to GP-50, GM-1 to GM-25, GS-1 to GS-25, and the two Evolution sets), where they are checklists rather than designations."
+    },
+    "STA": {
+      "name": "Stadiums",
+      "printed_as": [
+        "Stadiums"
+      ],
+      "note": "A category Topps prints per card inside 2019 Series 1's 150-card 150 Years of Professional Baseball insert. These are the manufacturer's own taxonomy, not this repo's: 2019 Series 2 promotes the same five names to separate inserts with their own numbering (GP-1 to GP-50, GM-1 to GM-25, GS-1 to GS-25, and the two Evolution sets), where they are checklists rather than designations."
+    },
+    "HRL": {
+      "name": "HR Leaders",
+      "printed_as": [
+        "HR Leaders"
+      ],
+      "note": "The statistic a League Leaders card ranks, printed alongside LL by 2022 Topps: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" is \"LL HRL\". Carried with LL, never instead of it. Earlier and later years print League Leaders alone, so these appear only where Topps printed them."
+    },
+    "AVGL": {
+      "name": "AVG Leaders",
+      "printed_as": [
+        "AVG Leaders"
+      ],
+      "note": "The statistic a League Leaders card ranks, printed alongside LL by 2022 Topps: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" is \"LL HRL\". Carried with LL, never instead of it. Earlier and later years print League Leaders alone, so these appear only where Topps printed them."
+    },
+    "ERAL": {
+      "name": "ERA Leaders",
+      "printed_as": [
+        "ERA Leaders"
+      ],
+      "note": "The statistic a League Leaders card ranks, printed alongside LL by 2022 Topps: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" is \"LL HRL\". Carried with LL, never instead of it. Earlier and later years print League Leaders alone, so these appear only where Topps printed them."
+    },
+    "RBIL": {
+      "name": "RBI Leaders",
+      "printed_as": [
+        "RBI Leaders"
+      ],
+      "note": "The statistic a League Leaders card ranks, printed alongside LL by 2022 Topps: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" is \"LL HRL\". Carried with LL, never instead of it. Earlier and later years print League Leaders alone, so these appear only where Topps printed them."
+    },
+    "KL": {
+      "name": "Strikeouts Leaders",
+      "printed_as": [
+        "Strikeouts Leaders"
+      ],
+      "note": "The statistic a League Leaders card ranks, printed alongside LL by 2022 Topps: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" is \"LL HRL\". Carried with LL, never instead of it. Earlier and later years print League Leaders alone, so these appear only where Topps printed them."
+    },
+    "WL": {
+      "name": "WINS Leaders",
+      "printed_as": [
+        "WINS Leaders"
+      ],
+      "note": "The statistic a League Leaders card ranks, printed alongside LL by 2022 Topps: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" is \"LL HRL\". Carried with LL, never instead of it. Earlier and later years print League Leaders alone, so these appear only where Topps printed them."
     }
   }
 }
