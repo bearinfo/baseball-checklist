@@ -202,6 +202,13 @@
       "card_count": 25
     },
     {
+      "file": "inserts/carrying-the-flag.csv",
+      "name": "Carrying the Flag",
+      "kind": "insert",
+      "card_count": 30,
+      "distribution": "Costco Flagship Collection Super Box Exclusive"
+    },
+    {
       "file": "inserts/companion-cards.csv",
       "name": "Companion Cards",
       "kind": "insert",
@@ -243,6 +250,13 @@
       "name": "Legendary Homefield Advantage",
       "kind": "insert",
       "card_count": 9
+    },
+    {
+      "file": "inserts/mesmerized.csv",
+      "name": "Mesmerized",
+      "kind": "insert",
+      "card_count": 20,
+      "distribution": "Costco Flagship Collection Super Box Exclusive"
     },
     {
       "file": "inserts/ops-bests.csv",
@@ -629,6 +643,14 @@
       "retrieved": "2026-08-06",
       "covers": "True Photo and Team Color Border as full base parallels; the 582 Montgomery Club factory set parallel",
       "notes": "Both print all 700 base cards in 2025 and are declared coverage: full on that assertion alone. Baseball Card Pedia omits them from its list of parallels covering the whole base set, while listing Vintage Stock and Clear, which print all 700 the same year. Its 2026 page says of all four \"after years as full parallels, the following are now 200-card partial-parallels\", so the omission is that list being incomplete rather than these two being partial in 2025. The 582 Montgomery Club factory set, sold to club members, prints every base card with a sublimated 582 Club logo, so it is declared coverage: full. The box itself is not declared as a packaging: a packaging lists checklist files it contains and this one holds a parallel, which has no file, so the schema cannot yet say what is in it."
+    },
+    {
+      "source_type": "community",
+      "source": "Trading Card Database, 2025 Topps — Inserts and Related Sets",
+      "source_url": "https://www.tcdb.com/",
+      "retrieved": "2026-08-07",
+      "covers": "Carrying the Flag and Mesmerized, two Costco Super Box sets",
+      "notes": "Neither appears in the Topps series checklists, which is why this repo had no record of them. Card numbers and the players on them come from this source; the spelling of each name and team is taken from what Topps prints elsewhere in this set, so José Ramírez and Julio Rodríguez keep their accents and Mike Trout plays for the Angels rather than the Los Angeles Angels. Carrying the Flag is one card per club, all 30 distinct. Both sets are serial numbered — Carrying the Flag to 100 — which is not recorded: print runs live on parallels, and these are checklists."
     }
   ],
   "series": [
