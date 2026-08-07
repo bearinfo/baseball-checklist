@@ -65,13 +65,21 @@ def check_rows(path, checklist, vocab, failures):
         name = (row.get("name") or "").strip()
         team = (row.get("team") or "").strip()
 
+        # A manufacturer sometimes prints several different cards on ONE
+        # number — all six 2024 Jackson Holliday Fun Face cards say 697 — so
+        # the number alone cannot identify a row. What tells them apart is
+        # variation_note, which therefore joins the key. Two rows sharing both
+        # are still a duplicate.
+        note = (row.get("variation_note") or "").strip()
+        key = (card_number, note)
         if not card_number:
             failures.add(where, "card_number is empty")
-        elif card_number in seen:
-            failures.add(where, f"card_number {card_number!r} already used on "
-                                f"line {seen[card_number]} of this file")
+        elif key in seen:
+            failures.add(where, f"card_number {card_number!r}"
+                                + (f" with variation_note {note!r}" if note else "")
+                                + f" already used on line {seen[key]} of this file")
         else:
-            seen[card_number] = number
+            seen[key] = number
         if not name:
             failures.add(where, "name is empty")
         if not team and not teamless_ok:
@@ -101,25 +109,6 @@ def check_rows(path, checklist, vocab, failures):
         flag = (row.get("is_short_print") or "").strip().lower()
         if flag not in BOOLEAN:
             failures.add(where, f"is_short_print {flag!r} is not true/false")
-
-
-SUFFIXED = re.compile(r"^(.*?)([a-z])$")
-
-
-def varies_number(number, known):
-    """Whether a row's card_number belongs to the checklist it varies.
-
-    Normally it is simply one of them. A card can also carry a lowercase
-    suffix — 697b, 697c — which is how a set that prints several different
-    cards on ONE number is written down: Topps stamps 697 on all six Jackson
-    Holliday Fun Face cards, so the number alone identifies none of them.
-    The suffix distinguishes them without touching base.csv and without
-    inventing a card, and 697b is a variation of 697 exactly as 697 would be.
-    """
-    if number in known:
-        return True
-    match = SUFFIXED.match(number)
-    return bool(match) and match.group(1) in known
 
 
 def check_set(set_dir, schemas, vocab, failures):
@@ -278,7 +267,7 @@ def check_set(set_dir, schemas, vocab, failures):
             continue
         known = set(numbers.get(source, []))
         for line, number in enumerate(numbers.get(checklist["file"], []), start=2):
-            if number and not varies_number(number, known):
+            if number and number not in known:
                 failures.add(f"{(set_dir / checklist['file']).relative_to(REPO)}:{line}",
                              f"card_number {number!r} is not in {source} — a "
                              f"variation cannot introduce a new card")

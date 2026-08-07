@@ -12,7 +12,7 @@ bump — never by ad-hoc columns.
 
 | Column | Required | Meaning |
 |---|---|---|
-| `card_number` | **yes** | Always TEXT, exactly as printed: `1`, `US300`, `GN-1`. Unique **within the file** — see Numbering scope. A lowercase suffix (`697b`, `697c`) is the one addition allowed: it distinguishes cards a manufacturer printed on ONE number. |
+| `card_number` | **yes** | Always TEXT, exactly as printed: `1`, `US300`, `GN-1`. Unique **within the file** — see Numbering scope. Unique with `variation_note` where a manufacturer prints several cards on one number. |
 | `name` | **yes** | Who or what is on the card, **as printed** — a player name, a team name (team cards), or a title. Never a resolved/corrected identity. |
 | `team` | **yes** | Team name from the checked-in `data/baseball/teams.json` list, trademark glyphs stripped. |
 | `designations` | no | Space-separated codes from `schema/1.0/designations.json`, e.g. `RC`, `FS`, `CC CL`. Empty = plain base card. |
@@ -57,20 +57,26 @@ variations/short-print-rookies.csv  697  Kevin McGonigle   is_short_print=true
 
 ### Several cards on one number
 
-Topps stamps 697 on all six Jackson Holliday Fun Face cards of 2024, so the
-number identifies none of them. Such cards take a lowercase suffix — `697c`
-"Fun Face" on the bat knob, `697d` black box, `697e` black scribble — which is
-how Trading Card Database writes them and the only departure from *as printed*
-this format allows.
+Topps stamps 697 on all six Jackson Holliday Fun Face cards of 2024 — an
+homage to the 1989 Fleer Billy Ripken, down to the black box and the scribble.
+The number identifies none of them, and it is still the number printed on every
+one:
 
-It is a small lie that prevents a larger one. Six rows numbered `697` would
-break uniqueness; one row for all six would lose five cards; renumbering the
-base card would corrupt a checklist that is right. The suffix leaves `base.csv`
-untouched, invents no card, and keeps every card individually ownable, which is
-the point of a checklist.
+```csv
+697,Jackson Holliday,Baltimore Orioles,RC,"Fun Face" on the bat knob
+697,Jackson Holliday,Baltimore Orioles,RC,Black box over the bat knob
+697,Jackson Holliday,Baltimore Orioles,RC,Black scribble over the bat knob
+```
 
-Validation follows the suffix: `697c` satisfies `varies: base.csv` because 697
-does. A suffix whose stem is not in the parent — `999z` — still fails.
+So the row key is `card_number` **plus `variation_note`**, and uniqueness is
+enforced on the pair. Two rows sharing a number and a note are still a
+duplicate and still fail.
+
+Where numbers repeat, `variation_note` stops being decorative: it is the only
+thing telling the cards apart, so it must be present and it must be stable.
+Reword it and a consumer keyed on it loses the card. Nothing else changes —
+`card_number` remains exactly what the manufacturer printed, which is worth
+more than a tidier key.
 
 Each variation checklist declares what it varies:
 
