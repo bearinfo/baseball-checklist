@@ -441,8 +441,19 @@ def read_sections(pdf_path, teams):
     return [s for s in sections if s.cards]
 
 
+WRITTEN = {}
+
+
 def write_section(section, set_dir):
     path = set_dir / section.file
+    # Two sections resolving to one filename would leave the second silently
+    # overwriting the first, which is how 593 rows of 2020 went missing
+    # before this check existed. Refuse rather than lose them.
+    if path in WRITTEN:
+        sys.exit(f"two sections write {section.file!r}: {WRITTEN[path]!r} and "
+                 f"{section.name!r} (aborting, never guess) — they need "
+                 f"distinct names before this set can be written")
+    WRITTEN[path] = section.name
     path.parent.mkdir(parents=True, exist_ok=True)
     columns = ["card_number", "name", "team", "designations"]
     if section.short_print:
@@ -470,9 +481,21 @@ def merge(per_pdf):
     stay per series, the way TCDB also keeps them ("... (Series One)").
     """
     def series_tag(label, index):
-        found = re.search(r"[Ss]eries[_ ]?(\d)", label) or \
+        # Read the series off the filename, but never trust it alone: Topps
+        # ships these URL-encoded, so "Series_201_20Checklist" is Series 1
+        # with a %20 in it, and the obvious pattern reads it as Series 2 —
+        # which made both documents of 2020 claim Series 2 and silently
+        # overwrite each other's rows. The caller checks the tags are
+        # distinct and falls back to argument order when they are not.
+        found = re.search(r"[Ss]eries[_ ]?(\d)(?![\d_]*\d)", label) or \
                 re.search(r"[-_][sS](\d)\b", label)
         return f"Series {found.group(1) if found else index}"
+
+    def series_tags(group):
+        tags = [series_tag(label, i) for i, (label, _) in enumerate(group, 1)]
+        if len(set(tags)) == len(tags):
+            return tags
+        return [f"Series {i}" for i in range(1, len(group) + 1)]
 
     groups = {}
     for label, sections in per_pdf:
@@ -512,8 +535,9 @@ def merge(per_pdf):
         else:
             print(f'  "{name}" ({kind}): same code, different cards across '
                   f'sources — kept per series', file=sys.stderr)
+            tags = series_tags(group)
             for index, (label, section) in enumerate(group, start=1):
-                section.name = f"{name} {series_tag(label, index)}"
+                section.name = f"{name} {tags[index - 1]}"
                 section.sources = [label]
                 result.append(section)
     return result

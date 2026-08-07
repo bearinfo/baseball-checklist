@@ -1,0 +1,522 @@
+{
+  "schema_version": "1.0",
+  "id": "563ba7c5-c2cc-4c3d-83e5-5f7b274bbb7e",
+  "name": "2020 Topps",
+  "slug": "2020-topps",
+  "sport": "baseball",
+  "year": 2020,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 700
+    },
+    {
+      "file": "autographs/1985-topps-baseball-all-stars-autograph-variation.csv",
+      "name": "1985 Topps Baseball All Stars Autograph Variation",
+      "kind": "autograph",
+      "card_count": 46
+    },
+    {
+      "file": "autographs/1985-topps-baseball-autograph-variation.csv",
+      "name": "1985 Topps Baseball Autograph Variation",
+      "kind": "autograph",
+      "card_count": 51
+    },
+    {
+      "file": "autographs/1985-topps-baseball-autographs.csv",
+      "name": "1985 Topps Baseball Autographs",
+      "kind": "autograph",
+      "card_count": 80
+    },
+    {
+      "file": "autographs/1985-topps-baseball-chrome-promo-autograph-variation.csv",
+      "name": "1985 Topps Baseball Chrome Promo Autograph Variation",
+      "kind": "autograph",
+      "card_count": 32
+    },
+    {
+      "file": "autographs/1985-topps-baseball-chrome-variation-autograph-parallel.csv",
+      "name": "1985 Topps Baseball Chrome Variation Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 46,
+      "varies": "inserts/1985-topps-baseball-chrome-variation.csv"
+    },
+    {
+      "file": "autographs/baseball-stars-autographs-series-1.csv",
+      "name": "Baseball Stars Autographs Series 1",
+      "kind": "autograph",
+      "card_count": 64
+    },
+    {
+      "file": "autographs/baseball-stars-autographs-series-2.csv",
+      "name": "Baseball Stars Autographs Series 2",
+      "kind": "autograph",
+      "card_count": 53
+    },
+    {
+      "file": "autographs/baseball-stars-dual-autographs.csv",
+      "name": "Baseball Stars Dual Autographs",
+      "kind": "autograph",
+      "card_count": 38
+    },
+    {
+      "file": "autographs/decade-of-dominance-die-cuts-autograph-parallel.csv",
+      "name": "Decade Of Dominance Die Cuts Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 10
+    },
+    {
+      "file": "autographs/decades-best-autograph-parallel.csv",
+      "name": "Decades Best Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 74
+    },
+    {
+      "file": "autographs/decades-next-autograph-parallel.csv",
+      "name": "Decades Next Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 25
+    },
+    {
+      "file": "autographs/draft-day-medallion-cards-autograph-parallel.csv",
+      "name": "Draft Day Medallion Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 37
+    },
+    {
+      "file": "autographs/empire-state-awards-winners-autograph-parallel.csv",
+      "name": "Empire State Awards Winners Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/fernando-tatis-jr-highlights-autograph-parallel.csv",
+      "name": "Fernando Tatis Jr Highlights Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/global-game-medallion-cards-autograph-parallel.csv",
+      "name": "Global Game Medallion Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 29
+    },
+    {
+      "file": "autographs/jumbo-jersey-sleeve-patch-cards-autograph-parallel.csv",
+      "name": "Jumbo Jersey Sleeve Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 25
+    },
+    {
+      "file": "autographs/jumbo-special-event-jersey-sleeve-team-patch-cards-autograph-parallel.csv",
+      "name": "Jumbo Special Event Jersey Sleeve Team Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 36
+    },
+    {
+      "file": "autographs/postseason-performance-autograph-cards.csv",
+      "name": "Postseason Performance Autograph Cards",
+      "kind": "autograph",
+      "card_count": 18
+    },
+    {
+      "file": "autographs/rookie-card-retrospective-rc-logo-medallion-card-autograph-parallel.csv",
+      "name": "Rookie Card Retrospective RC Logo Medallion Card Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/significant-statistics-autograph-variation.csv",
+      "name": "Significant Statistics Autograph Variation",
+      "kind": "autograph",
+      "card_count": 16
+    },
+    {
+      "file": "autographs/target-player-highlight-autograph-parallel.csv",
+      "name": "Target Player Highlight Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/topps-choice-autograph-parallel.csv",
+      "name": "Topps Choice Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 17
+    },
+    {
+      "file": "autographs/topps-player-medallion-cards-autograph-parallel.csv",
+      "name": "Topps Player Medallion Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/topps-player-of-the-decade-autograph-parallel.csv",
+      "name": "Topps Player Of The Decade Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 25
+    },
+    {
+      "file": "autographs/walmart-player-highlight-autograph-parallel.csv",
+      "name": "Walmart Player Highlight Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/warriors-of-the-diamond-autograph-parallel.csv",
+      "name": "Warriors Of The Diamond Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 17
+    },
+    {
+      "file": "autographs/world-champion-autograph-cards.csv",
+      "name": "World Champion Autograph Cards",
+      "kind": "autograph",
+      "card_count": 8
+    },
+    {
+      "file": "inserts/1985-topps-baseball-all-stars.csv",
+      "name": "1985 Topps Baseball All Stars",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1985-topps-baseball-chrome-promo.csv",
+      "name": "1985 Topps Baseball Chrome Promo",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1985-topps-baseball-chrome-variation.csv",
+      "name": "1985 Topps Baseball Chrome Variation",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1985-topps-baseball.csv",
+      "name": "1985 Topps Baseball",
+      "kind": "insert",
+      "card_count": 150
+    },
+    {
+      "file": "inserts/2019-topps-now-review.csv",
+      "name": "2019 Topps Now Review",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/best-of-topps-now.csv",
+      "name": "Best Of Topps Now",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/decade-of-dominance-die-cuts.csv",
+      "name": "Decade Of Dominance Die Cuts",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "inserts/decades-best-chrome-variation-series-1.csv",
+      "name": "Decades Best Chrome Variation Series 1",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/decades-best-chrome-variation-series-2.csv",
+      "name": "Decades Best Chrome Variation Series 2",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/decades-best-series-1.csv",
+      "name": "Decades Best Series 1",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/decades-best-series-2.csv",
+      "name": "Decades Best Series 2",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/decades-next.csv",
+      "name": "Decades Next",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/empire-state-awards-winners.csv",
+      "name": "Empire State Awards Winners",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/fernando-tatis-jr-highlights.csv",
+      "name": "Fernando Tatis Jr Highlights",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/hr-challenge-code-cards.csv",
+      "name": "Hr Challenge Code Cards",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/hr-challenge.csv",
+      "name": "Hr Challenge",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/significant-statistics.csv",
+      "name": "Significant Statistics",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/target-player-highlight.csv",
+      "name": "Target Player Highlight",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/topps-2030.csv",
+      "name": "Topps 2030",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "inserts/topps-choice.csv",
+      "name": "Topps Choice",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/topps-player-of-the-decade.csv",
+      "name": "Topps Player Of The Decade",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/turkey-red-2020-boxtopper-variation.csv",
+      "name": "Turkey Red 2020 Boxtopper Variation",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/turkey-red-2020-chrome-variation-series-1.csv",
+      "name": "Turkey Red 2020 Chrome Variation Series 1",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/turkey-red-2020-chrome-variation-series-2.csv",
+      "name": "Turkey Red 2020 Chrome Variation Series 2",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/turkey-red-2020-series-1.csv",
+      "name": "Turkey Red 2020 Series 1",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/turkey-red-2020-series-2.csv",
+      "name": "Turkey Red 2020 Series 2",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/walmart-player-highlight.csv",
+      "name": "Walmart Player Highlight",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/warriors-of-the-diamond.csv",
+      "name": "Warriors Of The Diamond",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "relics/1985-topps-baseball-all-star-relics.csv",
+      "name": "1985 Topps Baseball All Star Relics",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/1985-topps-baseball-relics.csv",
+      "name": "1985 Topps Baseball Relics",
+      "kind": "relic",
+      "card_count": 99
+    },
+    {
+      "file": "relics/cut-signatures-series-1.csv",
+      "name": "Cut Signatures Series 1",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/cut-signatures-series-2.csv",
+      "name": "Cut Signatures Series 2",
+      "kind": "relic",
+      "card_count": 47
+    },
+    {
+      "file": "relics/draft-day-medallion-cards.csv",
+      "name": "Draft Day Medallion Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/global-game-medallion-cards.csv",
+      "name": "Global Game Medallion Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/in-the-name-relic-cards.csv",
+      "name": "In The Name Relic Cards",
+      "kind": "relic",
+      "card_count": 60
+    },
+    {
+      "file": "relics/in-the-name-relics.csv",
+      "name": "In The Name Relics",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/jumbo-jersey-sleeve-patch-cards.csv",
+      "name": "Jumbo Jersey Sleeve Patch Cards",
+      "kind": "relic",
+      "card_count": 46
+    },
+    {
+      "file": "relics/jumbo-special-event-jersey-sleeve-team-patch-cards.csv",
+      "name": "Jumbo Special Event Jersey Sleeve Team Patch Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards.csv",
+      "name": "Major League Material Autograph Cards",
+      "kind": "relic",
+      "card_count": 81
+    },
+    {
+      "file": "relics/major-league-material-cards-series-1.csv",
+      "name": "Major League Material Cards Series 1",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/major-league-material-cards-series-2.csv",
+      "name": "Major League Material Cards Series 2",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/postseason-performance-autograph-relic-cards.csv",
+      "name": "Postseason Performance Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 18
+    },
+    {
+      "file": "relics/postseason-performance-relic-cards.csv",
+      "name": "Postseason Performance Relic Cards",
+      "kind": "relic",
+      "card_count": 28
+    },
+    {
+      "file": "relics/rookie-card-retrospective-rc-logo-medallion-card.csv",
+      "name": "Rookie Card Retrospective RC Logo Medallion Card",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/significant-statistics-autograph-relic-cards.csv",
+      "name": "Significant Statistics Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 13
+    },
+    {
+      "file": "relics/significant-statistics-relic-cards.csv",
+      "name": "Significant Statistics Relic Cards",
+      "kind": "relic",
+      "card_count": 20
+    },
+    {
+      "file": "relics/topps-player-medallion-cards.csv",
+      "name": "Topps Player Medallion Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards-series-1.csv",
+      "name": "Topps Reverence Autograph Patch Cards Series 1",
+      "kind": "relic",
+      "card_count": 39
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards-series-2.csv",
+      "name": "Topps Reverence Autograph Patch Cards Series 2",
+      "kind": "relic",
+      "card_count": 32
+    },
+    {
+      "file": "relics/world-champion-autograph-relic-cards.csv",
+      "name": "World Champion Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 8
+    },
+    {
+      "file": "relics/world-champion-relic-cards.csv",
+      "name": "World Champion Relic Cards",
+      "kind": "relic",
+      "card_count": 15
+    },
+    {
+      "file": "variations/clear-variation.csv",
+      "name": "Clear Variation",
+      "kind": "variation",
+      "card_count": 200,
+      "varies": "base.csv"
+    }
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-350"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "351-700"
+    }
+  ],
+  "parallels": [],
+  "verified": false,
+  "notes": "One set issued in two waves, 700 base card numbers.",
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2020_20Topps_20Baseball_20Series_201_20Checklist.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 1 (#1-350) and its inserts",
+      "notes": "Topps prints \"CHicago Cubs\" on #119, which is why that form is in teams.json. Eight programmes run in both series and are kept per series, their names carrying the wave."
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2020_20Topps_20Series_202_20Baseball_20Checklist_20Final.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 2 (#351-700) and its inserts",
+      "notes": "Seventeen sections headed AUTOGRAPH PARALLEL share no card number with any other file in this set — Decades Best autographs run BD70-BB where the insert runs DB-1 — so every one is an autograph checklist numbering itself and none declares varies. The question was settled by the numbers, not by the word parallel in the header. Six CHROME VARIATION and BOXTOPPER VARIATION sections are inserts for the same reason, running 85C, DBC, TRC and OTR against their parents' 85B, DB and TR. The exception is the 1985 Topps Baseball Chrome autographs, whose 46 numbers all appear in the 50-card chrome list and name the same players, so they vary it. Decades Best Chrome prints team-only cards: \"DBC-1 Detroit Tigers Detroit Tigers\" names the team twice while DBC-3 and DBC-5 name it once and leave the subject implied."
+    }
+  ]
+}

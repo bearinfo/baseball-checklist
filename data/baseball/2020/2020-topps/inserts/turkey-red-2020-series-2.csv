@@ -1,0 +1,101 @@
+card_number,name,team,designations
+TR-1,Ken Griffey Jr.,Seattle Mariners,
+TR-2,Stephen Strasburg,Washington Nationals,
+TR-3,Joey Votto,Cincinnati Reds,
+TR-4,Noah Syndergaard,New York Mets,
+TR-5,Chris Paddack,San Diego Padres,
+TR-6,Jack Flaherty,St. Louis Cardinals,
+TR-7,Don Mattingly,New York Yankees,
+TR-8,Frank Thomas,Chicago White Sox,
+TR-9,Cal Ripken Jr.,Baltimore Orioles,
+TR-10,Matt Thaiss,Angels,RC
+TR-11,Randy Johnson,Arizona Diamondbacks,
+TR-12,Alex Young,Arizona Diamondbacks,RC
+TR-13,Josh Rojas,Arizona Diamondbacks,RC
+TR-14,Chipper Jones,Atlanta Braves,
+TR-15,Hank Aaron,Atlanta Braves,
+TR-16,Hunter Harvey,Baltimore Orioles,RC
+TR-17,Andrew Benintendi,Boston Red Sox,
+TR-18,Roger Clemens,Boston Red Sox,
+TR-19,Ted Williams,Boston Red Sox,
+TR-20,Jackie Robinson,Brooklyn Dodgers,
+TR-21,Rod Carew,California Angels,
+TR-22,Nolan Ryan,California Angels,
+TR-23,Robel Garcia,Chicago Cubs,RC
+TR-24,Adbert Alzolay,Chicago Cubs,RC
+TR-25,Anthony Rizzo,Chicago Cubs,
+TR-26,Ryne Sandberg,Chicago Cubs,
+TR-27,Ernie Banks,Chicago Cubs,
+TR-28,Dylan Cease,Chicago White Sox,RC
+TR-29,Zack Collins,Chicago White Sox,RC
+TR-30,Lucas Giolito,Chicago White Sox,
+TR-31,Barry Larkin,Cincinnati Reds,
+TR-32,Sonny Gray,Cincinnati Reds,
+TR-33,Eugenio Suarez,Cincinnati Reds,
+TR-34,Shane Bieber,Cleveland Indians,
+TR-35,Jim Thome,Cleveland Indians,
+TR-36,Trevor Story,Colorado Rockies,
+TR-37,Sam Hilliard,Colorado Rockies,RC
+TR-38,David Dahl,Colorado Rockies,
+TR-39,Jake Rogers,Detroit Tigers,RC
+TR-40,Nolan Ryan,Houston Astros,
+TR-41,Jeff Bagwell,Houston Astros,
+TR-42,George Brett,Kansas City Royals,
+TR-43,Jorge Soler,Kansas City Royals,
+TR-44,Hyun-Jin Ryu,Toronto Blue Jays,
+TR-45,Corey Seager,Los Angeles Dodgers,
+TR-46,Joc Pederson,Los Angeles Dodgers,
+TR-47,Sandy Koufax,Los Angeles Dodgers,
+TR-48,Isan Diaz,Miami Marlins,RC
+TR-49,Jordan Yamamoto,Miami Marlins,RC
+TR-50,Trent Grisham,San Diego Padres,RC
+TR-51,Robin Yount,Milwaukee Brewers,
+TR-52,Brusdar Graterol,Los Angeles Dodgers,RC
+TR-53,Jose Berrios,Minnesota Twins,
+TR-54,Vladimir Guerrero,Montréal Expos,
+TR-55,Michael Conforto,New York Mets,
+TR-56,Darryl Strawberry,New York Mets,
+TR-57,Luis Severino,New York Yankees,
+TR-58,Babe Ruth,New York Yankees,
+TR-59,Reggie Jackson,New York Yankees,
+TR-60,Lou Gehrig,New York Yankees,
+TR-61,Rickey Henderson,Oakland Athletics,
+TR-62,Mark McGwire,Oakland Athletics,
+TR-63,Seth Brown,Oakland Athletics,RC
+TR-64,Sheldon Neuse,Oakland Athletics,RC
+TR-65,Mike Schmidt,Philadelphia Phillies,
+TR-66,J.T. Realmuto,Philadelphia Phillies,
+TR-67,Steve Carlton,Philadelphia Phillies,
+TR-68,Bryan Reynolds,Pittsburgh Pirates,
+TR-69,Roberto Clemente,Pittsburgh Pirates,
+TR-70,Tony Gwynn,San Diego Padres,
+TR-71,Mauricio Dubon,San Francisco Giants,RC
+TR-72,Jaylin Davis,San Francisco Giants,RC
+TR-73,Ty Cobb,Detroit Tigers,
+TR-74,Honus Wagner,Pittsburgh Pirates,
+TR-75,Max Muncy,Los Angeles Dodgers,
+TR-76,Will Clark,San Francisco Giants,
+TR-77,Willie Mays,San Francisco Giants,
+TR-78,Ichiro Ichiro,Seattle Mariners,
+TR-79,Edgar Martinez,Seattle Mariners,
+TR-80,Justin Dunn,Seattle Mariners,RC
+TR-81,Jake Fraley,Seattle Mariners,RC
+TR-82,Junior Fernandez,St. Louis Cardinals,RC
+TR-83,Randy Arozarena,Tampa Bay Rays,RC
+TR-84,Ozzie Smith,St. Louis Cardinals,
+TR-85,Tommy Edman,St. Louis Cardinals,
+TR-86,Tyler Glasnow,Tampa Bay Rays,
+TR-87,Nick Solak,Texas Rangers,RC
+TR-88,Brock Burke,Texas Rangers,RC
+TR-89,Elvis Andrus,Texas Rangers,
+TR-90,Roberto Alomar,Toronto Blue Jays,
+TR-91,Anthony Kay,Toronto Blue Jays,RC
+TR-92,T.J. Zeuch,Toronto Blue Jays,RC
+TR-93,Lourdes Gurriel Jr.,Toronto Blue Jays,
+TR-94,Victor Robles,Washington Nationals,
+TR-95,Patrick Corbin,Washington Nationals,
+TR-96,Ryan Zimmerman,Washington Nationals,
+TR-97,Stan Musial,St. Louis Cardinals,
+TR-98,Mariano Rivera,New York Yankees,
+TR-99,Joe Mauer,Minnesota Twins,
+TR-100,Andres Muñoz,San Diego Padres,RC
