@@ -2716,7 +2716,9 @@
       "coverage": "full",
       "applies_to": [
         "Rickwood Relic Collection"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "09c7c017-1789-4b4c-9ece-5c352c7b6e4f",
@@ -2724,7 +2726,9 @@
       "coverage": "full",
       "applies_to": [
         "Rickwood Relic Collection"
-      ]
+      ],
+      "print_run": 150,
+      "serial_numbered": true
     },
     {
       "id": "9061a6a0-b9e2-4299-b468-e2a854a68948",
@@ -2732,7 +2736,9 @@
       "coverage": "full",
       "applies_to": [
         "Rickwood Relic Collection"
-      ]
+      ],
+      "print_run": 50,
+      "serial_numbered": true
     },
     {
       "id": "93f88125-2e94-441c-8a92-61173f6f4220",
@@ -2740,7 +2746,9 @@
       "coverage": "full",
       "applies_to": [
         "Rickwood Relic Collection"
-      ]
+      ],
+      "print_run": 25,
+      "serial_numbered": true
     },
     {
       "id": "6ad3bea0-d7d8-4e45-a960-9ba3e0b2fdd5",
@@ -2748,7 +2756,10 @@
       "coverage": "full",
       "applies_to": [
         "Rickwood Relic Collection"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "4c7d813d-b6bb-4080-b72a-7e2c1e63b677",
@@ -2756,7 +2767,9 @@
       "coverage": "full",
       "applies_to": [
         "Rickwood Relic Collection"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "c5dedfd9-0851-489d-8b32-38d437c9e0b9",
