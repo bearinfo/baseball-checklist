@@ -44,7 +44,9 @@ PRINTED_TAILS = {
     "League Leaders": ["LL"],
     "Team Card": ["TC"],
     "Combo Card": ["CC"],
+    "Combo Cards": ["CC"],
     "Combo Card/Checklist": ["CC", "CL"],
+    "Future Star": ["FS"],
     "Checklist": ["CL"],
 }
 
@@ -164,6 +166,7 @@ def remove_subsequence_rightmost(text, sub):
 
 def split_name_team(rest, teams):
     """(name, team, codes) from the part of a card line after its number."""
+    unknown_tail = None
     for team in teams:  # normal case: the team name is a plain substring
         idx = rest.rfind(team)
         if idx >= 0:
@@ -175,12 +178,35 @@ def split_name_team(rest, teams):
                 name = team
             if name and tail in PRINTED_TAILS:
                 return name, team, PRINTED_TAILS[tail]
+            if name and tail and unknown_tail is None:
+                unknown_tail = tail
+    # A team was found and the words after it are not a designation this
+    # converter knows. That is new information, not a corrupt line, and the
+    # repair below would happily invent a name out of it: removing "New York
+    # Mets" as a subsequence from "Pete Alonso New York Mets Combo Cards"
+    # takes letters out of the tail and yields "Pete Alonso s Combo Card".
+    if unknown_tail is not None:
+        sys.exit(f"unknown printed tail {unknown_tail!r} (aborting, never "
+                 f"guess): add it to PRINTED_TAILS if it is a designation — "
+                 f"{rest!r}")
     for team in teams:  # repair case: the team text is interleaved into the line
         repaired = remove_subsequence_rightmost(rest, team)
-        if repaired is not None and " " in repaired.strip():
-            print(f"  repaired interleaved line: name={repaired.strip()!r} "
+        if repaired is None:
+            continue
+        repaired = repaired.strip()
+        # A repair has to drop the designation off the end too, or the tail
+        # ends up inside the player's name.
+        for tail, codes in PRINTED_TAILS.items():
+            if tail and repaired.endswith(tail):
+                name = repaired[:-len(tail)].strip()
+                if name and " " in name:
+                    print(f"  repaired interleaved line: name={name!r} "
+                          f"team={team!r} tail={tail!r}", file=sys.stderr)
+                    return name, team, codes
+        if " " in repaired:
+            print(f"  repaired interleaved line: name={repaired!r} "
                   f"team={team!r}", file=sys.stderr)
-            return repaired.strip(), team, []
+            return repaired, team, []
     return None
 
 
@@ -192,12 +218,15 @@ def canonical(name):
     """One name for a program Topps prints inconsistently across series.
 
     Series 1 prints "Clear Variation", Series 2 "Base Cards Clear Variation";
-    "True Photo Variation" becomes "True Photo Variations". Only these two
-    mechanical drifts are normalised — a genuinely different printed name
-    (Series 1 "Vintage Stock" vs Series 2 "Vintage Stock Retro") stays its own
-    section, because merging those would be a guess.
+    "True Photo Variation" becomes "True Photo Variations"; 2024 Series 1
+    misspells its own header as "Topps Reverence Autogaph Patch Cards" where
+    Series 2 spells it correctly. Only these mechanical drifts are normalised —
+    a genuinely different printed name (Series 1 "Vintage Stock" vs Series 2
+    "Vintage Stock Retro") stays its own section, because merging those would
+    be a guess.
     """
     name = re.sub(r"^Base Cards?\s+", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\bAutogaph\b", "Autograph", name, flags=re.IGNORECASE)
     return re.sub(r"Variations$", "Variation", name, flags=re.IGNORECASE).strip()
 
 

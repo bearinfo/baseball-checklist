@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0",
+  "id": "5c435c70-5c2d-4860-8169-77790cde8967",
+  "name": "2024 Topps",
+  "slug": "2024-topps",
+  "sport": "baseball",
+  "year": 2024,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 700
+    },
+    {
+      "file": "autographs/1989-topps-baseball-all-stars-autograph-cards.csv",
+      "name": "1989 Topps Baseball All Stars Autograph Cards",
+      "kind": "autograph",
+      "card_count": 67
+    },
+    {
+      "file": "autographs/1989-topps-baseball-autograph-cards.csv",
+      "name": "1989 Topps Baseball Autograph Cards",
+      "kind": "autograph",
+      "card_count": 95
+    },
+    {
+      "file": "autographs/1989-topps-baseball-autographs-cards.csv",
+      "name": "1989 Topps Baseball Autographs Cards",
+      "kind": "autograph",
+      "card_count": 137
+    },
+    {
+      "file": "autographs/1989-topps-baseball-chrome-autograph-cards.csv",
+      "name": "1989 Topps Baseball Chrome Autograph Cards",
+      "kind": "autograph",
+      "card_count": 88,
+      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
+    },
+    {
+      "file": "autographs/1989-topps-baseball-chrome-cards-autograph-variation.csv",
+      "name": "1989 Topps Baseball Chrome Cards Autograph Variation",
+      "kind": "autograph",
+      "card_count": 78,
+      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
+    },
+    {
+      "file": "autographs/2023-all-topps-team-autographs.csv",
+      "name": "2023 All Topps Team Autographs",
+      "kind": "autograph",
+      "card_count": 9
+    },
+    {
+      "file": "autographs/2023-dynamic-dual-autograph.csv",
+      "name": "2023 Dynamic Dual Autograph",
+      "kind": "autograph",
+      "card_count": 1
+    },
+    {
+      "file": "autographs/2023-first-pitch-autograph-variation.csv",
+      "name": "2023 First Pitch Autograph Variation",
+      "kind": "autograph",
+      "card_count": 2
+    },
+    {
+      "file": "autographs/2023-greatest-hits-autographs.csv",
+      "name": "2023 Greatest Hits Autographs",
+      "kind": "autograph",
+      "card_count": 22
+    },
+    {
+      "file": "autographs/2023-play-ball-autograph-variation.csv",
+      "name": "2023 Play Ball Autograph Variation",
+      "kind": "autograph",
+      "card_count": 1
+    },
+    {
+      "file": "autographs/2023-silver-slugger-award-winners-cards-autograph-variation.csv",
+      "name": "2023 Silver Slugger Award Winners Cards Autograph Variation",
+      "kind": "autograph",
+      "card_count": 14,
+      "distribution": "Hobby/Hobby Jumbo Exclusive"
+    },
+    {
+      "file": "autographs/40-70-autographs.csv",
+      "name": "40 70 Autographs",
+      "kind": "autograph",
+      "card_count": 11
+    },
+    {
+      "file": "autographs/baseball-stars-autographs.csv",
+      "name": "Baseball Stars Autographs",
+      "kind": "autograph",
+      "card_count": 175
+    },
+    {
+      "file": "autographs/baseball-stars-dual-autographs.csv",
+      "name": "Baseball Stars Dual Autographs",
+      "kind": "autograph",
+      "card_count": 88
+    },
+    {
+      "file": "autographs/baseball-stars-triple-autographs.csv",
+      "name": "Baseball Stars Triple Autographs",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/celebration-of-the-kid-autographs.csv",
+      "name": "Celebration Of The Kid Autographs",
+      "kind": "autograph",
+      "card_count": 24
+    },
+    {
+      "file": "autographs/city-to-city-autographs.csv",
+      "name": "City To City Autographs",
+      "kind": "autograph",
+      "card_count": 25
+    },
+    {
+      "file": "autographs/grand-gamers-autographs.csv",
+      "name": "Grand Gamers Autographs",
+      "kind": "autograph",
+      "card_count": 14
+    },
+    {
+      "file": "autographs/postseason-performance-autograph-cards.csv",
+      "name": "Postseason Performance Autograph Cards",
+      "kind": "autograph",
+      "card_count": 59
+    },
+    {
+      "file": "autographs/signature-tunes-dual-autographs.csv",
+      "name": "Signature Tunes Dual Autographs",
+      "kind": "autograph",
+      "card_count": 1
+    },
+    {
+      "file": "autographs/significant-statistics-autographs.csv",
+      "name": "Significant Statistics Autographs",
+      "kind": "autograph",
+      "card_count": 17
+    },
+    {
+      "file": "autographs/superstar-blueprint-autographs.csv",
+      "name": "Superstar Blueprint Autographs",
+      "kind": "autograph",
+      "card_count": 18
+    },
+    {
+      "file": "autographs/world-champion-autograph-cards.csv",
+      "name": "World Champion Autograph Cards",
+      "kind": "autograph",
+      "card_count": 11
+    },
+    {
+      "file": "inserts/1989-topps-all-star-baseball.csv",
+      "name": "1989 Topps All Star Baseball",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1989-topps-all-stars-baseball-foilboard-mega-box-cards.csv",
+      "name": "1989 Topps All Stars Baseball Foilboard Mega Box Cards",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1989-topps-baseball-chrome-base-cards.csv",
+      "name": "1989 Topps Baseball Chrome Base Cards",
+      "kind": "insert",
+      "card_count": 100,
+      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
+    },
+    {
+      "file": "inserts/1989-topps-baseball-chrome-cards.csv",
+      "name": "1989 Topps Baseball Chrome Cards",
+      "kind": "insert",
+      "card_count": 100,
+      "distribution": "Hobby/Hobby Jumbo Only - Silver Pack Boxloader"
+    },
+    {
+      "file": "inserts/1989-topps-baseball-foil-mega-box-cards.csv",
+      "name": "1989 Topps Baseball Foil Mega Box Cards",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/1989-topps-baseball-foilboard-mega-box-cards.csv",
+      "name": "1989 Topps Baseball Foilboard Mega Box Cards",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1989-topps-baseball.csv",
+      "name": "1989 Topps Baseball",
+      "kind": "insert",
+      "card_count": 150
+    },
+    {
+      "file": "inserts/2023-all-topps-team.csv",
+      "name": "2023 All Topps Team",
+      "kind": "insert",
+      "card_count": 12
+    },
+    {
+      "file": "inserts/2023-greatest-hits.csv",
+      "name": "2023 Greatest Hits",
+      "kind": "insert",
+      "card_count": 31
+    },
+    {
+      "file": "inserts/2023-play-ball.csv",
+      "name": "2023 Play Ball",
+      "kind": "insert",
+      "card_count": 1
+    },
+    {
+      "file": "inserts/around-the-horn.csv",
+      "name": "Around The Horn",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/celebration-of-the-kid.csv",
+      "name": "Celebration Of The Kid",
+      "kind": "insert",
+      "card_count": 24
+    },
+    {
+      "file": "inserts/chrome-stars-of-mlb.csv",
+      "name": "Chrome Stars Of MLB",
+      "kind": "insert",
+      "card_count": 81,
+      "distribution": "Retail Exclusive"
+    },
+    {
+      "file": "inserts/city-to-city.csv",
+      "name": "City To City",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/companion-cards.csv",
+      "name": "Companion Cards",
+      "kind": "insert",
+      "card_count": 50,
+      "distribution": "Superbox Exclusive"
+    },
+    {
+      "file": "inserts/covering-the-field.csv",
+      "name": "Covering The Field",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/fantasy-favorites.csv",
+      "name": "Fantasy Favorites",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "inserts/grand-gamers.csv",
+      "name": "Grand Gamers",
+      "kind": "insert",
+      "card_count": 26
+    },
+    {
+      "file": "inserts/heavy-lumber.csv",
+      "name": "Heavy Lumber",
+      "kind": "insert",
+      "card_count": 40
+    },
+    {
+      "file": "inserts/home-sweet-home-stadium-medallion-cards.csv",
+      "name": "Home Sweet Home Stadium Medallion Cards",
+      "kind": "insert",
+      "card_count": 50,
+      "distribution": "Hobby/Hobby Jumbo Exclusive"
+    },
+    {
+      "file": "inserts/homefield-advantage.csv",
+      "name": "Homefield Advantage",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "inserts/homerun-challenge-code-card-series-1.csv",
+      "name": "Homerun Challenge Code Card Series 1",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/homerun-challenge-code-card-series-2.csv",
+      "name": "Homerun Challenge Code Card Series 2",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/legendary-homefield-advantage.csv",
+      "name": "Legendary Homefield Advantage",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/oversized-2024-topps-baseball.csv",
+      "name": "Oversized 2024 Topps Baseball",
+      "kind": "insert",
+      "card_count": 50,
+      "distribution": "Superbox Exclusive"
+    },
+    {
+      "file": "inserts/platinum-performers.csv",
+      "name": "Platinum Performers",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/postseason-performance-relic-cards.csv",
+      "name": "Postseason Performance Relic Cards",
+      "kind": "insert",
+      "card_count": 61
+    },
+    {
+      "file": "inserts/significant-statistics.csv",
+      "name": "Significant Statistics",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/stars-of-mlb.csv",
+      "name": "Stars Of MLB",
+      "kind": "insert",
+      "card_count": 60,
+      "distribution": "Retail Exclusive"
+    },
+    {
+      "file": "inserts/superstar-blueprint.csv",
+      "name": "Superstar Blueprint",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/topps-mega-stars.csv",
+      "name": "Topps Mega Stars",
+      "kind": "insert",
+      "card_count": 40,
+      "distribution": "Giant/Monster Box Exclusive"
+    },
+    {
+      "file": "inserts/world-champion-relic-cards.csv",
+      "name": "World Champion Relic Cards",
+      "kind": "insert",
+      "card_count": 7
+    },
+    {
+      "file": "relics/1989-topps-baseball-all-stars-relics.csv",
+      "name": "1989 Topps Baseball All Stars Relics",
+      "kind": "relic",
+      "card_count": 53
+    },
+    {
+      "file": "relics/1989-topps-baseball-relics.csv",
+      "name": "1989 Topps Baseball Relics",
+      "kind": "relic",
+      "card_count": 140
+    },
+    {
+      "file": "relics/2023-silver-slugger-award-winners-cards.csv",
+      "name": "2023 Silver Slugger Award Winners Cards",
+      "kind": "relic",
+      "card_count": 20,
+      "distribution": "Hobby/Hobby Jumbo Exclusive"
+    },
+    {
+      "file": "relics/autographed-home-sweet-home-stadium-medallion-cards.csv",
+      "name": "Autographed Home Sweet Home Stadium Medallion Cards",
+      "kind": "relic",
+      "card_count": 41,
+      "distribution": "Hobby/Hobby Jumbo Exclusive"
+    },
+    {
+      "file": "relics/city-connect-swatch-collection.csv",
+      "name": "City Connect Swatch Collection",
+      "kind": "relic",
+      "card_count": 72,
+      "distribution": "Hobby/Hobby Jumbo Exclusive"
+    },
+    {
+      "file": "relics/cut-signatures.csv",
+      "name": "Cut Signatures",
+      "kind": "relic",
+      "card_count": 87
+    },
+    {
+      "file": "relics/heavy-lumber-autograph-relics.csv",
+      "name": "Heavy Lumber Autograph Relics",
+      "kind": "relic",
+      "card_count": 18
+    },
+    {
+      "file": "relics/in-the-name-relics.csv",
+      "name": "In The Name Relics",
+      "kind": "relic",
+      "card_count": 115
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards.csv",
+      "name": "Major League Material Autograph Cards",
+      "kind": "relic",
+      "card_count": 118
+    },
+    {
+      "file": "relics/major-league-material-cards.csv",
+      "name": "Major League Material Cards",
+      "kind": "relic",
+      "card_count": 121
+    },
+    {
+      "file": "relics/postseason-performance-autograph-relic-cards.csv",
+      "name": "Postseason Performance Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 48
+    },
+    {
+      "file": "relics/rounding-the-bases-relics.csv",
+      "name": "Rounding The Bases Relics",
+      "kind": "relic",
+      "card_count": 25,
+      "distribution": "Retail Exclusive"
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards.csv",
+      "name": "Topps Reverence Autograph Patch Cards",
+      "kind": "relic",
+      "card_count": 89,
+      "distribution": "Hobby/Hobby Jumbo Exclusive"
+    },
+    {
+      "file": "relics/world-champion-autograph-relic-cards.csv",
+      "name": "World Champion Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 6
+    },
+    {
+      "file": "variations/golden-mirror-image-variation.csv",
+      "name": "Golden Mirror Image Variation",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 700
+    }
+  ],
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: MLB2401-2024ToppsSeries1BBChecklistV1.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 1 (#1-350) and its inserts",
+      "notes": "This document prints no RELIC marker at all, only INSERT, AUTOGRAPH RELIC and AUTOGRAPH, so five relic programmes fell through to the default kind and were filed as relics from the Series 2 document instead: Major League Material Cards, 1989 Topps Baseball Relics, City Connect Swatch Collection, In The Name Relics and Cut Signatures. It also misspells its own header as \"Topps Reverence Autogaph Patch Cards\", corrected to match Series 2. Card #219 is interleaved in the PDF text and repaired deterministically to Christian Encarnacion-Strand, Cincinnati Reds, Rookie. One non-card section skipped: Social Media Follow Back Redemption Cards."
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: MLB2402-2024ToppsBBSeries2ChecklistFinal.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 2 (#351-700) and its inserts",
+      "notes": "Cards #413, #424 and #481 print a league where the team would go — American League, Major League Baseball, National League — which is why those values are in teams.json. American League was added for this set; no card in the 2025 or 2026 checklists prints it. One non-card section skipped: Social Media Follow Back Redemption."
+    }
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-350"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "351-700"
+    }
+  ],
+  "parallels": [
+    {
+      "id": "a0b3ae73-c16f-4131-a1d3-9b6967ce6bf4",
+      "name": "Team Color Border",
+      "coverage": "partial",
+      "file": "parallels/team-color-border.csv",
+      "varies": "base.csv",
+      "card_count": 625
+    }
+  ],
+  "verified": false,
+  "notes": "One set issued in two waves. Team Color Border is a partial parallel, not a variation: it re-versions 625 of the 700 base cards, 300 in Series 1 and 325 in Series 2, and Topps prints it as a variation the way it does True Photo and the others corrected in 2026. Golden Mirror Image stays a variation, covering all 700, because it changes the photograph. Four sections Topps labels an autograph variation number their own cards and share no card number with any checklist, so they are declared as the autograph lists they are. Homerun Challenge Code Card stays per series: the two reuse codes on different cards."
+}

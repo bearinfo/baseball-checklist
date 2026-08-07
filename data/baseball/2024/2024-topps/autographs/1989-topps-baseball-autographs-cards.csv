@@ -1,0 +1,138 @@
+card_number,name,team,designations
+89BA-AD,Andre Dawson,Chicago Cubs,
+89BA-AJ,Aaron Judge,New York Yankees,
+89BA-AJO,Andruw Jones,Atlanta Braves,
+89BA-AR,Anthony Rizzo,New York Yankees,
+89BA-ARU,Adley Rutschman,Baltimore Orioles,
+89BA-AV,Anthony Volpe,New York Yankees,
+89BA-BBX,Byron Buxton,Minnesota Twins,
+89BA-BH,Bryce Harper,Philadelphia Phillies,
+89BA-BJ,Bo Jackson,Kansas City Royals,
+89BA-BLA,Barry Larkin,Cincinnati Reds,
+89BA-BWO,Brandon Woodruff,Milwaukee Brewers,
+89BA-CB,Corbin Burnes,Milwaukee Brewers,
+89BA-CBI,Craig Biggio,Houston Astros,
+89BA-CCA,Corbin Carroll,Arizona Diamondbacks,
+89BA-CF,Carlton Fisk,Chicago White Sox,
+89BA-CJ,Chipper Jones,Atlanta Braves,
+89BA-CMU,Cedric Mullins,Baltimore Orioles,
+89BA-CRI,Cal Ripken Jr.,Baltimore Orioles,
+89BA-CY,Christian Yelich,Milwaukee Brewers,
+89BA-DEC,Dennis Eckersley,Oakland Athletics,
+89BA-DJ,Derek Jeter,New York Yankees,
+89BA-DM,Don Mattingly,New York Yankees,
+89BA-DMU,Dale Murphy,Atlanta Braves,
+89BA-DO,David Ortiz,Boston Red Sox,
+89BA-DS,Dave Stewart,Oakland Athletics,
+89BA-DST,Darryl Strawberry,New York Mets,
+89BA-DW,David Wright,New York Mets,
+89BA-DWI,Dontrelle Willis,Florida Marlins,
+89BA-EMU,Eddie Murray,Baltimore Orioles,
+89BA-FT,Fernando Tatis Jr.,San Diego Padres,
+89BA-FTH,Frank Thomas,Chicago White Sox,
+89BA-HG,Hunter Greene,Cincinnati Reds,
+89BA-JAL,Jose Altuve,Houston Astros,
+89BA-JCA,Jose Canseco,Oakland Athletics,
+89BA-JCJ,Jazz Chisholm Jr.,Miami Marlins,
+89BA-JK,John Kruk,Philadelphia Phillies,
+89BA-JMU,Joe Musgrove,San Diego Padres,
+89BA-JRA,José Ramírez,Cleveland Guardians,
+89BA-JS,Juan Soto,San Diego Padres,
+89BA-JSM,John Smoltz,Atlanta Braves,
+89BA-JV,Joey Votto,Cincinnati Reds,
+89BA-JVA,Jason Varitek,Boston Red Sox,
+89BA-KHA,Ke'Bryan Hayes,Pittsburgh Pirates,
+89BA-LR,Luis Robert Jr.,Chicago White Sox,
+89BA-LWA,Larry Walker,Colorado Rockies,
+89BA-MF,Max Fried,Atlanta Braves,
+89BA-MHA,Michael Harris II,Atlanta Braves,
+89BA-MMC,Mark McGwire,Oakland Athletics,
+89BA-MMU,Max Muncy,Los Angeles Dodgers,
+89BA-MO,Matt Olson,Atlanta Braves,
+89BA-MT,Mike Trout,Angels,
+89BA-NC,Nestor Cortes,New York Yankees,
+89BA-NGA,Nomar Garciaparra,Boston Red Sox,
+89BA-NR,Nolan Ryan,Houston Astros,
+89BA-RAJ,Ronald Acuña Jr.,Atlanta Braves,
+89BA-RJO,Randy Johnson,Arizona Diamondbacks,
+89BA-RMO,Ryan Mountcastle,Baltimore Orioles,
+89BA-RY,Robin Yount,Milwaukee Brewers,
+89BA-SB,Shane Bieber,Cleveland Guardians,
+89BA-SC,Steve Carlton,Philadelphia Phillies,
+89BA-SG,Sonny Gray,Minnesota Twins,
+89BA-SO,Shohei Ohtani,Angels,
+89BA-TGL,Tom Glavine,Atlanta Braves,
+89BA-TT,Trea Turner,Philadelphia Phillies,
+89BA-WB,Wade Boggs,Boston Red Sox,
+89BA-YA,Yordan Alvarez,Houston Astros,
+89BA-AA,Andrew Abbott,Cincinnati Reds,RC
+89BA-AMA,Alec Marsh,Kansas City Royals,RC
+89BA-AS,AJ Smith-Shawver,Atlanta Braves,RC
+89BA-AUR,Abner Uribe,Milwaukee Brewers,RC
+89BA-AW,Austin Wells,New York Yankees,RC
+89BA-BW,Bernie Williams,New York Yankees,
+89BA-BWA,Brandon Walter,Boston Red Sox,RC
+89BA-BWOO,Bryan Woo,Seattle Mariners,RC
+89BA-CC,Colton Cowser,Baltimore Orioles,RC
+89BA-CEC,Slade Cecconi,Arizona Diamondbacks,RC
+89BA-CMA,Cade Marlowe,Seattle Mariners,RC
+89BA-CME,Curtis Mead,Tampa Bay Rays,RC
+89BA-CMO,Coco Montes,Colorado Rockies,RC
+89BA-DCA,Dominic Canzone,Seattle Mariners,RC
+89BA-DH,David Hamilton,Boston Red Sox,RC
+89BA-DMY,Dane Myers,Miami Marlins,RC
+89BA-EC,Evan Carter,Texas Rangers,RC
+89BA-ED,Elly De La Cruz,Cincinnati Reds,RC
+89BA-EM,Edgar Martinez,Seattle Mariners,
+89BA-EP,Evan Phillips,Los Angeles Dodgers,
+89BA-ER,Endy Rodríguez,Pittsburgh Pirates,RC
+89BA-ES,Emmet Sheehan,Los Angeles Dodgers,RC
+89BA-GK,George Kirby,Seattle Mariners,
+89BA-GKE,Grae Kessinger,Houston Astros,RC
+89BA-GW,Gavin Williams,Cleveland Guardians,RC
+89BA-HAN,Emerson Hancock,Seattle Mariners,RC
+89BA-HK,Heston Kjerstad,Baltimore Orioles,RC
+89BA-HR,Hanley Ramirez,Florida Marlins,
+89BA-I,Ichiro,Seattle Mariners,
+89BA-ICA,Isaiah Campbell,Seattle Mariners,RC
+89BA-JA,Jacob Amaya,Miami Marlins,RC
+89BA-JB,Jordan Balazovic,Minnesota Twins,RC
+89BA-JD,Jasson Domínguez,New York Yankees,RC
+89BA-JE,Jim Edmonds,St. Louis Cardinals,
+89BA-JLA,Jordan Lawlar,Arizona Diamondbacks,RC
+89BA-JM,Justin Morneau,Minnesota Twins,
+89BA-JMAZ,Justin Martinez,Arizona Diamondbacks,RC
+89BA-JOR,Jordyn Adams,Angels,RC
+89BA-JRO,Johan Rojas,Philadelphia Phillies,RC
+89BA-JROD,José Rodríguez,Chicago White Sox,RC
+89BA-JROD2,Julio Rodríguez,Seattle Mariners,
+89BA-JT,Jared Triolo,Pittsburgh Pirates,RC
+89BA-JWE,Jordan Westburg,Baltimore Orioles,RC
+89BA-JWO,Jackson Wolf,Pittsburgh Pirates,RC
+89BA-KH,Kyle Harrison,San Francisco Giants,RC
+89BA-LW,Logan Webb,San Francisco Giants,
+89BA-MW,Masyn Winn,St. Louis Cardinals,RC
+89BA-MWA,Matt Williams,San Francisco Giants,
+89BA-NE,Nathan Eovaldi,Texas Rangers,
+89BA-NG,Nick Gonzales,Pittsburgh Pirates,RC
+89BA-ORN,Jonathan Ornelas,Texas Rangers,RC
+89BA-OS,Ozzie Smith,St. Louis Cardinals,
+89BA-OW,Owen White,Texas Rangers,RC
+89BA-PC,Pete Crow-Armstrong,Chicago Cubs,RC
+89BA-QPR,Quinn Priester,Pittsburgh Pirates,RC
+89BA-RHO,Ryan Howard,Philadelphia Phillies,
+89BA-RO,Reese Olson,Detroit Tigers,RC
+89BA-SCH,Davis Schneider,Toronto Blue Jays,RC
+89BA-SF,Sal Frelick,Milwaukee Brewers,RC
+89BA-SH,Spencer Horwitz,Toronto Blue Jays,RC
+89BA-ST,Samad Taylor,Kansas City Royals,RC
+89BA-TB,Taj Bradley,Tampa Bay Rays,
+89BA-TCA,Trey Cabbage,Angels,RC
+89BA-TEN,José Tena,Cleveland Guardians,RC
+89BA-TS,Tyler Soderstrom,Oakland Athletics,RC
+89BA-VG,Vladimir Guerrero Jr.,Toronto Blue Jays,
+89BA-VME,Victor Mederos,Angels,RC
+89BA-WCL,Will Clark,San Francisco Giants,
+89BA-WS,Will Smith,Los Angeles Dodgers,
+89BA-ZGE,Zack Gelof,Oakland Athletics,RC
+89BA-ZR,Zach Remillard,Chicago White Sox,RC
