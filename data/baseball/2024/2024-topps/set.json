@@ -449,6 +449,16 @@
       "kind": "variation",
       "varies": "base.csv",
       "card_count": 700
+    },
+    {
+      "file": "variations/traded-gimmicks.csv",
+      "name": "Traded Gimmicks",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 2,
+      "tags": [
+        "gimmick"
+      ]
     }
   ],
   "provenance": [
@@ -465,6 +475,14 @@
       "retrieved": "2026-08-07",
       "covers": "Series 2 (#351-700) and its inserts",
       "notes": "Cards #413, #424 and #481 print a league where the team would go — American League, Major League Baseball, National League — which is why those values are in teams.json. American League was added for this set; no card in the 2025 or 2026 checklists prints it. One non-card section skipped: Social Media Follow Back Redemption."
+    },
+    {
+      "source_type": "community",
+      "source": "Baseball Card Pedia, 2024 Topps",
+      "source_url": "https://baseballcardpedia.com/index.php/2024_Topps",
+      "retrieved": "2026-08-07",
+      "covers": "the Traded Gimmicks variation",
+      "notes": "Neither Topps checklist lists these two cards, in any section: #50 appears only as Juan Soto of the San Diego Padres. Both are variations of base cards — #50 shows Soto after his trade to the Yankees, and #250 shows Shohei Ohtani where the base card is Mookie Betts, a different player on the same number. Team abbreviations NYY and LAD are expanded to the forms Topps prints elsewhere in this set."
     }
   ],
   "series": [
