@@ -2798,7 +2798,9 @@
       "coverage": "full",
       "applies_to": [
         "Larry David Autograph Card"
-      ]
+      ],
+      "print_run": 10,
+      "serial_numbered": true
     },
     {
       "id": "8a84e087-6998-4717-9198-3a08239edd4a",
@@ -2806,7 +2808,10 @@
       "coverage": "full",
       "applies_to": [
         "Larry David Autograph Card"
-      ]
+      ],
+      "print_run": 1,
+      "serial_numbered": true,
+      "one_of_one": true
     },
     {
       "id": "9445e500-ce3a-4357-8362-cc49f8400529",
@@ -2814,7 +2819,9 @@
       "coverage": "full",
       "applies_to": [
         "Larry David Autograph Card"
-      ]
+      ],
+      "print_run": 5,
+      "serial_numbered": true
     },
     {
       "id": "f9955d0e-8082-48fd-b6f5-5ea58011c7ea",
