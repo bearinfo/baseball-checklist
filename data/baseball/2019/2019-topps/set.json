@@ -1,0 +1,560 @@
+{
+  "schema_version": "1.0",
+  "id": "5c40d495-80c8-4618-9cb8-50407a4c7869",
+  "name": "2019 Topps",
+  "slug": "2019-topps",
+  "sport": "baseball",
+  "year": 2019,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 700
+    },
+    {
+      "file": "autographs/150-years-of-professional-baseball-autograph-parallel.csv",
+      "name": "150 Years Of Professional Baseball Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 29
+    },
+    {
+      "file": "autographs/150th-anniversary-manufactured-medallion-cards-autograph-parallel-hobby-hta-only.csv",
+      "name": "150th Anniversary Manufactured Medallion Cards Autograph Parallel Hobby Hta Only",
+      "kind": "autograph",
+      "card_count": 22
+    },
+    {
+      "file": "autographs/150th-anniversary-manufactured-medallion-relic-cards-autograph-parallel.csv",
+      "name": "150th Anniversary Manufactured Medallion Relic Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/150th-anniversary-manufactured-patch-cards-autograph-parallel.csv",
+      "name": "150th Anniversary Manufactured Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 28
+    },
+    {
+      "file": "autographs/150th-anniversary-manufactured-patch-relic-cards-autograph-parallel.csv",
+      "name": "150th Anniversary Manufactured Patch Relic Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/1984-topps-baseball-all-stars-autograph-variation.csv",
+      "name": "1984 Topps Baseball All Stars Autograph Variation",
+      "kind": "autograph",
+      "card_count": 43
+    },
+    {
+      "file": "autographs/1984-topps-baseball-autograph-variation-series-1.csv",
+      "name": "1984 Topps Baseball Autograph Variation Series 1",
+      "kind": "autograph",
+      "card_count": 70
+    },
+    {
+      "file": "autographs/1984-topps-baseball-autograph-variation-series-2.csv",
+      "name": "1984 Topps Baseball Autograph Variation Series 2",
+      "kind": "autograph",
+      "card_count": 52
+    },
+    {
+      "file": "autographs/aaron-judge-highlights-autograph-parallel.csv",
+      "name": "Aaron Judge Highlights Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/cactus-league-greats-autograph-parallel.csv",
+      "name": "Cactus League Greats Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 10
+    },
+    {
+      "file": "autographs/franchise-feats-autograph-parallel-retail-only.csv",
+      "name": "Franchise Feats Autograph Parallel Retail Only",
+      "kind": "autograph",
+      "card_count": 13
+    },
+    {
+      "file": "autographs/gary-vee-top-entrepreneurs-dual-autographs.csv",
+      "name": "Gary Vee Top Entrepreneurs Dual Autographs",
+      "kind": "autograph",
+      "card_count": 5
+    },
+    {
+      "file": "autographs/grapefruit-league-greats-autograph-parallel.csv",
+      "name": "Grapefruit League Greats Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 9
+    },
+    {
+      "file": "autographs/greatest-moments-autograph-parallel.csv",
+      "name": "Greatest Moments Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 8
+    },
+    {
+      "file": "autographs/greatest-players-autograph-parallel.csv",
+      "name": "Greatest Players Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 20
+    },
+    {
+      "file": "autographs/greatest-seasons-autograph-parallel.csv",
+      "name": "Greatest Seasons Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 5
+    },
+    {
+      "file": "autographs/iconic-card-reprints-autograph-parallel.csv",
+      "name": "Iconic Card Reprints Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 44
+    },
+    {
+      "file": "autographs/legacy-of-baseball-autographs-series-1.csv",
+      "name": "Legacy Of Baseball Autographs Series 1",
+      "kind": "autograph",
+      "card_count": 69
+    },
+    {
+      "file": "autographs/legacy-of-baseball-autographs-series-2.csv",
+      "name": "Legacy Of Baseball Autographs Series 2",
+      "kind": "autograph",
+      "card_count": 38
+    },
+    {
+      "file": "autographs/legacy-of-baseball-dual-autographs-series-1.csv",
+      "name": "Legacy Of Baseball Dual Autographs Series 1",
+      "kind": "autograph",
+      "card_count": 13
+    },
+    {
+      "file": "autographs/legacy-of-baseball-dual-autographs-series-2.csv",
+      "name": "Legacy Of Baseball Dual Autographs Series 2",
+      "kind": "autograph",
+      "card_count": 19
+    },
+    {
+      "file": "autographs/mlb-logo-golden-anniversary-patch-cards-autograph-parallel-hobby-hta-only.csv",
+      "name": "MLB Logo Golden Anniversary Patch Cards Autograph Parallel Hobby Hta Only",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/mookie-betts-player-highlights-relic-parallel.csv",
+      "name": "Mookie Betts Player Highlights Relic Parallel",
+      "kind": "autograph",
+      "card_count": 30
+    },
+    {
+      "file": "autographs/postseason-performance-autograph-cards.csv",
+      "name": "Postseason Performance Autograph Cards",
+      "kind": "autograph",
+      "card_count": 20
+    },
+    {
+      "file": "autographs/retro-hat-logo-patch-relic-cards-autograph-parallel.csv",
+      "name": "Retro Hat Logo Patch Relic Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 23
+    },
+    {
+      "file": "autographs/revolution-of-the-game-autograph-parallel.csv",
+      "name": "Revolution Of The Game Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 5
+    },
+    {
+      "file": "autographs/significant-statistics-autograph-variation.csv",
+      "name": "Significant Statistics Autograph Variation",
+      "kind": "autograph",
+      "card_count": 11
+    },
+    {
+      "file": "autographs/target-star-player-highlights-autograph-parallel.csv",
+      "name": "Target Star Player Highlights Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 15,
+      "varies": "inserts/target-star-player-highlights.csv"
+    },
+    {
+      "file": "autographs/walmart-star-player-highlights-autograph-parallel.csv",
+      "name": "Walmart Star Player Highlights Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 10,
+      "varies": "inserts/walmart-star-player-highlights.csv"
+    },
+    {
+      "file": "autographs/world-champion-autograph-cards.csv",
+      "name": "World Champion Autograph Cards",
+      "kind": "autograph",
+      "card_count": 12
+    },
+    {
+      "file": "inserts/150-years-of-professional-baseball.csv",
+      "name": "150 Years Of Professional Baseball",
+      "kind": "insert",
+      "card_count": 150
+    },
+    {
+      "file": "inserts/1984-topps-baseball-all-stars.csv",
+      "name": "1984 Topps Baseball All Stars",
+      "kind": "insert",
+      "card_count": 110
+    },
+    {
+      "file": "inserts/1984-topps-baseball-rookies.csv",
+      "name": "1984 Topps Baseball Rookies",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1984-topps-baseball.csv",
+      "name": "1984 Topps Baseball",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/2018-topps-now-review.csv",
+      "name": "2018 Topps Now Review",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/cactus-league-greats.csv",
+      "name": "Cactus League Greats",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/evolution-of-stadiums.csv",
+      "name": "Evolution Of Stadiums",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/evolution-of-team-logos-uniforms.csv",
+      "name": "Evolution Of Team Logos Uniforms",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/evolution-of-technology.csv",
+      "name": "Evolution Of Technology",
+      "kind": "insert",
+      "card_count": 5
+    },
+    {
+      "file": "inserts/evolution.csv",
+      "name": "Evolution",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/faces-of-the-franchise.csv",
+      "name": "Faces Of The Franchise",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/franchise-feats-retail-only.csv",
+      "name": "Franchise Feats Retail Only",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/gary-vee-top-entrepreneurs.csv",
+      "name": "Gary Vee Top Entrepreneurs",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/grapefruit-league-greats.csv",
+      "name": "Grapefruit League Greats",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/greatest-moments.csv",
+      "name": "Greatest Moments",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/greatest-players.csv",
+      "name": "Greatest Players",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/greatest-seasons.csv",
+      "name": "Greatest Seasons",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/greatness-returns.csv",
+      "name": "Greatness Returns",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/historic-through-lines.csv",
+      "name": "Historic Through Lines",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/home-run-challenge-code-card-series-1.csv",
+      "name": "Home Run Challenge Code Card Series 1",
+      "kind": "insert",
+      "card_count": 35
+    },
+    {
+      "file": "inserts/home-run-challenge-code-card-series-2.csv",
+      "name": "Home Run Challenge Code Card Series 2",
+      "kind": "insert",
+      "card_count": 35
+    },
+    {
+      "file": "inserts/iconic-card-reprints.csv",
+      "name": "Iconic Card Reprints",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/revolution-of-the-game.csv",
+      "name": "Revolution Of The Game",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/significant-statistics.csv",
+      "name": "Significant Statistics",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/superstars-of-baseball.csv",
+      "name": "Superstars Of Baseball",
+      "kind": "insert",
+      "card_count": 100
+    },
+    {
+      "file": "inserts/target-star-player-highlights.csv",
+      "name": "Target Star Player Highlights",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/walmart-star-player-highlights.csv",
+      "name": "Walmart Star Player Highlights",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "relics/150th-anniversary-manufactured-medallion-cards-hobby-hta.csv",
+      "name": "150th Anniversary Manufactured Medallion Cards Hobby Hta",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/150th-anniversary-manufactured-medallion-relic-cards.csv",
+      "name": "150th Anniversary Manufactured Medallion Relic Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/150th-anniversary-manufactured-patch-cards.csv",
+      "name": "150th Anniversary Manufactured Patch Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/150th-anniversary-manufactured-patch-relic-cards.csv",
+      "name": "150th Anniversary Manufactured Patch Relic Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/1984-topps-baseball-all-star-relics.csv",
+      "name": "1984 Topps Baseball All Star Relics",
+      "kind": "relic",
+      "card_count": 20
+    },
+    {
+      "file": "relics/1984-topps-baseball-relics-series-1.csv",
+      "name": "1984 Topps Baseball Relics Series 1",
+      "kind": "relic",
+      "card_count": 46
+    },
+    {
+      "file": "relics/1984-topps-baseball-relics-series-2.csv",
+      "name": "1984 Topps Baseball Relics Series 2",
+      "kind": "relic",
+      "card_count": 20
+    },
+    {
+      "file": "relics/cut-signatures-series-1.csv",
+      "name": "Cut Signatures Series 1",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/cut-signatures-series-2.csv",
+      "name": "Cut Signatures Series 2",
+      "kind": "relic",
+      "card_count": 47
+    },
+    {
+      "file": "relics/historic-homes-relic-cards.csv",
+      "name": "Historic Homes Relic Cards",
+      "kind": "relic",
+      "card_count": 10
+    },
+    {
+      "file": "relics/in-the-name-relics-hobby-hta-only.csv",
+      "name": "In The Name Relics Hobby Hta Only",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/in-the-name-relics.csv",
+      "name": "In The Name Relics",
+      "kind": "relic",
+      "card_count": 49
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards.csv",
+      "name": "Major League Material Autograph Cards",
+      "kind": "relic",
+      "card_count": 35
+    },
+    {
+      "file": "relics/major-league-material-autograph-relic-cards.csv",
+      "name": "Major League Material Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 33
+    },
+    {
+      "file": "relics/major-league-material-cards.csv",
+      "name": "Major League Material Cards",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/major-league-material-relic-cards.csv",
+      "name": "Major League Material Relic Cards",
+      "kind": "relic",
+      "card_count": 47
+    },
+    {
+      "file": "relics/mlb-logo-golden-anniversary-patch-cards-hobby-hta.csv",
+      "name": "MLB Logo Golden Anniversary Patch Cards Hobby Hta",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/postseason-performance-autograph-relic-cards.csv",
+      "name": "Postseason Performance Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 18
+    },
+    {
+      "file": "relics/postseason-performance-relic-cards.csv",
+      "name": "Postseason Performance Relic Cards",
+      "kind": "relic",
+      "card_count": 26
+    },
+    {
+      "file": "relics/retro-hat-logo-patch-relic-cards.csv",
+      "name": "Retro Hat Logo Patch Relic Cards",
+      "kind": "relic",
+      "card_count": 39
+    },
+    {
+      "file": "relics/significant-statistics-autograph-relic-cards.csv",
+      "name": "Significant Statistics Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 12
+    },
+    {
+      "file": "relics/significant-statistics-relic-cards.csv",
+      "name": "Significant Statistics Relic Cards",
+      "kind": "relic",
+      "card_count": 20
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards-hobby-hta-only.csv",
+      "name": "Topps Reverence Autograph Patch Cards Hobby Hta Only",
+      "kind": "relic",
+      "card_count": 20
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards.csv",
+      "name": "Topps Reverence Autograph Patch Cards",
+      "kind": "relic",
+      "card_count": 35
+    },
+    {
+      "file": "relics/world-champion-autograph-relic-cards.csv",
+      "name": "World Champion Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 7
+    },
+    {
+      "file": "relics/world-champion-relic-cards.csv",
+      "name": "World Champion Relic Cards",
+      "kind": "relic",
+      "card_count": 14
+    },
+    {
+      "file": "variations/clear-base-card-variations-hobby-only.csv",
+      "name": "Clear Base Card Variations Hobby Only",
+      "kind": "variation",
+      "card_count": 100,
+      "varies": "base.csv"
+    },
+    {
+      "file": "variations/clear-variation.csv",
+      "name": "Clear Variation",
+      "kind": "variation",
+      "card_count": 100,
+      "varies": "base.csv"
+    }
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-350"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "351-700"
+    }
+  ],
+  "parallels": [],
+  "verified": false,
+  "notes": "One set issued in two waves, 700 base card numbers.",
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2019_20Topps_20Series_201_20Checklist.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 1 (#1-350) and its inserts",
+      "notes": "150 Years of Professional Baseball is one 150-card insert here, 150-1 to 150-150, each card carrying a printed category: Greatest Moments, Greatest Players, Greatest Seasons, Team Uniforms or Stadiums. They are recorded as designations because Topps prints them where a designation goes, and because they are Topps' own taxonomy rather than this repo's — Series 2 promotes the first three to separate inserts with their own numbering, GP-1 to GP-50, GM-1 to GM-25 and GS-1 to GS-25, and Trading Card Database carries those as separate sets with their own parallel runs. Topps prints \"kansas City Royals\" lowercase on #195."
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2019_20Topps_20Baseball_20Series_202_20checklist_20v3.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 2 (#351-700) and its inserts",
+      "notes": "Two card numbers are printed incomplete and are kept that way. This document lists \"84A- Jacob Nix\" and \"84A- Touki Toussaint\" in 1984 Topps Baseball Autographs, with nothing after the hyphen where every neighbouring row carries the player's initials — 84A-SMZ, 84A-TO, 84A-IKF. The cards are almost certainly 84A-JN and 84A-TT, and that is exactly why they are not recorded as such: rows hold what is printed, and a number nobody has seen on a card is a guess however good. The two rows are distinguishable because the row key includes the name. Fifteen sections headed AUTOGRAPH PARALLEL or AUTOGRAPH VARIATION share no card number with any other file in this set, so all fifteen are autograph checklists numbering themselves and none declares varies."
+    }
+  ]
+}
