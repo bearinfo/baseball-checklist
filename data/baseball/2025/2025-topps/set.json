@@ -281,7 +281,7 @@
       "name": "Swinging With The Stars",
       "kind": "insert",
       "card_count": 25,
-      "distribution": "FANATICS FEST EXCLUSIVE"
+      "distribution": "Fanatics Fest Exclusive"
     },
     {
       "file": "inserts/topps-mega-stars.csv",
@@ -490,7 +490,7 @@
       "name": "Trading Card Enamel Pins",
       "kind": "relic",
       "card_count": 10,
-      "distribution": "SUPER BOX EXCLUSIVE"
+      "distribution": "Super Box Exclusive"
     },
     {
       "file": "relics/walk-this-way.csv",
