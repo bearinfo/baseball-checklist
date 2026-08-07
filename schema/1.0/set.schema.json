@@ -4,7 +4,18 @@
   "title": "Card set metadata (set.json)",
   "description": "Identity, contents, and provenance of one card set. Rows live in the CSV files this document declares; see schema/1.0/ROW-FORMAT.md.",
   "type": "object",
-  "required": ["schema_version", "id", "name", "slug", "sport", "year", "manufacturer", "checklists", "provenance", "verified"],
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "slug",
+    "sport",
+    "year",
+    "manufacturer",
+    "checklists",
+    "provenance",
+    "verified"
+  ],
   "additionalProperties": false,
   "properties": {
     "schema_version": {
@@ -27,7 +38,9 @@
       "description": "Kebab-case directory name of this set. Must match the containing directory."
     },
     "sport": {
-      "enum": ["baseball"],
+      "enum": [
+        "baseball"
+      ],
       "description": "Vocabulary grows by amending this schema, never by free text."
     },
     "year": {
@@ -51,7 +64,12 @@
       "description": "Every CSV file in this set's directory must be declared here, and vice versa. Card numbers are unique within a file, not across files: short-print variations legitimately reuse base card numbers.",
       "items": {
         "type": "object",
-        "required": ["file", "name", "kind", "card_count"],
+        "required": [
+          "file",
+          "name",
+          "kind",
+          "card_count"
+        ],
         "additionalProperties": false,
         "allOf": [
           {
@@ -61,10 +79,14 @@
                   "const": "variation"
                 }
               },
-              "required": ["kind"]
+              "required": [
+                "kind"
+              ]
             },
             "then": {
-              "required": ["varies"],
+              "required": [
+                "varies"
+              ],
               "description": "A variation is always a variation of something."
             }
           }
@@ -81,7 +103,13 @@
             "description": "Subset name as printed, title-cased, e.g. \"Base\", \"Generation Now\"."
           },
           "kind": {
-            "enum": ["base", "variation", "insert", "autograph", "relic"],
+            "enum": [
+              "base",
+              "variation",
+              "insert",
+              "autograph",
+              "relic"
+            ],
             "description": "base — the cards that define the set's numbering. variation — often called an image variation, short print (SP) or super short print (SSP); features a completely different photo or design element from the standard base card, while retaining the same base set card number. insert, autograph, relic — cards issued alongside the set; they have their own numbering unless they declare `varies`. Parallels are never a kind: every parallel lives in `parallels[]`. A checklist carries only card number, name and team, so it can never prove whether the photograph changed: kind follows what the manufacturer prints, and is corrected by a person with evidence of the card itself."
           },
           "varies": {
@@ -115,11 +143,20 @@
       "description": "Every source the rows were derived from. An array, not one entry, because a set is usually published across several checklists — one per series, plus a factory-set checklist — and agreement between independent sources is the strongest verification this repo can offer.",
       "items": {
         "type": "object",
-        "required": ["source_type", "source", "retrieved"],
+        "required": [
+          "source_type",
+          "source",
+          "retrieved"
+        ],
         "additionalProperties": false,
         "properties": {
           "source_type": {
-            "enum": ["manufacturer-pdf", "manufacturer-web", "community", "manual-transcription"]
+            "enum": [
+              "manufacturer-pdf",
+              "manufacturer-web",
+              "community",
+              "manual-transcription"
+            ]
           },
           "source": {
             "type": "string",
@@ -151,7 +188,10 @@
       "description": "The waves a set was issued in. Topps flagship is one 700-card set published as Series 1 and Series 2; they are not separate sets, and a factory set is a packaging of the whole.",
       "items": {
         "type": "object",
-        "required": ["name", "card_numbers"],
+        "required": [
+          "name",
+          "card_numbers"
+        ],
         "additionalProperties": false,
         "properties": {
           "name": {
@@ -176,7 +216,12 @@
       "description": "Ways the set was sold as a whole — a factory/complete set in a box, a team set. A packaging contains checklists that already exist above; it is never a separate set and never duplicates rows. This is what tells a collector exactly which cards a sealed factory set holds.",
       "items": {
         "type": "object",
-        "required": ["id", "name", "type", "contains"],
+        "required": [
+          "id",
+          "name",
+          "type",
+          "contains"
+        ],
         "additionalProperties": false,
         "properties": {
           "id": {
@@ -190,7 +235,11 @@
             "description": "As sold, e.g. \"Factory Set\"."
           },
           "type": {
-            "enum": ["factory-set", "team-set", "box-set"],
+            "enum": [
+              "factory-set",
+              "team-set",
+              "box-set"
+            ],
             "description": "What kind of packaging. A closed vocabulary, extended by amending this schema."
           },
           "contains": {
@@ -199,7 +248,9 @@
             "description": "The checklists in the box. Objects rather than plain filenames so a packaging holding only part of a checklist — a team set — can gain a card-number selector in a later revision without breaking this one.",
             "items": {
               "type": "object",
-              "required": ["file"],
+              "required": [
+                "file"
+              ],
               "additionalProperties": false,
               "properties": {
                 "file": {
@@ -233,7 +284,11 @@
       "description": "Every parallel of this set lives here, and only here — one home, whether or not it has rows. A parallel uses the exact same photograph and design structure as a base card, but alters the color scheme, borders, card finish, or foil pattern; it never introduces a card, so it is never a checklist. A collection records \"I own card #100 of this set as the Gold parallel\" by pointing at a base row plus a parallel id. Whether a parallel carries rows is decided by one rule: rows exist only when they hold information that cannot be derived — the manufacturer printed an explicit partial list (`coverage: partial`, rows in `file`). A parallel covering every card of its target checklists is fully derivable and gets no rows (`coverage: full`); one whose extent nobody has verified is declared honestly as `coverage: unknown` rather than guessed.",
       "items": {
         "type": "object",
-        "required": ["id", "name", "coverage"],
+        "required": [
+          "id",
+          "name",
+          "coverage"
+        ],
         "additionalProperties": false,
         "allOf": [
           {
@@ -243,10 +298,16 @@
                   "const": "partial"
                 }
               },
-              "required": ["coverage"]
+              "required": [
+                "coverage"
+              ]
             },
             "then": {
-              "required": ["file", "varies", "card_count"],
+              "required": [
+                "file",
+                "varies",
+                "card_count"
+              ],
               "properties": {
                 "applies_to": false,
                 "series": false
@@ -258,10 +319,15 @@
             "if": {
               "properties": {
                 "coverage": {
-                  "enum": ["full", "unknown"]
+                  "enum": [
+                    "full",
+                    "unknown"
+                  ]
                 }
               },
-              "required": ["coverage"]
+              "required": [
+                "coverage"
+              ]
             },
             "then": {
               "properties": {
@@ -285,7 +351,11 @@
             "description": "As printed, e.g. \"Gold\", \"Rainbow Foil\"."
           },
           "coverage": {
-            "enum": ["full", "partial", "unknown"],
+            "enum": [
+              "full",
+              "partial",
+              "unknown"
+            ],
             "description": "What this parallel covers, asserted by a person, never inferred. full — every card of the target checklists (`applies_to`, or the whole set) exists in this parallel; validation may then treat the parent rows as this parallel's checklist. partial — only the cards listed in `file`, because the manufacturer printed an explicit list. unknown — the parallel exists but nobody has verified its extent; consumers must not assume any particular card exists in it. A checklist source that names a parallel without counting it supports exactly `unknown`, nothing stronger."
           },
           "file": {
@@ -308,10 +378,11 @@
           "print_run": {
             "type": "integer",
             "minimum": 1,
-            "description": "Serial-numbered run size, e.g. 2025 for /2025. Omit if unnumbered."
+            "description": "Serial-numbered run size as printed on the card, e.g. 2025 for /2025. Omit if unnumbered or unknown. A production estimate is not a print run: a card described as limited to 600 copies but carrying no number gets nothing."
           },
           "serial_numbered": {
-            "type": "boolean"
+            "type": "boolean",
+            "description": "Whether the cards carry a serial number on their face. True normally accompanies print_run; validation rejects false alongside one. FALSE IS A CLAIM, not a default: it says a source states these cards are unnumbered, or a person has the card. Failing to find a print run is not evidence that none exists, and omitting both fields is how to say nothing — the only way this schema can distinguish a card nobody numbered from a card nobody has told us about. Marked wrongly it is quiet and permanent, because nobody looks again."
           },
           "one_of_one": {
             "type": "boolean"

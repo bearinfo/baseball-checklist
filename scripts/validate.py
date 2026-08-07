@@ -213,6 +213,12 @@ def check_set(set_dir, schemas, vocab, failures):
                 break
             seen.add(step)
             walk.extend(parents.get(step, []))
+        # "not serial numbered" and "numbered to N" cannot both be true. The
+        # rest of that claim rests on a person, like varies and coverage.
+        if parallel.get("serial_numbered") is False and "print_run" in parallel:
+            failures.add(rel, f"parallel {parallel['name']!r} is serial_numbered "
+                              f"false but carries print_run "
+                              f"{parallel['print_run']}")
         wave = parallel.get("series")
         if wave and wave not in waves:
             failures.add(rel, f"parallel {parallel['name']!r} is printed in "
