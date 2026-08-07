@@ -1487,6 +1487,54 @@
       ]
     },
     {
+      "id": "31be9334-ebad-49d8-b688-eb964ba4bf2f",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "543f8d5c-fef6-4dce-ac95-e9a51629b1b6",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "f810ba37-d527-49da-ae00-7818e1dbab94",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "14c0f4cd-d219-4d9d-9390-4127d380ef35",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "0be8c2a5-6fee-4f0f-8811-120d5d2d5db1",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
+      "id": "9d0f04c8-dca7-48c7-96cd-8c3ce7040174",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "8 Bit Ballers"
+      ]
+    },
+    {
       "id": "f32b02ad-b724-4a1c-ba3c-4b8df865705a",
       "name": "Gold",
       "coverage": "full",
@@ -1823,6 +1871,54 @@
       ]
     },
     {
+      "id": "a380832c-b148-4b99-b033-02cdf100d973",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Power Players"
+      ]
+    },
+    {
+      "id": "678fb3cf-ee2f-4d47-9c9f-f602004154e4",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Power Players"
+      ]
+    },
+    {
+      "id": "af6c9680-1a20-44f2-a832-72580f632317",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Power Players"
+      ]
+    },
+    {
+      "id": "e7b48bce-d938-46f8-8ce4-a366a90843d6",
+      "name": "Green",
+      "coverage": "full",
+      "applies_to": [
+        "Power Players"
+      ]
+    },
+    {
+      "id": "78861881-beeb-481c-8505-c5e86cba7095",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Power Players"
+      ]
+    },
+    {
+      "id": "98fa2520-dee6-48d9-92af-bcf42c8cad79",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Power Players"
+      ]
+    },
+    {
       "id": "c74d82bf-4303-4d2d-93ad-bd02b663274b",
       "name": "Black",
       "coverage": "full",
@@ -1996,6 +2092,46 @@
       "coverage": "full",
       "applies_to": [
         "Training Grounds"
+      ]
+    },
+    {
+      "id": "8a46bbed-38f8-4886-962b-44b53ced8fe5",
+      "name": "Black",
+      "coverage": "full",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "7017edc0-9a48-495b-a2d6-d15a73686d3e",
+      "name": "FoilFractor",
+      "coverage": "full",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "74355f14-c039-4c33-88a0-9d8316bb2bae",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "66a6d7a6-dbfb-4ba1-8988-559b4fe227d6",
+      "name": "Orange",
+      "coverage": "full",
+      "applies_to": [
+        "Walk This Way"
+      ]
+    },
+    {
+      "id": "98193be1-93f3-4825-9e0f-1b4659e9c976",
+      "name": "Red",
+      "coverage": "full",
+      "applies_to": [
+        "Walk This Way"
       ]
     },
     {
