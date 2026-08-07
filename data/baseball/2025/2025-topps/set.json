@@ -1487,6 +1487,14 @@
       ]
     },
     {
+      "id": "f32b02ad-b724-4a1c-ba3c-4b8df865705a",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "All Aces"
+      ]
+    },
+    {
       "id": "4f244690-d836-4026-aafc-52d20cd8f3cf",
       "name": "Black",
       "coverage": "full",
