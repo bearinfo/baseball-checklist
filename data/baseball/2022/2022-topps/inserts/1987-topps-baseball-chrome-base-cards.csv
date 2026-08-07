@@ -1,0 +1,201 @@
+card_number,name,team,designations
+T87C-1,Shohei Ohtani,Angels,
+T87C-2,Randy Arozarena,Tampa Bay Rays,
+T87C-3,Chipper Jones,Atlanta Braves,
+T87C-4,Yadier Molina,St. Louis Cardinals,
+T87C-5,George Brett,Kansas City Royals,
+T87C-6,Cody Bellinger,Los Angeles Dodgers,
+T87C-7,Anthony Rizzo,New York Yankees,
+T87C-8,Salvador Perez,Kansas City Royals,
+T87C-9,Luis Robert,Chicago White Sox,
+T87C-10,Paul Goldschmidt,St. Louis Cardinals,
+T87C-11,Josh Donaldson,Minnesota Twins,
+T87C-12,Connor Wong,Boston Red Sox,RC
+T87C-13,Robin Yount,Milwaukee Brewers,
+T87C-14,Andre Jackson,Los Angeles Dodgers,RC
+T87C-15,Xander Bogaerts,Boston Red Sox,
+T87C-16,Cal Raleigh,Seattle Mariners,RC
+T87C-17,Vidal Brujan,Tampa Bay Rays,RC
+T87C-18,Hank Aaron,Atlanta Braves,
+T87C-19,Vladimir Guerrero Jr.,Toronto Blue Jays,
+T87C-20,Jarred Kelenic,Seattle Mariners,
+T87C-21,Trevor Story,Colorado Rockies,
+T87C-22,Tylor Megill,New York Mets,RC
+T87C-23,Rafael Devers,Boston Red Sox,
+T87C-24,Ozzie Smith,St. Louis Cardinals,
+T87C-25,Juan Soto,Washington Nationals,
+T87C-26,Francisco Lindor,New York Mets,
+T87C-27,Stephen Strasburg,Washington Nationals,
+T87C-28,Jose Ramirez,Cleveland Guardians,
+T87C-29,Luis Gil,New York Yankees,RC
+T87C-30,Yoan Moncada,Chicago White Sox,
+T87C-31,Miguel Cabrera,Detroit Tigers,
+T87C-32,Don Mattingly,New York Yankees,
+T87C-33,Bo Jackson,Kansas City Royals,
+T87C-34,Randy Johnson,Seattle Mariners,
+T87C-35,Kyle Muller,Atlanta Braves,RC
+T87C-36,Tony Gwynn,San Diego Padres,
+T87C-37,Aaron Judge,New York Yankees,
+T87C-38,Freddie Freeman,Atlanta Braves,
+T87C-39,Vladimir Guerrero,Montréal Expos,
+T87C-40,Joey Gallo,New York Yankees,
+T87C-41,Mike Yastrzemski,San Francisco Giants,
+T87C-42,Rickey Henderson,Oakland Athletics,
+T87C-43,Mookie Betts,Los Angeles Dodgers,
+T87C-44,Manny Machado,San Diego Padres,
+T87C-45,Frank Thomas,Chicago White Sox,
+T87C-46,Edward Cabrera,Miami Marlins,RC
+T87C-47,Alex Bregman,Houston Astros,
+T87C-48,Roberto Clemente,Pittsburgh Pirates,
+T87C-49,Jacob deGrom,New York Mets,
+T87C-50,Mike Trout,Angels,
+T87C-51,Matt Olson,Oakland Athletics,
+T87C-52,Kevin Gausman,San Francisco Giants,
+T87C-53,Nolan Ryan,Houston Astros,
+T87C-54,Shane Bieber,Cleveland Guardians,
+T87C-55,Josiah Gray,Washington Nationals,RC
+T87C-56,Willie Mays,San Francisco Giants,
+T87C-57,Joey Votto,Cincinnati Reds,
+T87C-58,Wander Franco,Tampa Bay Rays,RC
+T87C-59,Jesse Winker,Cincinnati Reds,
+T87C-60,Pete Alonso,New York Mets,
+T87C-61,Reid Detmers,Angels,RC
+T87C-62,Jackie Robinson,Brooklyn Dodgers,
+T87C-63,Ken Griffey Jr.,Seattle Mariners,
+T87C-64,Roger Clemens,Boston Red Sox,
+T87C-65,Gavin Sheets,Chicago White Sox,RC
+T87C-66,Max Scherzer,Los Angeles Dodgers,
+T87C-67,Rodolfo Castro,Pittsburgh Pirates,RC
+T87C-68,Matt Manning,Detroit Tigers,RC
+T87C-69,Bo Bichette,Toronto Blue Jays,
+T87C-70,Marcus Semien,Toronto Blue Jays,
+T87C-71,Bryce Harper,Philadelphia Phillies,
+T87C-72,Anthony Rendon,Angels,
+T87C-73,Austin Meadows,Tampa Bay Rays,
+T87C-74,Ronald Acuña Jr.,Atlanta Braves,
+T87C-75,Nolan Arenado,St. Louis Cardinals,
+T87C-76,Christian Yelich,Milwaukee Brewers,
+T87C-77,Kris Bryant,San Francisco Giants,
+T87C-78,Clayton Kershaw,Los Angeles Dodgers,
+T87C-79,Brandon Marsh,Angels,RC
+T87C-80,Mark McGwire,Oakland Athletics,
+T87C-81,Jarren Duran,Boston Red Sox,RC
+T87C-82,Jack Flaherty,St. Louis Cardinals,
+T87C-83,Greg Maddux,Atlanta Braves,
+T87C-84,Barry Larkin,Cincinnati Reds,
+T87C-85,Byron Buxton,Minnesota Twins,
+T87C-86,Cal Ripken Jr.,Baltimore Orioles,
+T87C-87,Ichiro,Seattle Mariners,
+T87C-88,Jazz Chisholm Jr.,Miami Marlins,
+T87C-89,Jose Abreu,Chicago White Sox,
+T87C-90,Buster Posey,San Francisco Giants,
+T87C-91,Will Clark,San Francisco Giants,
+T87C-92,Ryne Sandberg,Chicago Cubs,
+T87C-93,Jake Burger,Chicago White Sox,RC
+T87C-94,Gerrit Cole,New York Yankees,
+T87C-95,Javier Baez,New York Mets,
+T87C-96,Jackson Kowar,Kansas City Royals,RC
+T87C-97,Ke'Bryan Hayes,Pittsburgh Pirates,
+T87C-98,Sammy Long,San Francisco Giants,RC
+T87C-99,Eddie Murray,Baltimore Orioles,
+T87C-100,Fernando Tatis Jr.,San Diego Padres,
+T87C2-1,Juan Soto,Washington Nationals,
+T87C2-2,Ketel Marte,Arizona Diamondbacks,
+T87C2-3,Ozzie Albies,Atlanta Braves,
+T87C2-4,Nick Fortes,Miami Marlins,RC
+T87C2-5,Casey Mize,Detroit Tigers,
+T87C2-6,Marcus Stroman,Chicago Cubs,
+T87C2-7,Ken Griffey Jr.,Seattle Mariners,
+T87C2-8,Willson Contreras,Chicago Cubs,
+T87C2-9,Brandon Lowe,Tampa Bay Rays,
+T87C2-10,Rhys Hoskins,Philadelphia Phillies,
+T87C2-11,Brooks Robinson,Baltimore Orioles,
+T87C2-12,Jose Altuve,Houston Astros,
+T87C2-13,Julio Urias,Los Angeles Dodgers,
+T87C2-14,Eloy Jimenez,Chicago White Sox,
+T87C2-15,Ernie Banks,Chicago Cubs,
+T87C2-16,Wander Franco,Tampa Bay Rays,RC
+T87C2-17,Teoscar Hernandez,Toronto Blue Jays,
+T87C2-18,Joe Ryan,Minnesota Twins,RC
+T87C2-19,Hyun-Jin Ryu,Toronto Blue Jays,
+T87C2-20,Matt Vierling,Philadelphia Phillies,RC
+T87C2-21,Whit Merrifield,Kansas City Royals,
+T87C2-22,Seth Beer,Arizona Diamondbacks,RC
+T87C2-23,Aaron Nola,Philadelphia Phillies,
+T87C2-24,Andre Dawson,Chicago Cubs,
+T87C2-25,Sandy Alcantara,Miami Marlins,
+T87C2-26,Nick Castellanos,Cincinnati Reds,
+T87C2-27,Dale Murphy,Atlanta Braves,
+T87C2-28,Jon Heasley,Kansas City Royals,RC
+T87C2-29,Dylan Carlson,St. Louis Cardinals,
+T87C2-30,Rod Carew,California Angels,
+T87C2-31,Alex Kirilloff,Minnesota Twins,
+T87C2-32,Matt Chapman,Oakland Athletics,
+T87C2-33,Corbin Burnes,Milwaukee Brewers,
+T87C2-34,Giancarlo Stanton,New York Yankees,
+T87C2-35,Adam Wainwright,St. Louis Cardinals,
+T87C2-36,Jorge Polanco,Minnesota Twins,
+T87C2-37,Akil Baddoo,Detroit Tigers,
+T87C2-38,Mike Piazza,New York Mets,
+T87C2-39,Aaron Ashby,Milwaukee Brewers,RC
+T87C2-40,Kirby Puckett,Minnesota Twins,
+T87C2-41,Trea Turner,Los Angeles Dodgers,
+T87C2-42,Babe Ruth,New York Yankees,
+T87C2-43,Shane Baz,Tampa Bay Rays,RC
+T87C2-44,Logan Webb,San Francisco Giants,
+T87C2-45,Ted Williams,Boston Red Sox,
+T87C2-46,Jake Cronenworth,San Diego Padres,
+T87C2-47,Mike Trout,Angels,
+T87C2-48,Freddy Peralta,Milwaukee Brewers,
+T87C2-49,Mariano Rivera,New York Yankees,
+T87C2-50,Shohei Ohtani,Angels,
+T87C2-51,Matt Brash,Seattle Mariners,RC
+T87C2-52,Austin Riley,Atlanta Braves,
+T87C2-53,Jake McCarthy,Arizona Diamondbacks,RC
+T87C2-54,David Ortiz,Boston Red Sox,
+T87C2-55,Jake Meyers,Houston Astros,RC
+T87C2-56,Pete Alonso,New York Mets,
+T87C2-57,Jarred Kelenic,Seattle Mariners,
+T87C2-58,Walker Buehler,Los Angeles Dodgers,
+T87C2-59,Cedric Mullins,Baltimore Orioles,
+T87C2-60,George Springer,Toronto Blue Jays,
+T87C2-61,Pedro Martinez,Boston Red Sox,
+T87C2-62,Josh Bell,Washington Nationals,
+T87C2-63,Max Muncy,Los Angeles Dodgers,
+T87C2-64,Derek Jeter,New York Yankees,
+T87C2-65,Otto Lopez,Toronto Blue Jays,RC
+T87C2-66,Mitch Haniger,Seattle Mariners,
+T87C2-67,Tyler O'Neill,St. Louis Cardinals,
+T87C2-68,Roansy Contreras,Pittsburgh Pirates,RC
+T87C2-69,Ronald Acuña Jr.,Atlanta Braves,
+T87C2-70,Jo Adell,Angels,
+T87C2-71,Nolan Ryan,Texas Rangers,
+T87C2-72,J.T. Realmuto,Philadelphia Phillies,
+T87C2-73,Carl Yastrzemski,Boston Red Sox,
+T87C2-74,Josh Lowe,Tampa Bay Rays,RC
+T87C2-75,J.D. Martinez,Boston Red Sox,
+T87C2-76,Jose Canseco,Oakland Athletics,
+T87C2-77,Yu Darvish,San Diego Padres,
+T87C2-78,Brandon Crawford,San Francisco Giants,
+T87C2-79,Adolis Garcia,Texas Rangers,
+T87C2-80,Bryan Reynolds,Pittsburgh Pirates,
+T87C2-81,Lucas Giolito,Chicago White Sox,
+T87C2-82,Ryan Vilade,Colorado Rockies,RC
+T87C2-83,Kyle Tucker,Houston Astros,
+T87C2-84,Aaron Judge,New York Yankees,
+T87C2-85,Reggie Jackson,Oakland Athletics,
+T87C2-86,Jose Siri,Houston Astros,RC
+T87C2-87,Sonny Gray,Cincinnati Reds,
+T87C2-88,Connor Seabold,Boston Red Sox,RC
+T87C2-89,Carlos Rodon,Chicago White Sox,
+T87C2-90,Wade Boggs,Boston Red Sox,
+T87C2-91,Ryan Mountcastle,Baltimore Orioles,
+T87C2-92,Stan Musial,St. Louis Cardinals,
+T87C2-93,Kyle Lewis,Seattle Mariners,
+T87C2-94,Felix Hernandez,Seattle Mariners,
+T87C2-95,Johnny Bench,Cincinnati Reds,
+T87C2-96,Jose Berrios,Toronto Blue Jays,
+T87C2-97,Hans Crouse,Philadelphia Phillies,RC
+T87C2-98,Oneil Cruz,Pittsburgh Pirates,RC
+T87C2-99,Yordan Alvarez,Houston Astros,
+T87C2-100,Fernando Tatis Jr.,San Diego Padres,

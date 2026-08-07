@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "id": "b7e860dc-9d4e-43ae-934a-df3f74db5247",
+  "name": "2022 Topps",
+  "slug": "2022-topps",
+  "sport": "baseball",
+  "year": 2022,
+  "manufacturer": "Topps",
+  "checklists": [
+    {
+      "file": "base.csv",
+      "name": "Base",
+      "kind": "base",
+      "card_count": 660
+    },
+    {
+      "file": "autographs/1987-topps-baseball-all-stars-autograph-cards.csv",
+      "name": "1987 Topps Baseball All Stars Autograph Cards",
+      "kind": "autograph",
+      "card_count": 63
+    },
+    {
+      "file": "autographs/1987-topps-baseball-autograph-cards-series-1.csv",
+      "name": "1987 Topps Baseball Autograph Cards Series 1",
+      "kind": "autograph",
+      "card_count": 87
+    },
+    {
+      "file": "autographs/1987-topps-baseball-autograph-cards-series-2.csv",
+      "name": "1987 Topps Baseball Autograph Cards Series 2",
+      "kind": "autograph",
+      "card_count": 78
+    },
+    {
+      "file": "autographs/1987-topps-baseball-chrome-autographs.csv",
+      "name": "1987 Topps Baseball Chrome Autographs",
+      "kind": "autograph",
+      "card_count": 65
+    },
+    {
+      "file": "autographs/1987-topps-baseball-chrome-base-cards-autograph-variation.csv",
+      "name": "1987 Topps Baseball Chrome Base Cards Autograph Variation",
+      "kind": "autograph",
+      "card_count": 76,
+      "varies": "inserts/1987-topps-baseball-chrome-base-cards.csv"
+    },
+    {
+      "file": "autographs/2021-greatest-hits-autograph-parallel.csv",
+      "name": "2021 Greatest Hits Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 20,
+      "varies": "inserts/2021-greatest-hits.csv"
+    },
+    {
+      "file": "autographs/all-star-alumni-commemorative-relic-autograph-parallel.csv",
+      "name": "All Star Alumni Commemorative Relic Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 14,
+      "varies": "relics/all-star-alumni-commemorative-relic.csv"
+    },
+    {
+      "file": "autographs/baseball-stars-autographs-series-1.csv",
+      "name": "Baseball Stars Autographs Series 1",
+      "kind": "autograph",
+      "card_count": 88
+    },
+    {
+      "file": "autographs/baseball-stars-autographs-series-2.csv",
+      "name": "Baseball Stars Autographs Series 2",
+      "kind": "autograph",
+      "card_count": 54
+    },
+    {
+      "file": "autographs/baseball-stars-dual-autographs-series-1.csv",
+      "name": "Baseball Stars Dual Autographs Series 1",
+      "kind": "autograph",
+      "card_count": 24
+    },
+    {
+      "file": "autographs/baseball-stars-dual-autographs-series-2.csv",
+      "name": "Baseball Stars Dual Autographs Series 2",
+      "kind": "autograph",
+      "card_count": 28
+    },
+    {
+      "file": "autographs/city-flag-patch-cards-autograph-parallel.csv",
+      "name": "City Flag Patch Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 26,
+      "varies": "relics/city-flag-patch-cards.csv"
+    },
+    {
+      "file": "autographs/commemorative-batting-helmet-cards-autograph-parallel.csv",
+      "name": "Commemorative Batting Helmet Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 42,
+      "varies": "relics/commemorative-batting-helmet-cards.csv"
+    },
+    {
+      "file": "autographs/commemorative-mlb-logo-medallion-cards-autograph-parallel.csv",
+      "name": "Commemorative MLB Logo Medallion Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 20,
+      "varies": "relics/commemorative-mlb-logo-medallion-cards.csv"
+    },
+    {
+      "file": "autographs/diamond-greats-die-cuts-autograph-parallel-series-1.csv",
+      "name": "Diamond Greats Die Cuts Autograph Parallel Series 1",
+      "kind": "autograph",
+      "card_count": 17,
+      "varies": "inserts/diamond-greats-die-cuts.csv"
+    },
+    {
+      "file": "autographs/diamond-greats-die-cuts-autograph-parallel-series-2.csv",
+      "name": "Diamond Greats Die Cuts Autograph Parallel Series 2",
+      "kind": "autograph",
+      "card_count": 10
+    },
+    {
+      "file": "autographs/flashiest-feet-autograph-parallel.csv",
+      "name": "Flashiest Feet Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 13,
+      "varies": "inserts/flashiest-feet.csv"
+    },
+    {
+      "file": "autographs/generation-now-autograph-parallel.csv",
+      "name": "Generation Now Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 49,
+      "varies": "inserts/generation-now.csv"
+    },
+    {
+      "file": "autographs/no-hit-club-autograph-parallel.csv",
+      "name": "No Hit Club Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 17,
+      "varies": "inserts/no-hit-club.csv"
+    },
+    {
+      "file": "autographs/oversized-1987-topps-future-stars-autograph-variation.csv",
+      "name": "Oversized 1987 Topps Future Stars Autograph Variation",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/oversized-topps-all-stars-cards-autograph-variation.csv",
+      "name": "Oversized Topps All Stars Cards Autograph Variation",
+      "kind": "autograph",
+      "card_count": 15
+    },
+    {
+      "file": "autographs/player-jersey-number-medallions-autograph-parallel.csv",
+      "name": "Player Jersey Number Medallions Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 15,
+      "varies": "relics/player-jersey-number-medallions.csv"
+    },
+    {
+      "file": "autographs/postseason-performance-autograph-cards.csv",
+      "name": "Postseason Performance Autograph Cards",
+      "kind": "autograph",
+      "card_count": 17
+    },
+    {
+      "file": "autographs/significant-statistics-autograph-parallel.csv",
+      "name": "Significant Statistics Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 16,
+      "varies": "inserts/significant-statistics.csv"
+    },
+    {
+      "file": "autographs/silver-slugger-award-patches-cards-autograph-parallel.csv",
+      "name": "Silver Slugger Award Patches Cards Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 21,
+      "varies": "relics/silver-slugger-award-patches-cards.csv"
+    },
+    {
+      "file": "autographs/sweet-shades-autograph-parallel.csv",
+      "name": "Sweet Shades Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 16,
+      "varies": "inserts/sweet-shades.csv"
+    },
+    {
+      "file": "autographs/welcome-to-the-show-autograph-parallel.csv",
+      "name": "Welcome To The Show Autograph Parallel",
+      "kind": "autograph",
+      "card_count": 32,
+      "varies": "inserts/welcome-to-the-show.csv"
+    },
+    {
+      "file": "autographs/world-champion-autograph-cards.csv",
+      "name": "World Champion Autograph Cards",
+      "kind": "autograph",
+      "card_count": 6
+    },
+    {
+      "file": "inserts/1987-topps-all-star-baseball.csv",
+      "name": "1987 Topps All Star Baseball",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/1987-topps-baseball-chrome-base-cards.csv",
+      "name": "1987 Topps Baseball Chrome Base Cards",
+      "kind": "insert",
+      "card_count": 200
+    },
+    {
+      "file": "inserts/1987-topps-baseball.csv",
+      "name": "1987 Topps Baseball",
+      "kind": "insert",
+      "card_count": 150
+    },
+    {
+      "file": "inserts/2021-greatest-hits.csv",
+      "name": "2021 Greatest Hits",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "inserts/6-4-stars.csv",
+      "name": "6 4 Stars",
+      "kind": "insert",
+      "card_count": 10
+    },
+    {
+      "file": "inserts/chrome-stars-of-the-mlb.csv",
+      "name": "Chrome Stars Of The MLB",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/diamond-greats-die-cuts.csv",
+      "name": "Diamond Greats Die Cuts",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "inserts/flashiest-feet.csv",
+      "name": "Flashiest Feet",
+      "kind": "insert",
+      "card_count": 15
+    },
+    {
+      "file": "inserts/generation-now.csv",
+      "name": "Generation Now",
+      "kind": "insert",
+      "card_count": 60
+    },
+    {
+      "file": "inserts/home-run-code-cards.csv",
+      "name": "Home Run Code Cards",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/homerun-challenge-code-card.csv",
+      "name": "Homerun Challenge Code Card",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/no-hit-club.csv",
+      "name": "No Hit Club",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/oversized-1987-topps-future-stars.csv",
+      "name": "Oversized 1987 Topps Future Stars",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/oversized-topps-all-stars-cards.csv",
+      "name": "Oversized Topps All Stars Cards",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/salute-to-the-mick.csv",
+      "name": "Salute To The Mick",
+      "kind": "insert",
+      "card_count": 6
+    },
+    {
+      "file": "inserts/significant-statistics.csv",
+      "name": "Significant Statistics",
+      "kind": "insert",
+      "card_count": 25
+    },
+    {
+      "file": "inserts/stars-of-mlb-chrome-variation.csv",
+      "name": "Stars Of MLB Chrome Variation",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/stars-of-mlb.csv",
+      "name": "Stars Of MLB",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/stars-of-the-mlb.csv",
+      "name": "Stars Of The MLB",
+      "kind": "insert",
+      "card_count": 30
+    },
+    {
+      "file": "inserts/sweet-shades.csv",
+      "name": "Sweet Shades",
+      "kind": "insert",
+      "card_count": 20
+    },
+    {
+      "file": "inserts/welcome-to-the-show.csv",
+      "name": "Welcome To The Show",
+      "kind": "insert",
+      "card_count": 50
+    },
+    {
+      "file": "relics/1987-topps-baseball-all-star-relics.csv",
+      "name": "1987 Topps Baseball All Star Relics",
+      "kind": "relic",
+      "card_count": 40
+    },
+    {
+      "file": "relics/1987-topps-baseball-relics.csv",
+      "name": "1987 Topps Baseball Relics",
+      "kind": "relic",
+      "card_count": 97
+    },
+    {
+      "file": "relics/all-star-alumni-commemorative-relic.csv",
+      "name": "All Star Alumni Commemorative Relic",
+      "kind": "relic",
+      "card_count": 25
+    },
+    {
+      "file": "relics/city-flag-patch-cards.csv",
+      "name": "City Flag Patch Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/commemorative-batting-helmet-cards.csv",
+      "name": "Commemorative Batting Helmet Cards",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/commemorative-mlb-logo-medallion-cards.csv",
+      "name": "Commemorative MLB Logo Medallion Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/cut-signatures-series-1.csv",
+      "name": "Cut Signatures Series 1",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/cut-signatures-series-2.csv",
+      "name": "Cut Signatures Series 2",
+      "kind": "relic",
+      "card_count": 37
+    },
+    {
+      "file": "relics/in-the-name-relics.csv",
+      "name": "In The Name Relics",
+      "kind": "relic",
+      "card_count": 86
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards-series-1.csv",
+      "name": "Major League Material Autograph Cards Series 1",
+      "kind": "relic",
+      "card_count": 37
+    },
+    {
+      "file": "relics/major-league-material-autograph-cards-series-2.csv",
+      "name": "Major League Material Autograph Cards Series 2",
+      "kind": "relic",
+      "card_count": 41
+    },
+    {
+      "file": "relics/major-league-material-cards-series-1.csv",
+      "name": "Major League Material Cards Series 1",
+      "kind": "relic",
+      "card_count": 57
+    },
+    {
+      "file": "relics/major-league-material-cards-series-2.csv",
+      "name": "Major League Material Cards Series 2",
+      "kind": "relic",
+      "card_count": 38
+    },
+    {
+      "file": "relics/player-jersey-number-medallions.csv",
+      "name": "Player Jersey Number Medallions",
+      "kind": "relic",
+      "card_count": 25
+    },
+    {
+      "file": "relics/postseason-performance-autograph-relic-cards.csv",
+      "name": "Postseason Performance Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 17
+    },
+    {
+      "file": "relics/postseason-performance-relic-cards.csv",
+      "name": "Postseason Performance Relic Cards",
+      "kind": "relic",
+      "card_count": 30
+    },
+    {
+      "file": "relics/silver-slugger-award-patches-cards.csv",
+      "name": "Silver Slugger Award Patches Cards",
+      "kind": "relic",
+      "card_count": 25
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards-series-1.csv",
+      "name": "Topps Reverence Autograph Patch Cards Series 1",
+      "kind": "relic",
+      "card_count": 50
+    },
+    {
+      "file": "relics/topps-reverence-autograph-patch-cards-series-2.csv",
+      "name": "Topps Reverence Autograph Patch Cards Series 2",
+      "kind": "relic",
+      "card_count": 54
+    },
+    {
+      "file": "relics/world-champion-autograph-relic-cards.csv",
+      "name": "World Champion Autograph Relic Cards",
+      "kind": "relic",
+      "card_count": 5
+    },
+    {
+      "file": "relics/world-champion-relic-cards.csv",
+      "name": "World Champion Relic Cards",
+      "kind": "relic",
+      "card_count": 8
+    },
+    {
+      "file": "variations/clear-variation.csv",
+      "name": "Clear Variation",
+      "kind": "variation",
+      "card_count": 200,
+      "varies": "base.csv"
+    }
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "card_numbers": "1-330"
+    },
+    {
+      "name": "Series 2",
+      "card_numbers": "331-660"
+    }
+  ],
+  "parallels": [],
+  "verified": false,
+  "notes": "One set issued in two waves, 660 base card numbers.",
+  "provenance": [
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2022ToppsSeries1BaseballChecklist.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 1 (#1-330) and its inserts",
+      "notes": "This document prints the statistic a League Leaders card ranks, which no other year here does: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" carries LL and HRL together, twelve cards across six statistics. It also prints AL, NL and MLB where the team goes on those cards, and RC where other years print Rookie."
+    },
+    {
+      "source_type": "manufacturer-pdf",
+      "source": "Topps official checklist PDF: 2022ToppsSeries2BaseballChecklistupdate.pdf",
+      "retrieved": "2026-08-07",
+      "covers": "Series 2 (#331-660) and its inserts",
+      "notes": "Diamond Greats Die Cuts is one 50-card insert, DGDC-1 to DGDC-50, because the two series number it 1-25 and 26-50 and merge without collision. Its autographs do not follow suit. The Series 1 list runs DGDC-1 to DGDC-9 and names the same players the insert does on 16 of its 17 rows, the seventeenth differing only in that Topps prints Montreal Expos unaccented there and Montréal Expos in the insert, so it is recorded as varying the insert. The Series 2 list also runs DGDC-1 to DGDC-9 and names a different player on every one of its 10 rows — DGDC-1 is Nolan Ryan where the insert has Mike Trout. It is numbered independently of the insert, so it declares no varies; saying otherwise would pass validation, which checks that numbers exist and cannot check that they mean the same card. The two lists are kept per series for the same reason. Stars of MLB Chrome Variation is headed a variation by Topps but numbers itself SMLBC-1 to SMLBC-30 against the insert's SMLB-1 to SMLB-30, so it introduces thirty cards and is an insert."
+    }
+  ]
+}
