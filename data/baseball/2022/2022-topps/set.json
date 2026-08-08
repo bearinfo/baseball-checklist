@@ -454,6 +454,26 @@
       "kind": "variation",
       "card_count": 200,
       "varies": "base.csv"
+    },
+    {
+      "file": "variations/tier-1-gimmicks-series-1.csv",
+      "name": "Tier 1 Gimmicks Series 1",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 71,
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
+      "file": "variations/tier-1-gimmicks-series-2.csv",
+      "name": "Tier 1 Gimmicks Series 2",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 78,
+      "tags": [
+        "gimmick"
+      ]
     }
   ],
   "series": [
@@ -483,6 +503,14 @@
       "retrieved": "2026-08-07",
       "covers": "Series 2 (#331-660) and its inserts",
       "notes": "Diamond Greats Die Cuts is one 50-card insert, DGDC-1 to DGDC-50, because the two series number it 1-25 and 26-50 and merge without collision. Its autographs do not follow suit. The Series 1 list runs DGDC-1 to DGDC-9 and names the same players the insert does on 16 of its 17 rows, the seventeenth differing only in that Topps prints Montreal Expos unaccented there and Montréal Expos in the insert, so it is recorded as varying the insert. The Series 2 list also runs DGDC-1 to DGDC-9 and names a different player on every one of its 10 rows — DGDC-1 is Nolan Ryan where the insert has Mike Trout. It is numbered independently of the insert, so it declares no varies; saying otherwise would pass validation, which checks that numbers exist and cannot check that they mean the same card. The two lists are kept per series for the same reason. Stars of MLB Chrome Variation is headed a variation by Topps but numbers itself SMLBC-1 to SMLBC-30 against the insert's SMLB-1 to SMLB-30, so it introduces thirty cards and is an insert."
+    },
+    {
+      "source_type": "community",
+      "source": "Baseball Card Pedia, 2022 Topps",
+      "source_url": "https://baseballcardpedia.com/index.php/2022_Topps",
+      "retrieved": "2026-08-08",
+      "covers": "the Tier 1 Gimmicks variations",
+      "notes": "149 cards no Topps checklist lists, in two waves of 71 and 78. That source gives numbers and names only, so every team here is this set's own. Where the gimmick shows the base card's player, 116 of the 149, the team is that card's. Where it shows somebody else, almost always a legend, the team is still the base card's: Derek Jeter sits on Gio Urshela's Yankees #23, Roberto Clemente on Ben Gamel's Pirates #285, and 29 of the 30 legends checked this way are a legend of the franchise whose card they replace. The single exception is #42, where Jackie Robinson replaces Mitch Moreland of the Oakland Athletics: 42 is retired across the league, so that card is a jersey-number gimmick rather than a franchise one, and its team is the Brooklyn Dodgers, the only team this set prints for Robinson. Names follow this set where it prints the player and that source otherwise, which is why #103 reads MIke Yastrzemksi with Topps' two typos intact. Two numbers carry two gimmicks each, #103 with Yastrzemksi and Willie Mays and #660 with Bobby Witt Jr. and Shohei Ohtani, which the row key separates by name. Production codes ending 560 in Series 1 and 865 in Series 2, and an estimated 3,000 copies of each, are recorded nowhere else: the codes have no column and the figure is an estimate, which this repo does not keep."
     }
   ]
 }
