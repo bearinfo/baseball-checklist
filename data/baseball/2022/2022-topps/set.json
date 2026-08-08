@@ -474,6 +474,46 @@
       "tags": [
         "gimmick"
       ]
+    },
+    {
+      "file": "variations/tier-2-gimmicks-series-1.csv",
+      "name": "Tier 2 Gimmicks Series 1",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 23,
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
+      "file": "variations/tier-2-gimmicks-series-2.csv",
+      "name": "Tier 2 Gimmicks Series 2",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 25,
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
+      "file": "variations/tier-3-gimmicks-mascot-head.csv",
+      "name": "Tier 3 Gimmicks Mascot Head",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 5,
+      "tags": [
+        "gimmick"
+      ]
+    },
+    {
+      "file": "variations/tier-3-gimmicks-world-series-celebration.csv",
+      "name": "Tier 3 Gimmicks World Series Celebration",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 5,
+      "tags": [
+        "gimmick"
+      ]
     }
   ],
   "series": [
@@ -509,8 +549,8 @@
       "source": "Baseball Card Pedia, 2022 Topps",
       "source_url": "https://baseballcardpedia.com/index.php/2022_Topps",
       "retrieved": "2026-08-08",
-      "covers": "the Tier 1 Gimmicks variations",
-      "notes": "149 cards no Topps checklist lists, in two waves of 71 and 78. That source gives numbers and names only, so every team here is this set's own. Where the gimmick shows the base card's player, 116 of the 149, the team is that card's. Where it shows somebody else, almost always a legend, the team is still the base card's: Derek Jeter sits on Gio Urshela's Yankees #23, Roberto Clemente on Ben Gamel's Pirates #285, and 29 of the 30 legends checked this way are a legend of the franchise whose card they replace. The single exception is #42, where Jackie Robinson replaces Mitch Moreland of the Oakland Athletics: 42 is retired across the league, so that card is a jersey-number gimmick rather than a franchise one, and its team is the Brooklyn Dodgers, the only team this set prints for Robinson. Names follow this set where it prints the player and that source otherwise, which is why #103 reads MIke Yastrzemksi with Topps' two typos intact. Two numbers carry two gimmicks each, #103 with Yastrzemksi and Willie Mays and #660 with Bobby Witt Jr. and Shohei Ohtani, which the row key separates by name. Production codes ending 560 in Series 1 and 865 in Series 2, and an estimated 3,000 copies of each, are recorded nowhere else: the codes have no column and the figure is an estimate, which this repo does not keep."
+      "covers": "the Tier 1, Tier 2 and Tier 3 Gimmicks variations",
+      "notes": "149 cards no Topps checklist lists, in two waves of 71 and 78. That source gives numbers and names only, so every team here is this set's own. Where the gimmick shows the base card's player, 116 of the 149, the team is that card's. Where it shows somebody else, almost always a legend, the team is still the base card's: Derek Jeter sits on Gio Urshela's Yankees #23, Roberto Clemente on Ben Gamel's Pirates #285, and 29 of the 30 legends checked this way are a legend of the franchise whose card they replace. The single exception is #42, where Jackie Robinson replaces Mitch Moreland of the Oakland Athletics: 42 is retired across the league, so that card is a jersey-number gimmick rather than a franchise one, and its team is the Brooklyn Dodgers, the only team this set prints for Robinson. Names follow this set where it prints the player and that source otherwise, which is why #103 reads MIke Yastrzemksi with Topps' two typos intact. Two numbers carry two gimmicks each, #103 with Yastrzemksi and Willie Mays and #660 with Bobby Witt Jr. and Shohei Ohtani, which the row key separates by name. Production codes ending 560 in Series 1 and 865 in Series 2, and an estimated 3,000 copies of each, are recorded nowhere else: the codes have no column and the figure is an estimate, which this repo does not keep. Tiers 2 and 3 follow, 48 cards and 10, on the same team rule with one addition. Four Tier 2 legends are not legends of the franchise whose card they replace, and all four are jersey-number gimmicks: #42 and #442 are Jackie Robinson, whose 42 is retired across the league, and #4 and #444 are Lou Gehrig, who wore 4. On those the number is the subject, so the team is the player's — Brooklyn Dodgers from this set, New York Yankees from the 23 rows that print Gehrig elsewhere in this repo, Topps' own form in both cases. Every other Tier 2 legend matches its base card's franchise, which is why #49 Babe Ruth and #51 Nolan Ryan are left on the base team rather than treated as jersey numbers. Tier 3 settles what the wave headings mean: its Series One group is five Atlanta Braves photographed after the 2021 World Series, and two of them are #401 and #507, Series 2 numbers. Its Series Two group is five mascot heads on #215 to #315, all Series 1 numbers. So the heading names the packs a gimmick came in, not the numbering it varies, and the two are independent — which is also the answer to the same contradiction recorded against 2024's Kevin Hart Gimmicks. UNRESOLVED: the mascot on #300 is the Swingin' Friar, San Diego's, on a card this set prints as Vladimir Guerrero Jr. of the Toronto Blue Jays, where the other four mascots each match their card's team. That source says a player's face is replaced with their own team's mascot, so either its number or its mascot is wrong; the row keeps the card's team and the conflict is recorded rather than resolved."
     }
   ]
 }
