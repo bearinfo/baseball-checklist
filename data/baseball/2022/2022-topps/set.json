@@ -483,7 +483,7 @@
       "name": "Large RC Logo Variation",
       "kind": "variation",
       "varies": "base.csv",
-      "card_count": 1,
+      "card_count": 49,
       "distribution": "Factory Set Only"
     },
     {
@@ -813,10 +813,10 @@
     },
     {
       "source_type": "community",
-      "source": "Trading Card Database, 2022 Topps — variation listing, via a description supplied by the repo owner",
+      "source": "Trading Card Database, 2022 Topps Baseball Errors/Variations (PDF export)",
       "retrieved": "2026-08-08",
       "covers": "the Large RC Logo variation",
-      "notes": "One row, and the count is not a claim that only one card exists. That database lists a 2022 Topps #12 Gavin Sheets with an oversized rookie logo on the front, described as a factory set variation. Baseball Card Pedia documents no such variation anywhere on its 2022 page: not under Factory Set Rookie Variations, whose five cards are #187, #215, #243, #421 and #537, nor under Rookie Bonus, All-Stars, the Factory Set Parallels or any of the three gimmick tiers. So the card is attested and the programme it belongs to is not. This set already holds three other #12 Gavin Sheets cards — the base card, a Tier 1 gimmick coded 560, and a Clear variation — and this is none of them: the gimmick is pack-inserted where this is a factory set card. The file exists so the card is findable and so the next source that lists its siblings has somewhere to add them. UNRESOLVED: whether other card numbers carry the same oversized logo. A rookie logo variation printed for exactly one rookie in a 660-card set would be unusual, and nothing here rules it out or in. The distribution recorded is that description's, not a manufacturer's."
+      "notes": "Forty-nine cards, every one a Series 1 number carrying RC, listed by that database as \"Factory set, Large RC logo\". Each was checked against base.csv on name before being written, since the list was transcribed from a printed export rather than parsed; all 49 matched. The file began as a single row for #12 Gavin Sheets, which is how the programme came to light — a card attested by that database and documented nowhere on Baseball Card Pedia's 2022 page.\n\nThat database lists a second group of 40, all Series 2 numbers, described as \"Factory set, white outline around RC logo\". They are not recorded here. Same idea, different treatment and different wave, and nothing yet says whether Topps meant them as one programme of 89 or two of 49 and 40.\n\nUNRESOLVED, and it matters more: #187 Jarren Duran, #215 Wander Franco and #243 Brandon Marsh are now in this file and in Factory Set Rookie Variations, which holds the five that page calls \"a set of five Rookie Variations included in each retail factory set\". Its other two, #421 Shane Baz and #537 Oneil Cruz, are in the white-outline group. So all five of that page's Rookie Variations are factory-set RC logo variations in this database's reading, split by series exactly as the two treatments split, which makes the five look like a partial list of the 89 rather than a programme of their own. If that is right, this repo currently counts those three cards twice and the five-card checklist should be retired into these. The one thing arguing against it is that the page says those five are incorrectly marked CHROME on the reverse, which this database does not mention for any of the 89. Both records are kept as their sources state them until a card settles it."
     }
   ]
 }
