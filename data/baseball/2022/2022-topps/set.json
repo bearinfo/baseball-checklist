@@ -521,14 +521,195 @@
   ],
   "parallels": [
     {
-      "id": "9afbdb1c-b19f-47f8-bb5a-07b773ea258a",
-      "name": "Chrome Refractor Rookie Variation",
+      "id": "1ed3690b-ccbf-4b2a-9930-9bb750d98d8e",
+      "name": "Black",
       "coverage": "full",
-      "finish": "Refractor",
-      "distribution": "Green Box Factory Set Only - Target Exclusive",
       "applies_to": [
-        "Factory Set Rookie Variations"
+        "Base"
+      ],
+      "print_run": 71,
+      "distribution": "Hobby/Hobby Jumbo Only"
+    },
+    {
+      "id": "bd450da8-860e-4659-bb07-354490f91477",
+      "name": "Father's Day Powder Blue",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 50
+    },
+    {
+      "id": "4cac1b95-b59c-47a0-b078-1ab9f2bc409b",
+      "name": "Gold",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 2022
+    },
+    {
+      "id": "ec2b63ae-57ed-4752-92b1-fb98fceb0562",
+      "name": "Gold Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "distribution": "Hobby Jumbo Only"
+    },
+    {
+      "id": "86c90e56-9bba-4560-ad07-14877b7d47a6",
+      "name": "Green Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 499
+    },
+    {
+      "id": "544a91ec-b229-489c-b258-d8d35af701df",
+      "name": "Independence Day",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 76
+    },
+    {
+      "id": "f62759c2-4d2e-42af-b1fa-56bd21ca055b",
+      "name": "Memorial Day Camouflage",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 25
+    },
+    {
+      "id": "0241e7c4-4cf1-4308-8c1d-0ce11711866c",
+      "name": "Mother's Day Hot Pink",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 50
+    },
+    {
+      "id": "96916b7b-db94-4f2d-8b11-5426217198a5",
+      "name": "Orange Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 299
+    },
+    {
+      "id": "620ea79d-38fa-4d09-9d24-c9241022207c",
+      "name": "Platinum",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "85ef7452-80fa-49c8-aefe-86117e381baa",
+      "name": "Printing Plates Black",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "76ac84e7-03bc-4fcc-8cb5-f8587e4f0263",
+      "name": "Printing Plates Cyan",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "c3eedc6e-0a6e-49af-97f1-5eb1a1211b96",
+      "name": "Printing Plates Magenta",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "9b50c707-8c10-47cd-a351-03a4174b9dfb",
+      "name": "Printing Plates Yellow",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 1
+    },
+    {
+      "id": "722386ce-0956-4003-8a46-f99bf55a0826",
+      "name": "Purple",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "distribution": "Meijer Exclusive"
+    },
+    {
+      "id": "f46f3dc1-d6b3-478f-bd7d-42163b5f74b6",
+      "name": "Rainbow Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
       ]
+    },
+    {
+      "id": "b1f6b751-7461-4b59-b0a0-2e46aebaf89c",
+      "name": "Red Foil",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 199
+    },
+    {
+      "id": "7ba26114-fc77-4547-bc39-a52de5b16c31",
+      "name": "Royal Blue",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "distribution": "Retail Exclusive"
+    },
+    {
+      "id": "bc73f282-e50d-49c2-ae3b-f0e9836ced5e",
+      "name": "Shimmer Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 390,
+      "distribution": "Hobby Factory Set Only"
+    },
+    {
+      "id": "330b3e94-2417-4c70-8212-86b1c7230e38",
+      "name": "Striped Foilboard",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 875,
+      "distribution": "Walmart Factory Set Only"
+    },
+    {
+      "id": "db288a65-cb41-4570-ae33-a1e702528e3b",
+      "name": "Vintage Stock",
+      "coverage": "full",
+      "applies_to": [
+        "Base"
+      ],
+      "print_run": 99
     },
     {
       "id": "b7237b9e-7a12-4941-b17b-44a622adf3f6",
@@ -569,6 +750,16 @@
       "applies_to": [
         "Chrome Refractor Rookie Variation"
       ]
+    },
+    {
+      "id": "9afbdb1c-b19f-47f8-bb5a-07b773ea258a",
+      "name": "Chrome Refractor Rookie Variation",
+      "coverage": "full",
+      "finish": "Refractor",
+      "distribution": "Green Box Factory Set Only - Target Exclusive",
+      "applies_to": [
+        "Factory Set Rookie Variations"
+      ]
     }
   ],
   "verified": false,
@@ -603,6 +794,14 @@
       "retrieved": "2026-08-08",
       "covers": "the three factory set checklists and the Chrome Refractor parallels",
       "notes": "Factory Set Rookie Variations is five cards in every retail factory set, on base numbers with the base players, each incorrectly marked CHROME on the reverse below the card number — Topps' own error, recorded on the rows. Factory Set Rookie Bonus is three cards marked COMPLETE SETS, replacing Justin Bruihl, LaMonte Wade Jr. and Shohei Ohtani on #658 to #660 with Spencer Torkelson, Julio Rodriguez and Bobby Witt Jr. Factory Set All-Stars is an insert rather than a variation: its numbers are 1 to 5 and this set's #1 to #5 are Shohei Ohtani, Craig Kimbrel, Huascar Ynoa, Travis d'Arnaud and Rougned Odor, so it introduces five cards and declares no varies. Its teams come from Trading Card Database, except that Ohtani is recorded as Angels, the form Topps prints throughout this set, where that database renders Los Angeles Angels. It carries the same CHROME misprint. The Chrome Refractor Rookie Variation is a parallel, not a checklist: that source says its list is identical to the five Rookie Variations and that the same photography is used, which is a finish change over the same photo. It came in Green Box factory sets at Target, and its own four parallels are Gold Refractor /50, Orange /25, Red /5 and SuperFractor one-of-one. Not recorded: the Chrome Rookie Relic and Autographed Relic Refractors of the Teal Box sets. They are the same five players but numbered CRR-XX and CRAR-XX by initials, and that source gives the rule and one example, CRR-WF, rather than the five numbers. Initials are not derivable — 2023 Topps numbers the same kind of card JROD, MMA and ABR — so inventing four of them would be a guess. The estimate of 6,322 copies of each base Refractor is an estimate and is not recorded either."
+    },
+    {
+      "source_type": "community",
+      "source": "Baseball Card Pedia, 2022 Topps — base parallels",
+      "source_url": "https://baseballcardpedia.com/index.php/2022_Topps",
+      "retrieved": "2026-08-08",
+      "covers": "which parallels cover every base card",
+      "notes": "\"All 660 base cards are available in the following parallels\", followed by 18 entries, recorded here as coverage full. Printing Plates is one entry there, a set of four for each card, and is declared as four because a plate is a distinct one-of-one a collector owns and one entry cannot record owning the cyan one — the same reading applied to 2024, 2025 and 2026. The page was read twice with differently worded requests and gave identical names and figures both times, which is the check that matters here: a summarising fetch has misread a print-run column in this repo before. 2022's ladder is foils and foilboards rather than the foilboard-only run of 2024, and its Gold is /2022 on the year convention Topps keeps in every year here. Four parallels are recorded with distributions that narrow where they were sold rather than what they cover: Gold Foil in Jumbo packs, Royal Blue at retail, Purple in packs sold at Meijer stores, Black in Hobby and Jumbo. Striped Foilboard and Shimmer Foilboard are the packs of five in the Walmart and Hobby factory sets. NOT declared: the four Walmart factory set parallels of that section, Gold Star, Blue Star, Orange Star and FoilFractor. Their limits are given as sets — 299 sets, 99 sets, one set as a redemption — which is a statement about how many sets exist rather than a number printed on a card, and print_run records only what a card carries."
     }
   ]
 }
