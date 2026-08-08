@@ -479,6 +479,14 @@
       "distribution": "Retail Factory Set Only"
     },
     {
+      "file": "variations/large-rc-logo-variation.csv",
+      "name": "Large RC Logo Variation",
+      "kind": "variation",
+      "varies": "base.csv",
+      "card_count": 1,
+      "distribution": "Factory Set Only"
+    },
+    {
       "file": "variations/tier-1-gimmicks.csv",
       "name": "Tier 1 Gimmicks",
       "kind": "variation",
@@ -802,6 +810,13 @@
       "retrieved": "2026-08-08",
       "covers": "which parallels cover every base card",
       "notes": "\"All 660 base cards are available in the following parallels\", followed by 18 entries, recorded here as coverage full. Printing Plates is one entry there, a set of four for each card, and is declared as four because a plate is a distinct one-of-one a collector owns and one entry cannot record owning the cyan one — the same reading applied to 2024, 2025 and 2026. The page was read twice with differently worded requests and gave identical names and figures both times, which is the check that matters here: a summarising fetch has misread a print-run column in this repo before. 2022's ladder is foils and foilboards rather than the foilboard-only run of 2024, and its Gold is /2022 on the year convention Topps keeps in every year here. Four parallels are recorded with distributions that narrow where they were sold rather than what they cover: Gold Foil in Jumbo packs, Royal Blue at retail, Purple in packs sold at Meijer stores, Black in Hobby and Jumbo. Striped Foilboard and Shimmer Foilboard are the packs of five in the Walmart and Hobby factory sets. NOT declared: the four Walmart factory set parallels of that section, Gold Star, Blue Star, Orange Star and FoilFractor. Their limits are given as sets — 299 sets, 99 sets, one set as a redemption — which is a statement about how many sets exist rather than a number printed on a card, and print_run records only what a card carries."
+    },
+    {
+      "source_type": "community",
+      "source": "Trading Card Database, 2022 Topps — variation listing, via a description supplied by the repo owner",
+      "retrieved": "2026-08-08",
+      "covers": "the Large RC Logo variation",
+      "notes": "One row, and the count is not a claim that only one card exists. That database lists a 2022 Topps #12 Gavin Sheets with an oversized rookie logo on the front, described as a factory set variation. Baseball Card Pedia documents no such variation anywhere on its 2022 page: not under Factory Set Rookie Variations, whose five cards are #187, #215, #243, #421 and #537, nor under Rookie Bonus, All-Stars, the Factory Set Parallels or any of the three gimmick tiers. So the card is attested and the programme it belongs to is not. This set already holds three other #12 Gavin Sheets cards — the base card, a Tier 1 gimmick coded 560, and a Clear variation — and this is none of them: the gimmick is pack-inserted where this is a factory set card. The file exists so the card is findable and so the next source that lists its siblings has somewhere to add them. UNRESOLVED: whether other card numbers carry the same oversized logo. A rookie logo variation printed for exactly one rookie in a 660-card set would be unusual, and nothing here rules it out or in. The distribution recorded is that description's, not a manufacturer's."
     }
   ]
 }
