@@ -143,6 +143,20 @@
         "WINS Leaders"
       ],
       "note": "The statistic a League Leaders card ranks, printed alongside LL by 2022 Topps: \"48 Guerrero Jr./Perez/Ohtani AL HR Leaders League Leaders\" is \"LL HRL\". Carried with LL, never instead of it. Earlier and later years print League Leaders alone, so these appear only where Topps printed them."
+    },
+    "ERR": {
+      "name": "Error Card",
+      "printed_as": [
+        "ERR"
+      ],
+      "note": "Hobby-standard mark for a card issued with a production error and later corrected — e.g. 2025 Topps #517, whose back misattributes #498. Not printed on the card; used by manufacturer and hobby checklists. Pair with a variation_note saying what the error is."
+    },
+    "COR": {
+      "name": "Corrected Card",
+      "printed_as": [
+        "COR"
+      ],
+      "note": "The corrected reissue of an ERR card. Same number, same name; variation_note carries the difference."
     }
   }
 }

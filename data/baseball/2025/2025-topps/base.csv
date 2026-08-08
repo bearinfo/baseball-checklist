@@ -1,4 +1,4 @@
-card_number,name,team,designations
+card_number,name,team,designations,variation_note
 1,Shohei Ohtani,Los Angeles Dodgers,
 2,Thairo Estrada,San Francisco Giants,
 3,Lane Thomas,Cleveland Guardians,
@@ -515,7 +515,8 @@ card_number,name,team,designations
 514,San Francisco Giants,San Francisco Giants,TC
 515,Kutter Crawford,Boston Red Sox,
 516,Jonny DeLuca,Tampa Bay Rays,
-517,Shota Imanaga,Chicago Cubs,CC CL
+517,Shota Imanaga / Miguel Amaya / Porter Hodge / Nate Pearson,Chicago Cubs / Chicago Cubs / Chicago Cubs / Chicago Cubs,CC CL ERR,ERR — back lists #498 as Rob Refsnyder
+517,Shota Imanaga / Miguel Amaya / Porter Hodge / Nate Pearson,Chicago Cubs / Chicago Cubs / Chicago Cubs / Chicago Cubs,CC CL COR,COR — back lists #498 as Weston Wilson
 518,Ronny Mauricio,New York Mets,
 519,Kansas City Royals,Kansas City Royals,TC
 520,Jordan Hicks,San Francisco Giants,
