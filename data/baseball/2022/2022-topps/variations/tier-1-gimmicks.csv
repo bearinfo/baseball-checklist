@@ -1,150 +1,150 @@
-card_number,name,team,designations
-1,Shohei Ohtani,Angels,
-6,Jazz Chisholm Jr.,Miami Marlins,
-8,Xander Bogaerts,Boston Red Sox,
-12,Gavin Sheets,Chicago White Sox,
-21,Shane Bieber,Cleveland Guardians,
-23,Derek Jeter,New York Yankees,
-25,Vidal Brujan,Tampa Bay Rays,
-27,Mike Trout,Angels,
-31,Matt Manning,Detroit Tigers,
-35,Gerrit Cole,New York Yankees,
-41,Clayton Kershaw,Los Angeles Dodgers,
-42,Jackie Robinson,Brooklyn Dodgers,
-43,Josiah Gray,Washington Nationals,
-50,Mookie Betts,Los Angeles Dodgers,
-56,Ke'Bryan Hayes,Pittsburgh Pirates,
-64,Tim Anderson,Chicago White Sox,
-68,Alex Bregman,Houston Astros,
-83,Will Smith,Los Angeles Dodgers,
-85,Rodolfo Castro,Pittsburgh Pirates,
-86,Kris Bryant,San Francisco Giants,
-87,Nolan Arenado,St. Louis Cardinals,
-99,Aaron Judge,New York Yankees,
-100,Fernando Tatis Jr.,San Diego Padres,
-103,MIke Yastrzemksi,San Francisco Giants,
-103,Willie Mays,San Francisco Giants,
-107,Luis Robert,Chicago White Sox,
-126,Bo Bichette,Toronto Blue Jays,
-131,Luis Gil,New York Yankees,
-135,Chas McCormick,Houston Astros,
-149,Matt Olson,Oakland Athletics,
-150,Juan Soto,Washington Nationals,
-176,Matt Chapman,Oakland Athletics,
-180,J.T. Realmuto,Philadelphia Phillies,
-182,J.D. Martinez,Boston Red Sox,
-185,Ken Griffey Jr.,Seattle Mariners,
-187,Jarren Duran,Boston Red Sox,
-196,Randy Arozarena,Tampa Bay Rays,
-200,Ronald Acuña Jr.,Atlanta Braves,
-201,Reid Detmers,Angels,
-205,Yadier Molina,St. Louis Cardinals,
-206,Kyle Lewis,Seattle Mariners,
-209,Buster Posey,San Francisco Giants,
-215,Wander Franco,Tampa Bay Rays,
-216,Kyle Schwarber,Boston Red Sox,
-219,Salvador Perez,Kansas City Royals,
-233,Hank Aaron,Atlanta Braves,
-236,Freddie Freeman,Atlanta Braves,
-237,Albert Pujols,Los Angeles Dodgers,
-242,Anthony Rizzo,New York Yankees,
-243,Brandon Marsh,Angels,
-245,Whit Merrifield,Kansas City Royals,
-246,Willie Mays,San Francisco Giants,
-250,Bryce Harper,Philadelphia Phillies,
-259,Marcus Stroman,New York Mets,
-260,Trevor Story,Colorado Rockies,
-264,Jackson Kowar,Kansas City Royals,
-269,Jose Ramirez,Cleveland Guardians,
-277,Cal Raleigh,Seattle Mariners,
-278,Jose Altuve,Houston Astros,
-285,Roberto Clemente,Pittsburgh Pirates,
-288,Christian Yelich,Milwaukee Brewers,
-290,Joey Votto,Cincinnati Reds,
-297,Hyun-Jin Ryu,Toronto Blue Jays,
-299,Julio Urias,Los Angeles Dodgers,
-300,Vladimir Guerrero Jr.,Toronto Blue Jays,
-301,Corey Seager,Los Angeles Dodgers,
-309,Yu Darvish,San Diego Padres,
-310,Max Scherzer,Los Angeles Dodgers,
-315,Pete Alonso,New York Mets,
-322,Joey Gallo,New York Yankees,
-330,Jacob deGrom,New York Mets,
-331,Rafael Devers,Boston Red Sox,
-337,Aaron Nola,Philadelphia Phillies,
-345,Seth Beer,Arizona Diamondbacks,
-350,Justin Verlander,Houston Astros,
-354,Mike Schmidt,Philadelphia Phillies,
-355,Teoscar Hernandez,Toronto Blue Jays,
-356,Carl Yastrzemski,Boston Red Sox,
-361,George Springer,Toronto Blue Jays,
-364,Ichiro,Seattle Mariners,
-370,Jake McCarthy,Arizona Diamondbacks,
-372,Frank Thomas,Chicago White Sox,
-375,Mike Piazza,New York Mets,
-390,Joe Ryan,Minnesota Twins,
-396,Kenley Jansen,Los Angeles Dodgers,
-397,Tyler O'Neill,St. Louis Cardinals,
-400,Yordan Alvarez,Houston Astros,
-401,Ozzie Albies,Atlanta Braves,
-405,Carlos Correa,Houston Astros,
-409,Chris Sale,Boston Red Sox,
-415,Eddie Murray,Baltimore Orioles,
-421,Shane Baz,Tampa Bay Rays,
-422,Otto Lopez,Toronto Blue Jays,
-429,Marcus Semien,Texas Rangers,
-431,Casey Mize,Detroit Tigers,
-438,Walker Buehler,Los Angeles Dodgers,
-440,Tony Gwynn,San Diego Padres,
-443,Cody Bellinger,Los Angeles Dodgers,
-445,Don Mattingly,New York Yankees,
-448,Frank Robinson,Cincinnati Reds,
-450,Francisco Lindor,New York Mets,
-453,Kirby Puckett,Minnesota Twins,
-466,Ryne Sandberg,Chicago Cubs,
-479,Josh Lowe,Tampa Bay Rays,
-483,Bo Jackson,Kansas City Royals,
-485,Johnny Bench,Cincinnati Reds,
-490,Ernie Banks,Chicago Cubs,
-492,Stephen Strasburg,Washington Nationals,
-497,Roger Maris,New York Yankees,
-499,Brandon Lowe,Tampa Bay Rays,
-500,Eloy Jimenez,Chicago White Sox,
-506,Juan Yepez,St. Louis Cardinals,
-507,Dansby Swanson,Atlanta Braves,
-509,Spencer Strider,Atlanta Braves,
-523,Rhys Hoskins,Philadelphia Phillies,
-530,Bryan Reynolds,Pittsburgh Pirates,
-531,Randy Johnson,Seattle Mariners,
-535,Paul Goldschmidt,St. Louis Cardinals,
-537,Oneil Cruz,Pittsburgh Pirates,
-543,Roansy Contreras,Pittsburgh Pirates,
-550,Trea Turner,Los Angeles Dodgers,
-557,Barry Larkin,Cincinnati Reds,
-563,Jonathan India,Cincinnati Reds,
-565,Ozzie Smith,St. Louis Cardinals,
-566,Edward Cabrera,Miami Marlins,
-571,Javier Baez,Detroit Tigers,
-572,Max Muncy,Los Angeles Dodgers,
-576,Byron Buxton,Minnesota Twins,
-578,Dylan Carlson,St. Louis Cardinals,
-579,Ryan Mountcastle,Baltimore Orioles,
-582,Wade Boggs,Boston Red Sox,
-584,Noah Syndergaard,Angels,
-586,Ryan Vilade,Colorado Rockies,
-588,Jack Flaherty,St. Louis Cardinals,
-589,George Brett,Kansas City Royals,
-595,Romy Gonzalez,Chicago White Sox,
-599,Jose Siri,Houston Astros,
-600,Manny Machado,San Diego Padres,
-625,Reggie Jackson,New York Yankees,
-629,Chipper Jones,Atlanta Braves,
-632,Will Clark,San Francisco Giants,
-636,Kevin Smith,Toronto Blue Jays,
-650,Giancarlo Stanton,New York Yankees,
-652,Adolis Garcia,Texas Rangers,
-655,Andrew McCutchen,Philadelphia Phillies,
-658,Spencer Torkelson,Los Angeles Dodgers,
-659,Julio Rodriguez,San Francisco Giants,
-660,Bobby Witt Jr.,Angels,
-660,Shohei Ohtani,Angels,
+card_number,name,team,designations,variation_note
+1,Shohei Ohtani,Angels,,Production code ends 560
+6,Jazz Chisholm Jr.,Miami Marlins,,Production code ends 560
+8,Xander Bogaerts,Boston Red Sox,,Production code ends 560
+12,Gavin Sheets,Chicago White Sox,,Production code ends 560
+21,Shane Bieber,Cleveland Guardians,,Production code ends 560
+23,Derek Jeter,New York Yankees,,Production code ends 560
+25,Vidal Brujan,Tampa Bay Rays,,Production code ends 560
+27,Mike Trout,Angels,,Production code ends 560
+31,Matt Manning,Detroit Tigers,,Production code ends 560
+35,Gerrit Cole,New York Yankees,,Production code ends 560
+41,Clayton Kershaw,Los Angeles Dodgers,,Production code ends 560
+42,Jackie Robinson,Brooklyn Dodgers,,Production code ends 560
+43,Josiah Gray,Washington Nationals,,Production code ends 560
+50,Mookie Betts,Los Angeles Dodgers,,Production code ends 560
+56,Ke'Bryan Hayes,Pittsburgh Pirates,,Production code ends 560
+64,Tim Anderson,Chicago White Sox,,Production code ends 560
+68,Alex Bregman,Houston Astros,,Production code ends 560
+83,Will Smith,Los Angeles Dodgers,,Production code ends 560
+85,Rodolfo Castro,Pittsburgh Pirates,,Production code ends 560
+86,Kris Bryant,San Francisco Giants,,Production code ends 560
+87,Nolan Arenado,St. Louis Cardinals,,Production code ends 560
+99,Aaron Judge,New York Yankees,,Production code ends 560
+100,Fernando Tatis Jr.,San Diego Padres,,Production code ends 560
+103,MIke Yastrzemksi,San Francisco Giants,,Production code ends 560
+103,Willie Mays,San Francisco Giants,,Production code ends 560
+107,Luis Robert,Chicago White Sox,,Production code ends 560
+126,Bo Bichette,Toronto Blue Jays,,Production code ends 560
+131,Luis Gil,New York Yankees,,Production code ends 560
+135,Chas McCormick,Houston Astros,,Production code ends 560
+149,Matt Olson,Oakland Athletics,,Production code ends 560
+150,Juan Soto,Washington Nationals,,Production code ends 560
+176,Matt Chapman,Oakland Athletics,,Production code ends 560
+180,J.T. Realmuto,Philadelphia Phillies,,Production code ends 560
+182,J.D. Martinez,Boston Red Sox,,Production code ends 560
+185,Ken Griffey Jr.,Seattle Mariners,,Production code ends 560
+187,Jarren Duran,Boston Red Sox,,Production code ends 560
+196,Randy Arozarena,Tampa Bay Rays,,Production code ends 560
+200,Ronald Acuña Jr.,Atlanta Braves,,Production code ends 560
+201,Reid Detmers,Angels,,Production code ends 560
+205,Yadier Molina,St. Louis Cardinals,,Production code ends 560
+206,Kyle Lewis,Seattle Mariners,,Production code ends 560
+209,Buster Posey,San Francisco Giants,,Production code ends 560
+215,Wander Franco,Tampa Bay Rays,,Production code ends 560
+216,Kyle Schwarber,Boston Red Sox,,Production code ends 560
+219,Salvador Perez,Kansas City Royals,,Production code ends 560
+233,Hank Aaron,Atlanta Braves,,Production code ends 560
+236,Freddie Freeman,Atlanta Braves,,Production code ends 560
+237,Albert Pujols,Los Angeles Dodgers,,Production code ends 560
+242,Anthony Rizzo,New York Yankees,,Production code ends 560
+243,Brandon Marsh,Angels,,Production code ends 560
+245,Whit Merrifield,Kansas City Royals,,Production code ends 560
+246,Willie Mays,San Francisco Giants,,Production code ends 560
+250,Bryce Harper,Philadelphia Phillies,,Production code ends 560
+259,Marcus Stroman,New York Mets,,Production code ends 560
+260,Trevor Story,Colorado Rockies,,Production code ends 560
+264,Jackson Kowar,Kansas City Royals,,Production code ends 560
+269,Jose Ramirez,Cleveland Guardians,,Production code ends 560
+277,Cal Raleigh,Seattle Mariners,,Production code ends 560
+278,Jose Altuve,Houston Astros,,Production code ends 560
+285,Roberto Clemente,Pittsburgh Pirates,,Production code ends 560
+288,Christian Yelich,Milwaukee Brewers,,Production code ends 560
+290,Joey Votto,Cincinnati Reds,,Production code ends 560
+297,Hyun-Jin Ryu,Toronto Blue Jays,,Production code ends 560
+299,Julio Urias,Los Angeles Dodgers,,Production code ends 560
+300,Vladimir Guerrero Jr.,Toronto Blue Jays,,Production code ends 560
+301,Corey Seager,Los Angeles Dodgers,,Production code ends 560
+309,Yu Darvish,San Diego Padres,,Production code ends 560
+310,Max Scherzer,Los Angeles Dodgers,,Production code ends 560
+315,Pete Alonso,New York Mets,,Production code ends 560
+322,Joey Gallo,New York Yankees,,Production code ends 560
+330,Jacob deGrom,New York Mets,,Production code ends 560
+331,Rafael Devers,Boston Red Sox,,Production code ends 865
+337,Aaron Nola,Philadelphia Phillies,,Production code ends 865
+345,Seth Beer,Arizona Diamondbacks,,Production code ends 865
+350,Justin Verlander,Houston Astros,,Production code ends 865
+354,Mike Schmidt,Philadelphia Phillies,,Production code ends 865
+355,Teoscar Hernandez,Toronto Blue Jays,,Production code ends 865
+356,Carl Yastrzemski,Boston Red Sox,,Production code ends 865
+361,George Springer,Toronto Blue Jays,,Production code ends 865
+364,Ichiro,Seattle Mariners,,Production code ends 865
+370,Jake McCarthy,Arizona Diamondbacks,,Production code ends 865
+372,Frank Thomas,Chicago White Sox,,Production code ends 865
+375,Mike Piazza,New York Mets,,Production code ends 865
+390,Joe Ryan,Minnesota Twins,,Production code ends 865
+396,Kenley Jansen,Los Angeles Dodgers,,Production code ends 865
+397,Tyler O'Neill,St. Louis Cardinals,,Production code ends 865
+400,Yordan Alvarez,Houston Astros,,Production code ends 865
+401,Ozzie Albies,Atlanta Braves,,Production code ends 865
+405,Carlos Correa,Houston Astros,,Production code ends 865
+409,Chris Sale,Boston Red Sox,,Production code ends 865
+415,Eddie Murray,Baltimore Orioles,,Production code ends 865
+421,Shane Baz,Tampa Bay Rays,,Production code ends 865
+422,Otto Lopez,Toronto Blue Jays,,Production code ends 865
+429,Marcus Semien,Texas Rangers,,Production code ends 865
+431,Casey Mize,Detroit Tigers,,Production code ends 865
+438,Walker Buehler,Los Angeles Dodgers,,Production code ends 865
+440,Tony Gwynn,San Diego Padres,,Production code ends 865
+443,Cody Bellinger,Los Angeles Dodgers,,Production code ends 865
+445,Don Mattingly,New York Yankees,,Production code ends 865
+448,Frank Robinson,Cincinnati Reds,,Production code ends 865
+450,Francisco Lindor,New York Mets,,Production code ends 865
+453,Kirby Puckett,Minnesota Twins,,Production code ends 865
+466,Ryne Sandberg,Chicago Cubs,,Production code ends 865
+479,Josh Lowe,Tampa Bay Rays,,Production code ends 865
+483,Bo Jackson,Kansas City Royals,,Production code ends 865
+485,Johnny Bench,Cincinnati Reds,,Production code ends 865
+490,Ernie Banks,Chicago Cubs,,Production code ends 865
+492,Stephen Strasburg,Washington Nationals,,Production code ends 865
+497,Roger Maris,New York Yankees,,Production code ends 865
+499,Brandon Lowe,Tampa Bay Rays,,Production code ends 865
+500,Eloy Jimenez,Chicago White Sox,,Production code ends 865
+506,Juan Yepez,St. Louis Cardinals,,Production code ends 865
+507,Dansby Swanson,Atlanta Braves,,Production code ends 865
+509,Spencer Strider,Atlanta Braves,,Production code ends 865
+523,Rhys Hoskins,Philadelphia Phillies,,Production code ends 865
+530,Bryan Reynolds,Pittsburgh Pirates,,Production code ends 865
+531,Randy Johnson,Seattle Mariners,,Production code ends 865
+535,Paul Goldschmidt,St. Louis Cardinals,,Production code ends 865
+537,Oneil Cruz,Pittsburgh Pirates,,Production code ends 865
+543,Roansy Contreras,Pittsburgh Pirates,,Production code ends 865
+550,Trea Turner,Los Angeles Dodgers,,Production code ends 865
+557,Barry Larkin,Cincinnati Reds,,Production code ends 865
+563,Jonathan India,Cincinnati Reds,,Production code ends 865
+565,Ozzie Smith,St. Louis Cardinals,,Production code ends 865
+566,Edward Cabrera,Miami Marlins,,Production code ends 865
+571,Javier Baez,Detroit Tigers,,Production code ends 865
+572,Max Muncy,Los Angeles Dodgers,,Production code ends 865
+576,Byron Buxton,Minnesota Twins,,Production code ends 865
+578,Dylan Carlson,St. Louis Cardinals,,Production code ends 865
+579,Ryan Mountcastle,Baltimore Orioles,,Production code ends 865
+582,Wade Boggs,Boston Red Sox,,Production code ends 865
+584,Noah Syndergaard,Angels,,Production code ends 865
+586,Ryan Vilade,Colorado Rockies,,Production code ends 865
+588,Jack Flaherty,St. Louis Cardinals,,Production code ends 865
+589,George Brett,Kansas City Royals,,Production code ends 865
+595,Romy Gonzalez,Chicago White Sox,,Production code ends 865
+599,Jose Siri,Houston Astros,,Production code ends 865
+600,Manny Machado,San Diego Padres,,Production code ends 865
+625,Reggie Jackson,New York Yankees,,Production code ends 865
+629,Chipper Jones,Atlanta Braves,,Production code ends 865
+632,Will Clark,San Francisco Giants,,Production code ends 865
+636,Kevin Smith,Toronto Blue Jays,,Production code ends 865
+650,Giancarlo Stanton,New York Yankees,,Production code ends 865
+652,Adolis Garcia,Texas Rangers,,Production code ends 865
+655,Andrew McCutchen,Philadelphia Phillies,,Production code ends 865
+658,Spencer Torkelson,Detroit Tigers,,Production code ends 865
+659,Julio Rodriguez,Seattle Mariners,,Production code ends 865
+660,Bobby Witt Jr.,Kansas City Royals,,Production code ends 865
+660,Shohei Ohtani,Angels,,Production code ends 865

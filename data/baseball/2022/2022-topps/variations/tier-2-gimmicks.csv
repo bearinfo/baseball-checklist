@@ -1,49 +1,49 @@
-card_number,name,team,designations
-1,Shohei Ohtani,Angels,
-4,Lou Gehrig,New York Yankees,
-23,Derek Jeter,New York Yankees,
-27,Mike Trout,Angels,
-41,Clayton Kershaw,Los Angeles Dodgers,
-42,Jackie Robinson,Brooklyn Dodgers,
-49,Babe Ruth,New York Yankees,
-50,Mookie Betts,Los Angeles Dodgers,
-51,Nolan Ryan,Houston Astros,
-94,Cal Ripken Jr.,Baltimore Orioles,
-99,Aaron Judge,New York Yankees,
-100,Fernando Tatis Jr.,San Diego Padres,
-103,Willie Mays,San Francisco Giants,
-150,Juan Soto,Washington Nationals,
-174,Ted Williams,Boston Red Sox,
-185,Ken Griffey Jr.,Seattle Mariners,
-200,Ronald Acuña Jr.,Atlanta Braves,
-215,Wander Franco,Tampa Bay Rays,
-225,Stan Musial,St. Louis Cardinals,
-250,Bryce Harper,Philadelphia Phillies,
-300,Vladimir Guerrero Jr.,Toronto Blue Jays,
-315,Pete Alonso,New York Mets,
-330,Jacob deGrom,New York Mets,
-331,Rafael Devers,Boston Red Sox,
-343,Rickey Henderson,Oakland Athletics,
-349,Mark McGwire,Oakland Athletics,
-356,Ted Williams,Boston Red Sox,
-364,Ken Griffey Jr.,Seattle Mariners,
-397,Stan Musial,St. Louis Cardinals,
-401,Hank Aaron,Atlanta Braves,
-409,Pedro Martinez,Boston Red Sox,
-411,Nolan Ryan,Texas Rangers,
-415,Cal Ripken Jr.,Baltimore Orioles,
-421,Shane Baz,Tampa Bay Rays,
-442,Jackie Robinson,Brooklyn Dodgers,
-444,Lou Gehrig,New York Yankees,
-445,Babe Ruth,New York Yankees,
-530,Roberto Clemente,Pittsburgh Pirates,
-533,Mariano Rivera,New York Yankees,
-537,Oneil Cruz,Pittsburgh Pirates,
-550,Trea Turner,Los Angeles Dodgers,
-571,Javier Baez,Detroit Tigers,
-600,Manny Machado,San Diego Padres,
-615,Greg Maddux,Atlanta Braves,
-632,Willie Mays,San Francisco Giants,
-639,Derek Jeter,New York Yankees,
-650,Giancarlo Stanton,New York Yankees,
-660,Shohei Ohtani,Angels,
+card_number,name,team,designations,variation_note
+1,Shohei Ohtani,Angels,,Production code ends 561
+4,Lou Gehrig,New York Yankees,,Production code ends 561
+23,Derek Jeter,New York Yankees,,Production code ends 561
+27,Mike Trout,Angels,,Production code ends 561
+41,Clayton Kershaw,Los Angeles Dodgers,,Production code ends 561
+42,Jackie Robinson,Brooklyn Dodgers,,Production code ends 561
+49,Babe Ruth,New York Yankees,,Production code ends 561
+50,Mookie Betts,Los Angeles Dodgers,,Production code ends 561
+51,Nolan Ryan,Houston Astros,,Production code ends 561
+94,Cal Ripken Jr.,Baltimore Orioles,,Production code ends 561
+99,Aaron Judge,New York Yankees,,Production code ends 561
+100,Fernando Tatis Jr.,San Diego Padres,,Production code ends 561
+103,Willie Mays,San Francisco Giants,,Production code ends 561
+150,Juan Soto,Washington Nationals,,Production code ends 561
+174,Ted Williams,Boston Red Sox,,Production code ends 561
+185,Ken Griffey Jr.,Seattle Mariners,,Production code ends 561
+200,Ronald Acuña Jr.,Atlanta Braves,,Production code ends 561
+215,Wander Franco,Tampa Bay Rays,,Production code ends 561
+225,Stan Musial,St. Louis Cardinals,,Production code ends 561
+250,Bryce Harper,Philadelphia Phillies,,Production code ends 561
+300,Vladimir Guerrero Jr.,Toronto Blue Jays,,Production code ends 561
+315,Pete Alonso,New York Mets,,Production code ends 561
+330,Jacob deGrom,New York Mets,,Production code ends 561
+331,Rafael Devers,Boston Red Sox,,Production code ends 866
+343,Rickey Henderson,Oakland Athletics,,Production code ends 866
+349,Mark McGwire,Oakland Athletics,,Production code ends 866
+356,Ted Williams,Boston Red Sox,,Production code ends 866
+364,Ken Griffey Jr.,Seattle Mariners,,Production code ends 866
+397,Stan Musial,St. Louis Cardinals,,Production code ends 866
+401,Hank Aaron,Atlanta Braves,,Production code ends 866
+409,Pedro Martinez,Boston Red Sox,,Production code ends 866
+411,Nolan Ryan,Texas Rangers,,Production code ends 866
+415,Cal Ripken Jr.,Baltimore Orioles,,Production code ends 866
+421,Shane Baz,Tampa Bay Rays,,Production code ends 866
+442,Jackie Robinson,Brooklyn Dodgers,,Production code ends 866
+444,Lou Gehrig,New York Yankees,,Production code ends 866
+445,Babe Ruth,New York Yankees,,Production code ends 866
+530,Roberto Clemente,Pittsburgh Pirates,,Production code ends 866
+533,Mariano Rivera,New York Yankees,,Production code ends 866
+537,Oneil Cruz,Pittsburgh Pirates,,Production code ends 866
+550,Trea Turner,Los Angeles Dodgers,,Production code ends 866
+571,Javier Baez,Detroit Tigers,,Production code ends 866
+600,Manny Machado,San Diego Padres,,Production code ends 866
+615,Greg Maddux,Atlanta Braves,,Production code ends 866
+632,Willie Mays,San Francisco Giants,,Production code ends 866
+639,Derek Jeter,New York Yankees,,Production code ends 866
+650,Giancarlo Stanton,New York Yankees,,Production code ends 866
+660,Shohei Ohtani,Angels,,Production code ends 866
